@@ -1,0 +1,95 @@
+T1	Person 74 94	docteur ABAS du SAMU
+A1	Experience T1 Healthcare_professional
+T2	Person 133 144	votre frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 191 209	douleur thoracique
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Sign_Symptom 248 267	il se sent pas bien
+A5	Experience T4 Patient
+T5	Conduite 280 308	c'est-à-dire dîtes m'en plus
+A6	Temporality T5 Overlap(default)
+A7	Experience T5 Other
+T6	Sign_Symptom 322 360	il se sent pas bien il fait un malaise
+A8	Temporality T6 Overlap(default)
+A9	Experience T6 Patient
+T7	Conduite 370 397	est ce qu'il est conscient?
+A10	Hypothesis T7
+A11	Experience T7 Patient
+T8	Sign_Symptom 420 443	il respire normalement?
+A12	Temporality T8 Overlap(default)
+A13	Hypothesis T8
+A14	Experience T8 Patient
+T9	Sign_Symptom 538 560	est ce qu'il est pâle?
+A15	Temporality T9 Overlap(default)
+A16	Hypothesis T9
+A17	Experience T9 Patient
+T10	Sign_Symptom 577 618	oui docteur il est pâle hein là mon frère
+A18	Temporality T10 Overlap(default)
+A19	Experience T10 Patient
+T11	Conduite 628 677	il est dans quelle position il est assis allongé?
+A20	Temporality T11 Overlap(default)
+A21	Hypothesis T11
+A22	Experience T11 Patient
+T12	Conduite 730 806	ok il se tient heu le le cœur il a une position particulière ou pas du tout?
+A23	Temporality T12 Overlap(default)
+A24	Hypothesis T12
+A25	Experience T12 Patient
+T13	Sign_Symptom 824 855	il a la main heu sur le côté là
+A26	Temporality T13 Overlap(default)
+A27	Experience T13 Patient
+T14	Conduite 865 955	ok heu donc heu si est ce que vous pouvez enfin passez le moi au téléphone s'il vous plait
+A28	Temporality T14 Overlap(default)
+A29	Experience T14 Other
+T15	Disease 1029 1080	est ce qu'il a des problèmes de santé particuliers?
+A30	Temporality T15 Before
+A31	Hypothesis T15
+A32	Experience T15 Patient
+T16	Disease 1125 1215	en temps normal est ce qu'il a des problèmes de diabète il a des problèmes d'hypertension?
+A33	Temporality T16 Before
+A34	Experience T16 Patient
+T17	Sign_Symptom 1094 1110	là il a mal hein
+A35	Temporality T17 Overlap(default)
+A36	Experience T17 Patient
+T18	Disease 1295 1302	il fume
+A37	Temporality T18 Before
+A38	Experience T18 Patient
+T19	Sign_Symptom 1369 1414	la douleur elle est apparue quand exactement?
+A39	Experience T19 Patient
+T20	Temporal_Marker 1432 1468	out à l'heure il rentrait du travail
+A40	Temporality T20 Before
+A41	Experience T20 Patient
+T21	Temporal_Marker 1483 1529	a fait combien de temps une heure deux heures?
+A42	Temporality T21 Before
+A43	Hypothesis T21
+A44	Experience T21 Patient
+T22	Temporal_Marker 1542 1567	ça fait moins d'une heure
+A45	Temporality T22 Before
+A46	Experience T22 Patient
+T23	Sign_Symptom 1602 1632	il est pale il fait un malaise
+A47	Temporality T23 Overlap(default)
+A48	Experience T23 Patient
+T24	Conduite 1642 1704	c'est la première fois qu'il heu qu'il a ce genre de douleurs?
+A49	Temporality T24 Before
+A50	Hypothesis T24
+A51	Experience T24 Patient
+T25	Sign_Symptom 1740 1801	la douleur il la décrit comment est ce que ça serre ça pique?
+A52	Temporality T25 Before
+A53	Hypothesis T25
+A54	Experience T25 Healthcare_professional
+T26	Sign_Symptom 1846 1862	ça fait un point
+A55	Temporality T26 Overlap(default)
+A56	Experience T26 Patient
+T27	Conduite 1872 2079	bon ce qu'on va faire madame c'est qu'on va vous envoyer heu un médecin sur place heu avec des pompiers y a le une équipe du SAMU avec un médecin qui va arriver et les pompiers qui vont se déplacer également
+A57	Temporality T27 After
+A58	Experience T27 Patient
+T28	Person 2128 2135	docteur
+A59	Experience T28 Healthcare_professional
+T29	Conduite 2145 2320	en attendant vous restez avec lui et si il heu y a un tout changement de situation de si il perd connaissance ou qu'il lui arrive quoique ce soit de nouveau vous nous rappelez
+A60	Temporality T29 Overlap(default)
+A61	Experience T29 Other
+T30	Conduite 2375 2399	vous restez avec lui oui
+A62	Temporality T30 Overlap(default)
+A63	Experience T30 Family
+T31	Person 2433 2440	docteur
+A64	Experience T31 Healthcare_professional

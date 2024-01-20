@@ -1,0 +1,59 @@
+T1	Person 32 46	docteur DAMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 65 76	votre frère
+A2	Experience T2 Patient
+T3	Person 852 863	votre frère
+A3	Experience T3 Patient
+T4	Person 864 870	madame
+A4	Experience T4 Family
+T5	Person 887 896	mon frère
+A5	Experience T5 Patient
+T6	Geographic_Marker 981 992	à la maison
+T7	Geographic_Marker 904 923	il est ​à la maison
+T11	Geographic_Marker 2687 2698	à l'hôpital
+T15	Geographic_Marker 3063 3074	à l'hôpital
+T16	Geographic_Marker 3145 3156	à l'hôpital
+T17	Person 3255 3261	madame
+A6	Experience T17 Family
+T18	Geographic_Marker 2163 2174	à la maison
+T19	Person 2231 2237	madame
+A7	Experience T19 Family
+T20	Geographic_Marker 2301 2312	à l'hôpital
+T21	Person 2659 2665	madame
+A8	Experience T21 Family
+T22	Sign_Symptom 1061 1070	ça saigne
+A9	Experience T22 Patient
+T23	Sign_Symptom 1173 1183	ça saigne?
+A10	Hypothesis T23
+T24	Sign_Symptom 81 110	s'est pris un coup de couteau
+A11	Temporality T24 Before
+A12	Hypothesis T24
+T25	Sign_Symptom 394 434	un coup de couteau dans heu dans le bras
+A13	Temporality T25 After
+A14	Temporality T22 Overlap(default)
+A15	Temporality T23 Overlap(default)
+T26	Person 2546 2566	prenez votre voiture
+A16	Temporality T26 Overlap(default)
+T12	Conduite 2700 2746	prenez votre voiture, et amenez le à l'hôpital
+A17	Temporality T12 After
+T13	Conduite 2807 2828	amenez le à l'hôpital
+A18	Temporality T13 After
+T27	Conduite 1367 1408	allez à côté de lui et voyez si ça saigne
+A19	Temporality T27 Overlap(default)
+T9	Conduite 1797 1845	il va falloir qu'il heu qu'il vienne à l'hôpital
+A20	Temporality T9 Overlap(default)
+T28	Conduite 1903 1934	on va vous envoyez des pompiers
+A21	Temporality T28 After
+T10	Geographic_Marker 2411 2422	à l'hôpital
+A22	Temporality T10 After
+T14	Conduite 2899 2924	vous l'amenez à l'hôpital
+A23	Temporality T14 After
+T29	Sign_Symptom 698 719	est ce que ça saigne?
+A24	Temporality T29 Overlap(default)
+A25	Hypothesis T29
+T30	Conduite 1025 1056	voyez si la plaie saigne activ-
+A26	Hypothesis T30
+T31	Conduite 3203 3221	vous nous rappelez
+A27	Temporality T31 After
+A28	Hypothesis T31
+A29	Temporality T30 After

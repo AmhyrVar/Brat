@@ -1,0 +1,75 @@
+T1	Person 32 46	docteur DAMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 71 76	frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 81 110	s'est pris un coup de couteau
+A3	Experience T3 Patient
+T4	Sign_Symptom 260 276	coups de couteau
+A4	Experience T4 Patient
+T5	Sign_Symptom 336 367	s'est pris des coups de couteau
+A5	Experience T5 Patient
+T6	Sign_Symptom 383 434	s'est pris un coup de couteau dans heu dans le bras
+A6	Experience T6 Patient
+T7	Sign_Symptom 709 718	ça saigne
+A7	Experience T7 Patient
+A8	Hypothesis T7
+T8	Person 858 863	frère
+A9	Experience T8 Patient
+T9	Person 864 870	madame
+A10	Experience T9 Family
+T10	Person 891 896	frère
+A11	Experience T10 Patient
+T11	Geographic_Marker 914 923	la maison
+T12	Geographic_Marker 983 992	la maison
+T13	Conduite 1002 1021	allez à côté de lui
+A12	Experience T13 Family
+T14	Conduite 1025 1049	voyez si la plaie saigne
+A13	Experience T14 Family
+T15	Sign_Symptom 1173 1182	ça saigne
+A14	Experience T15 Patient
+A15	Hypothesis T15
+T16	Conduite 1367 1408	allez à côté de lui et voyez si ça saigne
+A16	Experience T16 Family
+T17	Sign_Symptom 1438 1467	pas de sang sortir du bandage
+A17	Experience T17 Patient
+T18	Sign_Symptom 1481 1494	il vous parle
+A18	Hypothesis T18
+T19	Sign_Symptom 1520 1540	il parle normalement
+A19	Hypothesis T19
+T20	Sign_Symptom 1564 1573	il marche
+A20	Hypothesis T20
+T21	Sign_Symptom 1549 1562	il est debout
+A21	Hypothesis T21
+T22	Geographic_Marker 1682 1690	la pièce
+T23	Sign_Symptom 1699 1710	hyper agité
+A22	Experience T23 Patient
+T24	Sign_Symptom 1744 1769	a pris un coup de couteau
+A23	Experience T24 Patient
+A24	Temporality T24 Before
+T25	Conduite 1800 1845	va falloir qu'il heu qu'il vienne à l'hôpital
+A25	Experience T25 Patient
+T26	Conduite 2284 2312	faut qu'il aille à l'hôpital
+A26	Experience T26 Patient
+T27	Conduite 2401 2422	amenez le à l'hôpital
+A27	Experience T27 Family
+T28	Conduite 2546 2566	prenez votre voiture
+A28	Experience T28 Family
+T29	Sign_Symptom 2586 2603	a du sang partout
+A29	Experience T29 Patient
+T30	Conduite 2670 2698	faut qu'il aille à l'hôpital
+A30	Experience T30 Patient
+T31	Conduite 2700 2720	prenez votre voiture
+A31	Experience T31 Family
+T32	Conduite 2725 2746	amenez le à l'hôpital
+A32	Experience T32 Family
+T33	Conduite 2807 2828	amenez le à l'hôpital
+A33	Experience T33 Family
+T34	Conduite 2899 2924	vous l'amenez à l'hôpital
+A34	Experience T34 Family
+T35	Sign_Symptom 3029 3046	ça ne saigne plus
+A35	Negation T35 Négation
+A36	Experience T35 Patient
+T36	Conduite 3053 3074	amenez le à l'hôpital
+A37	Experience T36 Family
+T37	Conduite 3135 3221	amenez le à l'hôpital sauf si ça se met ​à saigner très activement, vous nous rappelez
+A38	Experience T37 Family

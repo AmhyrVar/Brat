@@ -1,0 +1,114 @@
+T1	Person 28 41	FABRICE DAMAS
+T2	Person 153 168	otre grand père
+A1	Experience T2 Patient
+T3	Sign_Symptom 226 243	douleur au ventre
+A2	Hypothesis T3 Vrai
+T4	Sign_Symptom 586 604	il a mal au ventre
+T5	Sign_Symptom 665 677	vomissements
+A3	Hypothesis T5 Vrai
+T6	Sign_Symptom 1019 1028	diarrhées
+A4	Hypothesis T6 Vrai
+T7	Sign_Symptom 1079 1098	juste mal au ventre
+T8	Disease 1182 1189	tension
+A5	Temporality T8 Before_overlap
+T9	Temporal_Marker 1190 1206	depuis longtemps
+R1	Temp_mark Arg1:T9 Arg2:T8	
+T10	Disease 1238 1261	problèmes à la prostate
+A6	Temporality T10 Before_overlap
+T11	Sign_Symptom 1518 1532	il a super mal
+T12	Sign_Symptom 1504 1512	il a mal
+T13	Drug_chemicals 1999 2007	KARDEGIC
+A7	Hypothesis T13 Vrai
+T14	Drug_chemicals 2008 2014	PLAVIX
+A8	Hypothesis T14 Vrai
+T15	Drug_chemicals 2015 2024	COUMADINE
+A9	Hypothesis T15 Vrai
+T16	Disease 1884 1893	a tension
+T17	Drug_chemicals 1931 1944	anticoagulant
+A10	Hypothesis T17 Vrai
+T18	Sign_Symptom 2686 2701	l est conscient
+A11	Hypothesis T18 Vrai
+T19	Sign_Symptom 2712 2730	il parle avec vous
+A12	Hypothesis T19 Vrai
+T20	Sign_Symptom 2769 2786	l parle avec vous
+A13	Hypothesis T20 Vrai
+T21	Sign_Symptom 2804 2818	bien conscient
+A14	Hypothesis T21 Vrai
+T22	Sign_Symptom 2829 2853	il communique facilement
+A15	Hypothesis T22 Vrai
+T23	Sign_Symptom 2884 2895	il me parle
+T24	Sign_Symptom 2897 2904	l parle
+T25	Sign_Symptom 3025 3033	il parle
+T26	Sign_Symptom 3034 3050	il est conscient
+T27	Sign_Symptom 3149 3173	il a pas de vomissements
+A16	Negation T27 Négation
+T28	Sign_Symptom 3185 3202	douleur au ventre
+T29	Conduite 3270 3304	je vais vous envoyer une ambulance
+T30	Conduite 3314 3360	transporter votre grand père vers les urgences
+T31	Temporal_Marker 3550 3567	délai d'une heure
+T32	Conduite 3508 3534	je vous envoie l'ambulance
+T33	Conduite 3635 3663	je vous l'envoie l'ambulance
+T34	Conduite 3698 3724	je vous envoie l'ambulance
+T35	Conduite 3858 3922	envoyer l'ambulance pour que votre grand père aille aux urgences
+T36	Conduite 4006 4031	vous attendez l'ambulance
+T37	Conduite 4120 4195	vous me rappelez si y a des vomissements avec du sang dans les vomissements
+T38	Sign_Symptom 4419 4443	l va moins aux toilettes
+A17	Negation T38 Négation
+T39	Conduite 4591 4602	donnez rien
+T40	Conduite 4603 4623	j'envoie l'ambulance
+T41	Geographic_Marker 316 327	à l'hôpital
+T42	Person 337 353	médecin traitant
+A18	Experience T42 Healthcare_professional
+T43	Person 451 459	ma soeur
+A19	Experience T43 Family
+T44	Person 490 506	médecin traitant
+A20	Experience T44 Healthcare_professional
+T45	Geographic_Marker 747 758	à l'hôpital
+T46	Person 795 811	médecin traitant
+A21	Experience T46 Healthcare_professional
+T47	Geographic_Marker 883 894	à l'hôpital
+T48	Person 1412 1425	vos collègues
+A22	Experience T48 Healthcare_professional
+T49	Person 1484 1498	mon grand père
+A23	Experience T49 Patient
+T50	Person 1559 1567	ma soeur
+A24	Experience T50 Family
+T51	Person 2151 2161	le médecin
+A25	Experience T51 Healthcare_professional
+T52	Person 2177 2185	ma soeur
+A26	Experience T52 Family
+T53	Person 2283 2299	médecin traitant
+A27	Experience T53 Healthcare_professional
+T54	Person 2332 2348	médecin traitant
+A28	Experience T54 Healthcare_professional
+T55	Person 2398 2414	médecin traitant
+A29	Experience T55 Healthcare_professional
+T56	Person 2469 2483	son remplaçant
+A30	Experience T56 Healthcare_professional
+T57	Geographic_Marker 2645 2656	à l'hôpital
+T58	Person 3114 3130	votre grand père
+A31	Experience T58 Patient
+T59	Person 2666 2674	monsieur
+A32	Experience T59 Patient
+T60	Person 2854 2865	le monsieur
+A33	Experience T60 Patient
+T61	Person 3263 3269	madame
+A34	Experience T61 Family
+T62	Person 3628 3634	madame
+A35	Experience T62 Family
+T63	Person 3788 3798	un médecin
+A36	Experience T63 Healthcare_professional
+T64	Temporal_Marker 3799 3814	très rapidement
+T65	Person 3837 3843	madame
+A37	Experience T65 Family
+T66	Person 3887 3903	votre grand père
+A38	Experience T66 Patient
+T67	Person 3999 4005	madame
+A39	Experience T67 Family
+T68	Person 4041 4057	votre grand père
+A40	Experience T68 Patient
+T69	Geographic_Marker 3348 3360	les urgences
+T70	Geographic_Marker 3910 3922	aux urgences
+T71	Geographic_Marker 4068 4076	urgences
+T72	Person 4669 4685	votre grand père
+A41	Experience T72 Patient

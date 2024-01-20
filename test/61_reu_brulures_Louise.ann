@@ -1,0 +1,129 @@
+T1	Person 21 43	madame NICOLAS GUILLAM
+A1	Experience T1 Family
+T3	Sign_Symptom 128 134	brûlée
+T4	Person 55 70	médecin du SAMU
+A3	Experience T4 Healthcare_professional
+T9	Temporal_Marker 352 366	tous les jours
+T10	Sign_Symptom 496 502	brûlée
+A13	Experience T10 Patient
+T18	Geographic_Marker 888 910	elle est pas avec vous
+A23	Hypothesis T18
+A24	Negation T18 Négation
+A25	Experience T18 Patient
+T2	Person 106 117	votre soeur
+A2	Experience T2 Patient
+T19	Person 153 159	madame
+A26	Experience T19 Family
+T5	Person 171 182	votre soeur
+A4	Experience T5 Patient
+T6	Disease 194 212	problèmes de santé
+A5	Hypothesis T6
+A6	Experience T6 Patient
+T7	Temporal_Marker 213 227	habituellement
+A7	Temporality T7 Before_overlap
+R1	Temp_mark Arg1:T7 Arg2:T6	
+A11	Temporality T9 Overlap(default)
+A27	Temporality T3 Before_overlap
+A28	Experience T3 Patient
+A29	Temporality T10 Overlap(default)
+T20	Sign_Symptom 594 607	avec de l'eau
+A30	Experience T20 Patient
+T11	Sign_Symptom 682 769	au niveau des mains et au niveau de la jambe droite aussi un peu au niveau de la cuisse
+A14	Experience T11 Patient
+T12	Sign_Symptom 523 539	brûlée avec quoi
+A15	Temporality T12 Before
+A16	Hypothesis T12
+T13	Person 540 546	madame
+A17	Experience T13 Family
+T14	Sign_Symptom 644 667	brûlures ​à quel niveau
+A18	Temporality T14 Before_overlap
+A19	Hypothesis T14
+A21	Temporality T18 Overlap(default)
+T16	Geographic_Marker 940 977	en voiture en route pour la rejoindre
+A22	Temporality T16 Overlap(default)
+A31	Hypothesis T16
+A32	Experience T16 Family
+T17	Geographic_Marker 1049 1056	voiture
+A33	Temporality T17 Before_overlap
+A34	Experience T17 Family
+T21	Geographic_Marker 1063 1080	je suis chez elle
+A35	Temporality T21 Overlap(default)
+A36	Experience T21 Family
+T15	Geographic_Marker 818 825	voiture
+A20	Temporality T15 Before_overlap
+A37	Experience T15 Family
+T22	Geographic_Marker 826 849	je suis venue chez elle
+A38	Temporality T22 Overlap(default)
+A39	Experience T22 Family
+T23	Geographic_Marker 1103 1112	chez elle
+A40	Experience T23 Patient
+T24	Sign_Symptom 1155 1195	les mains c'est des deux côtés des mains
+A41	Hypothesis T24
+T25	Sign_Symptom 1236 1252	les bras la tête
+A42	Hypothesis T25
+A43	Negation T25 Négation
+T26	Sign_Symptom 1285 1292	cloques
+A44	Temporality T26 Overlap(default)
+T27	Sign_Symptom 1365 1385	brûlures sur la tête
+A45	Hypothesis T27
+A46	Negation T27 Négation
+T28	Sign_Symptom 1421 1427	bulles
+A47	Hypothesis T28
+A48	Negation T28 Négation
+T29	Sign_Symptom 1455 1467	torse le dos
+A49	Hypothesis T29
+A50	Negation T29 Négation
+T30	Geographic_Marker 1719 1731	à côté de mo
+A51	Temporality T30 Overlap(default)
+A52	Experience T30 Patient
+T32	Person 1847 1853	madame
+A55	Experience T32 Family
+T33	Sign_Symptom 1906 1919	très très mal
+A56	Temporality T33 Overlap(default)
+T34	Sign_Symptom 2021 2024	mal
+A57	Temporality T34 Overlap(default)
+T35	Sign_Symptom 2051 2054	mal
+A58	Temporality T35 Overlap(default)
+T36	Geographic_Marker 2361 2368	cuisine
+A59	Temporality T36 Overlap(default)
+A60	Experience T36 Patient
+T31	Conduite 1822 1845	vous pouvez me la passe
+A53	Temporality T31 Overlap(default)
+A54	Hypothesis T31
+T37	Conduite 2561 2616	mettre de l'eau au niveau de ses mains et de ses jambes
+T38	Conduite 2633 2661	je vous envoie une ambulance
+T39	Person 2671 2677	madame
+A61	Experience T39 Family
+T40	Geographic_Marker 2721 2730	l'hôpital
+T41	Conduite 2745 2795	il faut aller à l'hôpital pour évaluer les lésions
+T42	Conduite 2831 2859	je vous envoie une ambulance
+A62	Temporality T41 After
+T43	Conduite 2975 3018	zones brûlées la main les jambes sous l'eau
+A63	Temporality T43 Overlap(default)
+T44	Conduite 3019 3049	vous retirez pas les vêtements
+A64	Negation T44 Négation
+T45	Person 3071 3077	madame
+A65	Experience T45 Family
+T46	Sign_Symptom 3085 3151	pas d'atteinte au niveau de la tête du cou ou des organes génitaux
+A66	Hypothesis T46
+A67	Negation T46 Négation
+T47	Conduite 3246 3278	mettez la dame dans la baignoire
+T48	Conduite 3372 3413	mettez de l'eau sur les zones découvertes
+T49	Conduite 3424 3452	on vous envoie une ambulance
+T50	Temporal_Marker 3453 3471	dans la demi heure
+A68	Temporality T50 After
+A69	Experience T48 Family
+A70	Experience T49 Healthcare_professional
+A71	Experience T47 Family
+A72	Experience T44 Family
+A73	Experience T43 Family
+A74	Experience T42 Healthcare_professional
+A75	Experience T38 Healthcare_professional
+A76	Experience T37 Family
+T51	Temporal_Marker 3527 3543	à tout à l'heure
+A77	Temporality T51 After
+T52	Person 3544 3550	madame
+A78	Experience T52 Family
+T8	Drug_chemicals 327 351	prend pas de médicaments
+A8	Hypothesis T8
+A9	Negation T8 Négation

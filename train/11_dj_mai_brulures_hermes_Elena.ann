@@ -1,0 +1,58 @@
+T1	Person 33 45	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 127 132	brûlé
+A2	Hypothesis T2
+A3	Experience T2 Patient
+T3	Person 232 266	secouriste heu aux ateliers HERMES
+A4	Experience T3 Family
+T4	Sign_Symptom 289 294	brûlé
+A5	Experience T4 Patient
+T5	Sign_Symptom 300 326	tout le bras qui est brûlé
+A6	Experience T5 Patient
+T6	Sign_Symptom 331 351	ça suinte énormément
+A7	Experience T6 Patient
+T7	Sign_Symptom 623 666	il s'est brûlé il s'est brûlé avec de l'eau
+A8	Experience T7 Patient
+T8	Sign_Symptom 709 714	brûlé
+A9	Experience T8 Patient
+T9	Sign_Symptom 725 730	brûlé
+A10	Experience T9 Patient
+T10	Conduite 898 968	il faut que vous alliez aux aux urgences les plus proches de chez vous
+T11	Sign_Symptom 1014 1047	le bras qui est br- qui est brûlé
+A11	Experience T11 Patient
+T12	Sign_Symptom 1092 1102	douloureux
+A12	Experience T12 Patient
+T13	Sign_Symptom 1131 1146	autres brûlures
+A13	Hypothesis T13
+A14	Experience T13 Patient
+T14	Sign_Symptom 1242 1262	visage est pas brûlé
+A15	Negation T14 Négation
+T15	Sign_Symptom 1168 1211	bras il y a d'autre au niveau heu du visage
+A16	Hypothesis T15
+A17	Experience T15 Patient
+T16	Sign_Symptom 1271 1293	tout le bras est brûlé
+A18	Experience T16 Patient
+T17	Sign_Symptom 1312 1330	problèmes de santé
+A19	Hypothesis T17
+A20	Experience T17 Patient
+A21	Experience T14 Patient
+T18	Disease 1368 1382	drépanocytaire
+A22	Experience T18 Patient
+T19	Sign_Symptom 1545 1560	très douloureux
+A23	Experience T19 Patient
+T20	Conduite 1471 1526	refroidi heu la plaie on a versé de l'eau froide dessus
+T21	Drug_chemicals 1630 1641	antalgiques
+T22	Conduite 1692 1732	il faut que vous alliez aux aux urgences
+T23	Disease 2026 2040	drépanocytaire
+A24	Experience T23 Patient
+T24	Temporal_Marker 1906 1924	quatre cinq heures
+T25	Conduite 1937 1979	besoin d'être pris en charge tout de suite
+T26	Conduite 2067 2180	on va appeler nous les urgences pour prévenir que vous arrivez mais il faut aller aux urgences vous de votre côté
+T27	Conduite 2361 2398	vous allez aux urgences de d'AVICENNE
+T28	Conduite 2660 2725	il faut aller maintenant aux urgences là il faut aller maintenant
+T29	Person 90 120	votre frère de trente deux ans
+A25	Experience T29 Patient
+T30	Person 872 883	votre frère
+A26	Experience T30 Patient
+T31	Geographic_Marker 1072 1084	aux urgences
+T32	Geographic_Marker 1871 1883	aux urgences

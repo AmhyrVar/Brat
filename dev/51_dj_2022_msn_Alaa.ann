@@ -1,0 +1,70 @@
+T1	Person 76 92	docteur LAKHLIFI
+A1	Experience T1 Healthcare_professional
+T2	Person 93 100	médecin
+A2	Experience T2 Healthcare_professional
+T3	Person 134 138	fils
+A3	Experience T3 Patient
+T4	Sign_Symptom 163 178	se réveille pas
+A4	Temporality T4 Before_overlap
+A5	Negation T4 Négation
+A6	Experience T4 Patient
+T5	Sign_Symptom 241 258	faisait sa sieste
+A7	Temporality T5 Before
+A8	Experience T5 Patient
+T6	Sign_Symptom 265 280	se réveille pas
+A9	Temporality T6 Before_overlap
+A10	Negation T6 Négation
+A11	Experience T6 Patient
+T7	Sign_Symptom 305 315	il respire
+A12	Temporality T7 Overlap(default)
+A13	Hypothesis T7
+A14	Experience T7 Patient
+T8	Sign_Symptom 358 368	il respire
+A15	Temporality T8 Overlap(default)
+A16	Hypothesis T8
+A17	Experience T8 Patient
+T9	Sign_Symptom 466 480	ne respire pas
+A18	Temporality T9 Overlap(default)
+A19	Hypothesis T9
+A20	Negation T9 Négation
+A21	Experience T9 Patient
+T10	Sign_Symptom 504 526	son thorax se soulever
+A22	Temporality T10 Overlap(default)
+A23	Hypothesis T10
+A24	Negation T10 Négation
+A25	Experience T10 Patient
+T11	Sign_Symptom 537 574	thorax c'est pareil heu il bouge plus
+A26	Temporality T11 Overlap(default)
+A27	Negation T11 Négation
+A28	Experience T11 Patient
+T12	Sign_Symptom 603 617	ne respire pas
+A29	Temporality T12 Overlap(default)
+A30	Hypothesis T12
+A31	Negation T12 Négation
+A32	Experience T12 Patient
+T13	Conduite 705 724	prenez votre enfant
+A33	Experience T13 Family
+T14	Conduite 850 879	prenez votre enfant avec vous
+A34	Experience T14 Family
+T15	Conduite 885 941	mettez une heu votre main sur son thorax en plein milieu
+A35	Experience T15 Family
+T16	Conduite 1126 1164	vous le posez par terre à côté de vous
+A36	Experience T16 Family
+T17	Conduite 1203 1228	par terre, à côté de vous
+A37	Experience T17 Family
+T18	Conduite 1243 1312	mettez votre main sur son thorax, en plein milieu, entre les mamelons
+A38	Experience T18 Family
+T19	Conduite 1340 1352	vous appuyez
+A39	Experience T19 Family
+T20	Conduite 1417 1440	vous appuyez en continu
+A40	Experience T20 Family
+T21	Person 1604 1611	médecin
+A41	Experience T21 Healthcare_professional
+T22	Person 1647 1654	médecin
+A42	Experience T22 Healthcare_professional
+T23	Conduite 1721 1752	vous continuez vous arrêtez pas
+A43	Experience T23 Family
+T24	Geographic_Marker 762 770	domicile
+T25	Person 796 801	femme
+A44	Experience T25 Family
+T26	Temporal_Marker 1012 1025	en même temps

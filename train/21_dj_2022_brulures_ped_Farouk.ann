@@ -1,0 +1,80 @@
+T1	Person 57 63	madame
+T2	Person 93 97	fils
+T3	Sign_Symptom 126 131	brûlé
+T4	Temporal_Marker 193 200	faisait
+T5	Sign_Symptom 256 261	brûlé
+T6	Sign_Symptom 370 378	son bras
+T7	Person 473 476	moi
+T8	Sign_Symptom 707 715	brûlures
+T9	Geographic_Marker 611 619	urgences
+T10	Geographic_Marker 824 833	sur place
+T11	Person 797 803	équipe
+T12	Geographic_Marker 871 879	urgences
+T13	Person 905 915	mon enfant
+T14	Sign_Symptom 899 904	brûlé
+T15	Temporal_Marker 945 948	été
+T16	Sign_Symptom 949 954	brûlé
+T17	Person 1014 1021	médecin
+T18	Sign_Symptom 1032 1059	la profondeur de sa brûlure
+T19	Sign_Symptom 1225 1238	très inquiète
+T20	Sign_Symptom 1288 1315	brûlé au niveau de son bras
+T21	Person 1281 1283	il
+T22	Geographic_Marker 1467 1475	urgences
+T23	Conduite 1427 1455	là emmenez le, emme- emmenez
+T24	Geographic_Marker 1523 1531	urgences
+T25	Conduite 1582 1599	vienne le cherche
+T26	Geographic_Marker 1662 1670	urgences
+T27	Geographic_Marker 2084 2092	urgences
+T28	Geographic_Marker 1788 1796	urgences
+T29	Geographic_Marker 1845 1853	urgences
+T30	Geographic_Marker 1168 1176	urgences
+T31	Geographic_Marker 2669 2677	urgences
+T32	Geographic_Marker 2693 2701	urgences
+T33	Geographic_Marker 2793 2801	urgences
+T34	Geographic_Marker 3161 3169	urgences
+T35	Geographic_Marker 3510 3518	urgences
+T36	Geographic_Marker 3183 3191	urgences
+T37	Sign_Symptom 1543 1548	grave
+T38	Person 1549 1559	mon enfant
+T39	Person 2306 2318	votre enfant
+T40	Person 2341 2353	votre enfant
+T41	Person 2498 2510	votre enfant
+T43	Person 1978 1988	mon enfant
+T44	Person 1739 1751	votre enfant
+T42	Person 3002 3008	'enfan
+T45	Person 3266 3275	mon enfan
+T46	Person 3358 3366	l'enfant
+T47	Person 3391 3397	enfant
+T48	Person 2299 2305	madame
+T50	Disease 2325 2332	brûlure
+T51	Person 2490 2496	madame
+T52	Sign_Symptom 2517 2536	brûlure sur le bras
+T49	Conduite 2852 2873	je le laisse comme ça
+T53	Person 2880 2889	mon gosse
+T55	Conduite 3130 3141	être évalué
+T56	Person 3149 3156	médecin
+T57	Conduite 3371 3436	mettez le bras de l'enfant sous de l'eau ch- sous de l'eau froide
+T58	Conduite 2044 2083	mettez le dans la voiture amenez le aux
+T59	Person 2185 2191	madame
+T60	Person 2271 2273	il
+T61	Sign_Symptom 2274 2285	s'est brûlé
+T62	Conduite 2538 2567	il faut qu'il soit évalué par
+T63	Person 2571 2578	médecin
+T64	Conduite 2612 2668	le mettiez dans votre voiture et que vous l'emmeniez aux
+T65	Conduite 2679 2692	amenez le aux
+T66	Conduite 2723 2776	je le laisse comme ça et je je monte dans une voiture
+T67	Person 2893 2895	il
+T68	Sign_Symptom 2896 2919	est en train de pleurer
+T69	Person 2956 2960	vous
+T54	Temporal_Marker 3720 3733	tout de suite
+T70	Conduite 2968 2997	mis sous l'eau froide le bras
+T71	Temporal_Marker 2961 2967	l'avez
+T72	Person 2607 2611	vous
+T73	Sign_Symptom 394 402	son bras
+T74	Sign_Symptom 419 427	son bras
+T75	Sign_Symptom 485 493	inquiète
+T76	Person 304 308	elle
+T77	Sign_Symptom 276 289	très inquiète
+T78	Temporal_Marker 266 270	suis
+T79	Conduite 219 235	l'eau est tombée
+T80	Person 240 243	lui

@@ -1,0 +1,109 @@
+T1	Person 55 71	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 105 118	mal au ventre
+T3	Sign_Symptom 158 171	mal au ventre
+T4	Temporal_Marker 210 225	depuis ce matin
+A2	Temporality T4 Before_overlap
+T5	Temporal_Marker 235 250	depuis ce matin
+A3	Temporality T5 Before_overlap
+T6	Sign_Symptom 272 288	des vomissements
+T7	Sign_Symptom 312 331	pas de vomissements
+A4	Negation T7 Négation
+T8	Sign_Symptom 353 366	des diarrhées
+T9	Sign_Symptom 390 405	pas de diarrhée
+A5	Negation T9 Négation
+T10	Sign_Symptom 428 450	des problèmes de santé
+T11	Disease 480 487	diabète
+T12	Drug_chemicals 523 531	insuline
+T13	Sign_Symptom 589 607	problèmes de santé
+T14	Drug_chemicals 660 670	médicament
+T15	Drug_chemicals 680 688	insuline
+T16	Sign_Symptom 725 738	vous avez mal
+T17	Temporal_Marker 744 759	depuis ce matin
+A6	Temporality T17 Before_overlap
+T18	Sign_Symptom 770 778	pas vomi
+A7	Negation T18 Négation
+T19	Sign_Symptom 789 804	pas de diarrhée
+A8	Negation T19 Négation
+T20	Sign_Symptom 818 856	mal en bas du ventre en haut du ventre
+T21	Sign_Symptom 957 962	brûle
+T22	Sign_Symptom 1002 1009	douleur
+T23	Sign_Symptom 1350 1368	mal au bras gauche
+T24	Sign_Symptom 1391 1411	mal dans la mâchoire
+T25	Sign_Symptom 1453 1467	mal à la gorge
+T26	Sign_Symptom 1493 1507	mal à la gorge
+T27	Sign_Symptom 1519 1533	mal à la gorge
+T28	Temporal_Marker 1568 1576	ce matin
+A9	Temporality T28 Before_overlap
+T29	Drug_chemicals 1616 1627	médicaments
+T30	Drug_chemicals 1684 1693	DOLIPRANE
+T31	Drug_chemicals 1707 1716	DOLIPRANE
+T32	Sign_Symptom 1787 1801	envie de vomir
+T33	Sign_Symptom 1870 1877	douleur
+T34	Sign_Symptom 1995 2053	mal en haut du ventre au niveau de l'estomac ça vous brûle
+T35	Sign_Symptom 2070 2087	mal dans la gorge
+T36	Temporal_Marker 2101 2109	ce matin
+A10	Temporality T36 Before_overlap
+T37	Sign_Symptom 2129 2143	envie de vomir
+T38	Sign_Symptom 2197 2204	malades
+T39	Person 2322 2332	un médecin
+A11	Experience T39 Healthcare_professional
+T40	Geographic_Marker 2337 2347	à domicile
+T41	Temporal_Marker 2369 2397	dans les quatre à six heures
+A12	Temporality T41 After
+T42	Conduite 2458 2472	rappelez le 15
+T43	Sign_Symptom 2401 2411	la douleur
+T44	Sign_Symptom 2415 2440	les symptômes s'aggravent
+T45	Person 2494 2504	un médecin
+A13	Experience T45 Healthcare_professional
+T46	Geographic_Marker 2505 2516	à la maison
+T47	Person 2562 2568	madame
+A14	Temporality T2 Overlap(default)
+A15	Hypothesis T3 Vrai
+R1	Temp_mark Arg1:T4 Arg2:T3	
+R2	Temp_mark Arg1:T5 Arg2:T3	
+A16	Hypothesis T6 Vrai
+A17	Temporality T3 Overlap(default)
+A18	Temporality T6 Before_overlap
+A19	Hypothesis T8 Vrai
+A20	Temporality T8 Before_overlap
+A21	Temporality T10 Overlap(default)
+A22	Hypothesis T10 Vrai
+A23	Temporality T13 Overlap(default)
+A24	Temporality T16 Overlap(default)
+R3	Temp_mark Arg1:T17 Arg2:T16	
+A25	Temporality T20 Overlap(default)
+A26	Temporality T18 Before_overlap
+A27	Temporality T19 Before_overlap
+A28	Temporality T21 Overlap(default)
+A29	Hypothesis T21 Vrai
+A30	Temporality T22 Overlap(default)
+A31	Hypothesis T22 Vrai
+T48	Sign_Symptom 1169 1200	mal ailleurs que dans le ventre
+A32	Temporality T48 Overlap(default)
+A33	Hypothesis T48 Vrai
+A34	Temporality T23 Overlap(default)
+A35	Temporality T24 Overlap(default)
+A36	Hypothesis T24 Vrai
+A37	Temporality T25 Overlap(default)
+A38	Temporality T26 Overlap(default)
+A39	Hypothesis T27 Vrai
+A40	Temporality T27 Before_overlap
+R4	Temp_mark Arg1:T28 Arg2:T26	
+A41	Temporality T32 Overlap(default)
+A42	Hypothesis T32 Vrai
+A43	Temporality T33 Before
+A44	Hypothesis T33 Vrai
+A45	Temporality T34 Overlap(default)
+A46	Temporality T35 Overlap(default)
+R5	Temp_mark Arg1:T36 Arg2:T35	
+R6	Temp_mark Arg1:T36 Arg2:T34	
+A47	Temporality T37 Overlap(default)
+A48	Temporality T38 Overlap(default)
+A49	Hypothesis T38 Vrai
+A50	Experience T38 Other
+A51	Temporality T43 Overlap(default)
+A52	Temporality T44 After
+A53	Experience T47 Patient
+T49	Person 2584 2591	docteur
+A54	Experience T49 Healthcare_professional

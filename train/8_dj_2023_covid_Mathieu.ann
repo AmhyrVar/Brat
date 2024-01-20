@@ -1,0 +1,112 @@
+T2	Person 33 62	médecin du SAMU docteur SHITZ
+A3	Experience T2 Healthcare_professional
+A4	Temporality T2 Overlap(default)
+T3	Person 17 23	madame
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Other
+T1	Person 105 111	voisin
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Patient
+T4	Person 105 111	voisin
+A7	Hypothesis T4
+T5	Person 168 174	voisin
+A8	Experience T5 Patient
+A9	Temporality T5 Overlap(default)
+T6	Sign_Symptom 178 201	il va vraiment pas bien
+A10	Temporality T6 Overlap(default)
+A11	Negation T6 Négation
+A12	Experience T6 Patient
+T7	Disease 323 328	COVID
+A13	Temporality T7 Overlap(default)
+A14	Experience T7 Patient
+T8	Disease 353 358	COVID
+A15	Temporality T8 Overlap(default)
+A16	Experience T8 Patient
+T9	Disease 390 395	COVID
+A17	Temporality T9 Before
+A18	Experience T9 Other
+T10	Disease 404 414	COVID long
+A19	Temporality T10 Before
+A20	Experience T10 Other
+T11	Geographic_Marker 469 484	hôpital de jour
+A21	Temporality T11 Before_overlap
+A22	Experience T11 Other
+T12	Temporal_Marker 485 510	toutes les trois semaines
+A23	Temporality T12 Before
+A24	Experience T12 Other
+T13	Drug_chemicals 536 546	injections
+A25	Temporality T13 Before
+A26	Experience T13 Other
+T14	Sign_Symptom 591 600	séquelles
+A27	Temporality T14 Before
+A28	Experience T14 Other
+T15	Sign_Symptom 768 792	il est vraiment pas bien
+A29	Temporality T15 Overlap(default)
+A30	Negation T15 Négation
+A31	Experience T15 Patient
+T16	Disease 862 872	COVID long
+A32	Temporality T16 Before_overlap
+A33	Experience T16 Other
+T17	Conduite 942 971	passez le moi s'il vous plait
+A34	Temporality T17 Overlap(default)
+A35	Experience T17 Healthcare_professional
+T18	Sign_Symptom 1407 1465	est ce que vous sentez qu'il a vraiment du mal à respirer?
+A36	Temporality T18 Overlap(default)
+A37	Hypothesis T18
+A38	Experience T18 Patient
+T19	Sign_Symptom 1479 1489	il respire
+A39	Temporality T19 Overlap(default)
+A40	Experience T19 Patient
+T20	Disease 1598 1616	embolie pulmonaire
+A41	Temporality T20 Before
+A42	Experience T20 Other
+T21	Sign_Symptom 1637 1668	pas du tout gênée pour respirer
+A43	Temporality T21 Before
+A44	Negation T21 Négation
+A45	Experience T21 Other
+T22	Sign_Symptom 1799 1816	il a de la fièvre
+A46	Temporality T22 Overlap(default)
+A47	Experience T22 Patient
+T23	Sign_Symptom 1817 1826	il tousse
+A48	Temporality T23 Overlap(default)
+A49	Experience T23 Patient
+T24	Sign_Symptom 2305 2359	il est exactement comme moi quand moi j'ai eu le COVID
+A50	Temporality T24 Overlap(default)
+A51	Experience T24 Patient
+T25	Sign_Symptom 2449 2455	fièvre
+A52	Temporality T25 Before
+A53	Experience T25 Other
+T26	Disease 2553 2571	embolie pulmonaire
+A54	Temporality T26 Before
+A55	Experience T26 Other
+T27	Temporal_Marker 2578 2593	depuis six mois
+A56	Temporality T27 Before_overlap
+A57	Experience T27 Other
+T28	Sign_Symptom 2598 2616	j'ai mal au jambes
+A58	Temporality T28 Before_overlap
+A59	Experience T28 Other
+T29	Sign_Symptom 2747 2756	il tousse
+A60	Temporality T29 Overlap(default)
+A61	Hypothesis T29
+A62	Experience T29 Patient
+T30	Sign_Symptom 2767 2776	il tousse
+A63	Temporality T30 Overlap(default)
+A64	Experience T30 Patient
+T31	Person 2804 2821	il a de la fièvre
+A65	Temporality T31 Overlap(default)
+A66	Hypothesis T31
+A67	Experience T31 Other
+T32	Conduite 2889 2955	est ce que vous pouvez l'amener à l- heu voir un médecin traitant?
+A68	Temporality T32 After
+A69	Hypothesis T32
+A70	Experience T32 Healthcare_professional
+T33	Conduite 3622 3655	il faut qu'il consulte un médecin
+A71	Temporality T33 After
+A72	Experience T33 Patient
+T34	Temporal_Marker 3656 3671	dans la journée
+A73	Temporality T34 After
+A74	Experience T34 Patient
+R1	Temp_mark Arg1:T27 Arg2:T26	
+T35	Temporal_Marker 3622 3671	il faut qu'il consulte un médecin dans la journée
+A75	Temporality T35 After
+A76	Experience T35 Patient

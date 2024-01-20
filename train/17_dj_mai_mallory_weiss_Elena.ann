@@ -1,0 +1,94 @@
+T1	Person 17 32	docteur DETOURY
+A1	Experience T1 Healthcare_professional
+T2	Person 108 124	votre grand mère
+A2	Experience T2 Patient
+T3	Person 154 159	mamie
+A3	Experience T3 Patient
+T4	Sign_Symptom 165 176	va pas bien
+A4	Experience T4 Patient
+T5	Sign_Symptom 201 213	vomi du sang
+A5	Hypothesis T5
+A6	Experience T5 Patient
+T6	Sign_Symptom 258 262	vomi
+A7	Experience T6 Patient
+T7	Sign_Symptom 271 276	vomit
+A8	Experience T7 Patient
+T8	Sign_Symptom 291 295	vomi
+A9	Experience T8 Patient
+T9	Sign_Symptom 337 352	sang là partout
+A10	Experience T9 Patient
+T10	Sign_Symptom 400 430	un peu de sang mélangé au vomi
+A11	Hypothesis T10
+A12	Experience T10 Patient
+T11	Temporal_Marker 507 518	aujourd'hui
+T12	Temporal_Marker 539 555	jours précédents
+T13	Temporal_Marker 578 589	aujourd'hui
+T14	Sign_Symptom 611 623	vomissements
+A13	Experience T14 Patient
+T15	Sign_Symptom 700 705	vomit
+A14	Experience T15 Patient
+T16	Temporal_Marker 721 736	plusieurs jours
+A15	Temporality T15 Overlap(default)
+T17	Temporal_Marker 758 773	plusieurs jours
+T18	Sign_Symptom 779 784	vomit
+A16	Temporality T18 Overlap(default)
+A17	Experience T18 Patient
+T19	Sign_Symptom 819 830	va pas bien
+A18	Experience T19 Patient
+T20	Temporal_Marker 847 862	plusieurs jours
+T21	Sign_Symptom 868 873	vomit
+A19	Temporality T21 Overlap(default)
+A20	Experience T21 Patient
+T22	Sign_Symptom 909 941	traces de sang mélangées au vomi
+A21	Hypothesis T22
+A22	Experience T22 Patient
+T23	Sign_Symptom 1069 1081	vomissements
+A23	Experience T23 Patient
+T24	Person 1099 1104	mamie
+A24	Experience T24 Patient
+T25	Person 1385 1401	votre grand mère
+A25	Experience T25 Patient
+T26	Disease 1461 1472	hypertendue
+A26	Experience T26 Patient
+T27	Disease 1483 1490	diabète
+A27	Experience T27 Patient
+T28	Disease 1516 1525	cataracte
+A28	Experience T28 Patient
+T29	Disease 1546 1570	fracture du col du fémur
+A29	Experience T29 Patient
+T30	Temporal_Marker 1574 1578	1999
+A30	Temporality T29 Before
+R1	Temp_mark Arg1:T30 Arg2:T29	
+R2	Temp_mark Arg1:T13 Arg2:T14	
+R3	Temp_mark Arg1:T16 Arg2:T15	
+R4	Temp_mark Arg1:T17 Arg2:T18	
+R5	Temp_mark Arg1:T20 Arg2:T21	
+T31	Disease 1607 1610	AIT
+A31	Temporality T31 Before
+T32	Temporal_Marker 1614 1616	86
+A32	Experience T31 Patient
+R6	Temp_mark Arg1:T32 Arg2:T31	
+T33	Geographic_Marker 1642 1651	ROTSCHILD
+T34	Sign_Symptom 1689 1709	tombée de la piscine
+A33	Experience T34 Patient
+A34	Temporality T34 Before
+T35	Drug_chemicals 1799 1813	anticoagulants
+A35	Hypothesis T35
+A36	Experience T35 Patient
+T36	Drug_chemicals 1896 1904	KARDEGIC
+A37	Hypothesis T36
+A38	Experience T36 Patient
+T37	Drug_chemicals 1908 1923	XA- non XARELTO
+A39	Hypothesis T37
+A40	Experience T37 Patient
+T38	Drug_chemicals 1924 1932	APIXABAN
+A41	Hypothesis T38
+A42	Experience T38 Patient
+T39	Person 2021 2037	votre grand mère
+A43	Experience T39 Patient
+T40	Conduite 2145 2189	peux vous faire passer un médecin à domicile
+T41	Temporal_Marker 2531 2550	vingt quatre heures
+T42	Geographic_Marker 2656 2680	maison médicale de garde
+T43	Conduite 2998 3238	vous présenter avec elle à la maison médicale de garde vous emportez avec vous le traitem- heu ses ordonnances heu les la le dernier dossier médical que vous ayez pour elle et vous l'emmenez voir le médecin généraliste de la maison médicale
+T44	Sign_Symptom 3321 3341	vomissements de sang
+A44	Experience T44 Patient

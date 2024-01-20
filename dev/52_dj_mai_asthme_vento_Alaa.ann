@@ -1,0 +1,103 @@
+T1	Person 35 47	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T2	Person 17 23	madame
+A2	Experience T2 Other
+T3	Person 77 84	docteur
+A3	Experience T3 Healthcare_professional
+T5	Person 205 211	copine
+A5	Experience T5 Patient
+T4	Person 98 106	collègue
+A4	Experience T4 Healthcare_professional
+T6	Person 285 291	copine
+A6	Experience T6 Patient
+T7	Geographic_Marker 343 351	chez moi
+T8	Sign_Symptom 372 395	est gênée pour respirer
+A7	Experience T8 Patient
+T9	Sign_Symptom 440 449	est gênée
+A8	Experience T9 Patient
+T10	Temporal_Marker 520 534	tout à l'heure
+T11	Temporal_Marker 557 565	week-end
+T12	Sign_Symptom 653 666	pas très bien
+A9	Experience T12 Patient
+T13	Temporal_Marker 730 742	l'après midi
+T14	Temporal_Marker 770 781	deux heures
+T15	Temporal_Marker 760 769	une heure
+T16	Temporal_Marker 826 837	deux heures
+T17	Temporal_Marker 813 822	une heure
+R1	Temp_mark Arg1:T17 Arg2:T12	
+R2	Temp_mark Arg1:T16 Arg2:T12	
+R3	Temp_mark Arg1:T17 Arg2:T9	
+R4	Temp_mark Arg1:T16 Arg2:T9	
+R5	Temp_mark Arg1:T17 Arg2:T8	
+R6	Temp_mark Arg1:T16 Arg2:T8	
+T18	Sign_Symptom 862 882	arrive à vous parler
+A10	Experience T18 Patient
+A11	Hypothesis T18
+T19	Sign_Symptom 933 947	est consciente
+A12	Hypothesis T19
+A13	Experience T19 Patient
+T20	Sign_Symptom 958 973	arrive à parler
+A14	Experience T20 Patient
+T21	Sign_Symptom 983 997	est consciente
+A15	Experience T21 Patient
+T22	Sign_Symptom 1026 1034	est pâle
+A16	Hypothesis T22
+A17	Experience T22 Patient
+T23	Sign_Symptom 1050 1062	est en sueur
+A18	Experience T23 Patient
+T24	Sign_Symptom 1095 1115	est pas très bronzée
+A19	Negation T24 Négation
+A20	Experience T24 Patient
+A21	Hypothesis T23
+T25	Sign_Symptom 1167 1209	est pas particulièrement pâle ou en sueurs
+A22	Negation T25 Négation
+A23	Experience T25 Patient
+T26	Conduite 1219 1245	passez la moi au téléphone
+A24	Experience T26 Other
+T27	Person 1322 1328	madame
+A25	Experience T27 Patient
+T28	Person 1340 1352	docteur ABAZ
+A26	Experience T28 Healthcare_professional
+T29	Person 1378 1385	docteur
+A27	Experience T29 Healthcare_professional
+T30	Sign_Symptom 1570 1618	me sens un peu heu ça serre heu dans mes poumons
+A28	Experience T30 Patient
+T31	Temporal_Marker 1699 1715	depuis cet aprem
+R7	Temp_mark Arg1:T31 Arg2:T30	
+T32	Drug_chemicals 1769 1780	médicaments
+T33	Conduite 1913 1987	faut contacter votre médecin traitant pour prendre ​rendez-vous rapidement
+A29	Experience T33 Patient
+T34	Sign_Symptom 2124 2140	me sens pas bien
+A30	Temporality T34 Overlap(default)
+A31	Experience T34 Patient
+T35	Sign_Symptom 2090 2120	suis pas bien là pour respirer
+A32	Negation T35 Négation
+A33	Experience T35 Patient
+T36	Person 2144 2151	docteur
+A34	Experience T36 Healthcare_professional
+T37	Person 2247 2254	médecin
+A35	Experience T37 Healthcare_professional
+T38	Person 2468 2475	médecin
+A36	Experience T38 Healthcare_professional
+T39	Conduite 2665 2689	vous attendez le médecin
+A37	Experience T39 Patient
+T40	Person 2712 2719	docteur
+A38	Experience T40 Healthcare_professional
+T41	Conduite 2745 2790	si il y a le moindre souci vous nous rappelez
+A39	Experience T41 Patient
+T42	Conduite 1403 1443	racontez moi un peu ce qu'il vous arrive
+T43	Drug_chemicals 1478 1487	VENTOLINE
+T44	Geographic_Marker 1528 1540	la pharmacie
+T45	Temporal_Marker 1719 1736	après le déjeuner
+T46	Geographic_Marker 1793 1802	la maison
+T47	Person 2039 2045	copine
+A40	Experience T47 Other
+T48	Temporal_Marker 2062 2083	avant plusieurs jours
+T49	Temporal_Marker 2354 2364	un instant
+T50	Person 2407 2413	madame
+A41	Experience T50 Patient
+T51	Geographic_Marker 2501 2510	chez vous
+T52	Geographic_Marker 2514 2528	chez votre ami
+T53	Temporal_Marker 2541 2553	demi journée
+T54	Geographic_Marker 2625 2634	la maison
+T55	Temporal_Marker 2818 2825	journée

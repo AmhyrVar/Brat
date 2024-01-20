@@ -1,0 +1,22 @@
+T1	Person 18 34	docteur RICHARDO
+T2	Person 80 85	frère
+T3	Sign_Symptom 94 100	blessé
+A1	Hypothesis T3
+T4	Sign_Symptom 327 342	coup de couteau
+T5	Sign_Symptom 401 413	plaie saigne
+A2	Hypothesis T5
+A3	Experience T1 Healthcare_professional
+T6	Sign_Symptom 1510 1529	assis sur le canapé
+A4	Temporality T6 After
+T7	Conduite 1550 1570	envoyer les pompiers
+T8	Conduite 544 578	allez le voir et regardez la plaie
+T9	Sign_Symptom 1438 1451	il est debout
+A5	Hypothesis T9
+T10	Sign_Symptom 1460 1465	assis
+A6	Hypothesis T10
+A7	Negation T9 Négation
+T11	Sign_Symptom 1478 1485	allongé
+A9	Hypothesis T11
+A10	Negation T11 Négation
+T12	Geographic_Marker 1909 1918	la maison
+A8	Temporality T12 After

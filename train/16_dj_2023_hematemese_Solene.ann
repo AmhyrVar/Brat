@@ -1,0 +1,53 @@
+T1	Person 78 93	docteur DAHMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 133 145	votre voisin
+A2	Experience T2 Patient
+T3	Sign_Symptom 152 164	vomi du sang
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Sign_Symptom 227 254	sang sur son sur sa chemise
+A5	Experience T4 Patient
+T5	Sign_Symptom 345 384	vomi un un caillot gros comme mon poing
+A6	Temporality T5 Before
+A7	Experience T5 Patient
+T6	Person 638 646	en forme
+A8	Temporality T6 Before
+T7	Disease 690 710	maladie particulière
+A9	Negation T7 Négation
+T8	Disease 822 834	hypertension
+A10	Experience T8 Patient
+A11	Hypothesis T8
+T9	Sign_Symptom 1738 1752	sang qui coule
+A12	Experience T9 Patient
+T10	Temporal_Marker 1784 1790	encore
+T11	Sign_Symptom 1791 1803	vomi du sang
+A13	Experience T11 Patient
+T12	Sign_Symptom 1823 1850	par la bouche et par le nez
+A14	Experience T12 Patient
+R1	Temp_mark Arg1:T10 Arg2:T11	
+T13	Sign_Symptom 1933 1953	sang qui sort du nez
+A15	Experience T13 Patient
+T14	Sign_Symptom 2148 2199	sang autour sur le visage et sur sur son sa chemise
+A16	Temporality T14 Before
+A17	Experience T14 Patient
+T15	Geographic_Marker 2277 2290	salle de bain
+T16	Conduite 2382 2421	dites lui de se dites lui de se moucher
+T18	Conduite 2495 2538	comprimer heu son nez avec heu avec sa main
+T19	Conduite 2714 2758	il faut bien qu'il se mouche et qu'il appuie
+T20	Conduite 3406 3492	si ça saigne encore vous nous rappelez et si ça ne saigne plus il consulte son médecin
+A18	Temporality T3 Before
+A19	Temporality T4 Before
+T21	Disease 467 485	problèmes de santé
+A20	Hypothesis T21
+A21	Experience T21 Patient
+T22	Temporal_Marker 562 577	deux trois fois
+T23	Sign_Symptom 1028 1048	consomme de l'alcool
+A22	Hypothesis T23
+A23	Experience T23 Patient
+T24	Sign_Symptom 1178 1182	ivre
+A24	Negation T24 Négation
+A25	Experience T24 Patient
+T25	Temporal_Marker 1168 1174	jamais
+R2	Temp_mark Arg1:T25 Arg2:T24	
+T26	Sign_Symptom 1892 1905	saigne du nez
+A26	Experience T26 Patient

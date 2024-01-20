@@ -1,0 +1,56 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 59 66	voisine
+A2	Experience T2 Patient
+T3	Sign_Symptom 272 276	sang
+A3	Temporality T3 Overlap(default)
+T4	Sign_Symptom 233 242	se plaint
+A4	Temporality T4 Overlap(default)
+A5	Hypothesis T4 Vrai
+T5	Conduite 301 325	vous pouvez me la passer
+T6	Conduite 336 349	passez la moi
+T7	Conduite 431 491	vous pouvez me décrire ce que vous vous voyez comme blessure
+T8	Sign_Symptom 512 516	sang
+A6	Temporality T8 Overlap(default)
+T9	Sign_Symptom 533 537	sang
+A7	Temporality T9 Overlap(default)
+A8	Hypothesis T9 Vrai
+T10	Sign_Symptom 615 628	est réveillée
+A9	Temporality T10 Overlap(default)
+A10	Hypothesis T10 Vrai
+T11	Person 635 642	voisine
+A11	Experience T11 Patient
+T12	Sign_Symptom 644 659	elle vous parle
+A12	Temporality T12 Overlap(default)
+A13	Hypothesis T12 Vrai
+T13	Person 836 840	mari
+A14	Experience T13 Family
+T14	Temporal_Marker 1088 1108	pas la première fois
+A15	Temporality T14 Before
+T15	Temporal_Marker 1139 1159	pas la première fois
+A16	Negation T15 Négation
+A17	Hypothesis T15 Vrai
+A18	Hypothesis T14 Vrai
+T16	Temporal_Marker 1189 1209	pas la première fois
+A19	Hypothesis T16 Vrai
+A20	Negation T16 Négation
+T17	Sign_Symptom 1255 1271	sang sur la tête
+A21	Temporality T17 Overlap(default)
+A22	Hypothesis T17 Vrai
+T18	Sign_Symptom 1325 1341	sang sur la tête
+A23	Temporality T18 Overlap(default)
+A24	Hypothesis T18 Vrai
+T19	Sign_Symptom 1397 1415	debout en marchant
+A25	Hypothesis T19 Vrai
+T20	Conduite 1503 1526	l'emmeniez aux urgences
+T21	Conduite 1554 1562	examinée
+T22	Conduite 1676 1697	amenez la aux urgence
+T23	Temporal_Marker 1748 1765	six heures du mat
+A26	Temporality T23 Overlap(default)
+T24	Conduite 1811 1829	vue par un médecin
+T25	Temporal_Marker 1830 1841	aujourd'hui
+A27	Temporality T25 Overlap(default)
+T26	Conduite 1843 1866	emmenez la aux urgences
+T27	Conduite 1963 1986	emmenez la aux urgences
+T28	Conduite 2064 2089	mettez dans votre voiture
+T29	Conduite 2096 2117	l'amenez aux urgences

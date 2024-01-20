@@ -1,0 +1,127 @@
+T1	Person 35 47	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T2	Person 121 128	médecin
+A2	Experience T2 Healthcare_professional
+T3	Person 132 141	ma copine
+A3	Experience T3 Patient
+T4	Sign_Symptom 142 159	elle s'est brûlée
+T5	Person 281 288	médecin
+A4	Experience T5 Healthcare_professional
+T6	Person 426 438	docteur ABAZ
+A5	Experience T6 Healthcare_professional
+T7	Person 479 486	docteur
+A6	Experience T7 Healthcare_professional
+T8	Person 512 524	votre copine
+A7	Experience T8 Patient
+T9	Disease 542 571	s'est brûlée c'est bien cela?
+A8	Hypothesis T9
+T10	Temporal_Marker 655 671	là elle vient de
+T11	Person 1457 1464	médecin
+A9	Experience T11 Healthcare_professional
+T12	Person 1497 1504	médecin
+A10	Experience T12 Healthcare_professional
+T13	Person 1823 1829	madame
+A11	Experience T13 Patient
+T14	Person 1873 1885	docteur ABAZ
+A12	Experience T14 Healthcare_professional
+T15	Person 1906 1913	docteur
+A13	Experience T15 Healthcare_professional
+T16	Person 2418 2425	docteur
+A14	Experience T16 Healthcare_professional
+T17	Person 2456 2462	madame
+A15	Experience T17 Patient
+T18	Person 3222 3229	docteur
+A16	Experience T18 Healthcare_professional
+T19	Person 3244 3256	les pompiers
+A17	Experience T19 Other
+T20	Person 3257 3264	ma pote
+A18	Experience T20 Other
+T21	Person 3323 3330	docteur
+A19	Experience T21 Healthcare_professional
+T22	Person 3340 3352	les pompiers
+A20	Experience T22 Other
+T23	Person 3405 3412	docteur
+A21	Experience T23 Healthcare_professional
+T24	Person 3436 3443	médecin
+A22	Experience T24 Healthcare_professional
+T25	Person 3673 3682	ma copine
+A23	Experience T25 Other
+A24	Temporality T4 Before_overlap
+A25	Temporality T9 Before_overlap
+T26	Disease 608 620	s'est brûlée
+A26	Temporality T26 Before_overlap
+T27	Disease 672 681	se brûler
+A27	Temporality T27 Overlap(default)
+A28	Hypothesis T26
+R1	Temp_mark Arg1:T10 Arg2:T27	
+T28	Disease 966 981	elle est brûlée
+A29	Temporality T28 Overlap(default)
+T29	Sign_Symptom 982 999	au niveau du bras
+A30	Temporality T29 Overlap(default)
+T30	Sign_Symptom 1034 1052	complètement brûlé
+A31	Temporality T30 Overlap(default)
+T31	Person 1056 1064	monsieur
+A32	Experience T31 Healthcare_professional
+T32	Sign_Symptom 1006 1018	tout le bras
+T33	Sign_Symptom 1180 1192	tout le bras
+A33	Temporality T33 Overlap(default)
+T34	Sign_Symptom 1200 1225	le poignet jusqu'au coude
+A34	Temporality T34 Overlap(default)
+T35	Sign_Symptom 1229 1245	un peu au dessus
+A35	Temporality T35 Overlap(default)
+T36	Sign_Symptom 1369 1377	la plaie
+A36	Temporality T36 Overlap(default)
+T37	Person 1518 1524	madame
+A37	Experience T37 Other
+T38	Sign_Symptom 1525 1557	est ce que la la la plaie suinte
+A38	Temporality T38 Overlap(default)
+A39	Hypothesis T38
+T39	Sign_Symptom 1558 1589	est ce que y a y a des cloques?
+A40	Temporality T39 Overlap(default)
+A41	Hypothesis T39
+T40	Sign_Symptom 1630 1645	y a des cloques
+A42	Temporality T40 Overlap(default)
+T41	Sign_Symptom 1646 1672	y a des cloques partout là
+T42	Conduite 1765 1791	passez la moi au téléphone
+A43	Temporality T42 Overlap(default)
+T43	Sign_Symptom 1914 1927	j'ai trop mal
+A44	Temporality T43 Overlap(default)
+T44	Sign_Symptom 1937 1975	vous avez mal au bras c'est bien cela?
+A45	Hypothesis T44
+A46	Temporality T44 Overlap(default)
+T45	Sign_Symptom 1998 2064	vous vous êtes brûlée avec la poêle de la cuisine c'est bien cela?
+A47	Hypothesis T45
+T46	Sign_Symptom 2229 2247	c'est tout le bras
+A48	Hypothesis T46
+A49	Temporality T46 Overlap(default)
+T47	Sign_Symptom 2248 2273	c'est une partie du bras?
+A50	Temporality T47 Overlap(default)
+A51	Hypothesis T47
+T48	Sign_Symptom 2283 2295	tout le bras
+A52	Temporality T48 Before_overlap
+T49	Conduite 2473 2562	vous allez prendre heu de l'eau froide vous allez verser cette eau froide sur votre plaie
+A53	Temporality T49 Overlap(default)
+T50	Person 2836 2843	docteur
+A54	Experience T50 Healthcare_professional
+T51	Conduite 2649 2669	vous enlevez le pull
+A55	Temporality T51 Overlap(default)
+T52	Conduite 2670 2690	vous enlevez le pull
+A56	Temporality T52 Overlap(default)
+T53	Conduite 2776 2796	vous mettez de l'eau
+A57	Temporality T53 Overlap(default)
+T54	Conduite 3067 3094	vous mettez de l'eau froide
+A58	Temporality T54 Overlap(default)
+T55	Conduite 2889 3035	il faut mettre de l'eau froide pour justement diminuer heu le hum comment dire heu pour que la plaie guérisse mieux il faut mettre de l'eau froide
+A59	Temporality T55 Overlap(default)
+A60	Temporality T45 Before_overlap
+A61	Temporality T10 Overlap(default)
+A62	Temporality T32 Overlap(default)
+T56	Temporal_Marker 1000 1002	là
+A63	Temporality T56 Overlap(default)
+R2	Temp_mark Arg1:T56 Arg2:T29	
+T57	Temporal_Marker 1019 1021	là
+A64	Temporality T57 Overlap(default)
+R3	Temp_mark Arg1:T57 Arg2:T32	
+T58	Temporal_Marker 1053 1055	là
+A65	Temporality T58 Overlap(default)
+R4	Temp_mark Arg1:T58 Arg2:T30	

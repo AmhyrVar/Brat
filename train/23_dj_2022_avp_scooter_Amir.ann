@@ -1,0 +1,31 @@
+T1	Person 88 123	docteur DAMANI, médecin régulateur.
+A1	Experience T1 Healthcare_professional
+T2	Disease 196 242	quelqu'un qui vient de heu d'avoir un accident
+A2	Temporality T2 Overlap(default)
+A3	Experience T2 Patient
+T3	Person 246 264	un type en scooter
+A4	Temporality T3 Overlap(default)
+A5	Experience T3 Patient
+T4	Temporal_Marker 627 672	ça vient de se se passer là y a trois minutes
+A6	Temporality T4 Before
+A7	Experience T4 Patient
+T5	Sign_Symptom 750 787	il bouge, il est heu il est il bouge?
+A8	Temporality T5 Overlap(default)
+A9	Experience T5 Patient
+T6	Sign_Symptom 809 887	je l'ai vu bouger un petit peu hum, effectivement il a essayé de de se relever
+A10	Temporality T6 Overlap(default)
+A11	Experience T6 Patient
+T7	Conduite 1083 1103	pprochez vous de lui
+A12	Temporality T7 Overlap(default)
+A13	Experience T7 Other
+T8	Conduite 1340 1426	là vous pouvez pas du tout heu vous approcher de lui voir si il est bien conscient heu
+A14	Temporality T8 Overlap(default)
+A15	Hypothesis T8
+A16	Negation T8 Négation
+A17	Experience T8 Other
+T9	Sign_Symptom 1603 1635	qu'il s'était relevé en tout cas
+A18	Temporality T9 Overlap(default)
+A19	Hypothesis T9
+A20	Experience T9 Patient
+T10	Person 1747 1765	équipe de pompiers
+A21	Experience T10 Healthcare_professional

@@ -1,0 +1,32 @@
+T1	Person 29 35	madame
+T2	Person 94 110	docteur LAKHLIFI
+A1	Experience T2 Healthcare_professional
+T3	Person 29 35	madame
+A2	Experience T3 Family
+T4	Person 138 166	enfant qui a bien trois mois
+A3	Experience T4 Patient
+T5	Drug_chemicals 709 720	paracétamol
+A4	Temporality T5 Before
+A5	Experience T5 Patient
+T8	Conduite 1510 1567	ni ​à boire, ni à manger, ni du lait, ni quoi que ce soit
+T9	Conduite 1674 1715	il ne faut pas il faut pas le faire vomir
+T6	Conduite 1231 1255	restez avec votre enfant
+T15	Conduite 1266 1297	donnez rien à boire ni à manger
+T16	Conduite 1307 1317	surveillez
+T17	Conduite 1321 1341	j'envoie les secours
+T18	Temporal_Marker 1342 1355	tout de suite
+T7	Person 1496 1508	votre enfant
+A6	Experience T7 Patient
+T19	Conduite 1471 1493	donner absolument rien
+A9	Negation T9 Négation
+A10	Negation T19 Négation
+A11	Negation T8 Négation
+T11	Temporal_Marker 1919 1947	dans moins de quinze minutes
+A7	Temporality T11 After
+T10	Conduite 1720 1744	vous le gardez avec vous
+T20	Temporal_Marker 1957 1980	moins de quinze minutes
+T21	Conduite 2029 2058	n'hésitez pas à nous rappeler
+T12	Conduite 2634 2655	on envoie les secours
+T13	Temporal_Marker 2656 2669	tout de suite
+T14	Person 2670 2676	madame
+A8	Experience T14 Family

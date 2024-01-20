@@ -1,0 +1,58 @@
+T1	Person 34 50	docteur DETOURET
+A1	Experience T1 Healthcare_professional
+T3	Geographic_Marker 228 238	l'immeuble
+T4	Sign_Symptom 259 274	y a de la fumée
+A3	Hypothesis T4
+T5	Sign_Symptom 314 351	il y a des secours sur place monsieur
+A4	Hypothesis T5
+T6	Sign_Symptom 383 405	il y a pas de pompiers
+A5	Negation T6 Négation
+T7	Sign_Symptom 558 588	il peut se déplacer lui ou pas
+T8	Sign_Symptom 667 704	est ce qu'il a des problèmes de santé
+A6	Hypothesis T8
+A7	Hypothesis T7
+T9	Sign_Symptom 766 827	des problèmes de santé qui font qu'il ne peut pas se déplacer
+A8	Hypothesis T9
+T10	Sign_Symptom 846 863	il est un peu âgé
+T11	Sign_Symptom 864 891	il a du mal à à se déplacer
+T12	Sign_Symptom 1009 1039	vous avez les clés du domicile
+A9	Hypothesis T12
+A10	Experience T10 Patient
+A11	Experience T11 Patient
+T13	Geographic_Marker 497 502	étage
+T14	Geographic_Marker 534 548	deuxième étage
+T15	Sign_Symptom 1310 1331	vous pouvez l'appeler
+A12	Hypothesis T15
+T16	Sign_Symptom 1375 1391	il répondait pas
+A13	Temporality T16 Before
+A14	Experience T16 Patient
+T17	Sign_Symptom 1469 1501	vous êtes sûr qu'il est chez lui
+A15	Hypothesis T17
+T18	Sign_Symptom 1571 1604	est ce qu'il y a d'autres voisins
+A16	Hypothesis T18
+T19	Geographic_Marker 1688 1701	à côté de vou
+T20	Sign_Symptom 431 450	non il y a personne
+A17	Negation T20 Négation
+T21	Sign_Symptom 1764 1779	il y a personne
+A18	Negation T21 Négation
+T22	Sign_Symptom 12 25	il y a le feu
+T23	Sign_Symptom 1814 1832	il y a donc du feu
+A19	Experience T23 Patient
+T24	Person 2016 2032	votre grand père
+A20	Experience T24 Patient
+T25	Person 80 96	votre grand père
+A21	Experience T25 Patient
+T26	Conduite 2038 2062	on a envoyé les pompiers
+A22	Temporality T26 Before_overlap
+A23	Experience T26 Healthcare_professional
+T27	Sign_Symptom 2575 2602	vous n'avez pas le matériel
+A24	Experience T27 Family
+T28	Geographic_Marker 2717 2727	l'immeuble
+T29	Person 2765 2772	voisins
+A25	Experience T29 Other
+T30	Person 1597 1604	voisins
+A26	Experience T30 Other
+T31	Person 2811 2829	d'autres personnes
+A27	Experience T31 Other
+T32	Sign_Symptom 3050 3108	si j'entends des cris ou des choses comme ça je rentre pas
+A28	Hypothesis T32

@@ -1,0 +1,108 @@
+T1	Person 35 50	docteur DETOURY
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 51 58	au SAMU
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 80 93	docteur SAIEB
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Healthcare_professional
+T4	Person 171 181	votre papa
+A7	Temporality T4 Overlap(default)
+A8	Experience T4 Patient
+T5	Person 214 228	ait un malaise
+A9	Temporality T5 Overlap(default)
+A10	Hypothesis T5
+A11	Experience T5 Patient
+T6	Person 268 320	docteur aussi SAIEB un grand heu grand PH à la PITIE
+A12	Temporality T6 Overlap(default)
+A13	Experience T6 Healthcare_professional
+T7	Sign_Symptom 342 362	il a fait un malaise
+A14	Temporality T7 Before_overlap
+A15	Experience T7 Patient
+T8	Temporal_Marker 376 396	il y a pas longtemps
+A16	Temporality T8 Before_overlap
+A17	Experience T8 Patient
+R1	Temp_mark Arg1:T8 Arg2:T7	
+T9	Geographic_Marker 419 432	aux toilettes
+A18	Temporality T9 Before_overlap
+A19	Experience T9 Patient
+T10	Sign_Symptom 446 466	a fait un un malaise
+A20	Temporality T10 Before_overlap
+A21	Experience T10 Patient
+T11	Sign_Symptom 575 593	perdu connaissance
+A22	Temporality T11 Before_overlap
+A23	Hypothesis T11
+A24	Experience T11 Patient
+T12	Sign_Symptom 608 633	il pas perdu connaissance
+A25	Temporality T12 Before_overlap
+A26	Negation T12 Négation
+A27	Experience T12 Patient
+T13	Geographic_Marker 808 821	aux toilettes
+A28	Temporality T13 Before_overlap
+A29	Experience T13 Patient
+T14	Sign_Symptom 862 883	il s'est senti partir
+A30	Temporality T14 Before_overlap
+A31	Experience T14 Patient
+T15	Disease 1253 1263	hypertendu
+A32	Temporality T15 Before
+A33	Experience T15 Patient
+T16	Drug_chemicals 1329 1362	traitements contre l'hypertension
+A34	Temporality T16 Before
+A35	Hypothesis T16
+A36	Experience T16 Patient
+T17	Sign_Symptom 1484 1491	malaise
+A37	Temporality T17 Before_overlap
+A38	Hypothesis T17
+A39	Experience T17 Patient
+T18	Sign_Symptom 1510 1523	malaise vagal
+A40	Temporality T18 Before_overlap
+A41	Hypothesis T18
+A42	Experience T18 Patient
+T19	Sign_Symptom 1649 1662	malaise vagal
+A43	Temporality T19 Before_overlap
+A44	Hypothesis T19
+A45	Experience T19 Patient
+T20	Sign_Symptom 1868 1875	malaise
+A46	Temporality T20 After
+A47	Hypothesis T20
+A48	Experience T20 Patient
+T21	Sign_Symptom 1958 1965	malaise
+A49	Temporality T21 After
+A50	Hypothesis T21
+A51	Experience T21 Patient
+T22	Sign_Symptom 2086 2093	malaise
+A52	Temporality T22 After
+A53	Hypothesis T22
+A54	Experience T22 Patient
+T23	Sign_Symptom 2165 2172	malaise
+A55	Temporality T23 After
+A56	Hypothesis T23
+A57	Experience T23 Patient
+T24	Sign_Symptom 2188 2229	se sent partir sans perte de connaissance
+A58	Temporality T24 After
+A59	Hypothesis T24
+A60	Experience T24 Patient
+T26	Conduite 2283 2319	l'emmener sans problème aux urgences
+A63	Temporality T26 After
+A64	Experience T26 Patient
+T27	Geographic_Marker 2320 2339	à côté de chez vous
+A65	Temporality T27 After
+A66	Experience T27 Patient
+T28	Person 17 23	madame
+A67	Temporality T28 Overlap(default)
+A68	Experience T28 Family
+T25	Sign_Symptom 2451 2458	malaise
+A61	Temporality T25 After
+A62	Hypothesis T25
+A69	Experience T25 Patient
+T29	Conduite 2941 2985	vous rendez aux urgences heu avec votre papa
+A70	Temporality T29 After
+A71	Experience T29 Patient
+T30	Conduite 2989 3053	oubliez pas de prendre l'ordonnance de ses traitements habituels
+A72	Temporality T30 After
+A73	Experience T30 Family
+T31	Conduite 3326 3355	vous vous rendez aux urgences
+A74	Temporality T31 After
+A75	Hypothesis T31
+A76	Experience T31 Patient

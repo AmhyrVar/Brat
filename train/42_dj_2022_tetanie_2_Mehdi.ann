@@ -1,0 +1,118 @@
+T1	Person 17 25	monsieur
+T2	Person 102 123	médecin docteur CHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 136 147	votre soeur
+A2	Experience T3 Patient
+T4	Sign_Symptom 190 210	elle fait un malaise
+A3	Experience T4 Patient
+T5	Person 257 265	ma soeur
+T6	Sign_Symptom 266 286	elle est dans le mal
+A4	Experience T6 Patient
+T7	Sign_Symptom 299 335	dans le mal. depuis combien de temps
+A5	Hypothesis T7
+T8	Temporal_Marker 504 515	dix minutes
+T9	Temporal_Marker 521 531	demi heure
+T10	Temporal_Marker 616 638	moins d'une demi heure
+T11	Sign_Symptom 667 695	elle vous répond votre soeur
+A6	Hypothesis T11
+T12	Sign_Symptom 724 757	elle fait des petits bruits comme
+A7	Experience T12 Patient
+T13	Sign_Symptom 795 830	pas sûr qu'elle réponde en vrai non
+A8	Negation T13 Négation
+A9	Experience T13 Patient
+T14	Sign_Symptom 849 879	elle est en capacité de parler
+A10	Hypothesis T14
+A11	Experience T14 Patient
+T15	Sign_Symptom 898 913	elle bouge plus
+A12	Experience T15 Patient
+T16	Sign_Symptom 961 979	elle me parle plus
+A13	Experience T16 Patient
+T17	Person 1017 1034	elle est pas bien
+A14	Experience T17 Patient
+T18	Conduite 1084 1097	passez la moi
+A15	Experience T18 Healthcare_professional
+T19	Conduite 1138 1166	passez la moi, passez la moi
+A16	Experience T19 Healthcare_professional
+T20	Sign_Symptom 1325 1337	elle respire
+A17	Hypothesis T20
+A18	Experience T20 Patient
+T21	Sign_Symptom 1455 1484	elle s'est plaint de douleurs
+A19	Hypothesis T21
+A20	Experience T21 Patient
+T22	Sign_Symptom 1522 1552	elle pleure, elle est pas bien
+A21	Experience T22 Patient
+T23	Sign_Symptom 1633 1661	elle est en train de pleurer
+A22	Hypothesis T23
+A23	Experience T23 Patient
+T24	Sign_Symptom 1736 1771	elle a des des maladies votre soeur
+A24	Hypothesis T24
+A25	Experience T24 Patient
+T25	Sign_Symptom 1813 1843	elle a jamais été hospitalisée
+A26	Hypothesis T25
+A27	Negation T25 Négation
+T26	Sign_Symptom 1942 1965	elle a été à l'hôpital.
+A28	Temporality T26 Before
+A29	Experience T26 Patient
+T27	Sign_Symptom 2055 2095	elle était pas bien comme ça dans le mal
+A30	Temporality T27 Before
+A31	Experience T27 Patient
+T28	Sign_Symptom 2136 2161	elle a déjà fait ça avant
+A32	Hypothesis T28
+A33	Experience T28 Patient
+T29	Sign_Symptom 2234 2260	elle prend des médicaments
+A34	Hypothesis T29
+A35	Experience T29 Patient
+T30	Sign_Symptom 2275 2303	pas des médicaments vraiment
+A36	Negation T30 Négation
+A37	Experience T30 Patient
+T31	Sign_Symptom 2340 2370	elle méfu un peu elle est tipo
+A38	Experience T31 Patient
+T32	Sign_Symptom 2380 2389	elle fume
+A39	Hypothesis T32
+A40	Experience T32 Patient
+T33	Sign_Symptom 2424 2438	elle fume quoi
+A41	Hypothesis T33
+A42	Experience T33 Patient
+T34	Sign_Symptom 2471 2491	elle fume de la weed
+A43	Experience T34 Patient
+T35	Sign_Symptom 2532 2547	elle a consommé
+A44	Hypothesis T35
+A45	Experience T35 Patient
+T36	Sign_Symptom 2609 2620	elle a fumé
+A46	Hypothesis T36
+A47	Experience T36 Patient
+T37	Sign_Symptom 2631 2712	elle a fum- ouais là on rentre d'une soirée elle a pris pris deux trois cachetons
+A48	Experience T37 Patient
+T38	Sign_Symptom 2799 2822	pas plus que d'habitude
+A49	Hypothesis T38
+A50	Experience T38 Patient
+T39	Sign_Symptom 2857 2866	elle a bu
+A51	Hypothesis T39
+A52	Experience T39 Patient
+T40	Sign_Symptom 2913 2921	beaucoup
+A53	Hypothesis T40
+A54	Experience T40 Patient
+T41	Sign_Symptom 2973 2985	pas beaucoup
+A55	Experience T41 Patient
+T42	Sign_Symptom 3036 3115	si vous la stimulez elle se elle est elle v- elle est elle est elle vous répond
+A56	Hypothesis T42
+A57	Experience T42 Patient
+T43	Sign_Symptom 3126 3166	un peu on comprend rien à ce qu'elle dit
+A58	Experience T43 Patient
+T44	Sign_Symptom 3204 3246	elle pleurniche quoi depuis tout à l'heure
+A59	Experience T44 Patient
+T45	Sign_Symptom 3283 3325	elle a pas consommé plus qu'habituellement
+A60	Hypothesis T45
+A61	Experience T45 Patient
+T46	Sign_Symptom 3369 3383	elle vomit pas
+A62	Hypothesis T46
+A63	Experience T46 Patient
+T47	Sign_Symptom 3398 3413	elle a pas vomi
+A64	Temporality T47 Before
+A65	Experience T47 Patient
+T48	Person 3478 3485	médecin
+T49	Person 3639 3645	madame
+T50	Temporal_Marker 3762 3773	deux heures
+T51	Conduite 3721 3749	on va vous envoyer quelqu'un
+A66	Experience T51 Healthcare_professional
+A67	Temporality T51 After

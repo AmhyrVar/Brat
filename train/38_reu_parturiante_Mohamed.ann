@@ -1,0 +1,43 @@
+T1	Person 28 38	ALAN PIROT
+T2	Sign_Symptom 145 153	enceinte
+T3	Sign_Symptom 122 134	contractions
+T4	Temporal_Marker 168 176	semaines
+T5	Sign_Symptom 212 223	d'accoucher
+T6	Sign_Symptom 396 407	d'accoucher
+T7	Sign_Symptom 431 443	contractions
+T8	Temporal_Marker 608 619	dix minutes
+T9	Sign_Symptom 673 683	j'accouche
+T10	Person 756 760	fils
+T11	Sign_Symptom 99 107	enceinte
+T12	Sign_Symptom 493 505	contractions
+T13	Person 836 840	fils
+T14	Temporal_Marker 939 950	dix minutes
+T15	Person 807 814	je suis
+T16	Person 1211 1215	bébé
+T17	Person 1264 1268	bébé
+T18	Sign_Symptom 1285 1297	contractions
+T19	Temporal_Marker 1495 1506	dix minutes
+T20	Sign_Symptom 1665 1674	accoucher
+T21	Person 1919 1925	garçon
+T22	Person 2085 2093	pompiers
+T23	Temporal_Marker 2140 2153	vingt minutes
+T24	Person 2202 2211	quelqu'un
+T25	Person 2532 2540	pompiers
+T26	Person 2993 2997	mari
+T27	Person 3001 3005	papa
+T28	Person 3069 3073	fils
+T29	Geographic_Marker 3963 3972	l'hôpital
+T30	Geographic_Marker 4320 4329	l'hôpital
+T31	Person 4074 4078	mari
+T32	Person 4215 4222	voisins
+T33	Person 4252 4259	voisins
+T34	Geographic_Marker 4474 4483	l'hôpital
+T35	Person 3130 3134	fils
+T36	Geographic_Marker 3174 3183	l'hôpital
+T37	Person 3380 3387	voisins
+T38	Person 4112 4119	voisins
+T39	Person 4785 4792	voisins
+T40	Geographic_Marker 4827 4836	l'hôpital
+T41	Person 3496 3499	eux
+T42	Person 5002 5009	voisins
+T43	Geographic_Marker 4944 4953	l'hôpital

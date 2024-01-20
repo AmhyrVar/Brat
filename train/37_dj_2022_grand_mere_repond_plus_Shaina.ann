@@ -1,0 +1,65 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 69 79	grand mère
+A2	Experience T2 Patient
+T3	Sign_Symptom 84 108	répond plus au téléphone
+A3	Temporality T3 Overlap(default)
+A4	Hypothesis T3
+T4	Temporal_Marker 230 243	dernière fois
+A5	Temporality T4 Before
+A6	Hypothesis T4
+A7	Negation T3 Négation
+T5	Temporal_Marker 311 326	un petit moment
+A8	Temporality T5 Before
+T6	Sign_Symptom 348 358	répond pas
+A9	Temporality T6 Overlap(default)
+T7	Temporal_Marker 534 558	il y a cinq, dix minutes
+A10	Temporality T7 Before
+T8	Temporal_Marker 640 667	il y a quarante huit heures
+A11	Temporality T8 Before
+T9	Sign_Symptom 610 625	eu au téléphone
+A12	Temporality T9 Before
+A13	Hypothesis T9
+R1	Temp_mark Arg1:T8 Arg2:T9	
+T10	Person 717 727	grand mère
+A14	Experience T10 Patient
+T11	Sign_Symptom 734 752	problèmes de santé
+A15	Temporality T11 Before_overlap
+A16	Hypothesis T11
+T12	Sign_Symptom 842 860	problèmes de santé
+A17	Negation T12 Négation
+A18	Temporality T12 Before_overlap
+T13	Drug_chemicals 895 906	médicaments
+A19	Temporality T13 Before_overlap
+A20	Hypothesis T13
+T14	Sign_Symptom 1046 1057	réponde pas
+A21	Temporality T14 Overlap(default)
+T15	Sign_Symptom 1138 1144	répond
+A22	Temporality T15 Before
+A23	Negation T14 Négation
+T16	Person 1224 1231	famille
+A24	Experience T16 Family
+T17	Conduite 1247 1273	aller la voir physiquement
+T18	Conduite 1312 1332	envoyer les pompiers
+T19	Person 1394 1402	pompiers
+A25	Experience T19 Healthcare_professional
+T20	Person 1507 1517	grand mère
+A26	Experience T20 Patient
+T21	Person 1559 1567	pompiers
+A27	Experience T21 Healthcare_professional
+T22	Person 1605 1615	grand mère
+A28	Experience T22 Patient
+T23	Person 1773 1781	pompiers
+A29	Experience T23 Healthcare_professional
+T24	Conduite 2006 2033	aller chez votre grand mère
+T25	Person 2051 2059	pompiers
+A30	Experience T25 Healthcare_professional
+T26	Conduite 2262 2291	aller chez vos grands parents
+T27	Person 2314 2322	pompiers
+A31	Experience T27 Healthcare_professional
+T28	Person 2509 2517	pompiers
+A32	Experience T28 Healthcare_professional
+T29	Person 2567 2575	pompiers
+A33	Experience T29 Healthcare_professional
+T30	Temporal_Marker 427 437	avant hier
+A34	Temporality T30 Before

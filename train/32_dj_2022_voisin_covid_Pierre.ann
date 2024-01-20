@@ -1,0 +1,47 @@
+T1	Person 25 31	madame
+A1	Experience T1 Other
+T2	Person 44 58	docteur DAMANI
+A2	Experience T2 Healthcare_professional
+T3	Sign_Symptom 112 118	fièvre
+T4	Geographic_Marker 322 330	domicile
+T5	Geographic_Marker 345 356	appartement
+T6	Geographic_Marker 363 369	maison
+T7	Geographic_Marker 390 401	appartement
+T8	Person 433 450	voisin de pallier
+T9	Sign_Symptom 587 593	fièvre
+T10	Sign_Symptom 626 632	tousse
+T11	Sign_Symptom 683 689	fièvre
+T12	Sign_Symptom 730 736	tousse
+T13	Sign_Symptom 2167 2173	fièvre
+T14	Disease 2289 2294	COVID
+T15	Sign_Symptom 2320 2326	tousse
+T16	Sign_Symptom 2339 2345	fièvre
+T17	Disease 2380 2385	COVID
+A3	Experience T17 Other
+T18	Temporal_Marker 2400 2408	six mois
+A4	Temporality T18 Before
+T19	Sign_Symptom 2535 2549	mal à respirer
+A5	Temporality T19 Before
+A6	Temporality T17 Before
+T20	Sign_Symptom 2413 2421	toussais
+A7	Temporality T20 Before
+A8	Experience T20 Other
+T21	Drug_chemicals 2660 2667	oxygène
+A9	Experience T21 Other
+T22	Person 3254 3261	médecin
+A10	Experience T22 Healthcare_professional
+T23	Person 3475 3482	médecin
+A11	Experience T23 Healthcare_professional
+T24	Person 3384 3391	médecin
+A12	Experience T24 Healthcare_professional
+T25	Person 3570 3577	médecin
+A13	Experience T25 Healthcare_professional
+T26	Person 3714 3721	médecin
+A14	Experience T26 Healthcare_professional
+T27	Person 3823 3830	médecin
+A15	Experience T27 Healthcare_professional
+T28	Conduite 3815 3839	voir un médecin en ville
+T29	Sign_Symptom 4278 4285	fatigue
+A16	Experience T29 Other
+T30	Sign_Symptom 4294 4302	douleurs
+A17	Experience T30 Other

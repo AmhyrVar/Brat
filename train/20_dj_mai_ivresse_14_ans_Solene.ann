@@ -1,0 +1,62 @@
+T1	Person 35 50	médecin du SAMU
+A1	Experience T1 Healthcare_professional
+T2	Person 67 82	docteur DETOURY
+A2	Experience T2 Healthcare_professional
+T3	Person 101 128	votre fille de quatorze ans
+A3	Experience T3 Patient
+T4	Sign_Symptom 329 340	état normal
+A4	Negation T4 Négation
+A5	Experience T4 Patient
+T5	Sign_Symptom 410 427	parle bizarrement
+A6	Experience T5 Patient
+T6	Sign_Symptom 439 454	du mal à parler
+A7	Experience T6 Patient
+T7	Sign_Symptom 562 580	marche bizarrement
+A8	Experience T7 Patient
+T8	Sign_Symptom 1392 1396	fume
+A9	Negation T8 Négation
+T9	Sign_Symptom 1765 1783	elle sent l'alcool
+A10	Experience T9 Patient
+T10	Sign_Symptom 2020 2046	elle s'est un peu endormie
+A11	Experience T10 Patient
+T11	Conduite 2159 2183	vous lui secouez le bras
+T12	Sign_Symptom 2210 2216	répond
+A12	Experience T12 Patient
+T13	Sign_Symptom 2222 2230	s'endort
+A13	Experience T13 Patient
+T14	Conduite 2845 2880	vous devriez l'emmener aux urgences
+T15	Conduite 3179 3216	emmener aux urgences heu pédiatriques
+T16	Person 2768 2783	pédopsychologue
+A14	Experience T16 Healthcare_professional
+T17	Geographic_Marker 2693 2714	urgences pédiatriques
+T18	Sign_Symptom 258 265	bizarre
+A15	Experience T18 Patient
+T19	Sign_Symptom 660 683	se plaint d'une douleur
+A16	Hypothesis T19
+A17	Experience T19 Patient
+T20	Sign_Symptom 776 816	troubles là de la parole et de la marche
+A18	Hypothesis T20
+A19	Experience T20 Patient
+T21	Disease 1114 1132	problèmes de santé
+A20	Hypothesis T21
+A21	Experience T21 Patient
+T22	Drug_chemicals 1186 1197	médicaments
+A22	Hypothesis T22
+A23	Experience T22 Patient
+T23	Drug_chemicals 1222 1231	DOLIPRANE
+A24	Experience T23 Patient
+T24	Temporal_Marker 1232 1247	quand ça va pas
+T25	Sign_Symptom 1480 1497	boit pas d'alcool
+A25	Experience T25 Patient
+T26	Sign_Symptom 1719 1732	sent l'alcool
+A26	Hypothesis T26
+A27	Experience T26 Patient
+T27	Sign_Symptom 2491 2512	elle boit de l'alcool
+A28	Experience T27 Patient
+T28	Person 2790 2804	pédopsychiatre
+A29	Experience T28 Healthcare_professional
+T29	Sign_Symptom 2919 2924	folle
+A30	Hypothesis T29
+A31	Experience T29 Patient
+T30	Geographic_Marker 3191 3216	urgences heu pédiatriques
+T31	Geographic_Marker 2872 2880	urgences

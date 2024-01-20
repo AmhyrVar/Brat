@@ -1,0 +1,59 @@
+T1	Person 64 77	docteur SHITZ
+A1	Experience T1 Healthcare_professional
+T2	Person 102 107	frère
+A2	Experience T2 Family
+T3	Sign_Symptom 354 367	il répond pas
+A3	Temporality T3 Before_overlap
+A4	Negation T3 Négation
+A5	Experience T3 Patient
+T4	Sign_Symptom 462 468	grogne
+T5	Sign_Symptom 481 487	grogne
+T6	Sign_Symptom 517 524	respire
+T7	Sign_Symptom 595 605	répond pas
+A6	Hypothesis T7 Vrai
+A7	Negation T7 Négation
+A8	Experience T7 Patient
+T8	Sign_Symptom 619 625	grogne
+T9	Sign_Symptom 696 702	grogne
+T10	Sign_Symptom 725 731	grogne
+T11	Disease 772 790	problèmes de santé
+A9	Hypothesis T11 Vrai
+T12	Sign_Symptom 807 824	réveille pas bien
+A10	Negation T12 Négation
+T13	Person 1021 1028	médecin
+A11	Experience T13 Healthcare_professional
+T14	Sign_Symptom 1413 1420	stressé
+T15	Temporal_Marker 1676 1695	trois quatre heures
+A12	Temporality T15 Before
+T16	Drug_chemicals 1786 1802	bouteille de vin
+T17	Drug_chemicals 1806 1823	deux trois bières
+T18	Drug_chemicals 2015 2021	drogue
+A13	Negation T18 Négation
+T19	Geographic_Marker 2138 2147	l'hôpital
+T20	Temporal_Marker 2224 2229	un an
+A14	Temporality T20 Before
+T21	Temporal_Marker 2243 2248	un an
+T22	Geographic_Marker 2275 2284	l'hôpital
+T23	Geographic_Marker 2328 2339	réanimation
+T24	Sign_Symptom 2404 2416	intoxication
+T25	Sign_Symptom 2471 2478	respire
+T26	Sign_Symptom 2701 2713	idées noires
+T27	Sign_Symptom 2954 2970	idées de suicide
+T28	Person 2980 2985	frère
+A15	Experience T28 Family
+T29	Sign_Symptom 3553 3559	grogne
+T30	Sign_Symptom 3872 3876	vomi
+A16	Hypothesis T30 Vrai
+A17	Negation T30 Négation
+T31	Sign_Symptom 3929 3943	ouvre les yeux
+T32	Sign_Symptom 3961 3979	ouvre pas les yeux
+A18	Negation T32 Négation
+T34	Conduite 4561 4587	on va envoyer les pompiers
+T33	Conduite 4215 4241	on va envoyer les pompiers
+T35	Person 4242 4248	madame
+A19	Experience T35 Other
+T36	Geographic_Marker 4502 4508	maison
+T37	Geographic_Marker 4529 4538	l'hôpital
+T38	Geographic_Marker 4334 4340	maison
+T39	Conduite 4680 4706	on va envoyer les pompiers
+T40	Conduite 4885 4911	on va envoyer les pompiers

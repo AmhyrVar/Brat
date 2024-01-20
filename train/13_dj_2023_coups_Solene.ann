@@ -1,0 +1,77 @@
+T1	Person 77 91	docteur DAMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 129 140	votre femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 151 158	blessée
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Sign_Symptom 218 233	elle est tombée
+A5	Experience T4 Patient
+T5	Sign_Symptom 244 259	elle est tombée
+A6	Experience T5 Patient
+T6	Geographic_Marker 265 275	la cuisine
+T8	Sign_Symptom 375 380	plaie
+A8	Experience T8 Patient
+A9	Temporality T8 Before
+A10	Temporality T5 Before
+A11	Temporality T4 Before
+T9	Sign_Symptom 479 502	plaie au niveau du bras
+A12	Experience T9 Patient
+T10	Sign_Symptom 516 550	plaie au niveau du bras qui saigne
+A13	Hypothesis T10
+A14	Experience T10 Patient
+T11	Sign_Symptom 632 648	ça saigne un peu
+A15	Experience T11 Patient
+T12	Sign_Symptom 612 621	ça saigne
+A16	Experience T12 Patient
+T13	Sign_Symptom 755 771	ça saigne un peu
+A17	Experience T13 Patient
+T14	Sign_Symptom 1028 1073	elle s'est pris le couteau au niveau du coude
+A18	Temporality T14 Before
+A19	Hypothesis T14
+A20	Experience T14 Patient
+T15	Sign_Symptom 1191 1212	niveau de de l'arcade
+A21	Experience T15 Patient
+T16	Sign_Symptom 1122 1128	tombée
+A22	Temporality T16 Before
+A23	Experience T16 Patient
+T17	Sign_Symptom 1241 1255	cognée la tête
+A24	Hypothesis T17
+A25	Experience T17 Patient
+T18	Sign_Symptom 1320 1330	consciente
+A26	Hypothesis T18
+A27	Experience T18 Patient
+A28	Temporality T17 Before
+T19	Sign_Symptom 1169 1178	une plaie
+A29	Experience T19 Patient
+T20	Sign_Symptom 1385 1402	parle normalement
+A30	Hypothesis T20
+A31	Experience T20 Patient
+T21	Sign_Symptom 1421 1427	chiale
+A32	Experience T21 Patient
+T22	Conduite 1617 1651	retirez son son pull pour regarder
+T23	Sign_Symptom 1690 1703	elle veut pas
+A34	Negation T23 Négation
+A35	Experience T23 Patient
+T25	Sign_Symptom 1758 1764	chiale
+A37	Experience T25 Patient
+T26	Conduite 1935 1967	voyez est ce que la plaie saigne
+T29	Sign_Symptom 2602 2616	elle bouge pas
+A39	Experience T29 Patient
+T30	Sign_Symptom 2623 2634	elle chiale
+A40	Experience T30 Patient
+T31	Conduite 2802 2852	on envoie heu des secours qui vont forcer la porte
+T32	Conduite 3995 4031	envoyer heu les les premiers secours
+A41	Hypothesis T32
+T33	Conduite 4207 4226	amener les pompiers
+A42	Temporality T3 Before_overlap
+T7	Sign_Symptom 413 418	plaie
+A7	Experience T7 Patient
+A43	Hypothesis T7
+T24	Geographic_Marker 4250 4257	hôpital
+T27	Sign_Symptom 4356 4366	consciente
+A33	Experience T27 Patient
+T28	Sign_Symptom 4388 4394	pleure
+A36	Experience T28 Patient
+T35	Sign_Symptom 4495 4506	deux plaies
+A38	Experience T35 Patient

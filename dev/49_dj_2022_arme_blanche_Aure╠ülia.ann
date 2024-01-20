@@ -1,0 +1,35 @@
+T1	Person 18 34	docteur RICHARDO
+T2	Person 74 85	votre frère
+A1	Experience T2 Patient
+T3	Sign_Symptom 90 100	est blessé
+A2	Hypothesis T3 Vrai
+T4	Sign_Symptom 231 270	il avait du du du sang sur son pantalon
+T5	Sign_Symptom 324 342	un coup de couteau
+T6	Temporal_Marker 303 323	il s'est encore fait
+R1	Temp_mark Arg1:T6 Arg2:T5	
+T7	Sign_Symptom 398 420	la plaie saigne encore
+A3	Hypothesis T7 Vrai
+T8	Sign_Symptom 352 360	la plaie
+T9	Sign_Symptom 488 500	hyper énervé
+T10	Conduite 544 557	allez le voir
+T11	Conduite 561 578	regardez la plaie
+T12	Conduite 580 593	allez le voir
+T13	Conduite 597 614	regardez la plaie
+T14	Conduite 663 683	vous me la décriviez
+T15	Conduite 1539 1571	on va vous envoyer les pompiers.
+T16	Conduite 1572 1605	vous restez auprès de votre frère
+T17	Person 1594 1605	votre frère
+A4	Experience T17 Patient
+T18	Person 1077 1087	mon cousin
+A5	Experience T18 Family
+T19	Temporal_Marker 1133 1141	toujours
+T20	Sign_Symptom 1202 1210	la plaie
+T21	Sign_Symptom 1294 1302	la plaie
+T22	Sign_Symptom 1314 1335	il est rentré à pieds
+A6	Hypothesis T22 Vrai
+T23	Conduite 1610 1666	vous nous rappelez si il y a quoi que ce soit de nouveau
+T24	Conduite 1745 1773	attendez quand même avec lui
+T25	Conduite 1775 1798	les pompiers vont venir
+T26	Conduite 2106 2152	ne vous inquiétez pas, restez avec votre frère
+T27	Person 2141 2152	votre frère
+A7	Experience T27 Patient

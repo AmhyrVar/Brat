@@ -1,0 +1,84 @@
+T1	Person 39 51	DIANE JOUCLA
+A1	Experience T1 Healthcare_professional
+T2	Person 97 108	votre femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 119 127	vertiges
+A3	Hypothesis T3
+A4	Experience T3 Patient
+A5	Hypothesis T2
+T4	Person 275 279	mari
+A6	Experience T4 Patient
+T5	Person 229 234	femme
+A7	Experience T5 Family
+T6	Person 361 365	mari
+A8	Experience T6 Patient
+T7	Sign_Symptom 445 453	vertiges
+A9	Hypothesis T7
+A10	Experience T7 Patient
+T8	Temporal_Marker 495 503	ce matin
+T9	Sign_Symptom 596 616	beaucoup de vertiges
+A11	Experience T9 Patient
+R1	Temp_mark Arg1:T8 Arg2:T9	
+T10	Person 669 673	mari
+A12	Experience T10 Patient
+T11	Geographic_Marker 726 737	à l'hôpital
+T12	Disease 861 892	infection de de de de l'oreille
+A13	Temporality T12 Before
+A14	Experience T12 Patient
+T13	Disease 955 976	coupé heu sur l'ortei
+A15	Experience T13 Patient
+A16	Temporality T13 Before
+T14	Temporal_Marker 1142 1161	très très longtemps
+T15	Sign_Symptom 1324 1329	vomit
+A17	Experience T15 Patient
+T16	Sign_Symptom 1385 1390	vomit
+T17	Temporal_Marker 1391 1422	combien de fois depuis ce matin
+T18	Temporal_Marker 1433 1450	trois quatre fois
+T19	Sign_Symptom 1500 1508	vertiges
+A18	Experience T19 Patient
+T20	Sign_Symptom 1561 1566	vomir
+A19	Experience T20 Patient
+T21	Sign_Symptom 1624 1637	cogné la tête
+A20	Hypothesis T21
+A21	Experience T21 Patient
+T22	Person 1708 1718	votre mari
+A22	Experience T22 Patient
+T23	Sign_Symptom 1724 1737	mal à la tête
+A23	Experience T23 Patient
+T24	Temporal_Marker 1738 1753	depuis ce matin
+T25	Sign_Symptom 1762 1777	tête qui tourne
+A24	Experience T25 Patient
+T26	Sign_Symptom 1787 1791	vomi
+A25	Experience T26 Patient
+R2	Temp_mark Arg1:T24 Arg2:T25	
+R3	Temp_mark Arg1:T24 Arg2:T26	
+A26	Hypothesis T23
+T27	Sign_Symptom 1817 1830	mal à la tête
+A27	Negation T27 Négation
+A28	Experience T27 Patient
+T28	Sign_Symptom 1855 1868	mal à la tête
+A29	Negation T28 Négation
+A30	Experience T28 Patient
+T29	Sign_Symptom 1884 1892	vertiges
+A31	Experience T29 Patient
+T30	Sign_Symptom 1956 1961	vomir
+A32	Experience T30 Patient
+T31	Conduite 1974 2023	il va falloir qu'il consulte son médecin traitant
+T32	Sign_Symptom 2165 2170	vomit
+A33	Experience T32 Patient
+T33	Sign_Symptom 2220 2225	vomit
+A34	Experience T33 Patient
+T34	Sign_Symptom 2255 2260	vomit
+A35	Experience T34 Patient
+T35	Sign_Symptom 2268 2274	normal
+A36	Hypothesis T35
+A37	Experience T35 Patient
+T36	Sign_Symptom 2308 2338	vertiges quand il bouge la têt
+A38	Experience T36 Patient
+T37	Conduite 2356 2459	il faut qu'il aille voir son médecin traitant donc j'aimerais que vous l'emmeniez chez chez son médecin
+T38	Conduite 2736 2825	qu'il aille consulter son médecin traitant et pour ça j'aimerais que vous vous l'emmeniez
+T39	Conduite 2973 3050	vous prenez un sac pour le vomi et vous l'emmenez chez le médecin traitant là
+T40	Conduite 3229 3285	il faut qu'il aille voir son médecin traitant aujourd'hu
+T41	Temporal_Marker 3328 3339	aujourd'hui
+T42	Temporal_Marker 3350 3361	aujourd'hui
+T43	Conduite 3380 3494	vous l'emmenez avec vous et puis heu si vraiment vous arrivez pas à joindre le médecin traitant vous nous rappelez

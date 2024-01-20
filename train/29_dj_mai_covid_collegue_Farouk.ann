@@ -1,0 +1,70 @@
+T1	Person 17 23	madame
+T2	Person 70 85	le docteur ABAZ
+T3	Person 136 150	votre collègue
+T5	Person 258 261	moi
+T6	Person 331 334	moi
+T7	Person 584 587	moi
+T8	Person 802 805	moi
+T9	Person 874 877	moi
+T10	Person 1339 1342	moi
+T11	Person 1418 1421	moi
+T12	Person 2012 2015	moi
+T13	Person 272 277	qu'il
+T14	Sign_Symptom 278 300	est gêné pour respirer
+T15	Disease 346 351	COVID
+T16	Disease 454 459	COVID
+T17	Disease 831 836	COVID
+T18	Disease 868 873	COVID
+T19	Disease 2000 2005	COVID
+T4	Sign_Symptom 182 209	des problèmes pour respirer
+T20	Sign_Symptom 1616 1643	des problèmes pour respirer
+T21	Sign_Symptom 789 795	tousse
+T22	Sign_Symptom 2415 2432	gêne respiratoire
+T23	Sign_Symptom 1723 1740	gêne respiratoire
+T24	Sign_Symptom 505 522	gêne respiratoire
+T25	Sign_Symptom 564 581	gêne respiratoire
+T26	Sign_Symptom 1787 1806	gênée pour respirer
+T27	Sign_Symptom 1181 1200	gênée pour respirer
+T28	Sign_Symptom 949 968	gênée pour respirer
+T29	Sign_Symptom 2387 2404	d'autre symptômes
+T30	Temporal_Marker 389 412	y a deux ans maintenant
+T31	Temporal_Marker 468 483	c'était en 2019
+T32	Temporal_Marker 691 705	là aujourd'hui
+T33	Temporal_Marker 1003 1022	trois quatre heures
+T34	Temporal_Marker 1027 1046	trois quatre heures
+T35	Temporal_Marker 1142 1161	ça fait une semaine
+T36	Temporal_Marker 1233 1252	ça fait une semaine
+T37	Temporal_Marker 1755 1774	ça fait une semaine
+T38	Temporal_Marker 2797 2803	samedi
+T39	Temporal_Marker 2758 2763	lundi
+T40	Temporal_Marker 2861 2872	entre temps
+T41	Drug_chemicals 2206 2228	un ou deux traitements
+T42	Disease 2294 2307	hypothyroïdie
+T43	Disease 2344 2356	constipation
+T44	Sign_Symptom 2059 2070	traumatisée
+T45	Person 3020 3028	collègue
+T46	Person 1945 1953	collègue
+T47	Person 1967 1975	collègue
+T48	Person 632 640	collègue
+T49	Person 614 622	collègue
+T50	Person 2510 2516	madame
+T51	Person 650 654	elle
+T52	Person 675 679	elle
+T53	Person 784 788	elle
+T54	Person 936 940	elle
+T55	Person 1162 1169	qu'elle
+T56	Person 1394 1398	elle
+T57	Person 1474 1475	l
+T58	Person 2047 2054	qu'elle
+T59	Person 2603 2610	médecin
+T60	Person 2569 2576	médecin
+T61	Person 2657 2664	médecin
+T62	Conduite 1062 1107	la première fois que ça lui arrive au travail
+T63	Conduite 1879 1891	pas consulté
+T64	Conduite 1302 1313	me la passe
+T65	Sign_Symptom 2114 2136	des problèmes de santé
+T66	Temporal_Marker 2137 2151	habituellement
+T67	Conduite 2545 2565	il faudra aller voir
+T68	Geographic_Marker 2927 2939	aux urgences
+T69	Geographic_Marker 2904 2923	une maison médicale
+T70	Conduite 2885 2894	consulter

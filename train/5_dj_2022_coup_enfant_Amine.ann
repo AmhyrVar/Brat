@@ -1,0 +1,23 @@
+T1	Person 51 65	docteur CELINE
+A1	Experience T1 Healthcare_professional
+T2	Person 112 122	votre fils
+A2	Experience T2 Patient
+T3	Sign_Symptom 131 147	a reçu des coups
+A3	Temporality T3 Before
+T4	Person 244 252	mon mari
+A4	Experience T4 Family
+T5	Geographic_Marker 640 662	il est dans sa chambre
+A5	Experience T5 Patient
+T6	Temporal_Marker 1323 1344	je suis dans le salon
+A6	Experience T6 Family
+T7	Person 1392 1400	mon mari
+A7	Experience T7 Family
+T8	Person 1499 1522	il est plus à la maison
+A8	Negation T8 Négation
+A9	Experience T8 Family
+T9	Conduite 1597 1696	on va vous envoyer des hum des secours pour aller à l'hôpital pour que l'enfant puisse être examiné
+T10	Conduite 1729 1747	restez à la maison
+T11	Conduite 1755 1817	si il se passe heu quelque chose de nouveau vous nous rappelez
+T12	Conduite 1859 1900	si le mari revient vous appelez la police
+T13	Conduite 1971 2003	es secours arrivent au plus vite
+T14	Conduite 2193 2215	vous appelez la police

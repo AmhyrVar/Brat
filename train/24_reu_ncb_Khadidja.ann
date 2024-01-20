@@ -1,0 +1,29 @@
+T1	Person 17 38	monsieur DIANE DOUPLE
+A1	Experience T1 Patient
+T2	Sign_Symptom 108 123	symptômes d'AVC
+A2	Hypothesis T2
+T5	Temporal_Marker 636 656	treize heures trente
+T6	Temporal_Marker 666 686	treize heures trente
+T3	Sign_Symptom 364 390	mon bras il il est bizarre
+T9	Disease 831 838	diabète
+T10	Disease 854 861	tension
+T14	Sign_Symptom 1347 1365	la main bouge plus
+T13	Sign_Symptom 1291 1316	bras gauche il bouge plus
+T15	Sign_Symptom 1460 1476	vous sentez bien
+A3	Hypothesis T15
+T16	Drug_chemicals 1529 1540	paracétamol
+T17	Sign_Symptom 1503 1515	je sens bien
+T18	Conduite 2253 2279	un médecin qui vous évalue
+T19	Sign_Symptom 153 156	AVC
+R1	Temp_mark Arg1:T5 Arg2:T2	
+T4	Conduite 2337 2363	je vous envoie les secours
+T7	Geographic_Marker 2381 2390	chez vous
+T8	Conduite 2404 2435	il faut que vous vous allongiez
+T20	Conduite 2443 2484	vous gardiez votre téléphone près de vous
+T11	Conduite 1397 1459	prenez la la main droite et que vous touchez le la main gauche
+T12	Person 1617 1623	madame
+A4	Experience T12 Healthcare_professional
+T21	Conduite 1639 1673	j'aimerais que vous vous allongiez
+T22	Conduite 1681 1737	je vais envoyer les secours pour aller jusqu'à chez vous
+R2	Temp_mark Arg1:T6 Arg2:T2	
+T23	Conduite 1953 1988	il faut que vous alliez à l'hôpital

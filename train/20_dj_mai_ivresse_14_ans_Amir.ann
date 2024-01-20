@@ -1,0 +1,93 @@
+T2	Person 107 128	fille de quatorze ans
+T3	Person 212 223	votre fille
+T4	Sign_Symptom 251 265	un peu bizarre
+T5	Sign_Symptom 316 340	pas dans son état normal
+T6	Sign_Symptom 410 427	parle bizarrement
+T7	Sign_Symptom 432 454	elle a du mal à parler
+T8	Sign_Symptom 562 580	marche bizarrement
+T12	Drug_chemicals 1222 1231	DOLIPRANE
+T13	Drug_chemicals 1271 1280	DOLIPRANE
+T14	Geographic_Marker 2693 2714	urgences pédiatriques
+T15	Person 2768 2783	pédopsychologue
+T16	Person 2790 2804	pédopsychiatre
+T17	Geographic_Marker 2872 2880	urgences
+T18	Disease 2919 2924	folle
+T19	Geographic_Marker 3191 3216	urgences heu pédiatriques
+T20	Person 2590 2601	votre fille
+A1	Experience T3 Patient
+T21	Person 67 82	docteur DETOURY
+A2	Experience T21 Healthcare_professional
+A3	Experience T2 Patient
+A4	Temporality T4 Overlap(default)
+A5	Experience T4 Patient
+A6	Temporality T5 Overlap(default)
+A7	Experience T5 Patient
+T1	Sign_Symptom 350 382	elle se plaint de quelque chose?
+A8	Temporality T1 Overlap(default)
+A9	Hypothesis T1
+A10	Experience T1 Patient
+A11	Temporality T6 Before_overlap
+A12	Experience T6 Patient
+A13	Temporality T7 Before_overlap
+A14	Experience T7 Patient
+A15	Temporality T8 Overlap(default)
+A16	Experience T8 Patient
+T9	Sign_Symptom 644 709	est ce que elle se plaint d'une douleur quelque part votre fille?
+A17	Temporality T9 Overlap(default)
+A18	Hypothesis T9
+A19	Experience T9 Patient
+T10	Sign_Symptom 776 816	troubles là de la parole et de la marche
+A20	Temporality T10 Overlap(default)
+A21	Experience T10 Patient
+T22	Disease 1093 1145	est ce qu'elle a des problèmes de santé votre fille?
+A22	Temporality T22 Overlap(default)
+A23	Hypothesis T22
+A24	Experience T22 Patient
+T11	Drug_chemicals 1168 1198	elle prend pas de médicaments?
+A25	Temporality T11 Overlap(default)
+A26	Hypothesis T11
+A27	Experience T11 Patient
+A28	Temporality T12 Overlap(default)
+A29	Experience T12 Patient
+A30	Temporality T13 Overlap(default)
+A31	Experience T13 Patient
+T23	Sign_Symptom 1296 1331	t est ce que elle fume votre fille?
+A32	Temporality T23 Overlap(default)
+A33	Hypothesis T23
+A34	Experience T23 Patient
+T24	Person 1359 1397	est ce que votre fime fille elle fume?
+A35	Temporality T24 Overlap(default)
+A36	Hypothesis T24
+A37	Experience T24 Patient
+T25	Drug_chemicals 1423 1446	elle boit pas d'alcool?
+A38	Temporality T25 Overlap(default)
+A39	Hypothesis T25
+A40	Experience T25 Patient
+T26	Sign_Symptom 1699 1733	votre fille là elle sent l'alcool?
+A41	Temporality T26 Overlap(default)
+A42	Hypothesis T26
+A43	Experience T26 Patient
+T27	Sign_Symptom 1765 1783	elle sent l'alcool
+A44	Temporality T27 Overlap(default)
+A45	Experience T27 Patient
+T28	Conduite 1835 1907	vous restez à la maison avec elle ou pas aujourd'hui vous la surveillez?
+A46	Temporality T28 Overlap(default)
+A47	Hypothesis T28
+A48	Experience T28 Patient
+T29	Conduite 2062 2119	quand vous la stimulez elle elle se réveille elle répond?
+A49	Temporality T29 Overlap(default)
+A50	Hypothesis T29
+A51	Experience T29 Patient
+T30	Conduite 2159 2183	vous lui secouez le bras
+A52	Temporality T30 Overlap(default)
+A53	Experience T30 Patient
+T31	Sign_Symptom 2360 2411	c'est la première fois qu'elle fait ça votre fille?
+A54	Temporality T31 Before
+A55	Hypothesis T31
+A56	Experience T31 Patient
+T32	Sign_Symptom 2492 2550	lle boit de l'alcool à chaque fois que vous vous disputez?
+A57	Temporality T32 Before
+A58	Hypothesis T32
+A59	Experience T32 Patient
+A60	Temporality T20 Overlap(default)
+A61	Experience T20 Patient

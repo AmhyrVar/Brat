@@ -1,0 +1,105 @@
+T1	Person 20 26	madame
+T2	Person 64 77	docteur SHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 102 107	frère
+A2	Experience T3 Patient
+T4	Sign_Symptom 142 153	répond plus
+A3	Hypothesis T4 Vrai
+A4	Experience T4 Patient
+T5	Sign_Symptom 236 247	répond plus
+A5	Experience T5 Patient
+A6	Negation T4 Négation
+A7	Negation T5 Négation
+T6	Sign_Symptom 357 367	répond pas
+A8	Negation T6 Négation
+A9	Experience T6 Patient
+T7	Sign_Symptom 426 444	répond pas du tout
+A10	Hypothesis T7 Vrai
+A11	Experience T7 Patient
+T8	Sign_Symptom 462 468	grogne
+A12	Experience T8 Patient
+T9	Sign_Symptom 481 487	grogne
+A13	Experience T9 Patient
+T10	Sign_Symptom 492 503	respire pas
+A14	Hypothesis T10 Vrai
+A15	Negation T10 Négation
+A16	Experience T10 Patient
+T11	Sign_Symptom 517 524	respire
+A17	Experience T11 Patient
+T12	Conduite 565 586	essayez de le secouer
+T13	Sign_Symptom 595 605	répond pas
+A18	Negation T13 Négation
+A19	Experience T13 Patient
+T14	Sign_Symptom 619 625	grogne
+A20	Experience T14 Patient
+T15	Conduite 651 666	vous le secouez
+T16	Sign_Symptom 676 682	répond
+A21	Experience T16 Patient
+T17	Sign_Symptom 716 720	râle
+A22	Experience T17 Patient
+T18	Sign_Symptom 725 731	grogne
+A23	Experience T18 Patient
+T19	Drug_chemicals 1786 1802	bouteille de vin
+A24	Experience T19 Patient
+T20	Drug_chemicals 1806 1823	deux trois bières
+A25	Experience T20 Patient
+T21	Drug_chemicals 2015 2021	drogue
+A26	Negation T21 Négation
+T22	Sign_Symptom 2471 2478	respire
+A27	Experience T22 Patient
+T23	Sign_Symptom 3450 3456	réagit
+A28	Experience T23 Patient
+T24	Sign_Symptom 3461 3476	se réveille pas
+A29	Negation T24 Négation
+A30	Experience T24 Patient
+T25	Sign_Symptom 3481 3496	se réveille pas
+A31	Negation T25 Négation
+A32	Experience T25 Patient
+T26	Sign_Symptom 3553 3559	grogne
+A33	Experience T26 Patient
+T27	Sign_Symptom 3608 3617	parle pas
+A34	Experience T27 Patient
+T28	Sign_Symptom 3660 3665	bouge
+A35	Experience T28 Patient
+T29	Sign_Symptom 3689 3697	retourne
+A36	Experience T29 Patient
+T30	Sign_Symptom 3720 3725	bouge
+A37	Experience T30 Patient
+T31	Sign_Symptom 3763 3777	bouger le bras
+A38	Experience T31 Patient
+T32	Sign_Symptom 3805 3820	se réveille pas
+A39	Negation T32 Négation
+A40	Experience T32 Patient
+T33	Sign_Symptom 3846 3861	se réveille pas
+A41	Experience T33 Patient
+T34	Sign_Symptom 3929 3943	ouvre les yeux
+A42	Hypothesis T34 Vrai
+A43	Experience T34 Patient
+T35	Sign_Symptom 3961 3992	ouvre pas les yeux spontanément
+A44	Experience T35 Patient
+T36	Sign_Symptom 4058 4074	bouge les jambes
+A45	Hypothesis T36 Vrai
+A46	Experience T36 Patient
+T37	Conduite 4221 4241	envoyer les pompiers
+T38	Person 4242 4248	madame
+A47	Experience T38 Family
+T39	Person 3161 3167	madame
+A48	Experience T39 Family
+T40	Person 4278 4286	pompiers
+A49	Experience T40 Healthcare_professional
+T41	Person 4381 4387	madame
+A50	Experience T41 Family
+T42	Person 4407 4415	pompiers
+A51	Experience T42 Healthcare_professional
+T43	Conduite 4395 4415	envoyer les pompiers
+T44	Conduite 4561 4587	on va envoyer les pompiers
+T45	Person 4653 4661	pompiers
+A52	Experience T45 Healthcare_professional
+T46	Conduite 4680 4706	on va envoyer les pompiers
+T47	Conduite 4759 4777	vous nous rappelez
+T48	Sign_Symptom 4828 4838	répond pas
+A53	Experience T48 Patient
+T49	Person 4866 4872	madame
+A54	Experience T49 Family
+T50	Conduite 4885 4911	on va envoyer les pompiers
+T51	Conduite 4934 4952	restez près de lui

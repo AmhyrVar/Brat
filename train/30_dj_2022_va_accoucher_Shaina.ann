@@ -1,0 +1,49 @@
+T1	Person 17 23	madame
+T2	Person 51 64	docteur SHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 97 102	soeur
+A2	Experience T3 Patient
+T4	Sign_Symptom 107 127	en train d'accoucher
+T5	Person 383 388	soeur
+A3	Experience T5 Patient
+T6	Temporal_Marker 446 459	avant un mois
+A4	Temporality T6 After
+T7	Conduite 593 613	envoyer les pompiers
+T8	Person 637 649	les pompiers
+A5	Experience T8 Healthcare_professional
+T10	Person 665 677	les pompiers
+A7	Experience T10 Healthcare_professional
+T11	Sign_Symptom 757 771	perte des eaux
+T12	Sign_Symptom 722 732	elle a mal
+T13	Conduite 960 979	envoie les pompiers
+T14	Conduite 1033 1051	mettez là à l'aise
+T15	Conduite 1106 1125	mettez là au assise
+T16	Conduite 1141 1165	préparez du linge propre
+T17	Conduite 981 997	restez avec elle
+T18	Conduite 1007 1031	préparez du linge propre
+T19	Person 1169 1181	les pompiers
+A8	Experience T19 Healthcare_professional
+T20	Person 1427 1433	madame
+T21	Person 1435 1447	les pompiers
+A9	Experience T21 Healthcare_professional
+T22	Conduite 1466 1490	préparez le linge propre
+T23	Person 1507 1519	les pompiers
+A10	Experience T23 Healthcare_professional
+T24	Conduite 1590 1606	restez avec elle
+T25	Sign_Symptom 1681 1692	elle saigne
+T26	Sign_Symptom 1793 1812	liquide transparent
+T27	Conduite 1828 1844	restez avec elle
+T28	Conduite 1846 1862	restez avec elle
+T29	Person 1936 1942	madame
+A11	Experience T1 Family
+A12	Temporality T4 Overlap(default)
+T30	Sign_Symptom 432 445	pas accoucher
+A13	Temporality T30 Overlap(default)
+A14	Negation T30 Négation
+R1	Temp_mark Arg1:T6 Arg2:T30	
+A6	Temporality T12 Overlap(default)
+A15	Temporality T11 Overlap(default)
+A16	Experience T20 Other
+A17	Temporality T25 Overlap(default)
+A18	Hypothesis T25 Vrai
+A19	Experience T29 Other

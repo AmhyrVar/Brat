@@ -1,0 +1,79 @@
+T1	Person 73 89	docteur LAKHLIFI
+T2	Person 113 123	votre mère
+T3	Sign_Symptom 128 146	s'est fait frapper
+A1	Hypothesis T3 Vrai
+T4	Sign_Symptom 400 410	consciente
+A2	Hypothesis T4 Vrai
+T5	Sign_Symptom 434 449	elle vous parle
+A3	Hypothesis T5 Vrai
+T6	Sign_Symptom 480 490	des plaies
+A4	Hypothesis T6 Vrai
+T7	Sign_Symptom 505 516	y a du sang
+T8	Conduite 626 639	passez la moi
+T9	Conduite 706 719	passez la moi
+T10	Conduite 763 776	passez la moi
+T11	Conduite 888 901	passez la moi
+T12	Temporal_Marker 1164 1190	c'est pas la première fois
+T13	Sign_Symptom 1587 1599	il l'a tapée
+A5	Experience T13 Family
+T14	Temporal_Marker 1615 1641	c'est pas la première fois
+R1	Temp_mark Arg1:T12 Arg2:T13	
+R2	Temp_mark Arg1:T14 Arg2:T13	
+T15	Disease 1709 1732	il a plus toute sa tête
+A6	Experience T15 Family
+T16	Disease 1854 1872	il a perdu sa tête
+A7	Experience T16 Family
+T17	Sign_Symptom 1967 1979	il est calme
+A8	Hypothesis T17 Vrai
+A9	Experience T17 Family
+T18	Conduite 2099 2122	elle aille aux urgences
+A10	Experience T18 Patient
+T19	Disease 2476 2503	il a des troubles cognitifs
+A11	Hypothesis T19 Vrai
+A12	Experience T19 Family
+T20	Disease 2512 2536	maladie heu neurologique
+A13	Hypothesis T20 Vrai
+A14	Experience T20 Family
+T21	Sign_Symptom 2625 2664	violent envers vous et ou ou votre mère
+A15	Hypothesis T21 Vrai
+A16	Experience T21 Family
+T22	Temporal_Marker 3162 3179	plutôt fréquentes
+A17	Hypothesis T22 Vrai
+T23	Sign_Symptom 3140 3150	ses crises
+A18	Experience T23 Family
+R3	Temp_mark Arg1:T22 Arg2:T23	
+T24	Temporal_Marker 3311 3322	déjà arrivé
+T25	Sign_Symptom 3362 3391	il a des plaies sur le visage
+A19	Experience T25 Family
+T26	Sign_Symptom 3654 3674	autonome à la maison
+A20	Hypothesis T26 Vrai
+A21	Experience T26 Family
+T27	Conduite 4111 4147	vous ameniez votre mère aux urgences
+T28	Person 4598 4608	votre mère
+T29	Sign_Symptom 4609 4627	elle a été frappée
+A22	Experience T29 Patient
+T30	Sign_Symptom 4628 4644	elle a une plaie
+A23	Experience T30 Patient
+T31	Conduite 4649 4704	elle nécessite d'être vue heu rapidement par un médecin
+T32	Conduite 4825 4859	si il recommence vous nous appelez
+T33	Conduite 4883 4917	si il recommence vous nous appelez
+T34	Person 5070 5078	ma maman
+T35	Conduite 5093 5125	vous allez l'amener aux urgences
+T36	Sign_Symptom 5175 5200	je suis vraiment inquiète
+A24	Experience T36 Family
+T37	Sign_Symptom 5232 5248	ça saigne un peu
+A25	Experience T37 Patient
+T38	Person 5579 5589	votre père
+T39	Disease 5606 5628	troubles heu cognitifs
+T40	Conduite 5818 5848	emmener votre mère à l'hôpital
+T41	Sign_Symptom 6046 6069	il peut pas rester seul
+A26	Hypothesis T41 Vrai
+A27	Experience T41 Family
+T42	Geographic_Marker 6070 6081	au domicile
+T43	Conduite 6173 6204	emmenez votre mère aux urgences
+T44	Temporal_Marker 6361 6371	de nouveau
+T45	Sign_Symptom 6372 6391	violent au domicile
+A28	Experience T45 Family
+R4	Temp_mark Arg1:T44 Arg2:T45	
+T46	Conduite 6415 6482	faudrait organiser un un un rendez vous avec votre médecin traitant
+T47	Conduite 4227 4260	ce soit évalué avec votre médecin

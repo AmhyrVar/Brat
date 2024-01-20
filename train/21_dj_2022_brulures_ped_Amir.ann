@@ -1,0 +1,65 @@
+T1	Person 87 109	votre fils de huit ans
+T2	Sign_Symptom 120 131	s'est brûlé
+T3	Sign_Symptom 250 261	s'est brûlé
+T4	Geographic_Marker 607 619	les urgences
+A1	Experience T1 Patient
+T5	Geographic_Marker 634 646	les urgences
+T6	Geographic_Marker 871 880	urgences,
+T7	Sign_Symptom 899 904	brûlé
+T8	Sign_Symptom 949 954	brûlé
+T9	Sign_Symptom 1052 1059	brûlure
+T10	Sign_Symptom 1288 1293	brûlé
+T11	Person 1549 1559	mon enfant
+A2	Experience T11 Patient
+T12	Geographic_Marker 1788 1809	urgences pédiatriques
+T13	Conduite 2044 2092	mettez le dans la voiture amenez le aux urgences
+T14	Sign_Symptom 2280 2285	brûlé
+T15	Sign_Symptom 2325 2332	brûlure
+T16	Person 2299 2305	madame
+A3	Experience T16 Family
+T17	Person 2185 2191	madame
+A4	Experience T17 Family
+T18	Conduite 1448 1475	emmenez le aux aux urgences
+T19	Person 2568 2578	un médecin
+A5	Experience T19 Healthcare_professional
+T20	Person 2490 2496	madame
+A6	Experience T20 Family
+A7	Temporality T1 Overlap(default)
+A8	Temporality T2 Overlap(default)
+A9	Hypothesis T2
+A10	Experience T2 Patient
+A11	Temporality T3 Overlap(default)
+A12	Experience T3 Patient
+A13	Temporality T7 Overlap(default)
+A14	Experience T7 Patient
+A15	Temporality T8 Overlap(default)
+A16	Experience T8 Patient
+A17	Temporality T9 Overlap(default)
+A18	Experience T9 Patient
+A19	Temporality T10 Overlap(default)
+A20	Experience T10 Patient
+A21	Temporality T18 Overlap(default)
+A22	Experience T18 Patient
+A23	Temporality T11 Overlap(default)
+A24	Temporality T13 Overlap(default)
+A25	Experience T13 Patient
+A26	Temporality T14 Overlap(default)
+A27	Experience T14 Patient
+A28	Temporality T15 Overlap(default)
+A29	Experience T15 Patient
+T21	Conduite 2588 2677	le mieux c'est que vous le mettiez dans votre voiture et que vous l'emmeniez aux urgences
+A30	Temporality T21 Overlap(default)
+A31	Experience T21 Patient
+T22	Conduite 2929 3010	est ce que vous est ce que vous l'avez mis sous l'eau froide le bras de l'enfant?
+A32	Temporality T22 Before
+A33	Hypothesis T22
+A34	Experience T22 Patient
+T23	Conduite 3045 3061	commencez par ça
+A35	Temporality T23 Overlap(default)
+A36	Experience T23 Patient
+T24	Conduite 3351 3436	mettez l'enfant heu mettez le bras de l'enfant sous de l'eau ch- sous de l'eau froide
+A37	Temporality T24 Overlap(default)
+A38	Experience T24 Patient
+T25	Conduite 3450 3518	puis vous le mettez dans votre voiture et vous l'amenez aux urgences
+A39	Temporality T25 Overlap(default)
+A40	Experience T25 Patient

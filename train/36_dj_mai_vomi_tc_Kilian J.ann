@@ -1,0 +1,72 @@
+T1	Person 17 29	docteur SAEB
+A1	Experience T1 Patient
+T2	Person 83 101	enfant de huit ans
+A2	Hypothesis T2 Vrai
+A3	Experience T2 Patient
+T3	Sign_Symptom 152 157	vomit
+A4	Hypothesis T3 Vrai
+A5	Experience T3 Patient
+T4	Sign_Symptom 197 202	vomit
+A6	Hypothesis T4 Vrai
+A7	Experience T4 Patient
+T5	Temporal_Marker 227 269	tout à l'heure qu'il est rentré de l'école
+A8	Temporality T5 Before_overlap
+R1	Temp_mark Arg1:T5 Arg2:T4	
+T6	Temporal_Marker 300 314	tout à l'heure
+A9	Temporality T6 Before_overlap
+A10	Experience T6 Patient
+A11	Experience T5 Patient
+R2	Temp_mark Arg1:T6 Arg2:T4	
+T7	Temporal_Marker 275 283	ce matin
+A12	Negation T7 Négation
+A13	Experience T7 Patient
+R3	Temp_mark Arg1:T7 Arg2:T4	
+T8	Sign_Symptom 335 344	diarrhées
+A14	Hypothesis T8 Vrai
+A15	Experience T8 Patient
+T9	Sign_Symptom 349 364	selles liquides
+A16	Hypothesis T9 Vrai
+A17	Experience T9 Patient
+T10	Person 479 485	fièvre
+A18	Hypothesis T10 Vrai
+A19	Experience T10 Patient
+T11	Sign_Symptom 424 440	mal quelque part
+A20	Hypothesis T11 Vrai
+A21	Experience T11 Patient
+T12	Sign_Symptom 720 725	cogné
+A22	Experience T12 Patient
+T13	Temporal_Marker 656 670	tout à l'heure
+A23	Temporality T13 Before
+R4	Temp_mark Arg1:T13 Arg2:T12	
+T14	Person 787 799	l'infirmière
+A24	Experience T14 Healthcare_professional
+T15	Person 839 855	médecin traitant
+A25	Experience T15 Healthcare_professional
+T16	Person 609 625	médecin traitant
+A26	Hypothesis T16 Vrai
+A27	Experience T16 Healthcare_professional
+T17	Sign_Symptom 874 887	cogné la tête
+A28	Hypothesis T17 Vrai
+A29	Experience T17 Patient
+T18	Sign_Symptom 946 959	mal à la tête
+A30	Hypothesis T18 Vrai
+A31	Experience T18 Patient
+T19	Sign_Symptom 1004 1021	pas mal à la tête
+A32	Negation T19 Négation
+A33	Experience T19 Patient
+T20	Conduite 1038 1077	il va falloir le surveiller à la maison
+T21	Conduite 1200 1221	il faut le surveiller
+T22	Conduite 1222 1255	il faut le surveiller à la maison
+T23	Conduite 1315 1364	vous le surveillez là heu les heu toute la soirée
+T24	Conduite 1373 1490	vous le réveillez heu heu régulièrement dans la nuit heu toutes les heu toutes les tr- toutes les trois quatre heures
+T25	Sign_Symptom 1584 1596	vomissements
+A34	Experience T25 Patient
+T26	Conduite 1628 1662	il faut qu'il boive beaucoup d'eau
+T27	Sign_Symptom 1727 1752	il boit de l'eau il vomit
+A35	Experience T27 Patient
+T28	Conduite 1769 1838	si les vomissements persistent vous consultez ou vous appelez le SAMU
+T29	Conduite 1894 1922	une surveillance à la maison
+T30	Conduite 1994 2047	vous rappelez au SAMU si il y a le moindre changement
+T31	Conduite 2069 2108	vous faites la surveillance à la maison
+T32	Person 2168 2175	docteur
+A36	Experience T32 Healthcare_professional

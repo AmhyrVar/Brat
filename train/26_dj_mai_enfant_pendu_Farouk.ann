@@ -1,0 +1,79 @@
+T1	Geographic_Marker 107 113	maison
+T2	Person 86 88	je
+T3	Person 94 96	je
+T4	Person 117 125	mon fils
+T5	Conduite 129 140	s'est pendu
+T6	Person 168 175	médecin
+T7	Temporal_Marker 176 189	tout de suite
+T8	Temporal_Marker 190 203	tout de suite
+T9	Person 228 235	médecin
+T10	Conduite 215 224	m'envoyer
+T11	Person 253 260	secours
+T12	Conduite 261 268	partent
+T13	Temporal_Marker 269 282	tout de suite
+T14	Person 286 294	monsieur
+T15	Temporal_Marker 307 320	tout de suite
+T16	Conduite 299 306	partent
+T17	Geographic_Marker 408 414	maison
+T18	Person 368 372	vous
+T19	Temporal_Marker 491 512	il y a quinze minutes
+T20	Geographic_Marker 472 478	maison
+T21	Conduite 429 440	suis arrivé
+T22	Conduite 378 384	arrivé
+T23	Person 519 521	le
+T25	Sign_Symptom 566 575	tout bleu
+T26	Temporal_Marker 560 565	était
+T24	Conduite 535 540	pendu
+T27	Geographic_Marker 541 552	au toboggan
+T28	Person 597 604	médecin
+T29	Temporal_Marker 605 618	tout de suite
+T30	Person 655 663	médecins
+T31	Conduite 668 676	arrivent
+T32	Temporal_Marker 711 724	tout de suite
+T33	Conduite 702 710	arrivent
+T34	Person 737 749	votre enfant
+T35	Geographic_Marker 777 791	dans le jardin
+T36	Geographic_Marker 767 769	là
+T37	Geographic_Marker 840 843	sol
+T38	Geographic_Marker 879 888	à côté de
+T39	Person 889 892	moi
+T40	Person 901 903	il
+T42	Temporal_Marker 904 909	était
+T41	Sign_Symptom 910 934	devenu tout bleu et tout
+T43	Person 969 971	il
+T44	Sign_Symptom 972 989	respire un un peu
+T45	Sign_Symptom 990 1003	difficilement
+T46	Temporal_Marker 1004 1006	là
+T47	Person 1018 1020	il
+T48	Sign_Symptom 1021 1028	respire
+T49	Conduite 1044 1057	s'est détaché
+T50	Conduite 1069 1081	s'est bloqué
+T51	Sign_Symptom 1141 1150	conscient
+T52	Temporal_Marker 1131 1133	là
+T53	Sign_Symptom 1121 1130	conscient
+T54	Sign_Symptom 1176 1185	conscient
+T55	Person 1169 1171	il
+T56	Person 1114 1116	il
+T57	Person 1186 1188	il
+T58	Person 1197 1199	il
+T59	Temporal_Marker 1214 1216	là
+T60	Sign_Symptom 1200 1213	est conscient
+T61	Sign_Symptom 1189 1196	respire
+T62	Person 1240 1244	vous
+T63	Person 1235 1239	vous
+T64	Conduite 1245 1256	vous mettez
+T65	Geographic_Marker 1257 1266	à côté de
+T66	Person 1267 1270	lui
+T67	Person 1271 1275	vous
+T68	Conduite 1276 1286	l'allongez
+T69	Person 1301 1309	médecins
+T70	Person 1317 1325	pompiers
+T71	Conduite 1326 1334	arrivent
+T72	Temporal_Marker 1335 1348	tout de suite
+T73	Person 1400 1407	médecin
+T74	Person 1421 1428	médecin
+T75	Person 1441 1449	pompiers
+T76	Person 1477 1484	médecin
+T77	Person 1494 1502	pompiers
+T78	Conduite 1464 1473	il y aura
+T79	Conduite 1387 1396	il y aura

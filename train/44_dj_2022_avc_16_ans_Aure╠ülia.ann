@@ -1,0 +1,73 @@
+T1	Person 17 33	docteur RICHARDO
+T2	Person 74 85	votre fille
+T3	Sign_Symptom 113 132	un problème au bras
+A1	Hypothesis T3 Vrai
+T4	Sign_Symptom 193 210	paralysée du bras
+A2	Hypothesis T4 Vrai
+T5	Sign_Symptom 276 299	elle bouge pas son bras
+T6	Temporal_Marker 347 364	petite demi heure
+R1	Temp_mark Arg1:T6 Arg2:T5	
+T7	Sign_Symptom 411 419	douleurs
+A3	Hypothesis T7 Vrai
+T8	Sign_Symptom 525 547	elle a pas mal au bras
+A4	Negation T8 Négation
+T9	Sign_Symptom 567 589	elle a mal dans le cou
+A5	Hypothesis T9 Vrai
+T10	Sign_Symptom 654 684	elle heu a pas mal dans le cou
+A6	Negation T10 Négation
+T11	Sign_Symptom 736 752	elle pas mal non
+A7	Negation T11 Négation
+T12	Sign_Symptom 706 725	elle a mal nul part
+A8	Hypothesis T12 Vrai
+A9	Negation T12 Négation
+T13	Sign_Symptom 759 786	elle bouge heu pas son bras
+T14	Sign_Symptom 968 991	elle bouge pas son bras
+T15	Temporal_Marker 1313 1335	ça fait une demi heure
+T16	Sign_Symptom 1473 1496	elle marche normalement
+A10	Hypothesis T16 Vrai
+T17	Conduite 1575 1594	demandez de marcher
+T18	Sign_Symptom 1606 1629	elle marche normalement
+A11	Hypothesis T18 Vrai
+T19	Sign_Symptom 1687 1708	elle veut pas marcher
+A12	Negation T19 Négation
+T20	Conduite 1746 1769	demandez lui de marcher
+T21	Sign_Symptom 1813 1828	bah elle marche
+T22	Sign_Symptom 1885 1909	elle a pas mal à la tête
+A13	Hypothesis T22 Vrai
+A14	Negation T22 Négation
+T23	Sign_Symptom 1934 1959	pas plaint de mal de tête
+A15	Negation T23 Négation
+T24	Sign_Symptom 2143 2188	elle essaye de bouger le bras ça lui fait mal
+A16	Hypothesis T24 Vrai
+T25	Sign_Symptom 2225 2239	elle a pas mal
+A17	Negation T25 Négation
+T26	Sign_Symptom 2253 2276	elle bouge pas son bras
+A18	Negation T26 Négation
+T27	Sign_Symptom 2278 2304	elle ne bouge pas son bras
+A19	Negation T27 Négation
+T28	Conduite 2404 2447	il faudrait qu'elle soit vue par un médecin
+T29	Conduite 2466 2526	on va faire passer un médecin chez chez vous pour l'examiner
+T30	Sign_Symptom 2581 2604	elle bouge pas son bras
+T31	Conduite 2683 2739	on va faire passer un médecin à domicile pour l'examiner
+T32	Conduite 2853 2897	il faut qu'elle soit examinée par un médecin
+T33	Conduite 2931 2959	vous attendez ave- avec elle
+T34	Conduite 2963 3015	vous nous rappelez que si y a des nouveaux symptômes
+T35	Disease 3164 3167	AVC
+A20	Hypothesis T35 Vrai
+T36	Sign_Symptom 3224 3241	paralysie du bras
+T37	Temporal_Marker 3636 3660	entre six et huit heures
+T38	Conduite 3783 3847	le moindre symptôme qui apparait entre temps, vous nous rappelez
+T39	Conduite 3863 3887	vous attendez le médecin
+T40	Sign_Symptom 3915 3945	elle est paralysée de son bras
+T41	Conduite 3966 3990	vous attendez le médecin
+T42	Conduite 4017 4089	vous nous rappelez si il y a le moindre symptôme qui apparait de nouveau
+T43	Conduite 4189 4230	vous attendez le médecin avec votre fille
+T44	Conduite 4277 4337	vous nous rappelez seulement si il y a de nouveaux symptômes
+T45	Conduite 4650 4678	vous restez avec votre fille
+T46	Disease 4501 4504	AVC
+A21	Hypothesis T46 Vrai
+T47	Conduite 4682 4733	vous nous rappelez si il y a des nouveaux symptômes
+T48	Disease 4748 4773	elle fait un AVC ma fille
+A22	Hypothesis T48 Vrai
+T49	Conduite 4982 5012	vous attendez avec votre fille
+T50	Conduite 5014 5069	ous nous rappelez si il y a le moindre nouveau symptôme

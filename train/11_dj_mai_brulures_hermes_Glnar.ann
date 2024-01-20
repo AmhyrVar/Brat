@@ -1,0 +1,153 @@
+T1	Person 33 40	docteur
+A1	Experience T1 Healthcare_professional
+T2	Person 41 45	SAEB
+A2	Experience T2 Healthcare_professional
+#1	AnnotatorNotes T2	le nom du medecin
+T3	Person 96 101	frère
+A3	Experience T3 Patient
+T4	Disease 122 146	'est brûlé c'est bien ça
+A4	Temporality T4 Overlap(default)
+A5	Hypothesis T4
+T5	Person 232 242	secouriste
+A6	Temporality T5 Overlap(default)
+A7	Experience T5 Family
+T6	Person 277 282	frère
+A8	Temporality T6 Overlap(default)
+A9	Experience T6 Patient
+T7	Disease 289 294	brûlé
+T8	Disease 298 326	a tout le bras qui est brûlé
+A10	Temporality T8 Before_overlap
+A11	Experience T8 Patient
+T9	Person 414 421	médecin
+A12	Temporality T9 After
+A13	Experience T9 Healthcare_professional
+T10	Geographic_Marker 457 475	un centre de brûlé
+A14	Temporality T10 After
+T11	Geographic_Marker 396 405	ambulance
+A15	Temporality T11 After
+T12	Disease 510 517	t brûlé
+A16	Temporality T12 Before_overlap
+T13	Geographic_Marker 251 266	ateliers HERMES
+A17	Temporality T13 Overlap(default)
+A18	Experience T13 Family
+T14	Disease 632 637	brûlé
+A19	Temporality T14 Before_overlap
+A20	Experience T14 Patient
+T15	Conduite 745 755	soit trait
+A21	Experience T15 Patient
+T16	Conduite 792 822	il faut un moyen tout de suite
+A22	Experience T16 Healthcare_professional
+T17	Person 878 883	frère
+A23	Temporality T17 Overlap(default)
+A24	Experience T17 Patient
+T18	Geographic_Marker 915 968	alliez aux aux urgences les plus proches de chez vous
+A25	Temporality T18 After
+A26	Hypothesis T18
+T19	Sign_Symptom 1138 1146	brûlures
+A27	Temporality T19 Overlap(default)
+A28	Hypothesis T19
+A29	Experience T19 Patient
+T20	Sign_Symptom 1239 1262	le visage est pas brûlé
+A30	Temporality T20 Before_overlap
+A31	Negation T20 Négation
+A32	Experience T20 Patient
+T21	Sign_Symptom 1272 1293	out le bras est brûlé
+A33	Temporality T21 Before_overlap
+A34	Experience T21 Patient
+T22	Person 1303 1344	il a des problèmes de santé particuliers?
+A35	Temporality T22 Before_overlap
+A36	Hypothesis T22
+A37	Experience T22 Patient
+T23	Disease 1368 1382	drépanocytaire
+A38	Temporality T23 Before
+A39	Experience T23 Patient
+T24	Conduite 1471 1479	refroidi
+A40	Experience T24 Patient
+A41	Temporality T24 Before
+T25	Sign_Symptom 1487 1492	plaie
+A42	Experience T25 Patient
+T26	Sign_Symptom 1498 1526	versé de l'eau froide dessus
+A43	Temporality T26 Before
+A44	Experience T26 Family
+T27	Conduite 1445 1451	gestes
+#2	AnnotatorNotes T27	la geste est la conduite
+T28	Sign_Symptom 1545 1560	très douloureux
+A45	Temporality T28 Overlap(default)
+A46	Experience T28 Patient
+T29	Person 1596 1603	médecin
+A47	Experience T29 Healthcare_professional
+T30	Drug_chemicals 1626 1640	des antalgique
+A48	Experience T30 Healthcare_professional
+T31	Conduite 1665 1672	oriente
+T32	Person 1619 1625	donner
+A49	Experience T32 Healthcare_professional
+T33	Geographic_Marker 1724 1732	urgences
+T34	Geographic_Marker 1752 1760	urgences
+T35	Geographic_Marker 1772 1789	près de chez vous
+T36	Geographic_Marker 1803 1826	pas loin du tout à pied
+T37	Geographic_Marker 1875 1883	urgences
+T38	Conduite 1897 1905	attendre
+T39	Temporal_Marker 1897 1924	attendre quatre cinq heures
+A50	Experience T39 Patient
+A51	Temporality T39 After
+T40	Conduite 1951 1979	pris en charge tout de suite
+A52	Temporality T40 After
+A53	Experience T40 Healthcare_professional
+T41	Disease 2019 2040	il est drépanocytaire
+A54	Temporality T41 Before
+A55	Experience T41 Patient
+T42	Conduite 2067 2098	on va appeler nous les urgences
+A56	Temporality T42 After
+A57	Experience T42 Healthcare_professional
+T43	Person 2086 2098	les urgences
+A58	Temporality T43 After
+A59	Experience T43 Healthcare_professional
+T44	Conduite 2104 2129	prévenir que vous arrivez
+A60	Temporality T44 After
+A61	Experience T44 Healthcare_professional
+T45	Conduite 2143 2161	aller aux urgences
+A62	Temporality T45 After
+A63	Experience T45 Patient
+T46	Geographic_Marker 2269 2281	aux urgences
+A64	Temporality T46 After
+A65	Experience T46 Patient
+T47	Person 2304 2311	le SAMU
+A66	Temporality T47 After
+A67	Experience T47 Healthcare_professional
+T48	Conduite 2366 2383	allez aux urgence
+A68	Temporality T48 After
+A69	Experience T48 Patient
+T49	Geographic_Marker 2376 2398	urgences de d'AVICENNE
+A70	Temporality T49 After
+A71	Experience T49 Healthcare_professional
+T50	Geographic_Marker 2429 2441	les urgences
+A72	Temporality T50 After
+A73	Experience T50 Healthcare_professional
+T51	Person 2461 2483	attendre très longtemp
+A74	Temporality T51 After
+A75	Hypothesis T51
+A76	Experience T51 Patient
+T52	Conduite 2516 2549	vous allez pas attendre longtemps
+A77	Temporality T52 After
+A78	Negation T52 Négation
+A79	Experience T52 Patient
+T53	Person 2599 2617	je suis secouriste
+A80	Experience T53 Healthcare_professional
+T54	Conduite 2663 2725	faut aller maintenant aux urgences là il faut aller maintenant
+A81	Temporality T54 After
+A82	Experience T54 Patient
+T55	Geographic_Marker 2685 2697	aux urgences
+A83	Temporality T55 Overlap(default)
+A84	Experience T55 Healthcare_professional
+T56	Temporal_Marker 2674 2684	maintenant
+A85	Temporality T56 Overlap(default)
+T57	Temporal_Marker 2715 2725	maintenant
+A86	Temporality T57 Overlap(default)
+T58	Conduite 2847 2865	allez aux urgences
+A87	Temporality T58 After
+A88	Experience T58 Patient
+T59	Geographic_Marker 2853 2865	aux urgences
+A89	Temporality T59 After
+A90	Experience T59 Healthcare_professional
+T60	Conduite 2866 2879	c'est bien ça
+A91	Hypothesis T60

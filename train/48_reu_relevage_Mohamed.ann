@@ -1,0 +1,29 @@
+T1	Person 80 90	grand père
+T2	Person 21 27	madame
+T3	Person 142 149	médecin
+T4	Sign_Symptom 110 115	tombé
+T5	Sign_Symptom 244 247	âge
+T6	Sign_Symptom 278 299	quatre vingt cinq ans
+T7	Sign_Symptom 309 330	quatre vingt cinq ans
+T8	Geographic_Marker 400 407	cuisine
+T9	Geographic_Marker 450 457	cuisine
+T10	Sign_Symptom 512 521	conscient
+T11	Person 531 537	madame
+T12	Person 544 548	papi
+T13	Sign_Symptom 574 583	conscient
+T14	Sign_Symptom 894 908	bu de l'alcool
+T15	Sign_Symptom 912 926	tout à l'heure
+T16	Geographic_Marker 1039 1048	l'hôpital
+T17	Sign_Symptom 1120 1127	respire
+T18	Sign_Symptom 1202 1207	bouge
+T19	Sign_Symptom 1383 1389	saigne
+T20	Sign_Symptom 1429 1435	saigne
+T21	Person 2246 2250	papa
+T22	Person 2257 2261	papi
+T23	Temporal_Marker 2354 2368	tous les jours
+T24	Sign_Symptom 2438 2454	boit de l'alcool
+T25	Person 2533 2539	madame
+T26	Person 2599 2606	secours
+T27	Person 3100 3104	papi
+T28	Person 3240 3248	monsieur
+T29	Person 3278 3284	madame

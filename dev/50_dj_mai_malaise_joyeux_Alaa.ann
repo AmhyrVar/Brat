@@ -1,0 +1,141 @@
+T1	Person 21 34	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Person 63 67	père
+A2	Experience T2 Patient
+T3	Sign_Symptom 116 126	un malaise
+A3	Temporality T3 Before_overlap
+A4	Experience T3 Patient
+T4	Temporal_Marker 212 226	tout à l'heure
+T6	Sign_Symptom 249 266	allongé par terre
+A7	Temporality T6 Before
+A8	Experience T6 Patient
+R1	Temp_mark Arg1:T4 Arg2:T6	
+T7	Sign_Symptom 367 378	était tombé
+A9	Temporality T7 Before
+A10	Experience T7 Patient
+T8	Sign_Symptom 430 450	a perdu connaissance
+A11	Temporality T8 Before
+A12	Hypothesis T8
+A13	Experience T8 Patient
+T9	Temporal_Marker 560 573	première fois
+R2	Temp_mark Arg1:T9 Arg2:T7	
+R4	Temp_mark Arg1:T9 Arg2:T6	
+T10	Temporal_Marker 640 653	première fois
+T11	Temporal_Marker 623 636	première fois
+T12	Temporal_Marker 687 700	première fois
+T13	Sign_Symptom 707 729	est allongé sur le lit
+A14	Temporality T13 Overlap(default)
+A15	Experience T13 Patient
+T14	Conduite 823 848	vous pouvez me le passer?
+A16	Experience T14 Family
+T15	Person 931 944	docteur SAIEB
+A17	Experience T15 Healthcare_professional
+T16	Sign_Symptom 981 991	un malaise
+A18	Temporality T16 Before_overlap
+A19	Experience T16 Patient
+A20	Hypothesis T16
+T17	Person 1046 1050	fils
+A21	Experience T17 Family
+T18	Person 1132 1139	médecin
+A22	Experience T18 Healthcare_professional
+T19	Sign_Symptom 1149 1154	ça va
+A23	Experience T19 Patient
+T20	Sign_Symptom 1174 1200	des symptômes particuliers
+A24	Hypothesis T20
+A25	Experience T20 Patient
+T21	Sign_Symptom 1226 1240	senti pas bien
+A26	Temporality T21 Before
+A27	Negation T21 Négation
+A28	Experience T21 Patient
+T22	Sign_Symptom 1263 1275	tombé au sol
+A29	Temporality T22 Before
+A30	Experience T22 Patient
+T23	Sign_Symptom 1281 1302	pas réussi à me lever
+A31	Negation T23 Négation
+A32	Experience T23 Patient
+T24	Sign_Symptom 1336 1359	avez perdu connaissance
+A33	Hypothesis T24
+A34	Experience T24 Patient
+T25	Sign_Symptom 1383 1405	pas perdu connaissance
+A35	Temporality T25 Before
+A36	Negation T25 Négation
+A37	Experience T25 Patient
+A38	Temporality T24 Before
+A39	Temporality T23 Before
+A40	Temporality T19 Overlap(default)
+T27	Sign_Symptom 1459 1478	a pas du tout cogné
+A44	Temporality T27 Before
+A45	Negation T27 Négation
+A46	Experience T27 Patient
+T28	Sign_Symptom 1486 1504	me sens super bien
+A47	Temporality T28 Overlap(default)
+A48	Experience T28 Patient
+T29	Sign_Symptom 1508 1524	me sens en forme
+A49	Temporality T29 Overlap(default)
+A50	Experience T29 Patient
+T31	Drug_chemicals 1673 1680	cachets
+T32	Person 1728 1744	médecin traitant
+A54	Experience T32 Healthcare_professional
+T33	Conduite 1807 1843	faut que vous alliez voir un médecin
+A55	Experience T33 Patient
+T34	Conduite 1890 1941	faut aller voir un médecin dans les prochains jours
+A56	Experience T34 Patient
+T35	Sign_Symptom 2010 2022	me sens bien
+A57	Temporality T35 Overlap(default)
+A58	Experience T35 Patient
+T37	Conduite 2201 2271	pas de nécessité actuellement pour que vous alliez heu voir un médecin
+A60	Experience T37 Patient
+A61	Negation T37 Négation
+T38	Temporal_Marker 2275 2288	tout de suite
+A62	Negation T38 Négation
+T39	Conduite 2297 2321	faut prendre rendez vous
+A63	Experience T39 Patient
+T40	Temporal_Marker 2335 2352	jours qui suivent
+T42	Person 2056 2063	médecin
+A65	Experience T42 Healthcare_professional
+T43	Person 782 789	médecin
+A66	Experience T43 Healthcare_professional
+T45	Person 2700 2707	médecin
+A68	Experience T45 Healthcare_professional
+T46	Person 2922 2929	médecin
+A69	Experience T46 Healthcare_professional
+T48	Person 3099 3106	médecin
+A71	Experience T48 Healthcare_professional
+T41	Conduite 2362 2414	voir un médecin pour refaire le point sur le malaise
+A64	Experience T41 Patient
+T49	Conduite 2580 2627	faut justement aller quand même voir un médecin
+A72	Experience T49 Patient
+T44	Conduite 2806 2826	faut voir un médecin
+A67	Experience T44 Patient
+T50	Person 2827 2835	monsieur
+A73	Experience T50 Patient
+T47	Conduite 2845 2870	faut trouver une solution
+A70	Experience T47 Patient
+T51	Temporal_Marker 2930 2945	dans la semaine
+T52	Temporal_Marker 1684 1689	matin
+R5	Temp_mark Arg1:T4 Arg2:T3	
+R6	Temp_mark Arg1:T4 Arg2:T7	
+R7	Temp_mark Arg1:T4 Arg2:T8	
+T53	Person 740 744	papa
+A74	Experience T53 Patient
+T54	Geographic_Marker 1106 1114	urgences
+T30	Disease 1587 1618	problèmes de santé particuliers
+A51	Temporality T30 Before_overlap
+A52	Hypothesis T30
+A53	Experience T30 Patient
+T55	Temporal_Marker 1868 1881	tout de suite
+T5	Sign_Symptom 311 331	la tête qui tournait
+A5	Temporality T5 Before_overlap
+A6	Experience T5 Patient
+R3	Temp_mark Arg1:T4 Arg2:T5	
+R8	Temp_mark Arg1:T4 Arg2:T7	
+R9	Temp_mark Arg1:T9 Arg2:T5	
+T56	Temporal_Marker 1303 1316	tout de suite
+T26	Sign_Symptom 1432 1439	a cogné
+A41	Temporality T26 Before
+A42	Hypothesis T26
+A43	Experience T26 Patient
+T36	Sign_Symptom 2110 2119	suis bien
+A59	Experience T36 Patient
+T57	Sign_Symptom 2470 2475	ça va
+A75	Experience T57 Patient

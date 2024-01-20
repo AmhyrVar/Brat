@@ -1,0 +1,84 @@
+T1	Person 78 93	docteur DAHMANI
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 97 104	SAMU 93
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 133 145	votre voisin
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Patient
+T4	Sign_Symptom 152 164	vomi du sang
+A7	Temporality T4 Before_overlap
+A8	Hypothesis T4
+A9	Experience T4 Patient
+A10	Hypothesis T3
+T5	Sign_Symptom 345 384	vomi un un caillot gros comme mon poing
+A11	Temporality T5 Before_overlap
+A12	Experience T5 Patient
+T6	Disease 822 834	hypertension
+A13	Temporality T6 Before
+A14	Experience T6 Patient
+A15	Hypothesis T6
+T7	Disease 965 985	consomme de l'alcool
+A16	Temporality T7 Before
+A17	Hypothesis T7
+A18	Experience T7 Patient
+T8	Disease 1028 1048	consomme de l'alcool
+A19	Temporality T8 Before
+A20	Hypothesis T8
+A21	Experience T8 Patient
+T9	Sign_Symptom 1283 1314	premier épisode de vomissements
+A22	Temporality T9 Before_overlap
+A23	Hypothesis T9
+A24	Experience T9 Patient
+T10	Person 1525 1537	votre voisin
+A25	Temporality T10 Overlap(default)
+A26	Hypothesis T10
+A27	Experience T10 Patient
+T11	Geographic_Marker 1680 1693	mes toilettes
+A28	Temporality T11 Before_overlap
+A29	Experience T11 Patient
+T12	Sign_Symptom 1738 1752	sang qui coule
+A30	Temporality T12 Overlap(default)
+A31	Experience T12 Patient
+T13	Sign_Symptom 1791 1803	vomi du sang
+A32	Temporality T13 Overlap(default)
+A33	Experience T13 Patient
+T14	Sign_Symptom 1892 1905	saigne du nez
+A34	Temporality T14 Overlap(default)
+A35	Hypothesis T14
+A36	Experience T14 Patient
+T15	Sign_Symptom 1933 1953	sang qui sort du nez
+A37	Temporality T15 Overlap(default)
+A38	Experience T15 Patient
+T16	Sign_Symptom 1992 2029	le sang ​a commencé par couler du nez
+A39	Temporality T16 Before_overlap
+A40	Experience T16 Patient
+T17	Sign_Symptom 2041 2046	vomir
+A41	Temporality T17 Before_overlap
+A42	Experience T17 Patient
+T18	Geographic_Marker 2277 2290	salle de bain
+A43	Temporality T18 Overlap(default)
+A44	Experience T18 Patient
+A45	Hypothesis T18
+T19	Conduite 2411 2421	se moucher
+A46	Temporality T19 Overlap(default)
+A47	Experience T19 Patient
+T20	Conduite 2495 2538	comprimer heu son nez avec heu avec sa main
+A48	Temporality T20 Overlap(default)
+A49	Experience T20 Patient
+T21	Conduite 2733 2742	se mouche
+A50	Temporality T21 Overlap(default)
+A51	Experience T21 Patient
+T22	Conduite 2775 2825	comprime heu son nez ses deux narines avec sa main
+A52	Temporality T22 Overlap(default)
+A53	Experience T22 Patient
+T23	Conduite 2942 2984	on surveille si heu le saignement s'arrête
+A54	Temporality T23 After
+A55	Experience T23 Patient
+T24	Conduite 3406 3444	si ça saigne encore vous nous rappelez
+A56	Temporality T24 After
+A57	Experience T24 Other
+T25	Conduite 3448 3492	si ça ne saigne plus il consulte son médecin
+A58	Temporality T25 After
+A59	Experience T25 Patient

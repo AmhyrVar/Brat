@@ -1,0 +1,169 @@
+T1	Person 51 67	docteur RICHARDO
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Patient
+T2	Person 86 97	votre femme
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Patient
+T3	Sign_Symptom 116 123	malaise
+A5	Temporality T3 Before_overlap
+A6	Hypothesis T3
+A7	Experience T3 Patient
+T4	Temporal_Marker 128 137	récemment
+A8	Temporality T4 Before_overlap
+A9	Hypothesis T4
+A10	Experience T4 Patient
+R1	Temp_mark Arg1:T4 Arg2:T3	
+T5	Person 209 220	votre femme
+A11	Temporality T5 Overlap(default)
+A12	Hypothesis T5
+A13	Experience T5 Patient
+T6	Sign_Symptom 443 453	consciente
+A14	Temporality T6 Overlap(default)
+A15	Hypothesis T6
+A16	Experience T6 Patient
+T7	Sign_Symptom 516 532	elle vous répond
+A17	Temporality T7 Overlap(default)
+A18	Hypothesis T7
+A19	Experience T7 Patient
+T8	Conduite 556 566	secouez là
+A20	Temporality T8 Overlap(default)
+A21	Experience T8 Family
+T9	Sign_Symptom 655 678	elle réagit pas du tout
+A22	Temporality T9 Overlap(default)
+A23	Hypothesis T9
+A24	Negation T9 Négation
+A25	Experience T9 Patient
+T10	Sign_Symptom 867 882	ouvre les yeux?
+A26	Temporality T10 Overlap(default)
+A27	Hypothesis T10
+A28	Experience T10 Patient
+T11	Sign_Symptom 910 924	ouvre les yeux
+A29	Temporality T11 Overlap(default)
+A30	Experience T11 Patient
+A31	Hypothesis T11
+T12	Sign_Symptom 935 951	elle vous répond
+A32	Temporality T12 Overlap(default)
+A33	Hypothesis T12
+A34	Experience T12 Patient
+T13	Conduite 965 991	dites lui de vous répondre
+A35	Temporality T13 Overlap(default)
+A36	Experience T13 Family
+T14	Sign_Symptom 1039 1056	elle respire fort
+A37	Temporality T14 Overlap(default)
+A38	Experience T14 Patient
+T15	Sign_Symptom 1066 1083	elle respire fort
+A39	Temporality T15 Overlap(default)
+A40	Experience T15 Patient
+T16	Sign_Symptom 1120 1139	mouvements anormaux
+A41	Temporality T16 Overlap(default)
+A42	Hypothesis T16
+A43	Experience T16 Patient
+T17	Sign_Symptom 1166 1180	elle bouge pas
+A44	Temporality T17 Overlap(default)
+A45	Hypothesis T17
+A46	Negation T17 Négation
+A47	Experience T17 Patient
+T18	Sign_Symptom 1194 1209	elle est tendue
+A48	Temporality T18 Overlap(default)
+A49	Experience T18 Patient
+T19	Sign_Symptom 1265 1272	malaise
+A50	Temporality T19 Before_overlap
+A51	Experience T19 Patient
+T20	Geographic_Marker 1302 1317	dans la cuisine
+A52	Temporality T20 Before_overlap
+A53	Experience T20 Patient
+T21	Sign_Symptom 1357 1373	tombée d'un coup
+A54	Temporality T21 Before_overlap
+A55	Hypothesis T21
+A56	Experience T21 Patient
+T22	Sign_Symptom 1553 1560	malaise
+A57	Temporality T22 Before_overlap
+A58	Experience T22 Patient
+T23	Sign_Symptom 1592 1599	tremble
+A59	Temporality T23 Overlap(default)
+A60	Hypothesis T23
+A61	Experience T23 Patient
+T24	Sign_Symptom 1609 1626	tremble des mains
+A62	Temporality T24 Overlap(default)
+A63	Hypothesis T24
+A64	Experience T24 Patient
+T25	Sign_Symptom 1650 1656	tendue
+A65	Temporality T25 Overlap(default)
+A66	Experience T25 Patient
+T26	Sign_Symptom 1675 1681	tendue
+A67	Temporality T26 Overlap(default)
+A68	Experience T26 Patient
+T27	Conduite 1689 1699	secouez là
+A69	Temporality T27 Overlap(default)
+A70	Experience T27 Family
+T28	Conduite 1744 1766	dites lui de se calmer
+A71	Temporality T28 Overlap(default)
+A72	Experience T28 Family
+T29	Sign_Symptom 1904 1928	elle reprend ses esprits
+A73	Temporality T29 Overlap(default)
+A74	Hypothesis T29
+A75	Experience T29 Patient
+T30	Temporal_Marker 1814 1844	depuis le début du coup de fil
+A76	Temporality T30 Before_overlap
+A77	Experience T30 Patient
+A78	Hypothesis T30
+R2	Temp_mark Arg1:T30 Arg2:T29	
+T31	Temporal_Marker 2006 2036	depuis le début du coup de fil
+A79	Temporality T31 Before_overlap
+A80	Hypothesis T31
+A81	Experience T31 Patient
+T32	Sign_Symptom 2090 2109	reprend ses esprits
+A82	Temporality T32 Before_overlap
+A83	Hypothesis T32
+A84	Experience T32 Patient
+R3	Temp_mark Arg1:T31 Arg2:T32	
+T33	Sign_Symptom 2231 2243	inconsciente
+A85	Temporality T33 Overlap(default)
+A86	Hypothesis T33
+A87	Experience T33 Patient
+T34	Sign_Symptom 2277 2294	elle respire fort
+A88	Temporality T34 Overlap(default)
+A89	Experience T34 Patient
+T35	Sign_Symptom 2327 2344	elle respire fort
+A90	Temporality T35 Overlap(default)
+A91	Experience T35 Patient
+T36	Sign_Symptom 2426 2439	dire des mots
+A92	Temporality T36 Overlap(default)
+A93	Hypothesis T36
+A94	Experience T36 Patient
+T37	Sign_Symptom 2495 2509	elle me répond
+A95	Temporality T37 Overlap(default)
+A96	Experience T37 Patient
+T38	Sign_Symptom 2519 2532	elle vous rép
+A97	Temporality T38 Overlap(default)
+A98	Experience T38 Patient
+T39	Sign_Symptom 2557 2573	elle vous répond
+A99	Temporality T39 Overlap(default)
+A100	Experience T39 Patient
+T40	Conduite 2612 2633	vous restez avec elle
+A101	Temporality T40 Overlap(default)
+A102	Experience T40 Family
+T41	Conduite 2647 2661	vous la calmez
+A103	Temporality T41 Overlap(default)
+A104	Experience T41 Patient
+T42	Sign_Symptom 2662 2701	elle va reprendre ses esprits peu à peu
+A105	Temporality T42 After
+A106	Experience T42 Patient
+T43	Conduite 2702 2775	vous rappelez dans dans la demi heure si si elle a pas repris ses esprits
+A107	Temporality T43 After
+A108	Experience T43 Family
+T44	Temporal_Marker 2716 2739	dans dans la demi heure
+A109	Temporality T44 After
+A110	Experience T44 Family
+T45	Conduite 2840 2906	vous rappelez dans une demi heure pour si les symptômes persistent
+A111	Temporality T45 After
+A112	Experience T45 Family
+T46	Temporal_Marker 2859 2873	une demi heure
+A113	Temporality T46 After
+A114	Experience T46 Family
+T47	Conduite 2940 2984	n'hésitez pas à rappeler dans une demi heure
+A115	Temporality T47 After
+A116	Experience T47 Family
+T48	Temporal_Marker 2965 2984	dans une demi heure
+A117	Temporality T48 After
+A118	Experience T48 Family

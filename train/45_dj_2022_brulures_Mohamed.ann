@@ -1,0 +1,24 @@
+T1	Person 88 94	DAMANI
+T2	Person 55 63	monsieur
+T3	Person 132 138	voisin
+T4	Disease 158 163	brûlé
+T5	Person 202 208	voisin
+T6	Disease 347 356	se brûler
+T7	Disease 313 322	se brûler
+T8	Disease 1159 1176	problèmes de peau
+T9	Person 5688 5700	dermatologue
+T10	Disease 5712 5721	psoriasis
+T11	Disease 5502 5511	psoriasis
+T12	Person 5247 5254	médecin
+T13	Person 5195 5203	médicale
+T14	Disease 4831 4838	brûlure
+T15	Disease 4556 4565	se brûler
+T16	Person 4428 4436	pompiers
+T17	Geographic_Marker 4488 4495	hôpital
+T18	Geographic_Marker 4253 4259	maison
+T19	Temporal_Marker 4152 4166	quinze minutes
+T20	Disease 1490 1499	psoriasis
+T21	Disease 2967 2974	brûlure
+T22	Disease 3260 3269	psoriasis
+T23	Person 3793 3805	dermatologue
+T24	Person 3942 3948	voisin

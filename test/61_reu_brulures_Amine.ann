@@ -1,0 +1,72 @@
+T1	Person 21 43	madame NICOLAS GUILLAM
+A1	Experience T1 Family
+T2	Person 55 70	médecin du SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 106 117	votre soeur
+A3	Experience T3 Patient
+T4	Sign_Symptom 122 134	s'est brûlée
+T5	Person 153 159	madame
+A4	Experience T5 Family
+T6	Person 171 182	votre soeur
+A5	Experience T6 Patient
+A6	Experience T4 Patient
+T7	Person 406 417	votre soeur
+A7	Experience T7 Patient
+T8	Sign_Symptom 487 502	elle est brûlée
+A8	Experience T8 Patient
+T9	Person 540 546	madame
+T10	Sign_Symptom 644 652	brûlures
+T11	Person 845 849	elle
+A9	Experience T11 Patient
+T12	Geographic_Marker 940 950	en voiture
+A10	Experience T12 Family
+T13	Geographic_Marker 1071 1080	chez elle
+A11	Experience T13 Patient
+T14	Geographic_Marker 840 849	chez elle
+A12	Experience T14 Patient
+T15	Person 1076 1080	elle
+A13	Experience T15 Patient
+T16	Geographic_Marker 1103 1112	chez elle
+A14	Experience T16 Patient
+T17	Person 1108 1112	elle
+A15	Experience T17 Patient
+T18	Sign_Symptom 682 769	au niveau des mains et au niveau de la jambe droite aussi un peu au niveau de la cuisse
+T19	Sign_Symptom 1155 1195	les mains c'est des deux côtés des mains
+T20	Sign_Symptom 1285 1292	cloques
+T21	Sign_Symptom 1352 1385	l y a pas de brûlures sur la tête
+A16	Negation T21 Négation
+T22	Person 1689 1695	madame
+A17	Experience T22 Family
+A18	Experience T21 Patient
+A19	Experience T20 Patient
+A20	Experience T19 Patient
+T23	Person 1847 1853	madame
+A21	Experience T23 Family
+T24	Sign_Symptom 1906 1922	très très mal là
+A22	Experience T24 Patient
+T25	Sign_Symptom 2014 2024	elle a mal
+A23	Experience T25 Patient
+T26	Sign_Symptom 2046 2054	j'ai mal
+A24	Experience T26 Patient
+T27	Person 2197 2203	madame
+A25	Experience T27 Family
+T28	Geographic_Marker 2353 2368	dans la cuisine
+A26	Experience T28 Patient
+T29	Conduite 2561 2616	mettre de l'eau au niveau de ses mains et de ses jambes
+T30	Conduite 2633 2661	je vous envoie une ambulance
+T31	Person 2671 2677	madame
+A27	Experience T31 Family
+T33	Conduite 2745 2795	il faut aller à l'hôpital pour évaluer les lésions
+T32	Conduite 2831 2859	je vous envoie une ambulance
+T34	Conduite 2951 3049	vous mettez sa main les zones brûlées la main les jambes sous l'eau vous retirez pas les vêtements
+T35	Person 3071 3077	madame
+A28	Experience T35 Family
+T37	Conduite 3241 3413	vous mettez la dame dans la baignoire si possible ou dans la cuisine à à côté d'un robinet vous appuyez sur les zones découv- vous mettez de l'eau sur les zones découvertes
+T36	Conduite 3424 3452	on vous envoie une ambulance
+T38	Temporal_Marker 3453 3471	dans la demi heure
+A29	Temporality T38 After
+A30	Experience T38 Healthcare_professional
+T39	Person 3544 3550	madame
+A31	Experience T39 Family
+T40	Temporal_Marker 3527 3543	à tout à l'heure
+A32	Temporality T40 After

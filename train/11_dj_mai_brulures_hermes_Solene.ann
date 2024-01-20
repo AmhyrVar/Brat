@@ -1,0 +1,76 @@
+T1	Person 33 45	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 96 120	frère de trente deux ans
+A2	Experience T2 Patient
+T3	Sign_Symptom 127 132	brûlé
+A3	Hypothesis T3
+T4	Sign_Symptom 334 351	suinte énormément
+T5	Geographic_Marker 251 266	ateliers HERMES
+T6	Sign_Symptom 301 326	out le bras qui est brûlé
+T7	Sign_Symptom 647 666	brûlé avec de l'eau
+T8	Geographic_Marker 930 968	urgences les plus proches de chez vous
+T9	Sign_Symptom 1056 1071	pas se déplacer
+T10	Sign_Symptom 1129 1146	d'autres brûlures
+A4	Hypothesis T10
+T11	Sign_Symptom 1205 1211	visage
+A5	Hypothesis T11
+T12	Sign_Symptom 1242 1262	visage est pas brûlé
+T13	Sign_Symptom 1271 1293	tout le bras est brûlé
+T14	Sign_Symptom 1312 1343	problèmes de santé particuliers
+A6	Hypothesis T14
+A8	Experience T13 Patient
+A9	Experience T12 Patient
+A10	Experience T9 Patient
+T16	Sign_Symptom 1471 1492	refroidi heu la plaie
+T17	Sign_Symptom 1498 1519	versé de l'eau froide
+T18	Sign_Symptom 1545 1560	très douloureux
+A11	Experience T18 Patient
+T19	Disease 2026 2040	drépanocytaire
+A12	Experience T19 Patient
+T15	Disease 1368 1382	drépanocytaire
+A7	Experience T15 Patient
+T20	Conduite 2366 2398	allez aux urgences de d'AVICENNE
+A13	Experience T20 Healthcare_professional
+T21	Person 232 242	secouriste
+A14	Experience T21 Family
+T22	Person 2607 2617	secouriste
+A15	Experience T22 Family
+T23	Sign_Symptom 1092 1102	douloureux
+A16	Experience T23 Patient
+T24	Sign_Symptom 1165 1172	le bras
+A17	Hypothesis T24
+A18	Experience T24 Patient
+A19	Experience T11 Patient
+T25	Sign_Symptom 289 294	brûlé
+A20	Temporality T25 Before
+A21	Experience T25 Patient
+A22	Temporality T7 Before
+T26	Sign_Symptom 701 714	il soit brûlé
+A23	Experience T26 Patient
+T27	Sign_Symptom 718 730	il est brûlé
+A24	Experience T27 Patient
+T28	Conduite 2073 2098	appeler nous les urgences
+A25	Experience T28 Healthcare_professional
+T29	Conduite 2143 2180	aller aux urgences vous de votre côté
+A26	Experience T29 Healthcare_professional
+T30	Sign_Symptom 508 517	est brûlé
+A27	Hypothesis T30
+A28	Experience T30 Patient
+A29	Temporality T30 Before_overlap
+T31	Geographic_Marker 2376 2398	urgences de d'AVICENNE
+T32	Geographic_Marker 2689 2697	urgences
+T33	Conduite 2847 2865	allez aux urgences
+T34	Geographic_Marker 2857 2865	urgences
+T35	Geographic_Marker 2273 2281	urgences
+T36	Person 2307 2311	SAMU
+A30	Experience T36 Healthcare_professional
+T37	Geographic_Marker 1724 1732	urgences
+T38	Person 1596 1603	médecin
+A31	Experience T38 Healthcare_professional
+T39	Person 414 421	médecin
+A32	Experience T39 Healthcare_professional
+T40	Person 878 883	frère
+A33	Experience T40 Patient
+T41	Sign_Symptom 1042 1047	brûlé
+A34	Experience T41 Patient
+T42	Geographic_Marker 460 475	centre de brûlé

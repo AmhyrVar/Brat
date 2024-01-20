@@ -1,0 +1,218 @@
+T1	Person 25 31	madame
+A1	Experience T1 Other
+T2	Person 44 58	docteur DAMANI
+A2	Experience T2 Healthcare_professional
+T3	Person 89 95	voisin
+A3	Experience T3 Patient
+T4	Sign_Symptom 100 133	avait de la fièvre c'est bien ça?
+A4	Temporality T4 Before_overlap
+A5	Hypothesis T4
+A6	Experience T4 Patient
+T5	Conduite 160 184	il m'a demandé d'appeler
+A7	Temporality T5 Before
+A8	Experience T5 Patient
+T6	Geographic_Marker 204 226	il est à côté de vous?
+A9	Temporality T6 Overlap(default)
+A10	Hypothesis T6
+A11	Experience T6 Patient
+T7	Geographic_Marker 387 400	en appartemen
+A12	Temporality T7 Overlap(default)
+T8	Geographic_Marker 316 330	votre domicile
+T9	Geographic_Marker 333 370	ous êtes en appartement ou en maison?
+A13	Temporality T9 Overlap(default)
+A14	Hypothesis T9
+A15	Experience T9 Patient
+T10	Temporal_Marker 290 309	t venu spontanément
+A16	Temporality T10 Overlap(default)
+T11	Person 433 451	voisin de pallier?
+A17	Experience T11 Patient
+T12	Sign_Symptom 498 544	'il est venu vous vous vous dire spontanément?
+A18	Temporality T12 Before_overlap
+A19	Experience T12 Patient
+A20	Hypothesis T12
+T13	Person 440 442	de
+A21	Hypothesis T13
+T14	Sign_Symptom 584 593	la fièvre
+A22	Temporality T14 Before_overlap
+A23	Experience T14 Patient
+T15	Sign_Symptom 622 639	'il tousse un peu
+A24	Temporality T15 Overlap(default)
+A25	Experience T15 Patient
+T16	Sign_Symptom 680 689	la fièvre
+A26	Temporality T16 Before
+A27	Experience T16 Other
+T17	Temporal_Marker 694 721	y a pas très très longtemps
+A28	Temporality T17 Before
+A29	Negation T17 Négation
+A30	Experience T17 Other
+T18	Person 727 743	je tousse un peu
+A31	Temporality T18 Overlap(default)
+A32	Experience T18 Other
+T19	Sign_Symptom 768 802	pour vous il est comme d'habitude?
+A33	Temporality T19 Overlap(default)
+A34	Hypothesis T19
+A35	Experience T19 Patient
+T20	Sign_Symptom 803 828	il vous parle normalement
+A36	Temporality T20 Overlap(default)
+A37	Hypothesis T20
+A38	Experience T20 Patient
+T21	Conduite 866 898	il parle pas du tout le français
+A39	Temporality T21 Overlap(default)
+A40	Experience T21 Patient
+A41	Negation T21 Négation
+T22	Conduite 1250 1286	vous vous exprimez comment avec lui?
+A42	Temporality T22 Before
+A43	Hypothesis T22
+A44	Experience T22 Other
+T23	Conduite 1124 1169	vous parlez une autre langue que le français?
+A45	Temporality T23 Before
+A46	Experience T23 Other
+T24	Conduite 1300 1401	il me fait des signes et il montre des des des images et heu un peu sur heu sur le téléphone des mots
+A47	Temporality T24 Before
+A48	Experience T24 Patient
+T25	Conduite 1480 1533	il parle pas ni anglais heu ni français c'est bien ça
+A49	Temporality T25 Before_overlap
+A50	Hypothesis T25
+A51	Experience T25 Patient
+T26	Conduite 1669 1690	je lui ai pas demandé
+A52	Temporality T26 Before
+A53	Negation T26 Négation
+A54	Experience T26 Patient
+T27	Conduite 1625 1643	il a de la famille
+A55	Temporality T27 Overlap(default)
+A56	Experience T27 Patient
+A57	Hypothesis T27
+T28	Person 1722 1729	voisine
+A58	Experience T28 Other
+T29	Person 1754 1771	quelqu'un d'autre
+A59	Experience T29 Other
+T30	Sign_Symptom 1730 1780	vous avez jamais vu heu quelqu'un d'autre avec lui
+A60	Temporality T30 Before
+A61	Hypothesis T30
+A62	Negation T30 Négation
+A63	Experience T30 Patient
+T31	Person 1817 1824	es gens
+A64	Experience T31 Other
+T32	Person 1884 1891	des gen
+A65	Experience T32 Other
+T33	Conduite 2021 2045	vous pouvez lui demander
+A66	Temporality T33 After
+A67	Hypothesis T33
+A68	Experience T33 Patient
+T34	Disease 3035 3040	COVID
+A69	Experience T34 Patient
+T35	Disease 2817 2822	COVID
+A70	Temporality T35 Before_overlap
+A71	Experience T35 Patient
+T36	Sign_Symptom 2156 2173	il a de la fièvre
+A72	Temporality T36 Before_overlap
+A73	Experience T36 Patient
+T37	Sign_Symptom 2185 2212	se tient debout normalement
+A74	Temporality T37 Before_overlap
+A75	Experience T37 Patient
+T38	Person 2243 2249	madame
+A76	Experience T38 Family
+T39	Disease 2280 2294	c'est le COVID
+A77	Temporality T39 Overlap(default)
+A78	Experience T39 Patient
+T40	Sign_Symptom 2317 2345	il tousse, il a de la fièvre
+A79	Temporality T40 Before_overlap
+A80	Experience T40 Patient
+T41	Disease 2372 2385	j'ai un COVID
+A81	Temporality T41 Before_overlap
+A82	Experience T41 Healthcare_professional
+T42	Sign_Symptom 2410 2421	je toussais
+A83	Temporality T42 Before
+A84	Experience T42 Healthcare_professional
+T43	Temporal_Marker 2393 2408	il y a six mois
+A85	Temporality T43 Before
+A86	Experience T43 Healthcare_professional
+T44	Sign_Symptom 2431 2458	les mêmes symptômes que lui
+A87	Temporality T44 Before
+A88	Experience T44 Healthcare_professional
+T45	Temporal_Marker 2476 2484	au début
+A89	Temporality T45 Before
+T46	Sign_Symptom 2521 2549	j'avais eu du mal à respirer
+A90	Temporality T46 Before
+A91	Experience T46 Patient
+T47	Conduite 2555 2580	j'ai dû être hospitalisée
+A92	Temporality T47 Before
+A93	Experience T47 Patient
+T48	Conduite 2582 2616	j'ai été hospitalisée dans pendant
+A94	Temporality T48 Before
+A95	Experience T48 Patient
+T49	Drug_chemicals 2660 2667	oxygène
+A96	Temporality T49 Before
+A97	Experience T49 Patient
+T50	Sign_Symptom 2702 2728	je suis très très fatiguée
+A98	Temporality T50 Before_overlap
+A99	Experience T50 Patient
+T51	Sign_Symptom 2841 2857	je suis fatiguée
+A100	Temporality T51 Before_overlap
+A101	Experience T51 Patient
+T52	Sign_Symptom 2859 2899	j'ai un peu mal dans la poitrine et tout
+A102	Temporality T52 Before_overlap
+A103	Experience T52 Patient
+T53	Conduite 2927 2952	appelez pour votre voisin
+A104	Temporality T53 Overlap(default)
+A105	Experience T53 Other
+T54	Conduite 2972 2997	j'appelle pour mon voisin
+A106	Temporality T54 Overlap(default)
+A107	Experience T54 Other
+T55	Disease 3056 3074	COVID ou pas COVID
+A108	Temporality T55 Before_overlap
+T56	Sign_Symptom 3084 3097	les symptômes
+T57	Conduite 3144 3185	nécessite quand même un un examen médical
+A109	Temporality T57 After
+A110	Experience T57 Healthcare_professional
+T58	Conduite 3204 3261	essayez de voir avec lui pour qu'il aille voir un médecin
+A111	Temporality T58 After
+A112	Experience T58 Other
+T59	Person 3251 3261	un médecin
+A113	Experience T59 Healthcare_professional
+T60	Conduite 3329 3391	voyez avec lui pour qu'il heu pour qu'il aille voir un médecin
+A114	Temporality T60 After
+A115	Experience T60 Other
+T61	Person 3381 3391	un médecin
+T62	Geographic_Marker 3396 3417	des maisons médicales
+T63	Person 3566 3577	mon médecin
+T64	Conduite 3589 3621	elle a pas détecté tout de suite
+A116	Negation T64 Négation
+T65	Person 3711 3721	un médecin
+T66	Geographic_Marker 3731 3739	en ville
+T67	Person 3820 3830	un médecin
+T68	Geographic_Marker 3831 3839	en ville
+T69	Conduite 3893 3946	nous rappeler si il se passe quelque chose de nouveau
+A117	Temporality T69 After
+A118	Experience T69 Patient
+T70	Sign_Symptom 4005 4031	un comportement inhabituel
+A119	Temporality T70 After
+A120	Experience T70 Patient
+T71	Sign_Symptom 4039 4081	il se plaint, qu'il a une nouvelle plainte
+A121	Temporality T71 After
+T72	Conduite 4106 4166	vous rappelez mais là il peut aller voir un médecin en ville
+A122	Temporality T72 After
+A123	Experience T72 Patient
+T73	Person 4147 4157	un médecin
+T74	Geographic_Marker 4158 4166	en ville
+T75	Person 4203 4209	madame
+A124	Experience T75 Other
+T76	Sign_Symptom 4275 4285	ma fatigue
+A125	Temporality T76 Before_overlap
+A126	Experience T76 Other
+T77	Sign_Symptom 4290 4302	mes douleurs
+A127	Temporality T77 Before_overlap
+A128	Experience T77 Other
+T78	Person 4247 4253	madame
+A129	Experience T78 Other
+T79	Conduite 4319 4364	vous avez appelé pour votre pour votre voisin
+A130	Temporality T79 Before
+A131	Experience T79 Other
+T80	Person 4365 4371	madame
+A132	Experience T80 Other
+T81	Conduite 4397 4428	vous avez déjà vu votre médecin
+A133	Temporality T81 Before
+A134	Experience T81 Other
+T82	Conduite 4438 4460	rapprochez vous de lui
+A135	Temporality T82 After
+A136	Experience T82 Other

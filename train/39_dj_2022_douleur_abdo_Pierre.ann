@@ -1,0 +1,148 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 73 78	fille
+A2	Experience T2 Patient
+T3	Person 125 130	fille
+A3	Experience T3 Patient
+T4	Sign_Symptom 182 185	mal
+T5	Sign_Symptom 207 220	mal au ventre
+A4	Hypothesis T5 Vrai
+T6	Sign_Symptom 246 259	mal au ventre
+T7	Sign_Symptom 336 349	mal au ventre
+T8	Sign_Symptom 455 459	vomi
+T9	Sign_Symptom 380 387	douleur
+T10	Sign_Symptom 517 521	vomi
+A5	Hypothesis T10 Vrai
+T11	Sign_Symptom 549 554	vomit
+A6	Negation T11 Négation
+T12	Sign_Symptom 602 610	diarrhée
+A7	Hypothesis T12 Vrai
+T13	Sign_Symptom 638 651	mal au ventre
+T14	Temporal_Marker 667 677	quinze ans
+A8	Temporality T14 Before
+T15	Sign_Symptom 720 729	vomissais
+A9	Temporality T15 Before
+A10	Negation T15 Négation
+T16	Sign_Symptom 754 757	mal
+A11	Temporality T16 Before
+T17	Person 784 789	fille
+A12	Experience T17 Patient
+T18	Sign_Symptom 798 806	diarrhée
+A13	Hypothesis T18 Vrai
+T19	Sign_Symptom 848 856	diarrhée
+A14	Hypothesis T19 Vrai
+T20	Person 834 839	fille
+A15	Experience T20 Patient
+T21	Person 901 906	fille
+A16	Experience T21 Patient
+T22	Sign_Symptom 915 923	diarrhée
+A17	Hypothesis T22 Vrai
+T23	Person 994 1002	diarrhée
+A18	Temporality T23 Before
+A19	Negation T23 Négation
+T24	Sign_Symptom 1035 1048	mal au ventre
+T25	Sign_Symptom 1069 1077	douleurs
+T26	Sign_Symptom 1102 1115	mal au ventre
+T27	Temporal_Marker 1178 1189	deux heures
+A20	Temporality T27 Before_overlap
+T28	Sign_Symptom 1212 1219	douleur
+T29	Temporal_Marker 1312 1326	quinze minutes
+A21	Temporality T29 Before_overlap
+T30	Sign_Symptom 1344 1347	mal
+T31	Sign_Symptom 1386 1392	règles
+T32	Sign_Symptom 1454 1460	règles
+T33	Sign_Symptom 1486 1492	réglée
+A22	Hypothesis T31 Vrai
+A23	Hypothesis T32 Vrai
+A24	Hypothesis T33 Vrai
+T34	Sign_Symptom 1518 1524	règles
+T35	Person 1442 1447	fille
+A25	Experience T35 Healthcare_professional
+T36	Person 1374 1379	fille
+A26	Experience T36 Patient
+T37	Person 1539 1544	fille
+A27	Experience T37 Patient
+T38	Sign_Symptom 1709 1715	règles
+T39	Sign_Symptom 1733 1741	vomissez
+T40	Temporal_Marker 1782 1792	quinze ans
+A28	Temporality T40 Before
+T41	Sign_Symptom 2363 2366	mal
+T42	Sign_Symptom 2385 2398	mal au ventre
+T43	Person 2414 2419	fille
+A29	Experience T43 Patient
+T44	Person 2355 2360	fille
+A30	Experience T44 Patient
+T45	Sign_Symptom 2477 2485	diarrhée
+A31	Negation T45 Négation
+T46	Sign_Symptom 2457 2461	vomi
+A32	Negation T46 Négation
+T47	Temporal_Marker 2433 2444	deux heures
+A33	Temporality T47 Before_overlap
+T48	Sign_Symptom 2561 2569	douleurs
+T49	Sign_Symptom 2695 2698	mal
+T50	Sign_Symptom 2707 2710	mal
+T51	Sign_Symptom 2734 2737	mal
+T52	Geographic_Marker 2871 2880	l'hôpital
+T53	Sign_Symptom 2942 2949	souffre
+T54	Conduite 3105 3167	on va appeler un un médecin qui va venir l'examiner à domicile
+T55	Person 3074 3081	médecin
+A34	Experience T55 Healthcare_professional
+T56	Geographic_Marker 3159 3167	domicile
+T57	Person 3125 3132	médecin
+A35	Experience T57 Healthcare_professional
+T58	Person 3277 3284	médecin
+A36	Experience T58 Healthcare_professional
+T59	Person 3354 3361	médecin
+A37	Experience T59 Healthcare_professional
+T60	Person 3308 3315	médecin
+A38	Experience T60 Healthcare_professional
+T61	Person 3459 3466	médecin
+A39	Experience T61 Healthcare_professional
+T62	Person 3536 3543	médecin
+A40	Experience T62 Healthcare_professional
+T63	Person 3574 3581	médecin
+A41	Experience T63 Healthcare_professional
+T64	Geographic_Marker 3585 3593	domicile
+T65	Person 3622 3629	médecin
+A42	Experience T65 Healthcare_professional
+T66	Person 3641 3646	fille
+A43	Experience T66 Patient
+T67	Person 3718 3725	médecin
+A44	Experience T67 Healthcare_professional
+T68	Person 3769 3776	médecin
+A45	Experience T68 Healthcare_professional
+T69	Person 3801 3808	médecin
+A46	Experience T69 Healthcare_professional
+T70	Person 3895 3902	médecin
+A47	Experience T70 Healthcare_professional
+T71	Person 3934 3941	médecin
+A48	Experience T71 Healthcare_professional
+T72	Person 1967 1979	MICHEL CYMES
+A49	Experience T72 Healthcare_professional
+T73	Person 2108 2113	fille
+A50	Experience T73 Patient
+T74	Temporal_Marker 3990 4000	six heures
+A51	Temporality T74 After
+T75	Temporal_Marker 4057 4067	six heures
+A52	Temporality T75 After
+T76	Temporal_Marker 4069 4079	six heures
+A53	Temporality T76 After
+T77	Sign_Symptom 4102 4109	douleur
+T78	Person 4119 4125	madame
+A54	Experience T78 Family
+T79	Person 4158 4165	médecin
+A55	Experience T79 Healthcare_professional
+T80	Drug_chemicals 4364 4373	doliprane
+T81	Person 4529 4536	médecin
+A56	Experience T81 Healthcare_professional
+T82	Person 4588 4593	fille
+A57	Experience T82 Patient
+T83	Sign_Symptom 4701 4714	mal au ventre
+T84	Temporal_Marker 4755 4765	quinze ans
+A58	Temporality T84 Before
+T85	Drug_chemicals 4790 4799	doliprane
+T86	Person 4809 4814	fille
+A59	Experience T86 Patient
+T87	Person 4833 4840	médecin
+A60	Experience T87 Healthcare_professional
+T88	Geographic_Marker 4843 4851	domicile

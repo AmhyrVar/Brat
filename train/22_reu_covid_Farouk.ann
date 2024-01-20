@@ -1,0 +1,108 @@
+T1	Person 36 50	docteur BOCHIN
+T2	Person 84 90	voisin
+T3	Disease 108 113	COVID
+T4	Temporal_Marker 103 104	a
+T5	Person 174 180	voisin
+T6	Disease 212 217	COVID
+T7	Geographic_Marker 242 251	l'hôpital
+T8	Conduite 223 239	faut qu'il aille
+T9	Disease 334 339	COVID
+T10	Disease 502 507	COVID
+T11	Disease 1210 1215	COVID
+T12	Disease 1522 1527	COVID
+T13	Disease 1552 1557	COVID
+T14	Disease 2124 2129	COVID
+T15	Disease 3114 3119	COVID
+T16	Person 1617 1623	voisin
+T17	Conduite 296 308	fait le test
+T18	Temporal_Marker 294 295	a
+T19	Sign_Symptom 357 363	tousse
+T20	Person 354 356	il
+T21	Person 364 366	il
+T22	Sign_Symptom 367 381	a de la fièvre
+T23	Sign_Symptom 387 398	mal partout
+T24	Sign_Symptom 411 433	est gêné pour respirer
+T25	Sign_Symptom 438 466	ça fait mal quand il respire
+T26	Sign_Symptom 474 488	a de la fièvre
+T27	Temporal_Marker 600 601	a
+T28	Conduite 602 613	fait le tes
+T29	Temporal_Marker 811 831	avant trois semaines
+T30	Temporal_Marker 835 856	avant plusieurs jours
+T31	Sign_Symptom 965 979	mal à respirer
+T32	Sign_Symptom 880 889	symptômes
+T33	Temporal_Marker 1006 1035	depuis le début de la semaine
+T34	Person 890 892	il
+T35	Temporal_Marker 1058 1068	cinq jours
+T36	Sign_Symptom 1087 1093	fièvre
+T37	Sign_Symptom 1112 1126	mal à respirer
+T38	Sign_Symptom 1177 1183	tousse
+T39	Temporal_Marker 1146 1147	a
+T40	Person 1140 1145	qu'il
+T41	Person 1481 1484	moi
+T42	Person 1591 1598	famille
+T43	Person 1636 1643	famille
+T44	Person 1648 1650	il
+T45	Conduite 1651 1664	vit tout seul
+T46	Sign_Symptom 1821 1837	mal à à respirer
+T47	Sign_Symptom 1936 1949	bien à parler
+T48	Temporal_Marker 1927 1935	arrivait
+T49	Conduite 1963 1975	parlait bien
+T50	Conduite 1991 2004	tout expliqué
+T51	Temporal_Marker 1989 1990	a
+T52	Person 1987 1988	m
+T53	Person 1984 1986	il
+T54	Temporal_Marker 2011 2016	avait
+T55	Sign_Symptom 2023 2029	fièvre
+T56	Sign_Symptom 2048 2052	toux
+T57	Sign_Symptom 2068 2082	mal à respirer
+T58	Conduite 2177 2194	passer son numéro
+T59	Person 2174 2176	me
+T60	Person 2162 2166	vous
+T61	Person 2204 2206	je
+T62	Conduite 2317 2340	j'essaie de le rappeler
+T63	Person 2417 2424	médecin
+T64	Conduite 2392 2398	va voi
+T65	Conduite 2460 2471	se déplacer
+T66	Temporal_Marker 2472 2492	dans dans la journée
+T67	Conduite 2502 2517	venir l'évaluer
+T68	Person 2445 2452	médecin
+T69	Geographic_Marker 2564 2568	site
+T70	Temporal_Marker 2586 2588	va
+T71	Person 2583 2585	il
+T72	Conduite 2594 2609	nous contaminer
+T73	Temporal_Marker 2619 2622	ira
+T74	Person 2616 2618	il
+T75	Conduite 2630 2647	faire ses courses
+T76	Temporal_Marker 2666 2668	va
+T77	Temporal_Marker 2657 2662	après
+T78	Person 2663 2665	il
+T79	Conduite 2670 2679	e promene
+T80	Geographic_Marker 2681 2707	partout dans l'appartement
+T81	Geographic_Marker 2711 2728	dans la résidence
+T82	Conduite 2774 2780	rester
+T83	Temporal_Marker 2771 2773	va
+T84	Person 2768 2770	il
+T85	Geographic_Marker 2798 2812	dans sa maison
+T86	Person 2826 2833	médecin
+T87	Temporal_Marker 2845 2853	va venir
+T88	Conduite 2854 2863	l'évaluer
+T89	Person 2909 2915	madame
+T90	Geographic_Marker 2966 2972	maison
+T91	Person 3008 3015	médecin
+T92	Temporal_Marker 3020 3022	va
+T93	Conduite 3036 3045	l'évaluer
+T94	Person 3061 3063	il
+T95	Temporal_Marker 3064 3072	va aller
+T96	Conduite 3073 3090	faire ses courses
+T97	Temporal_Marker 3100 3102	va
+T98	Geographic_Marker 3133 3144	l'ascenseur
+T99	Geographic_Marker 3120 3127	partout
+T100	Person 3180 3187	médecin
+T101	Conduite 3191 3208	viendra l'évaluer
+T102	Temporal_Marker 3157 3161	fera
+T103	Geographic_Marker 3258 3266	sa porte
+T104	Person 3234 3236	je
+T105	Person 3287 3296	quelqu'un
+T106	Temporal_Marker 3298 3299	a
+T107	Conduite 3300 3306	passer
+T108	Person 3400 3408	monsieur

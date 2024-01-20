@@ -1,0 +1,46 @@
+T1	Person 21 33	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 93 96	SDF
+A2	Experience T2 Patient
+T3	Sign_Symptom 105 109	coma
+A3	Temporality T3 Before_overlap
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Sign_Symptom 175 184	conscient
+A6	Temporality T4 Overlap(default)
+A7	Hypothesis T4
+A8	Experience T4 Patient
+T5	Sign_Symptom 233 240	respire
+A9	Hypothesis T5
+A10	Experience T5 Patient
+T6	Sign_Symptom 288 294	ronfle
+A12	Experience T6 Patient
+T7	Conduite 323 388	vous pouvez le le stimuler un peu pour qu'il qu'il ouvre les yeux
+T8	Person 468 476	monsieur
+A11	Experience T8 Patient
+T9	Person 486 494	monsieur
+A13	Experience T9 Patient
+T10	Geographic_Marker 495 506	du quartier
+T11	Sign_Symptom 449 464	pas très propre
+A14	Experience T11 Patient
+T12	Person 516 522	madame
+A15	Experience T12 Other
+T13	Person 536 542	madame
+A16	Experience T13 Other
+T14	Conduite 632 653	approchez vous de lui
+T15	Conduite 607 631	vous le stimuliez un peu
+T16	Conduite 559 599	il faut que vous vous rapprochiez de lui
+T17	Sign_Symptom 726 732	grogne
+A17	Temporality T17 Overlap(default)
+A18	Experience T17 Patient
+T18	Sign_Symptom 774 779	parle
+A19	Hypothesis T18
+A20	Experience T18 Patient
+T19	Sign_Symptom 806 812	grogne
+A21	Experience T19 Patient
+T20	Conduite 870 899	vous allez rester près de lui
+T21	Conduite 904 930	on va envoyer les pompiers
+T22	Conduite 931 985	vous restez près de lui jusqu'à l'arrivée des pompiers
+T23	Conduite 989 1011	on envoie les pompiers
+T24	Person 1068 1075	docteur
+A22	Experience T24 Healthcare_professional

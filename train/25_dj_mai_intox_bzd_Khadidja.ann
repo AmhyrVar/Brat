@@ -1,0 +1,50 @@
+T1	Person 20 26	madame
+T2	Person 38 53	docteur DETOURY
+T10	Drug_chemicals 640 649	LORAZEPAM
+T12	Sign_Symptom 1006 1015	réveillée
+A11	Hypothesis T12
+T13	Person 980 986	madame
+T14	Sign_Symptom 1035 1048	pas réveillée
+A13	Negation T14 Négation
+T15	Sign_Symptom 1057 1066	elle dort
+T16	Sign_Symptom 1148 1154	répond
+A14	Hypothesis T16
+T17	Sign_Symptom 1180 1186	grogne
+T18	Sign_Symptom 1201 1207	grogne
+T19	Conduite 1300 1328	on va vous envoyer de l'aide
+T20	Geographic_Marker 1439 1450	à la maison
+T21	Sign_Symptom 1470 1478	allongée
+T22	Sign_Symptom 1504 1510	grogne
+T23	Sign_Symptom 1525 1531	grogne
+T24	Disease 1674 1684	dépression
+T25	Sign_Symptom 558 566	déprimée
+T26	Conduite 1776 1803	je vous envoie les pompiers
+T27	Conduite 1844 1864	la prendre en charge
+T28	Sign_Symptom 1948 1952	dort
+T29	Conduite 2008 2029	la mettre sur le côté
+T30	Conduite 2060 2082	l'allonger sur le côté
+T31	Conduite 2086 2121	les pompiers arrivent tout de suite
+T32	Conduite 2134 2153	la prendre en charg
+T33	Person 84 93	vous même
+A15	Hypothesis T33
+T34	Sign_Symptom 341 349	pas bien
+A16	Negation T34 Négation
+T35	Person 489 495	madame
+T36	Sign_Symptom 867 875	pas bien
+A18	Negation T36 Négation
+A5	Experience T1 Family
+T38	Sign_Symptom 1484 1488	dort
+T39	Sign_Symptom 841 849	pas bien
+A6	Negation T39 Négation
+T6	Sign_Symptom 933 941	pas bien
+A4	Negation T6 Négation
+T7	Sign_Symptom 971 979	pas bien
+A7	Negation T7 Négation
+A8	Experience T2 Healthcare_professional
+T8	Person 140 148	ma femme
+A9	Experience T8 Patient
+T3	Person 161 172	votre femme
+A1	Experience T3 Patient
+T4	Person 235 246	votre femme
+A2	Experience T4 Patient
+T5	Conduite 1088 1104	vous la stimulez

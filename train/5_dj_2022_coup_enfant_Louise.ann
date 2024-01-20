@@ -1,0 +1,92 @@
+T1	Person 51 87	docteur CELINE le médecin régulateur
+A1	Experience T1 Healthcare_professional
+T2	Person 112 122	votre fils
+A2	Experience T2 Patient
+T3	Sign_Symptom 133 147	reçu des coups
+A3	Temporality T3 Before
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Person 244 252	mon mari
+A6	Experience T4 Family
+T5	Sign_Symptom 284 297	tapé le petit
+A7	Temporality T5 Before
+A8	Experience T5 Patient
+T6	Sign_Symptom 306 340	lui a mis une tarte dans la gueule
+A9	Temporality T6 Before
+A10	Experience T6 Patient
+T7	Temporal_Marker 419 432	première fois
+A11	Temporality T7 Overlap(default)
+T8	Temporal_Marker 372 385	première fois
+A12	Temporality T8 Overlap(default)
+A13	Hypothesis T8
+A14	Hypothesis T7
+T9	Person 523 535	votre enfant
+A15	Experience T9 Patient
+T10	Geographic_Marker 537 555	vous êtes avec lui
+A16	Temporality T10 Overlap(default)
+A17	Hypothesis T10
+A18	Experience T10 Patient
+T11	Geographic_Marker 569 589	je suis pas avec lui
+A19	Temporality T11 Overlap(default)
+A20	Negation T11 Négation
+A21	Experience T11 Patient
+T12	Geographic_Marker 647 662	dans sa chambre
+A22	Temporality T12 Overlap(default)
+A23	Experience T12 Patient
+T13	Sign_Symptom 711 717	mal où
+A24	Hypothesis T13
+A25	Experience T13 Patient
+T14	Sign_Symptom 768 789	où est ce qu'il a mal
+A26	Hypothesis T14
+A27	Experience T14 Patient
+T15	Sign_Symptom 908 916	pleurait
+A28	Temporality T15 Before_overlap
+A29	Experience T15 Patient
+T16	Sign_Symptom 974 991	parle normalement
+A30	Temporality T16 Overlap(default)
+A31	Hypothesis T16
+A32	Experience T16 Patient
+T17	Sign_Symptom 1019 1025	pleure
+A33	Temporality T17 Overlap(default)
+A34	Experience T17 Patient
+T18	Sign_Symptom 1085 1104	gifle sur le visage
+A35	Temporality T18 Before
+A36	Hypothesis T18
+A37	Experience T18 Patient
+T19	Sign_Symptom 1180 1194	reçu des coups
+A38	Temporality T19 Before_overlap
+A39	Hypothesis T19
+A40	Experience T19 Family
+T20	Sign_Symptom 1260 1273	pleure encore
+A41	Temporality T20 Overlap(default)
+A42	Hypothesis T20
+A43	Experience T20 Patient
+T21	Geographic_Marker 1280 1293	êtes avec lui
+A44	Hypothesis T21
+A45	Experience T21 Patient
+T22	Geographic_Marker 1331 1344	dans le salon
+A46	Temporality T22 Overlap(default)
+A47	Experience T22 Family
+T23	Person 1364 1368	mari
+A48	Experience T23 Family
+T24	Person 1392 1400	mon mari
+A49	Experience T24 Family
+T25	Geographic_Marker 1432 1441	est parti
+A50	Experience T25 Family
+T26	Temporal_Marker 1414 1428	tout à l'heure
+A51	Temporality T26 Before
+T27	Geographic_Marker 1506 1532	plus à la maison avec vous
+A52	Temporality T27 Overlap(default)
+A53	Hypothesis T27
+A54	Negation T27 Négation
+A55	Experience T27 Family
+T28	Geographic_Marker 1554 1574	plus ​dans la maison
+A56	Temporality T28 Overlap(default)
+A57	Negation T28 Négation
+A58	Experience T28 Family
+T29	Conduite 1597 1696	on va vous envoyer des hum des secours pour aller à l'hôpital pour que l'enfant puisse être examiné
+T30	Conduite 1729 1747	restez à la maison
+T31	Conduite 1755 1817	si il se passe heu quelque chose de nouveau vous nous rappelez
+T32	Conduite 1859 1900	si le mari revient vous appelez la police
+T33	Conduite 1970 2003	les secours arrivent au plus vite
+T34	Conduite 2193 2264	vous appelez la police, ils se mettront en relation avec nous également

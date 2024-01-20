@@ -1,0 +1,40 @@
+T1	Person 54 71	docteur LAKHLIFI.
+A1	Experience T1 Healthcare_professional
+T2	Person 90 102	votre enfant
+A2	Experience T2 Patient
+T3	Sign_Symptom 119 133	ne répond plus
+A3	Experience T3 Patient
+A4	Negation T3 Négation
+T4	Person 202 223	il a les yeux ouverts
+A5	Hypothesis T4
+A6	Experience T4 Patient
+T5	Geographic_Marker 270 282	dans son lit
+A7	Experience T5 Patient
+T6	Person 1070 1074	ERIC
+A8	Experience T6 Patient
+T7	Person 35 42	madame,
+A9	Experience T7 Family
+T8	Conduite 1243 1271	réveillez le s'il vous plait
+A10	Experience T8 Healthcare_professional
+T9	Conduite 1460 1489	demandez lui d'ouvrir les yeu
+A11	Experience T9 Healthcare_professional
+T10	Person 1500 1504	ERIC
+A12	Experience T10 Patient
+T11	Person 1525 1529	ERIC
+A13	Experience T11 Patient
+T12	Temporal_Marker 1691 1713	depuis quatorze heures
+A14	Experience T12 Patient
+T13	Drug_chemicals 1854 1861	NUTELLA
+A15	Experience T13 Patient
+T14	Drug_chemicals 2184 2191	NUTELLA
+A16	Experience T14 Patient
+T15	Conduite 2338 2369	pouvez lui demander de se lever
+A17	Experience T15 Healthcare_professional
+T16	Conduite 3408 3432	envoyer heu les pompiers
+A18	Experience T16 Healthcare_professional
+T17	Person 3941 3947	madame
+A19	Experience T17 Family
+T18	Conduite 4017 4044	on vous envoie les pompiers
+A20	Experience T18 Healthcare_professional
+T19	Temporal_Marker 4140 4161	maximum vingt minutes
+A21	Experience T19 Other

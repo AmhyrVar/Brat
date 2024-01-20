@@ -1,0 +1,70 @@
+T2	Person 69 84	docteur du SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 85 100	le docteur ABAS
+A3	Experience T3 Healthcare_professional
+T4	Person 122 127	frère
+A4	Experience T4 Patient
+T5	Person 17 23	madame
+A5	Experience T5 Family
+T7	Person 541 549	monsieur
+A7	Experience T7 Healthcare_professional
+T8	Person 575 580	frère
+A8	Experience T8 Patient
+T9	Person 604 609	frère
+A9	Experience T9 Patient
+T10	Sign_Symptom 703 709	blessé
+A10	Hypothesis T10 Vrai
+T11	Sign_Symptom 727 750	saigne un peu de la têt
+A11	Experience T11 Patient
+T16	Person 1255 1260	frère
+A19	Experience T16 Patient
+T17	Sign_Symptom 1683 1701	perdu connaissance
+A20	Hypothesis T17 Vrai
+A21	Experience T17 Patient
+T19	Person 2087 2092	frère
+A23	Experience T19 Patient
+T20	Sign_Symptom 2136 2148	respire bien
+A24	Hypothesis T20 Vrai
+A25	Experience T20 Patient
+T21	Sign_Symptom 2113 2122	conscient
+A26	Hypothesis T21 Vrai
+A27	Experience T21 Patient
+T22	Sign_Symptom 2249 2256	douleur
+A28	Hypothesis T22 Vrai
+A29	Experience T22 Patient
+T23	Sign_Symptom 2301 2318	mal heu à la tête
+A31	Experience T23 Patient
+T24	Sign_Symptom 2343 2354	mal partout
+A30	Experience T24 Patient
+T25	Sign_Symptom 2405 2409	vomi
+A32	Hypothesis T25 Vrai
+A33	Experience T25 Patient
+T26	Conduite 2453 2482	amener les pompiers sur place
+T27	Person 2513 2524	es pompiers
+A34	Experience T27 Healthcare_professional
+T28	Person 2704 2712	pompiers
+A35	Experience T28 Healthcare_professional
+T29	Person 2713 2721	monsieur
+A36	Experience T29 Healthcare_professional
+T30	Person 2886 2894	monsieur
+A37	Experience T30 Healthcare_professional
+T31	Conduite 2951 2971	envoyer les pompiers
+T32	Conduite 2997 3023	ils vont éva- vous évaluer
+T33	Conduite 3158 3191	les pomp- les pompiers vont venir
+T34	Person 3398 3403	frère
+A38	Experience T34 Patient
+T36	Sign_Symptom 3517 3525	douleurs
+A40	Hypothesis T36 Vrai
+A41	Experience T36 Family
+T37	Conduite 3718 3774	il faut que vous soyez au moins évaluée par les pompiers
+A42	Experience T37 Family
+T38	Person 3846 3854	pompiers
+A43	Experience T38 Healthcare_professional
+T39	Person 4073 4078	frère
+A44	Experience T39 Patient
+T1	Person 1403 1410	docteur
+A1	Experience T1 Healthcare_professional
+T12	Person 2933 2939	madame
+A6	Experience T12 Other
+T13	Conduite 4045 4066	ils vont vous évaluer
+T6	Geographic_Marker 424 439	tunnel du LANDY

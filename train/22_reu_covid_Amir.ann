@@ -1,0 +1,78 @@
+T1	Person 36 50	docteur BOCHIN
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Person 74 90	votre heu voisin
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Patient
+T3	Person 170 180	mon voisin
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Patient
+T4	Disease 212 217	COVID
+A7	Temporality T4 Overlap(default)
+A8	Experience T4 Patient
+T5	Geographic_Marker 242 251	l'hôpital
+A9	Temporality T5 Overlap(default)
+T6	Conduite 291 340	il a fait le test pour être sûr qu'il a le COVID?
+A10	Temporality T6 Before
+A11	Hypothesis T6
+A12	Experience T6 Patient
+T7	Sign_Symptom 354 398	il tousse il a de la fièvre il a mal partout
+A13	Temporality T7 Overlap(default)
+A14	Experience T7 Patient
+T8	Sign_Symptom 408 433	il est gêné pour respirer
+A15	Temporality T8 Overlap(default)
+A16	Experience T8 Patient
+T9	Sign_Symptom 438 466	ça fait mal quand il respire
+A17	Temporality T9 Overlap(default)
+A18	Experience T9 Patient
+T10	Sign_Symptom 471 488	il a de la fièvre
+A19	Temporality T10 Overlap(default)
+A20	Experience T10 Patient
+T11	Disease 494 507	il a le COVID
+A21	Temporality T11 Overlap(default)
+A22	Experience T11 Patient
+T12	Conduite 579 638	est ce que quelqu'un a fait le test pour heu pour être sûr?
+A23	Temporality T12 Before
+A24	Hypothesis T12
+A25	Experience T12 Patient
+T13	Sign_Symptom 876 980	les symptômes il les a depuis depuis combien de temps là depuis combien de temps il a du mal à respirer?
+A26	Temporality T13 Before
+A27	Experience T13 Patient
+T14	Temporal_Marker 988 1035	: depuis le début depuis le début de la semaine
+A28	Temporality T14 Before
+A29	Experience T14 Patient
+T15	Sign_Symptom 1050 1127	ça fait cinq jours que qu'il a de la fièvre et heu qu'il a du mal à respirer?
+A30	Temporality T15 Before
+A31	Hypothesis T15
+A32	Experience T15 Patient
+T16	Sign_Symptom 1171 1183	qu'il tousse
+A33	Temporality T16 Overlap(default)
+A34	Experience T16 Patient
+T17	Disease 1202 1215	il a le COVID
+A35	Temporality T17 Overlap(default)
+A36	Experience T17 Patient
+T18	Sign_Symptom 1360 1452	il respire il respire vite quand quand vous dites qu'il a du mal à respirer il respire vite?
+A37	Temporality T18 Overlap(default)
+A38	Experience T18 Patient
+T19	Sign_Symptom 1924 1950	il arrivait bien à parler?
+A39	Temporality T19 Overlap(default)
+A40	Hypothesis T19
+A41	Experience T19 Patient
+T20	Sign_Symptom 2005 2082	qu'il avait de la fièvre qu'il avait de la toux qu'il avait du mal à respirer
+A42	Temporality T20 Before
+A43	Experience T20 Patient
+T21	Disease 2107 2141	il doit avoir le COVID le monsieur
+A44	Temporality T21 Overlap(default)
+A45	Experience T21 Patient
+T22	Conduite 2386 2517	on on va voir si heu il y a un médecin qui on va il y a un médecin qui va se déplacer dans dans la journée pour heu venir l'évaluer
+A46	Temporality T22 Overlap(default)
+A47	Experience T22 Patient
+T23	Conduite 2768 2863	il va rester heu il va rester dans sa maison là il y a le médecin qui va qui va venir l'évaluer
+A48	Temporality T23 Overlap(default)
+A49	Experience T23 Patient
+T24	Conduite 2941 3044	mais si il reste dans sa maison il est tout seul donc là il y a le médecin qui va qui va venir l'évalue
+A50	Temporality T24 Overlap(default)
+A51	Experience T24 Patient
+T25	Conduite 3154 3208	on fera le point quand le médecin il viendra l'évaluer
+A52	Temporality T25 Overlap(default)
+A53	Experience T25 Patient

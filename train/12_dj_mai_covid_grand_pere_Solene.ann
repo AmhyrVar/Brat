@@ -1,0 +1,105 @@
+T1	Person 35 47	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T2	Person 113 148	votre père de quatre vingt cinq ans
+A2	Experience T2 Patient
+T3	Disease 170 175	COVID
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Sign_Symptom 914 920	fièvre
+A5	Experience T4 Patient
+T5	Person 216 221	COVID
+A6	Negation T5 Négation
+T6	Sign_Symptom 924 930	tousse
+A7	Experience T6 Patient
+T7	Sign_Symptom 1138 1157	respire normalement
+A8	Experience T7 Patient
+T8	Sign_Symptom 1177 1199	difficultés à respirer
+A9	Hypothesis T8
+A10	Experience T8 Patient
+A11	Hypothesis T7
+T9	Sign_Symptom 1233 1252	espirer normalement
+A12	Experience T9 Patient
+T10	Temporal_Marker 1307 1318	aujourd'hui
+T11	Temporal_Marker 1359 1383	les trois derniers jours
+T12	Person 1596 1607	aggravation
+A13	Negation T12 Négation
+T13	Sign_Symptom 1330 1354	aggravation particulière
+A14	Hypothesis T13
+A15	Experience T13 Patient
+T14	Disease 1734 1752	problèmes de santé
+A16	Hypothesis T14
+A17	Experience T14 Patient
+T15	Disease 1822 1832	hypertendu
+A18	Experience T15 Patient
+T16	Disease 1849 1854	stent
+A19	Experience T16 Patient
+T17	Disease 1866 1876	diabétique
+A20	Experience T17 Patient
+T18	Disease 1890 1900	diabétique
+A21	Experience T18 Patient
+T19	Sign_Symptom 2004 2012	autonome
+A22	Experience T19 Patient
+T21	Sign_Symptom 2053 2072	problèmes cognitifs
+A25	Hypothesis T21
+A26	Experience T21 Patient
+T22	Sign_Symptom 2080 2100	problèmes de mémoire
+A27	Hypothesis T22
+A28	Experience T22 Patient
+T23	Sign_Symptom 2111 2120	confusion
+A29	Hypothesis T23
+A30	Experience T23 Patient
+T24	Sign_Symptom 2191 2208	aller à l'hôpital
+A31	Negation T24 Négation
+A32	Experience T24 Patient
+T25	Sign_Symptom 2546 2565	symptômes perdurent
+A33	Hypothesis T25
+A34	Experience T25 Patient
+T26	Temporal_Marker 2566 2582	depuis un moment
+R1	Temp_mark Arg1:T26 Arg2:T25	
+R2	Temp_mark Arg1:T11 Arg2:T13	
+R3	Temp_mark Arg1:T10 Arg2:T13	
+T27	Conduite 2817 2843	passez le moi au téléphone
+A35	Experience T27 Healthcare_professional
+T28	Sign_Symptom 2900 2906	parler
+A36	Experience T28 Patient
+T29	Temporal_Marker 3113 3126	tout de suite
+T31	Conduite 3209 3225	il soit surveill
+A38	Experience T31 Healthcare_professional
+T32	Sign_Symptom 3593 3601	bon état
+A39	Negation T32 Négation
+A40	Experience T32 Family
+T33	Person 3566 3571	maman
+A41	Experience T33 Family
+T34	Disease 3635 3640	COVID
+A42	Experience T34 Family
+T35	Sign_Symptom 3650 3670	extrêmement fatiguée
+A43	Experience T35 Family
+T36	Conduite 3752 3799	prendre un rendez vous avec le médecin traitant
+A44	Experience T36 Healthcare_professional
+T37	Conduite 3863 3897	faire passer un médecin à domicile
+A45	Experience T37 Healthcare_professional
+T38	Temporal_Marker 3969 3985	plusieurs heures
+T39	Conduite 4405 4464	aggravation ou un changement particulier vous nous rappelez
+A46	Experience T39 Healthcare_professional
+T40	Geographic_Marker 4022 4033	à la maison
+T41	Geographic_Marker 3537 3548	à la maison
+T42	Geographic_Marker 3316 3324	domicile
+T43	Geographic_Marker 1467 1478	à la maison
+T44	Person 68 76	collègue
+A47	Experience T44 Healthcare_professional
+T45	Person 253 260	médecin
+A48	Negation T45 Négation
+A49	Experience T45 Healthcare_professional
+T46	Temporal_Marker 457 465	ce matin
+T47	Person 860 864	papa
+A50	Experience T47 Patient
+T48	Geographic_Marker 983 994	à la maison
+T49	Person 1057 1061	papa
+A51	Experience T49 Patient
+T20	Geographic_Marker 2013 2024	à la maison
+T50	Geographic_Marker 2199 2208	l'hôpital
+T51	Disease 2380 2385	COVID
+A23	Experience T51 Family
+T52	Geographic_Marker 2487 2494	hôpital
+A24	Negation T28 Négation
+T30	Conduite 4372 4387	restez avec lui

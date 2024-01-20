@@ -1,0 +1,150 @@
+T1	Person 17 23	madame
+A1	Experience T1 Other
+T2	Person 30 62	le médecin du SAMU docteur SHITZ
+A2	Experience T2 Healthcare_professional
+T3	Person 105 111	voisin
+A3	Experience T3 Patient
+T4	Person 168 174	voisin
+A4	Experience T4 Patient
+T5	Sign_Symptom 323 328	COVID
+A5	Experience T5 Patient
+T6	Sign_Symptom 353 358	COVID
+A6	Experience T6 Patient
+A7	Temporality T5 Overlap(default)
+A8	Temporality T6 Overlap(default)
+T7	Disease 390 395	COVID
+A9	Temporality T7 Before
+A10	Experience T7 Other
+T9	Drug_chemicals 536 546	injections
+A13	Temporality T9 Before
+A14	Experience T9 Other
+#1	AnnotatorNotes T9	Substance thérapeutique
+T10	Temporal_Marker 485 510	toutes les trois semaines
+A15	Temporality T10 Before
+A16	Experience T10 Other
+T11	Geographic_Marker 469 484	hôpital de jour
+A17	Experience T11 Other
+T12	Conduite 942 955	passez le moi
+A18	Temporality T12 Overlap(default)
+T13	Sign_Symptom 1269 1274	COVID
+A19	Temporality T13 Overlap(default)
+A20	Experience T13 Patient
+T14	Sign_Symptom 1450 1464	mal à respirer
+A21	Temporality T14 Overlap(default)
+A22	Hypothesis T14 Vrai
+A23	Experience T14 Patient
+T15	Sign_Symptom 1482 1489	respire
+A24	Temporality T15 Overlap(default)
+A25	Experience T15 Patient
+T16	Disease 1598 1616	embolie pulmonaire
+A26	Temporality T16 Before
+A27	Experience T16 Other
+T17	Sign_Symptom 1637 1668	pas du tout gênée pour respirer
+A28	Temporality T17 Before
+A29	Experience T17 Other
+T18	Sign_Symptom 1810 1816	fièvre
+A30	Temporality T18 Overlap(default)
+A31	Experience T18 Patient
+T19	Sign_Symptom 1820 1826	tousse
+A32	Temporality T19 Overlap(default)
+A33	Experience T19 Patient
+T20	Sign_Symptom 1881 1886	COVID
+A34	Temporality T20 Overlap(default)
+A35	Experience T20 Patient
+T21	Disease 1913 1931	problèmes de santé
+A36	Temporality T21 Before
+A37	Hypothesis T21 Vrai
+A38	Experience T21 Patient
+T22	Person 1954 1972	il a cinquante ans
+A39	Experience T22 Patient
+T23	Sign_Symptom 2249 2256	fatigue
+A40	Temporality T23 Overlap(default)
+A41	Experience T23 Patient
+T24	Disease 2354 2359	COVID
+A42	Temporality T24 Before
+A43	Experience T24 Other
+T25	Sign_Symptom 2449 2455	fièvre
+A44	Temporality T25 Before
+A45	Experience T25 Other
+T26	Disease 2553 2571	embolie pulmonaire
+A46	Temporality T26 Before
+A47	Experience T26 Other
+T27	Sign_Symptom 2603 2616	mal au jambes
+A48	Temporality T27 Before_overlap
+A49	Experience T27 Other
+T28	Sign_Symptom 2635 2658	pas retrouvé mon odorat
+A50	Temporality T28 Before_overlap
+A51	Negation T28 Négation
+A52	Experience T28 Other
+T29	Temporal_Marker 2578 2593	depuis six mois
+A53	Temporality T29 Before_overlap
+R1	Temp_mark Arg1:T29 Arg2:T27	
+R2	Temp_mark Arg1:T29 Arg2:T28	
+T31	Sign_Symptom 2750 2756	tousse
+A56	Temporality T31 Overlap(default)
+A57	Hypothesis T31 Vrai
+A58	Experience T31 Patient
+T32	Sign_Symptom 2770 2776	tousse
+A59	Temporality T32 Overlap(default)
+A60	Experience T32 Patient
+T33	Sign_Symptom 2815 2821	fièvre
+A61	Temporality T33 Overlap(default)
+A62	Hypothesis T33 Vrai
+A63	Experience T33 Patient
+T34	Sign_Symptom 2841 2846	COVID
+A64	Temporality T34 Overlap(default)
+A65	Experience T34 Patient
+T35	Person 2856 2862	madame
+A66	Experience T35 Other
+T36	Conduite 2900 2954	vous pouvez l'amener à l- heu voir un médecin traitant
+A67	Hypothesis T36 Vrai
+T37	Sign_Symptom 3064 3069	COVID
+A68	Temporality T37 Overlap(default)
+A69	Experience T37 Patient
+T38	Disease 3089 3109	j'ai encore le COVID
+A70	Temporality T38 Before_overlap
+A71	Experience T38 Other
+T39	Drug_chemicals 3297 3305	vaccinée
+A72	Temporality T39 Before
+A73	Experience T39 Other
+#2	AnnotatorNotes T39	Substance thérapeutique
+T40	Disease 3331 3336	COVID
+A74	Temporality T40 Before
+A75	Experience T40 Other
+T41	Sign_Symptom 3392 3402	COVID aigü
+A76	Temporality T41 Before
+A77	Experience T41 Other
+T42	Sign_Symptom 3409 3419	COVID aigü
+A78	Temporality T42 Before
+A79	Experience T42 Other
+T43	Disease 3427 3437	COVID long
+A80	Temporality T43 Before_overlap
+A81	Experience T43 Other
+T8	Disease 404 414	COVID long
+A11	Temporality T8 Before_overlap
+A12	Experience T8 Other
+T44	Person 3485 3491	madame
+A82	Experience T44 Other
+T45	Person 3492 3498	madame
+A83	Experience T45 Other
+T46	Conduite 3510 3567	il faut qu'il consulte un médecin dans la dans la journée
+A84	Temporality T46 Overlap(default)
+T47	Conduite 3622 3671	il faut qu'il consulte un médecin dans la journée
+A85	Temporality T47 Overlap(default)
+T48	Person 3615 3621	madame
+A86	Experience T48 Other
+T49	Person 3705 3721	médecin traitant
+A87	Experience T49 Healthcare_professional
+T50	Geographic_Marker 3730 3745	maison de santé
+A88	Experience T50 Healthcare_professional
+T51	Disease 3890 3900	COVID long
+A89	Temporality T51 Before_overlap
+A90	Experience T51 Other
+T30	Disease 2688 2698	COVID long
+A54	Temporality T30 Before_overlap
+A55	Experience T30 Other
+T52	Disease 862 872	COVID long
+A91	Temporality T52 Before_overlap
+A92	Experience T52 Other
+T53	Person 3858 3869	mon médecin
+A93	Experience T53 Healthcare_professional

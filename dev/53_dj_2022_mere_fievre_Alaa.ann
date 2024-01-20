@@ -1,0 +1,115 @@
+T1	Person 119 132	docteur CHITZ
+A1	Experience T1 Healthcare_professional
+T2	Person 186 191	maman
+A2	Experience T2 Patient
+T4	Person 248 253	maman
+A5	Experience T4 Patient
+T3	Sign_Symptom 204 210	fièvre
+A3	Temporality T3 Before_overlap
+A4	Experience T3 Patient
+T5	Sign_Symptom 267 273	fièvre
+A6	Temporality T5 Before_overlap
+A7	Experience T5 Patient
+T6	Sign_Symptom 383 399	autres symptômes
+A8	Temporality T6 Overlap(default)
+A9	Hypothesis T6
+A10	Experience T6 Patient
+T7	Sign_Symptom 447 453	fièvre
+A11	Temporality T7 Overlap(default)
+A12	Experience T7 Patient
+T8	Sign_Symptom 457 464	chauffe
+A13	Temporality T8 Overlap(default)
+A14	Experience T8 Patient
+T9	Sign_Symptom 482 489	chauffe
+A15	Temporality T9 Overlap(default)
+A16	Experience T9 Patient
+T10	Sign_Symptom 514 521	a chaud
+A17	Temporality T10 Overlap(default)
+A18	Experience T10 Patient
+T11	Sign_Symptom 536 543	a chaud
+A19	Temporality T11 Overlap(default)
+A20	Experience T11 Patient
+T12	Sign_Symptom 663 689	ça chauffe et de la fièvre
+A21	Temporality T12 Overlap(default)
+A22	Experience T12 Patient
+T13	Conduite 765 778	passez la moi
+A23	Experience T13 Family
+T14	Geographic_Marker 826 831	pièce
+T15	Conduite 949 971	mettez là au téléphone
+A24	Experience T15 Family
+T16	Sign_Symptom 1024 1036	est fatiguée
+A25	Temporality T16 Overlap(default)
+A26	Experience T16 Patient
+T17	Sign_Symptom 1043 1050	a chaud
+A27	Temporality T17 Overlap(default)
+A28	Experience T17 Patient
+T18	Sign_Symptom 1056 1071	peut pas parler
+A29	Temporality T18 Overlap(default)
+A30	Experience T18 Patient
+T19	Sign_Symptom 1086 1101	peut pas parler
+A31	Temporality T19 Overlap(default)
+A32	Experience T19 Patient
+T20	Sign_Symptom 1177 1189	a trop chaud
+A33	Temporality T20 Overlap(default)
+A34	Experience T20 Patient
+T21	Sign_Symptom 1196 1207	a la fièvre
+A35	Experience T21 Patient
+T22	Sign_Symptom 1236 1255	a du mal à respirer
+A36	Hypothesis T22
+A37	Experience T22 Patient
+T23	Sign_Symptom 1295 1300	ça va
+A38	Experience T23 Patient
+T24	Conduite 1417 1430	passez la moi
+A39	Experience T24 Family
+T25	Sign_Symptom 1641 1647	fièvre
+A40	Experience T25 Patient
+T26	Sign_Symptom 1670 1694	autre problèmes de santé
+A41	Hypothesis T26
+A42	Experience T26 Patient
+T27	Conduite 1882 1914	pouvez me la passer au téléphone
+A43	Experience T27 Family
+T28	Conduite 2238 2264	faut aller voir un médecin
+A44	Experience T28 Patient
+T29	Conduite 2278 2330	essayez d'aller dans la maison médicale près de vous
+A45	Experience T29 Patient
+T30	Person 2662 2669	médecin
+A46	Experience T30 Healthcare_professional
+T31	Person 1778 1785	médecin
+A47	Experience T31 Healthcare_professional
+T32	Person 2706 2710	mère
+A48	Experience T32 Patient
+T33	Person 2496 2500	mère
+A49	Experience T33 Patient
+T34	Person 2760 2764	mère
+A50	Experience T34 Patient
+T35	Sign_Symptom 2947 2964	a très très chaud
+A51	Experience T35 Patient
+T36	Person 2971 2989	avait de la fièvre
+A52	Temporality T36 Before_overlap
+A53	Experience T36 Patient
+T37	Person 3012 3020	monsieur
+A54	Experience T37 Family
+T38	Person 110 118	monsieur
+A55	Experience T38 Family
+T39	Person 17 25	monsieur
+A56	Experience T39 Family
+T40	Person 3084 3091	médecin
+A57	Experience T40 Healthcare_professional
+T41	Person 3359 3367	monsieur
+A58	Experience T41 Family
+T42	Temporal_Marker 603 611	ce matin
+T43	Temporal_Marker 621 625	hier
+T44	Temporal_Marker 654 662	ce matin
+A59	Negation T18 Négation
+T45	Geographic_Marker 1127 1136	l'hôpital
+T46	Sign_Symptom 1302 1307	ça va
+A60	Experience T46 Patient
+T47	Sign_Symptom 1450 1465	veut pas parler
+A61	Experience T47 Patient
+T48	Geographic_Marker 2164 2173	l'hôpital
+T49	Geographic_Marker 2372 2381	l'hôpital
+T50	Geographic_Marker 2672 2681	la maison
+T51	Geographic_Marker 2776 2785	la maison
+T52	Geographic_Marker 2901 2910	l'hôpital
+T53	Geographic_Marker 3141 3150	l'hôpital
+T54	Geographic_Marker 3094 3103	la maison

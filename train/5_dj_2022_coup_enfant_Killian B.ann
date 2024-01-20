@@ -1,0 +1,69 @@
+T1	Person 51 65	docteur CELINE
+A1	Experience T1 Healthcare_professional
+T2	Person 69 87	médecin régulateur
+A2	Experience T2 Healthcare_professional
+T3	Person 118 122	fils
+A3	Experience T3 Patient
+T4	Disease 138 147	des coups
+A4	Temporality T4 Before
+T5	Temporal_Marker 131 132	a
+A5	Temporality T5 Before
+R1	Temp_mark Arg1:T5 Arg2:T4	
+T7	Person 248 252	mari
+A8	Experience T7 Family
+T8	Person 529 535	enfant
+A9	Experience T8 Patient
+T9	Person 512 518	enfant
+A10	Experience T9 Patient
+T10	Sign_Symptom 711 718	mal où?
+A11	Temporality T10 Overlap(default)
+A12	Hypothesis T10
+T11	Sign_Symptom 786 790	mal?
+A13	Temporality T11 Overlap(default)
+A14	Hypothesis T11
+T12	Sign_Symptom 908 916	pleurait
+A15	Temporality T12 Before
+T13	Sign_Symptom 1019 1025	pleure
+A16	Temporality T13 Overlap(default)
+T14	Sign_Symptom 1085 1105	gifle sur le visage?
+A17	Temporality T14 Before
+A18	Hypothesis T14
+T15	Temporal_Marker 1064 1069	s'est
+A19	Temporality T15 Before
+R2	Temp_mark Arg1:T15 Arg2:T14	
+T16	Sign_Symptom 282 288	a tapé
+A20	Temporality T16 Before
+T17	Temporal_Marker 189 215	qu'est ce qui s'est passé?
+A21	Temporality T17 Before
+A22	Hypothesis T17
+R3	Temp_mark Arg1:T17 Arg2:T16	
+T6	Sign_Symptom 1260 1265	pleur
+A6	Temporality T6 Overlap(default)
+T18	Person 1364 1368	mari
+A7	Experience T18 Family
+T19	Person 1396 1400	mari
+A23	Experience T19 Family
+T20	Conduite 1597 1696	on va vous envoyer des hum des secours pour aller à l'hôpital pour que l'enfant puisse être examiné
+A24	Temporality T20 After
+T21	Person 1670 1676	enfant
+A25	Experience T21 Patient
+T22	Conduite 1724 1817	donc restez à la maison et heu si il se passe heu quelque chose de nouveau vous nous rappelez
+A26	Temporality T22 After
+T23	Conduite 1859 1900	si le mari revient vous appelez la police
+A27	Temporality T23 After
+T24	Person 1894 1900	police
+A28	Experience T24 Other
+T25	Person 1936 1942	police
+A29	Experience T25 Other
+T26	Person 2090 2098	pompiers
+A30	Experience T26 Other
+T27	Conduite 2193 2264	vous appelez la police, ils se mettront en relation avec nous également
+A31	Temporality T27 After
+T28	Person 2209 2215	police
+A32	Experience T28 Other
+T29	Person 1865 1869	mari
+A33	Experience T29 Family
+T30	Person 1974 1981	secours
+A34	Experience T30 Other
+T31	Person 1837 1841	mari
+A35	Experience T31 Family

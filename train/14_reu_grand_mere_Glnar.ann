@@ -1,0 +1,250 @@
+T1	Person 21 29	monsieur
+A1	Experience T1 Family
+T2	Person 39 46	médecin
+A2	Experience T2 Healthcare_professional
+T3	Geographic_Marker 47 70	du SAMU COLIN GUILLAUME
+T4	Person 127 132	mamie
+A3	Experience T4 Patient
+T5	Person 154 166	mon collègue
+A4	Experience T5 Healthcare_professional
+T6	Person 180 196	votre grand mère
+A5	Experience T6 Patient
+T7	Person 289 299	grand mère
+A6	Experience T7 Patient
+T8	Disease 326 341	elle est malade
+A7	Temporality T8 Overlap(default)
+A8	Experience T8 Patient
+T9	Disease 369 375	malade
+A9	Experience T9 Patient
+T10	Temporal_Marker 376 399	depuis combien de temps
+A10	Temporality T10 Before_overlap
+T11	Temporal_Marker 422 449	quatre trois quatre jours l
+A11	Temporality T11 Before_overlap
+A12	Experience T11 Patient
+T12	Temporal_Marker 470 488	trois quatre jours
+A13	Temporality T12 Before_overlap
+T13	Sign_Symptom 501 526	elle respire normalement?
+A14	Temporality T13 Overlap(default)
+A15	Hypothesis T13
+A16	Experience T13 Patient
+T14	Sign_Symptom 580 640	elle tousse elle est fatiguée elle respire elle est fatiguée
+A17	Temporality T14 Overlap(default)
+A18	Experience T14 Patient
+T15	Conduite 659 702	passez moi votre grand mère madame monsieur
+A19	Temporality T15 Overlap(default)
+T16	Person 668 686	i votre grand mère
+A20	Experience T16 Patient
+T17	Person 694 702	monsieur
+A21	Temporality T17 Overlap(default)
+A22	Experience T17 Family
+T18	Conduite 719 756	je veux entendre comment elle respire
+A23	Experience T18 Healthcare_professional
+T19	Sign_Symptom 744 756	elle respire
+A24	Experience T19 Patient
+T20	Geographic_Marker 810 815	où là
+A25	Temporality T20 Overlap(default)
+A26	Hypothesis T20
+A27	Experience T20 Patient
+T21	Geographic_Marker 835 864	à cô- elle est dans la maison
+A28	Temporality T21 Overlap(default)
+A29	Experience T21 Patient
+T22	Conduite 878 952	mettez juste le téléphone à côté d'elle que j'entende juste sa respiration
+A30	Experience T22 Family
+T23	Geographic_Marker 904 917	à côté d'elle
+T24	Sign_Symptom 938 952	sa respiration
+A31	Experience T24 Patient
+T25	Person 1007 1015	monsieur
+A32	Experience T25 Family
+T26	Conduite 1017 1047	e dois entendre sa respiration
+A33	Experience T26 Healthcare_professional
+T27	Person 1034 1047	a respiration
+A34	Experience T27 Patient
+T28	Disease 1277 1325	elle a quoi comme problème de santé votre mamie?
+A35	Temporality T28 Before_overlap
+A36	Hypothesis T28
+A37	Experience T28 Patient
+T29	Sign_Symptom 1339 1353	elle a son âge
+A38	Temporality T29 Overlap(default)
+A39	Experience T29 Patient
+T30	Disease 1383 1401	elle a des cachets
+A40	Temporality T30 Before_overlap
+A41	Experience T30 Patient
+T31	Conduite 1411 1440	qu'elle prend des médicaments
+A42	Temporality T31 Before_overlap
+A43	Experience T31 Patient
+T32	Drug_chemicals 1425 1440	des médicaments
+T33	Conduite 1450 1497	d'accord vous avez l'ordonnance à côté de vous?
+A44	Hypothesis T33
+T34	Disease 1534 1604	ous savez si elle prend des médicaments pour la tension pour le coeur?
+A45	Temporality T34 Before_overlap
+A46	Hypothesis T34
+A47	Experience T34 Patient
+T35	Disease 1624 1646	lle fait de la tension
+A48	Temporality T35 Before_overlap
+A49	Experience T35 Patient
+T36	Sign_Symptom 1669 1710	lle fait quoi d'habitude votre grand mère
+A50	Temporality T36 Before_overlap
+A51	Hypothesis T36
+A52	Experience T36 Patient
+T37	Sign_Symptom 1720 1758	elle se promène elle sort de chez elle
+A53	Temporality T37 Before
+A54	Hypothesis T37
+A55	Experience T37 Patient
+T38	Temporal_Marker 1683 1693	d'habitude
+T39	Geographic_Marker 1796 1808	ous ensemble
+T40	Conduite 1827 1846	on fait les courses
+A56	Experience T40 Family
+A57	Temporality T40 Before
+T41	Sign_Symptom 1868 1876	elle sor
+A58	Temporality T41 Before
+A59	Experience T41 Patient
+T42	Conduite 1891 1968	elle a vu son docteur depuis trois quatre jours qu'elle a mal qu'elle a la f-
+T43	Person 1905 1912	docteur
+A60	Temporality T43 Before
+A61	Experience T43 Healthcare_professional
+T44	Temporal_Marker 1914 1938	epuis trois quatre jours
+T45	Sign_Symptom 1939 1967	qu'elle a mal qu'elle a la f
+A62	Temporality T45 Before
+A63	Experience T45 Patient
+T46	Conduite 2014 2050	elle aime pas aller voir le docteur?
+A64	Temporality T46 Before
+A65	Negation T46 Négation
+A66	Experience T46 Patient
+T47	Conduite 2074 2118	l fait des visites à domicile votre docteur?
+A67	Temporality T47 Before
+A68	Hypothesis T47
+A69	Negation T47 Négation
+A70	Experience T47 Patient
+A71	Hypothesis T46
+T48	Conduite 2158 2174	l faut l'appeler
+A72	Temporality T48 After
+A73	Experience T48 Patient
+T49	Person 2244 2246	15
+A74	Temporality T49 Before_overlap
+A75	Experience T49 Healthcare_professional
+T50	Conduite 2228 2246	dit de faire le 15
+A76	Temporality T50 Before
+A77	Experience T50 Family
+T51	Conduite 2356 2420	il faut heu faut que vous appeliez son médecin traitant monsieur
+A78	Temporality T51 After
+A79	Experience T51 Patient
+T52	Person 2395 2411	médecin traitant
+A80	Experience T52 Healthcare_professional
+T53	Person 2412 2420	monsieur
+A81	Experience T53 Family
+T54	Conduite 2559 2594	si besoin un médecin puisse déposer
+A82	Temporality T54 After
+A83	Hypothesis T54
+A84	Experience T54 Patient
+T55	Person 2569 2585	un médecin puiss
+A85	Experience T55 Healthcare_professional
+T56	Conduite 2608 2635	appelez le et puis on verra
+A86	Temporality T56 Overlap(default)
+A87	Experience T56 Family
+T57	Conduite 2656 2676	faut qu'il vienne là
+A88	Temporality T57 After
+A89	Experience T57 Healthcare_professional
+T58	Temporal_Marker 2645 2655	maintenant
+A90	Temporality T58 Overlap(default)
+T59	Geographic_Marker 2674 2676	là
+T60	Conduite 2690 2718	appelle appelez le justement
+A91	Experience T60 Family
+T61	Conduite 2728 2748	il faut qu'il vienne
+A92	Experience T61 Healthcare_professional
+A93	Temporality T61 Overlap(default)
+T62	Conduite 2777 2804	u'il faut l'appeler monsieu
+A94	Experience T62 Family
+T63	Person 2797 2804	monsieu
+A95	Experience T63 Family
+T64	Person 2875 2882	docteur
+A96	Experience T64 Healthcare_professional
+T65	Conduite 3037 3059	demandez à votre mamie
+A97	Temporality T65 Overlap(default)
+A98	Experience T65 Family
+T66	Person 3054 3059	mamie
+A99	Experience T66 Patient
+T67	Conduite 3074 3101	lle va pas vouloir je pense
+A100	Temporality T67 After
+A102	Negation T67 Négation
+A103	Experience T67 Patient
+T68	Conduite 3111 3151	elle va pas vouloir vous donner son nom?
+A104	Temporality T68 After
+A105	Hypothesis T68
+A106	Experience T68 Patient
+A107	Negation T68 Négation
+T69	Conduite 3166 3194	lle veut pas voir le médecin
+A101	Temporality T69 After
+A108	Negation T69 Négation
+A109	Experience T69 Patient
+T70	Conduite 3204 3233	elle veut pas voir le médecin
+A110	Temporality T70 After
+A111	Hypothesis T70
+A112	Negation T70 Négation
+A113	Experience T70 Patient
+T71	Conduite 3267 3419	je vous transfère chez heu chez chez les collègues de je vous donne le numéro de SOS médecin de pour heu puissiez les appeler pour qu'ils puissent venir
+A114	Temporality T71 Overlap(default)
+A115	Experience T71 Family
+T72	Person 3304 3317	les collègues
+A116	Experience T72 Healthcare_professional
+T73	Person 3348 3359	SOS médecin
+A117	Experience T73 Healthcare_professional
+T74	Person 3432 3435	SOS
+A118	Experience T74 Healthcare_professional
+T75	Conduite 3535 3605	ils vont ils vont ils vont s'occuper de votre mamie d'accord monsieur?
+A119	Temporality T75 After
+A120	Experience T75 Other
+T76	Person 3581 3586	mamie
+A121	Experience T76 Patient
+T77	Person 3596 3604	monsieur
+A122	Experience T77 Family
+T78	Conduite 3476 3490	ils vont venir
+A123	Temporality T78 After
+A124	Experience T78 Healthcare_professional
+T79	Conduite 3621 3668	l y a un médecin il y a un médecin qui vient là
+A125	Temporality T79 After
+A126	Experience T79 Healthcare_professional
+T80	Geographic_Marker 3666 3668	là
+T81	Person 3645 3655	un médecin
+A127	Experience T81 Healthcare_professional
+T82	Person 3627 3637	un médecin
+A128	Experience T82 Healthcare_professional
+T83	Conduite 3697 3740	il va passer pour examiner votre grand mère
+A129	Temporality T83 After
+A130	Experience T83 Healthcare_professional
+T84	Person 3730 3740	grand mère
+A131	Experience T84 Patient
+T85	Temporal_Marker 3750 3764	là maintenant?
+A132	Temporality T85 Overlap(default)
+T86	Temporal_Marker 3774 3812	dans la journée en tous cas aujourd'hu
+A133	Temporality T86 After
+T87	Temporal_Marker 3827 3845	il est neuf heures
+A134	Temporality T87 Overlap(default)
+T88	Conduite 3912 3979	l y a un médecin qui vient heu avec le camion voir ma grand mère là
+A135	Temporality T88 After
+A136	Hypothesis T88
+A137	Experience T88 Patient
+T89	Person 3963 3976	ma grand mère
+A138	Experience T89 Patient
+T90	Person 3918 3928	un médecin
+A139	Experience T90 Healthcare_professional
+T91	Conduite 3990 4023	il va venir voir votre grand mère
+A140	Temporality T91 After
+A141	Experience T91 Healthcare_professional
+T92	Person 4013 4023	grand mère
+A142	Experience T92 Patient
+T93	Conduite 4082 4111	c'est bon pour vous monsieur?
+A143	Temporality T93 Overlap(default)
+A144	Hypothesis T93
+A145	Experience T93 Family
+T94	Person 4102 4111	monsieur?
+A146	Experience T94 Family
+T95	Conduite 4125 4158	si il y a un médecin qui vient ou
+A147	Temporality T95 After
+A148	Experience T95 Healthcare_professional
+T96	Person 4136 4145	n médecin
+A149	Experience T96 Healthcare_professional
+T97	Conduite 4169 4179	il va veni
+A150	Temporality T97 After
+A151	Experience T97 Healthcare_professional
+T98	Person 4228 4235	monsieu
+A152	Experience T98 Family

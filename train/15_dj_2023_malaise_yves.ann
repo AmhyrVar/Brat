@@ -1,0 +1,59 @@
+T1	Person 51 67	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 86 97	votre femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 116 123	malaise
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Person 209 220	votre femme
+A5	Experience T4 Patient
+T5	Sign_Symptom 434 454	elle est consciente?
+A6	Hypothesis T5
+A7	Experience T5 Patient
+T6	Sign_Symptom 516 533	elle vous répond?
+A8	Hypothesis T6
+A9	Experience T6 Patient
+T7	Sign_Symptom 580 591	elle réagit
+A10	Hypothesis T7
+A11	Experience T7 Patient
+T8	Sign_Symptom 655 678	elle réagit pas du tout
+A12	Hypothesis T8
+A13	Negation T8 Négation
+A14	Experience T8 Patient
+T9	Sign_Symptom 862 882	elle ouvre les yeux?
+A15	Hypothesis T9
+A16	Experience T9 Patient
+T10	Sign_Symptom 925 952	elle vous elle vous répond?
+A17	Hypothesis T10
+A18	Experience T10 Patient
+T11	Sign_Symptom 1039 1056	elle respire fort
+A19	Experience T11 Patient
+T12	Sign_Symptom 1084 1139	est-ce qu'elle est-ce qu'elle a des mouvements anormaux
+A20	Hypothesis T12
+A21	Experience T12 Patient
+T13	Sign_Symptom 1166 1180	elle bouge pas
+A22	Hypothesis T13
+A23	Experience T13 Patient
+T14	Sign_Symptom 1194 1209	elle est tendue
+A24	Experience T14 Patient
+T15	Geographic_Marker 1302 1317	dans la cuisine
+T16	Sign_Symptom 1604 1627	elle tremble des mains?
+A25	Hypothesis T16
+A26	Experience T16 Patient
+T17	Sign_Symptom 1650 1656	tendue
+A27	Experience T17 Patient
+T18	Sign_Symptom 1675 1681	tendue
+A28	Experience T18 Patient
+T19	Person 2041 2047	madame
+A29	Experience T19 Patient
+T20	Person 2137 2141	elle
+A30	Experience T20 Patient
+T21	Person 2195 2201	madame
+A31	Experience T21 Patient
+T22	Sign_Symptom 2231 2243	inconsciente
+A32	Hypothesis T22
+A33	Experience T22 Patient
+T23	Sign_Symptom 2327 2344	elle respire fort
+A34	Hypothesis T23
+A35	Experience T23 Patient
+T24	Conduite 2840 2906	vous rappelez dans une demi heure pour si les symptômes persistent

@@ -1,0 +1,172 @@
+T1	Person 33 62	médecin du SAMU docteur SHITZ
+A1	Experience T1 Healthcare_professional
+T2	Person 99 111	votre voisin
+A2	Experience T2 Patient
+T3	Person 17 23	madame
+A3	Experience T3 Other
+T4	Person 164 174	mon voisin
+A4	Experience T4 Patient
+T5	Sign_Symptom 178 201	il va vraiment pas bien
+A5	Experience T5 Patient
+T6	Disease 323 328	COVID
+A6	Hypothesis T6
+A7	Experience T6 Patient
+T7	Disease 353 358	COVID
+A8	Hypothesis T7
+A9	Experience T7 Patient
+T8	Disease 390 395	COVID
+A10	Temporality T8 Before_overlap
+A11	Experience T8 Other
+T9	Disease 404 414	COVID long
+A12	Experience T9 Other
+T10	Geographic_Marker 466 476	en hôpital
+T11	Temporal_Marker 485 510	toutes les trois semaines
+A13	Temporality T11 Before_overlap
+T12	Drug_chemicals 536 546	injections
+A14	Temporality T12 Before_overlap
+A15	Experience T12 Other
+T13	Geographic_Marker 663 672	l'hôpital
+T14	Sign_Symptom 768 792	il est vraiment pas bien
+A16	Experience T14 Patient
+T15	Disease 858 872	mon COVID long
+A17	Temporality T15 Before_overlap
+A18	Experience T15 Other
+T16	Person 886 892	madame
+A19	Experience T16 Other
+T17	Conduite 942 971	passez le moi s'il vous plait
+T18	Sign_Symptom 1236 1245	symptômes
+A20	Experience T18 Patient
+T19	Disease 1269 1274	COVID
+A21	Hypothesis T19
+A22	Experience T19 Patient
+T20	Geographic_Marker 1311 1320	l'hôpital
+T21	Person 1353 1359	madame
+A23	Experience T21 Other
+T22	Sign_Symptom 1447 1464	du mal à respirer
+A24	Hypothesis T22
+A25	Experience T22 Patient
+T23	Sign_Symptom 1482 1489	respire
+A26	Experience T23 Patient
+T24	Drug_chemicals 1528 1535	scanner
+A27	Hypothesis T24
+A28	Experience T24 Patient
+A29	Temporality T24 After
+T25	Sign_Symptom 1598 1616	embolie pulmonaire
+A30	Temporality T25 Before
+A31	Experience T25 Other
+T26	Sign_Symptom 1637 1668	pas du tout gênée pour respirer
+A32	Temporality T26 Before
+A33	Experience T26 Other
+T27	Geographic_Marker 1750 1761	à l'hôpital
+T28	Drug_chemicals 1781 1788	scanner
+A34	Temporality T28 After
+A35	Hypothesis T28
+A36	Experience T28 Patient
+T29	Sign_Symptom 1810 1816	fièvre
+A37	Experience T29 Patient
+T30	Sign_Symptom 1820 1826	tousse
+A38	Experience T30 Patient
+T31	Person 1836 1842	madame
+A39	Experience T31 Other
+T32	Disease 1881 1886	COVID
+A40	Experience T32 Patient
+T33	Person 1896 1902	madame
+A41	Experience T33 Other
+T34	Disease 1913 1931	problèmes de santé
+A42	Temporality T34 Before_overlap
+A43	Hypothesis T34
+A44	Experience T34 Patient
+T35	Drug_chemicals 2003 2019	aucun médicament
+A45	Temporality T35 Before_overlap
+A46	Hypothesis T35
+A47	Negation T35 Négation
+A48	Experience T35 Patient
+A49	Negation T26 Négation
+T36	Temporal_Marker 2088 2100	depuis quand
+A50	Hypothesis T36
+T37	Sign_Symptom 2105 2114	symptômes
+A51	Hypothesis T37
+A52	Experience T37 Patient
+R1	Temp_mark Arg1:T36 Arg2:T37	
+T38	Sign_Symptom 2249 2256	fatigue
+A53	Experience T38 Patient
+T39	Disease 2354 2359	COVID
+A54	Temporality T39 Before
+A55	Experience T39 Other
+T40	Person 2369 2375	madame
+A56	Experience T40 Other
+T41	Sign_Symptom 2449 2455	fièvre
+A57	Temporality T41 Before
+A58	Experience T41 Other
+T42	Geographic_Marker 2494 2505	à l'hôpital
+T43	Drug_chemicals 2534 2541	scanner
+A59	Experience T43 Other
+A60	Experience T42 Other
+A61	Temporality T42 Before
+A62	Temporality T43 Before
+T44	Sign_Symptom 2553 2571	embolie pulmonaire
+A63	Temporality T44 Before
+A64	Experience T44 Other
+T45	Temporal_Marker 2585 2593	six mois
+A65	Temporality T45 Before_overlap
+T46	Sign_Symptom 2603 2616	mal au jambes
+A66	Experience T46 Other
+R2	Temp_mark Arg1:T45 Arg2:T46	
+T47	Sign_Symptom 2635 2658	pas retrouvé mon odorat
+A67	Negation T47 Négation
+A68	Experience T47 Other
+R3	Temp_mark Arg1:T45 Arg2:T47	
+T48	Disease 2688 2698	COVID long
+A69	Experience T48 Patient
+T49	Sign_Symptom 2750 2756	tousse
+A70	Temporality T49 Overlap(default)
+A71	Hypothesis T49
+A72	Experience T49 Patient
+T50	Sign_Symptom 2770 2776	tousse
+A73	Temporality T50 Overlap(default)
+A74	Experience T50 Patient
+T51	Sign_Symptom 2815 2821	fièvre
+A75	Temporality T51 Overlap(default)
+A76	Hypothesis T51
+A77	Experience T51 Patient
+T52	Disease 2841 2846	COVID
+T53	Person 2856 2862	madame
+A78	Experience T53 Other
+T55	Disease 3064 3069	COVID
+A79	Experience T55 Patient
+T56	Disease 3104 3109	COVID
+A80	Experience T56 Other
+T57	Disease 3331 3336	COVID
+A81	Experience T57 Other
+T58	Drug_chemicals 3297 3305	vaccinée
+A82	Experience T58 Other
+T59	Drug_chemicals 3261 3280	nouvelles mutations
+T60	Disease 3392 3402	COVID aigü
+T61	Disease 3409 3419	COVID aigü
+T62	Disease 3427 3437	COVID long
+A83	Experience T62 Other
+T63	Person 3485 3491	madame
+A84	Experience T63 Other
+T64	Person 3492 3498	madame
+A85	Experience T64 Other
+T65	Conduite 3510 3543	il faut qu'il consulte un médecin
+T66	Temporal_Marker 3544 3567	dans la dans la journée
+T67	Drug_chemicals 3598 3605	scanner
+T68	Person 3615 3621	madame
+A86	Experience T68 Other
+T69	Conduite 3622 3644	il faut qu'il consulte
+T70	Person 3648 3655	médecin
+A87	Experience T70 Healthcare_professional
+T71	Temporal_Marker 3656 3671	dans la journée
+T54	Conduite 2889 2934	est ce que vous pouvez l'amener à l- heu voir
+T72	Person 2938 2954	médecin traitant
+A88	Experience T72 Healthcare_professional
+T73	Person 3705 3721	médecin traitant
+A89	Experience T73 Healthcare_professional
+T74	Geographic_Marker 3730 3745	maison de santé
+T75	Person 3858 3869	mon médecin
+A90	Experience T75 Healthcare_professional
+T76	Disease 3890 3900	COVID long
+A91	Experience T76 Other
+T77	Person 3933 3939	madame
+A92	Experience T77 Other

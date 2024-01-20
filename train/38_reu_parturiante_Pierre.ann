@@ -1,0 +1,123 @@
+T1	Person 28 38	ALAN PIROT
+A1	Experience T1 Healthcare_professional
+T2	Person 50 57	médecin
+A2	Experience T2 Healthcare_professional
+T3	Sign_Symptom 99 107	enceinte
+T4	Person 21 27	madame
+A3	Experience T4 Patient
+T5	Sign_Symptom 122 134	contractions
+T6	Sign_Symptom 145 153	enceinte
+T7	Temporal_Marker 168 176	semaines
+A4	Temporality T7 Before_overlap
+T8	Sign_Symptom 212 223	d'accoucher
+A5	Temporality T8 Overlap(default)
+T9	Sign_Symptom 295 306	d'accoucher
+A6	Temporality T9 Overlap(default)
+T10	Sign_Symptom 431 443	contractions
+T11	Sign_Symptom 467 479	contractions
+T12	Sign_Symptom 493 505	contractions
+T13	Temporal_Marker 608 619	dix minutes
+T14	Temporal_Marker 640 651	dix minutes
+T15	Sign_Symptom 673 683	j'accouche
+T16	Sign_Symptom 666 669	mal
+T17	Sign_Symptom 701 704	mal
+T18	Person 756 760	fils
+A7	Experience T18 Patient
+T19	Person 836 840	fils
+A8	Experience T19 Patient
+T20	Person 861 867	garçon
+A9	Experience T20 Family
+T21	Sign_Symptom 915 927	contractions
+T22	Temporal_Marker 939 950	dix minutes
+T23	Sign_Symptom 981 991	faire caca
+T24	Sign_Symptom 1133 1144	d'accoucher
+T25	Sign_Symptom 1285 1297	contractions
+T26	Sign_Symptom 1311 1323	contractions
+T27	Sign_Symptom 1354 1366	contractions
+T28	Temporal_Marker 1335 1346	dix minutes
+T29	Temporal_Marker 1448 1456	secondes
+T30	Temporal_Marker 1495 1506	dix minutes
+T31	Sign_Symptom 1549 1559	faire caca
+T32	Sign_Symptom 1665 1674	accoucher
+T33	Sign_Symptom 1707 1716	accoucher
+T34	Sign_Symptom 1752 1778	perdu le la poche des eaux
+T35	Sign_Symptom 1806 1829	rompu la poche des eaux
+A10	Negation T35 Négation
+T36	Sign_Symptom 1853 1876	rompu la poche des eaux
+A11	Negation T36 Négation
+T37	Person 1919 1925	garçon
+A12	Experience T37 Family
+T38	Temporal_Marker 2140 2153	vingt minutes
+A13	Temporality T38 Before_overlap
+T39	Person 2003 2009	garçon
+A14	Experience T39 Family
+T40	Person 2085 2093	pompiers
+A15	Experience T40 Healthcare_professional
+T41	Person 2259 2263	fils
+A16	Experience T41 Patient
+T42	Person 2278 2282	fils
+A17	Experience T42 Family
+T43	Sign_Symptom 2238 2249	d'accoucher
+T44	Person 2436 2440	fils
+A18	Experience T44 Family
+T45	Person 2595 2601	madame
+A19	Experience T45 Patient
+T46	Person 2532 2540	pompiers
+A20	Experience T46 Healthcare_professional
+T47	Person 2961 2965	fils
+A21	Experience T47 Family
+T48	Person 2993 2997	mari
+A22	Experience T48 Family
+T49	Person 3001 3005	papa
+A23	Experience T49 Family
+T50	Person 3038 3042	fils
+A24	Experience T50 Family
+T51	Person 3069 3073	fils
+A25	Experience T51 Family
+T52	Person 3130 3134	fils
+A26	Experience T52 Family
+T53	Geographic_Marker 3174 3183	l'hôpital
+T54	Person 3239 3243	fils
+A27	Experience T54 Family
+T55	Geographic_Marker 3294 3302	immeuble
+T56	Geographic_Marker 3312 3318	maison
+T57	Geographic_Marker 3341 3349	immeuble
+T58	Person 3380 3387	voisins
+A28	Experience T58 Other
+T59	Geographic_Marker 3367 3375	immeuble
+T60	Person 3424 3431	voisins
+A29	Experience T60 Other
+T61	Person 3455 3462	voisins
+A30	Experience T61 Other
+T62	Sign_Symptom 3576 3588	contractions
+T63	Sign_Symptom 3631 3638	marcher
+A31	Negation T63 Négation
+T64	Sign_Symptom 3667 3674	marcher
+A32	Negation T64 Négation
+T65	Sign_Symptom 3892 3904	contractions
+T66	Temporal_Marker 3916 3927	dix minutes
+T67	Geographic_Marker 3963 3972	l'hôpital
+T68	Person 4074 4078	mari
+A33	Experience T68 Family
+T69	Person 4112 4119	voisins
+A34	Experience T69 Other
+T70	Person 4215 4222	voisins
+A35	Experience T70 Other
+T71	Person 4252 4259	voisins
+A36	Experience T71 Other
+T72	Geographic_Marker 4320 4329	l'hôpital
+T73	Geographic_Marker 4827 4836	l'hôpital
+T74	Geographic_Marker 4474 4483	l'hôpital
+T75	Person 4537 4544	voisins
+A37	Experience T75 Other
+T76	Person 4595 4602	voisins
+A38	Experience T76 Other
+T77	Person 4913 4920	voisins
+A39	Experience T77 Other
+T78	Geographic_Marker 4944 4953	l'hôpital
+T79	Person 5002 5009	voisins
+A40	Experience T79 Other
+T80	Geographic_Marker 5061 5070	l'hôpital
+T81	Person 5030 5037	voisins
+A41	Experience T81 Other
+T82	Conduite 4189 4328	ous pouvez aller chez vos voisins on vous allez aller chez vos voisins vous allez frapper et demander si ils peuvent vous amener à l'hôpita

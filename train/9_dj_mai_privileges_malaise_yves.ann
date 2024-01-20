@@ -1,0 +1,58 @@
+T3	Person 80 93	docteur SAIEB
+T4	Person 35 50	docteur DETOURY
+T2	Sign_Symptom 221 228	malaise
+T5	Person 171 181	votre papa
+T7	Sign_Symptom 575 593	perdu connaissance
+A1	Negation T7 Négation
+T8	Sign_Symptom 862 883	il s'est senti partir
+T9	Sign_Symptom 1510 1523	malaise vagal
+A2	Experience T9 Healthcare_professional
+T10	Conduite 1806 1828	l'emmener aux urgences
+T6	Drug_chemicals 1329 1362	traitements contre l'hypertension
+T11	Disease 1253 1263	hypertendu
+T12	Geographic_Marker 307 320	PH à la PITIE
+T14	Person 896 898	il
+A3	Experience T4 Healthcare_professional
+A4	Experience T3 Family
+A5	Experience T5 Patient
+T1	Person 256 260	papa
+A6	Experience T1 Patient
+T15	Sign_Symptom 355 362	malaise
+A7	Temporality T15 Before_overlap
+A8	Experience T15 Patient
+A9	Temporality T2 Before_overlap
+A10	Experience T2 Patient
+T13	Person 334 338	papa
+A11	Experience T13 Patient
+T16	Geographic_Marker 423 432	toilettes
+A12	Temporality T16 Before
+A13	Experience T16 Patient
+T17	Sign_Symptom 459 466	malaise
+A14	Temporality T17 Before
+A15	Experience T17 Patient
+T18	Person 527 531	papa
+A16	Experience T18 Patient
+T19	Sign_Symptom 611 633	pas perdu connaissance
+A17	Negation T19 Négation
+A18	Experience T19 Patient
+A19	Experience T7 Patient
+T20	Person 754 760	madame
+A20	Experience T20 Family
+T21	Geographic_Marker 812 821	toilettes
+A21	Temporality T21 Before
+A22	Experience T21 Patient
+T22	Person 925 927	je
+A23	Experience T22 Family
+T23	Person 1152 1162	votre papa
+A24	Experience T23 Family
+T24	Person 1544 1554	votre papa
+A25	Experience T24 Patient
+T25	Sign_Symptom 2188 2229	se sent partir sans perte de connaissance
+A26	Hypothesis T25
+A27	Experience T25 Patient
+T26	Person 3435 3441	madame
+A28	Experience T26 Family
+T27	Person 2975 2985	votre papa
+A29	Experience T27 Patient
+T28	Person 3288 3298	votre papa
+A30	Experience T28 Patient

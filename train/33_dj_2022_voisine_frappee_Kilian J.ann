@@ -1,0 +1,30 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 59 66	voisine
+A2	Experience T2 Patient
+T3	Sign_Symptom 272 276	sang
+A3	Experience T3 Patient
+T4	Conduite 336 349	passez la moi
+T5	Sign_Symptom 512 516	sang
+A4	Experience T5 Patient
+T6	Sign_Symptom 589 593	tête
+A5	Experience T6 Patient
+T7	Sign_Symptom 619 628	réveillée
+A6	Hypothesis T7 Vrai
+A7	Experience T7 Patient
+T8	Person 635 642	voisine
+A8	Experience T8 Patient
+T9	Sign_Symptom 644 659	elle vous parle
+A9	Hypothesis T9 Vrai
+A10	Experience T9 Patient
+T10	Sign_Symptom 1252 1271	du sang sur la tête
+A11	Experience T10 Patient
+T11	Sign_Symptom 1322 1341	du sang sur la tête
+A12	Experience T11 Patient
+T12	Conduite 1498 1526	vous l'emmeniez aux urgences
+T13	Conduite 1541 1562	qu'elle soit examinée
+T14	Conduite 1676 1698	amenez la aux urgences
+T15	Conduite 1843 1866	emmenez la aux urgences
+T16	Conduite 1963 1986	emmenez la aux urgences
+T17	Conduite 2056 2089	vous la mettez dans votre voiture
+T18	Conduite 2091 2117	vous l'amenez aux urgences

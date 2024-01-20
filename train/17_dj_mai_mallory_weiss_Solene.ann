@@ -1,0 +1,76 @@
+T1	Person 17 32	docteur DETOURY
+A1	Experience T1 Healthcare_professional
+T2	Geographic_Marker 36 40	SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 108 124	votre grand mère
+A3	Experience T3 Patient
+T4	Sign_Symptom 201 213	vomi du sang
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T5	Sign_Symptom 258 262	vomi
+A6	Temporality T5 Before
+A7	Experience T5 Patient
+T6	Sign_Symptom 271 276	vomit
+A8	Experience T6 Patient
+T7	Sign_Symptom 400 429	un peu de sang mélangé au vom
+A9	Experience T7 Patient
+T8	Temporal_Marker 507 518	aujourd'hui
+T9	Temporal_Marker 539 555	jours précédents
+T10	Temporal_Marker 578 589	aujourd'hui
+T11	Sign_Symptom 607 623	les vomissements
+A10	Experience T11 Patient
+R1	Temp_mark Arg1:T10 Arg2:T11	
+T12	Sign_Symptom 700 705	vomit
+A11	Experience T12 Patient
+T13	Temporal_Marker 721 736	plusieurs jours
+R2	Temp_mark Arg1:T13 Arg2:T12	
+T14	Temporal_Marker 751 773	depuis plusieurs jours
+T15	Sign_Symptom 779 784	vomit
+A12	Experience T15 Patient
+R3	Temp_mark Arg1:T14 Arg2:T15	
+T16	Sign_Symptom 819 830	va pas bien
+A13	Experience T16 Patient
+T17	Temporal_Marker 840 862	depuis plusieurs jours
+T18	Temporal_Marker 880 891	aujourd'hui
+T19	Sign_Symptom 868 873	vomit
+A14	Experience T19 Patient
+T20	Sign_Symptom 909 941	traces de sang mélangées au vomi
+A15	Experience T20 Patient
+R4	Temp_mark Arg1:T18 Arg2:T20	
+R5	Temp_mark Arg1:T17 Arg2:T19	
+T21	Disease 1461 1472	hypertendue
+A16	Experience T21 Patient
+T22	Disease 1483 1490	diabète
+A17	Experience T22 Patient
+T23	Disease 1516 1525	cataracte
+A18	Experience T23 Patient
+T24	Disease 1546 1570	fracture du col du fémur
+A19	Temporality T24 Before
+A20	Experience T24 Patient
+T25	Temporal_Marker 1574 1578	1999
+R6	Temp_mark Arg1:T25 Arg2:T24	
+T26	Disease 1604 1610	un AIT
+A21	Temporality T26 Before
+A22	Experience T26 Patient
+T27	Temporal_Marker 1614 1616	86
+R7	Temp_mark Arg1:T27 Arg2:T26	
+T28	Disease 1689 1709	tombée de la piscine
+A23	Temporality T28 Before
+A24	Experience T28 Patient
+T29	Drug_chemicals 1896 1904	KARDEGIC
+A25	Hypothesis T29
+T30	Drug_chemicals 1916 1923	XARELTO
+T31	Drug_chemicals 1924 1932	APIXABAN
+A27	Hypothesis T31
+A26	Hypothesis T30
+T32	Conduite 2145 2189	peux vous faire passer un médecin à domicile
+T33	Temporal_Marker 2531 2550	vingt quatre heures
+T34	Geographic_Marker 2653 2671	la maison médicale
+T35	Conduite 2998 3043	vous présenter avec elle à la maison médicale
+T36	Conduite 3053 3146	vous emportez avec vous le traitem- heu ses ordonnances heu les la le dernier dossier médical
+T37	Conduite 3174 3216	vous l'emmenez voir le médecin généraliste
+T38	Geographic_Marker 3223 3238	maison médicale
+T39	Sign_Symptom 3321 3341	vomissements de sang
+A28	Experience T39 Patient
+T40	Sign_Symptom 1069 1081	vomissements
+A29	Experience T40 Patient

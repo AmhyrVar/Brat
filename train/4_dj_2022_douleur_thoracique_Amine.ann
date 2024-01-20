@@ -1,0 +1,45 @@
+T1	Person 54 68	docteur DAMANI
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 136 160	douleur dans la poitrine
+T3	Temporal_Marker 402 413	aujourd'hui
+A2	Temporality T3 Before_overlap
+T4	Temporal_Marker 430 470	une quin- quinzaine vingtaine de minutes
+A3	Temporality T4 Before_overlap
+T5	Temporal_Marker 524 551	depuis quinze vingt minutes
+A4	Temporality T5 Before_overlap
+T6	Sign_Symptom 742 760	elle est en sueurs
+A5	Experience T6 Patient
+T7	Sign_Symptom 1654 1669	elle a très mal
+T8	Sign_Symptom 1067 1115	j'ai déjà eu heu ce genre de douleurs auparavant
+A6	Temporality T8 Before
+A7	Experience T8 Family
+T9	Disease 1140 1167	j'ai déjà fait un infarctus
+A8	Temporality T9 Before
+A9	Experience T9 Family
+T10	Sign_Symptom 1807 1827	elle a un peu mal là
+A10	Experience T10 Patient
+T11	Person 2027 2041	docteur DAMANI
+A11	Experience T11 Healthcare_professional
+T12	Person 2008 2014	madame
+A12	Experience T12 Patient
+T13	Person 21 27	madame
+A13	Experience T13 Family
+T14	Temporal_Marker 2214 2241	depuis quinze vingt minutes
+A14	Temporality T14 Before_overlap
+T15	Disease 2316 2338	un peu de cholestérol,
+A15	Experience T15 Patient
+T16	Disease 2339 2360	un peu d'hypertension
+A16	Experience T16 Patient
+T17	Sign_Symptom 3078 3095	en latéral gauche
+T18	Temporal_Marker 3314 3330	un peu hier soir
+A17	Temporality T18 Before
+T19	Temporal_Marker 3416 3437	depuis quinze minutes
+A18	Temporality T19 Before_overlap
+T20	Conduite 3566 3591	il faut aller à l'hôpital
+T21	Conduite 3736 3760	repassez moi votre fille
+T22	Person 3848 3859	votre maman
+A19	Experience T22 Patient
+T23	Conduite 3860 3882	doit aller à l'hôpital
+T24	Temporal_Marker 4173 4186	tout de suite
+A20	Temporality T24 Overlap(default)
+T25	Conduite 4217 4271	vous prenez votre voiture et vous l'amenez à l'hôpital

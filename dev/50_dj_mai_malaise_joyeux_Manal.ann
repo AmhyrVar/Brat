@@ -1,0 +1,46 @@
+T1	Person 21 34	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Person 63 67	père
+A2	Experience T2 Patient
+T3	Sign_Symptom 116 126	un malaise
+A3	Hypothesis T3
+T4	Temporal_Marker 212 226	tout à l'heure
+T5	Sign_Symptom 249 266	allongé par terre
+T6	Sign_Symptom 311 331	la tête qui tournait
+T7	Sign_Symptom 364 378	il était tombé
+T8	Sign_Symptom 432 450	perdu connaissance
+A4	Hypothesis T8
+A5	Negation T8 Autre
+T9	Temporal_Marker 557 573	la première fois
+A6	Hypothesis T9
+T10	Temporal_Marker 614 636	c'est la première fois
+T11	Person 931 944	docteur SAIEB
+A7	Experience T11 Healthcare_professional
+T12	Sign_Symptom 981 991	un malaise
+A8	Hypothesis T12
+T13	Sign_Symptom 1145 1154	moi ça va
+T14	Sign_Symptom 1174 1200	des symptômes particuliers
+A9	Hypothesis T14
+T15	Sign_Symptom 1226 1240	senti pas bien
+T16	Sign_Symptom 1263 1275	tombé au sol
+T17	Sign_Symptom 1281 1302	pas réussi à me lever
+T18	Sign_Symptom 1341 1359	perdu connaissance
+A10	Hypothesis T18
+A11	Negation T18 Négation
+T19	Sign_Symptom 1387 1405	perdu connaissance
+A12	Negation T19 Négation
+T20	Sign_Symptom 1419 1439	la tête elle a cogné
+A13	Hypothesis T20
+A14	Negation T20 Négation
+T21	Sign_Symptom 1461 1478	pas du tout cogné
+A15	Negation T21 Négation
+T22	Sign_Symptom 1483 1504	je me sens super bien
+T23	Sign_Symptom 1505 1524	je me sens en forme
+T24	Sign_Symptom 1600 1618	santé particuliers
+A16	Hypothesis T24
+A17	Negation T24 Négation
+T25	Drug_chemicals 1667 1680	trois cachets
+T26	Temporal_Marker 1681 1689	le matin
+T27	Conduite 1816 1843	vous alliez voir un médecin
+T28	Temporal_Marker 1917 1935	dans les prochains
+T29	Conduite 2383 2414	refaire le point sur le malaise

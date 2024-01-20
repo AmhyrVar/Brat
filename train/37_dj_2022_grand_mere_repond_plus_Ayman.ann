@@ -1,0 +1,42 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 69 79	grand mère
+A2	Experience T2 Patient
+T3	Sign_Symptom 84 108	répond plus au téléphone
+A3	Experience T3 Patient
+T4	Sign_Symptom 343 358	elle répond pas
+A4	Experience T4 Patient
+T5	Temporal_Marker 311 326	un petit moment
+T6	Person 717 727	grand mère
+A5	Experience T6 Patient
+T7	Sign_Symptom 734 752	problèmes de santé
+T8	Drug_chemicals 895 906	médicaments
+A6	Hypothesis T8 Faux
+A7	Experience T8 Patient
+A8	Hypothesis T7 Faux
+A9	Experience T7 Patient
+T9	Conduite 1246 1260	'aller la voir
+T12	Person 1507 1517	grand mère
+A12	Experience T12 Patient
+T13	Person 2051 2059	pompiers
+A13	Experience T13 Other
+T14	Temporal_Marker 541 558	cinq, dix minutes
+T15	Person 2314 2322	pompiers
+A14	Experience T15 Other
+T16	Temporal_Marker 640 667	il y a quarante huit heures
+T17	Person 2509 2517	pompiers
+A15	Experience T17 Other
+T18	Geographic_Marker 1661 1672	à la maison
+T10	Conduite 1312 1332	envoyer les pompiers
+A10	Temporality T10 After
+T11	Temporal_Marker 427 437	avant hier
+T19	Sign_Symptom 842 860	problèmes de santé
+T20	Person 2156 2169	ma grand mère
+A11	Experience T20 Family
+T21	Person 2277 2291	grands parents
+A16	Experience T21 Family
+T22	Conduite 2244 2267	vous demande de d'aller
+T23	Sign_Symptom 1041 1057	elle réponde pas
+T24	Person 379 390	vos parents
+A17	Experience T24 Family
+T25	Conduite 1769 1798	les pompiers seront sur place

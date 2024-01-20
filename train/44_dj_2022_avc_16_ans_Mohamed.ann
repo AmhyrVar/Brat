@@ -1,0 +1,30 @@
+T1	Person 25 33	RICHARDO
+T2	Disease 193 210	paralysée du bras
+T3	Temporal_Marker 354 364	demi heure
+T4	Disease 3460 3463	AVC
+T5	Disease 3494 3503	paralysée
+T6	Person 3571 3578	médecin
+T7	Temporal_Marker 3642 3660	six et huit heures
+T8	Person 3549 3554	fille
+T9	Temporal_Marker 3711 3726	six huit heures
+T10	Sign_Symptom 3924 3933	paralysée
+T11	Person 4951 4957	madame
+T12	Person 4823 4829	madame
+T13	Sign_Symptom 4761 4764	AVC
+T14	Person 4775 4783	monsieur
+T15	Person 4641 4648	médecin
+T16	Disease 4501 4504	AVC
+T17	Temporal_Marker 4121 4131	six heures
+T18	Person 3260 3266	madame
+T19	Person 3318 3325	médecin
+T20	Temporal_Marker 3399 3412	quatre heures
+T21	Disease 3164 3167	AVC
+T22	Sign_Symptom 2623 2632	seize ans
+T23	Person 1990 1995	fille
+T24	Person 2440 2447	médecin
+T25	Geographic_Marker 2501 2510	chez vous
+T26	Sign_Symptom 504 515	mal au bras
+T27	Sign_Symptom 536 547	mal au bras
+T28	Geographic_Marker 1195 1202	l'école
+T29	Temporal_Marker 1325 1335	demi heure
+T30	Sign_Symptom 1611 1629	marche normalement

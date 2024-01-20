@@ -1,0 +1,64 @@
+T1	Person 74 89	docteur DETOURY
+T2	Person 122 136	votre collègue
+A1	Experience T2 Patient
+T3	Sign_Symptom 151 158	malaise
+A2	Hypothesis T3 Vrai
+T4	Sign_Symptom 296 310	il vous répond
+A3	Hypothesis T4 Vrai
+T5	Sign_Symptom 347 356	il répond
+T6	Sign_Symptom 378 400	il respire normalement
+A4	Hypothesis T6 Vrai
+T7	Sign_Symptom 411 433	il respire normalement
+T8	Conduite 490 527	vous pouvez me le passer au téléphone
+T9	Sign_Symptom 542 566	il se sent pas très bien
+A5	Negation T9 Négation
+T10	Sign_Symptom 706 736	il a senti que ça n'allait pas
+A6	Temporality T10 Before
+A7	Experience T10 Patient
+T11	Temporal_Marker 649 666	avant son malaise
+R1	Temp_mark Arg1:T11 Arg2:T10	
+T12	Sign_Symptom 869 891	il se sentait pas bien
+T13	Sign_Symptom 969 990	l se sentait pas bien
+T14	Sign_Symptom 1037 1060	il a perdu connaissance
+A8	Hypothesis T14 Vrai
+A9	Temporality T14 Before
+T15	Sign_Symptom 1131 1158	il a pas perdu connaissance
+A10	Negation T15 Négation
+T16	Sign_Symptom 1177 1193	il est pas tombé
+A11	Hypothesis T16 Vrai
+A12	Negation T16 Négation
+T17	Sign_Symptom 1212 1228	il est pas tombé
+A13	Negation T17 Négation
+T18	Conduite 1272 1298	passez le moi au téléphone
+T19	Temporal_Marker 1485 1496	déjà arrivé
+T20	Sign_Symptom 1509 1516	malaise
+R2	Temp_mark Arg1:T19 Arg2:T20	
+T21	Sign_Symptom 1661 1668	malaise
+T22	Temporal_Marker 1678 1691	première fois
+R3	Temp_mark Arg1:T22 Arg2:T21	
+T23	Temporal_Marker 1710 1723	première fois
+R4	Temp_mark Arg1:T23 Arg2:T21	
+T24	Sign_Symptom 1766 1773	douleur
+A14	Hypothesis T24 Vrai
+T25	Sign_Symptom 1814 1828	pas de douleur
+A15	Negation T25 Négation
+T26	Sign_Symptom 2038 2049	fa- fatigué
+T27	Conduite 2179 2226	il faut aller aux urgences pour voir un médecin
+T28	Conduite 2340 2363	il faut voir un docteur
+T29	Geographic_Marker 2635 2666	entreprise STEF heu AUL- AULNAY
+T30	Conduite 2702 2734	consulter un médecin généraliste
+T31	Person 2835 2849	votre collègue
+A16	Experience T31 Other
+T32	Person 2915 2929	votre collègue
+A17	Experience T32 Patient
+T33	Conduite 2941 2982	il aille consulter un médecin généraliste
+T34	Geographic_Marker 3214 3238	maison médicale de garde
+T35	Geographic_Marker 2992 3016	maison médicale de garde
+T36	Geographic_Marker 3341 3379	BONDY à côté de l'hôpital JEAN VERDIER
+T37	Geographic_Marker 3481 3496	AULNAY à AULNEY
+T38	Geographic_Marker 3556 3589	maison médicale de garde à AULNAY
+T39	Conduite 3694 3732	vous pouvez accompagner votre collègue
+T40	Conduite 4140 4162	prendre les transports
+T41	Geographic_Marker 4171 4195	maison médicale de garde
+T42	Conduite 4268 4310	vous lui montrez où c'est et sur l'adresse
+T43	Sign_Symptom 2402 2409	malaise

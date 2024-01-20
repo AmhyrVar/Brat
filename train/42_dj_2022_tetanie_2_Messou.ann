@@ -1,0 +1,17 @@
+T1	Person 17 25	monsieur
+T2	Person 118 123	CHITZ
+T3	Person 102 109	médecin
+T4	Sign_Symptom 200 210	un malaise
+T5	Person 4044 4052	pompiers
+T6	Sign_Symptom 3374 3379	vomit
+T7	Person 3204 3208	elle
+T8	Temporal_Marker 3232 3246	tout à l'heure
+T9	Geographic_Marker 1910 1919	l'hôpital
+T10	Geographic_Marker 1994 2003	l'hôpital
+T11	Sign_Symptom 1867 1879	hospitalisée
+T12	Temporal_Marker 504 515	dix minutes
+T13	Temporal_Marker 517 531	une demi heure
+T14	Temporal_Marker 561 571	demi heure
+T15	Sign_Symptom 1443 1450	respire
+T16	Person 3639 3645	madame
+T17	Person 4268 4276	monsieur

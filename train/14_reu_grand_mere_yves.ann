@@ -1,0 +1,77 @@
+T1	Person 39 70	médecin du SAMU COLIN GUILLAUME
+A1	Experience T1 Healthcare_professional
+T2	Person 121 132	votre mamie
+A2	Experience T2 Patient
+T3	Person 133 137	vous
+A3	Experience T3 Family
+T4	Person 154 166	mon collègue
+A4	Experience T4 Healthcare_professional
+T5	Person 180 196	votre grand mère
+A5	Experience T5 Patient
+T6	Person 283 299	votre grand mère
+A6	Experience T6 Patient
+T7	Disease 326 341	elle est malade
+A7	Experience T7 Patient
+T8	Temporal_Marker 422 447	quatre trois quatre jours
+A8	Experience T8 Patient
+T9	Disease 369 375	malade
+A9	Experience T9 Patient
+R1	Temp_mark Arg1:T8 Arg2:T9	
+T10	Temporal_Marker 470 488	trois quatre jours
+A10	Experience T10 Patient
+T11	Sign_Symptom 501 525	elle respire normalement
+A11	Hypothesis T11
+A12	Experience T11 Patient
+T12	Person 580 584	elle
+A13	Experience T12 Patient
+T13	Sign_Symptom 585 591	tousse
+A14	Experience T13 Patient
+T14	Person 592 596	elle
+A15	Experience T14 Patient
+T15	Sign_Symptom 601 609	fatiguée
+A16	Experience T15 Patient
+T16	Sign_Symptom 615 622	respire
+A17	Experience T16 Patient
+T17	Sign_Symptom 632 640	fatiguée
+A18	Experience T17 Patient
+T18	Person 670 686	votre grand mère
+A19	Experience T18 Patient
+T19	Person 687 693	madame
+A20	Experience T19 Family
+T20	Person 694 702	monsieur
+A21	Experience T20 Family
+T21	Drug_chemicals 1383 1401	elle a des cachets
+A22	Hypothesis T21
+A23	Experience T21 Patient
+T22	Disease 1614 1645	je crois elle fait de la tensio
+A24	Hypothesis T22
+A25	Experience T22 Patient
+T23	Person 1901 1912	son docteur
+A26	Experience T23 Healthcare_professional
+T24	Temporal_Marker 1920 1938	trois quatre jours
+A27	Experience T24 Patient
+T25	Sign_Symptom 1942 1952	elle a mal
+A28	Experience T25 Patient
+R2	Temp_mark Arg1:T24 Arg2:T25	
+T26	Person 2797 2805	monsieur
+A29	Experience T26 Family
+T27	Conduite 3267 3317;3321 3359	je vous transfère chez heu chez chez les collègues je vous donne le numéro de SOS médecin
+T28	Person 3575 3586	votre mamie
+A30	Experience T28 Patient
+T29	Person 3596 3604	monsieur
+A31	Experience T29 Family
+T30	Person 3724 3740	votre grand mère
+A32	Experience T30 Patient
+T31	Person 3645 3655	un médecin
+A33	Experience T31 Healthcare_professional
+T32	Person 3697 3699	il
+A34	Experience T32 Healthcare_professional
+T33	Temporal_Marker 3774 3789	dans la journée
+T34	Person 3963 3976	ma grand mère
+A35	Experience T34 Patient
+T35	Person 4007 4023	votre grand mère
+A36	Experience T35 Patient
+T36	Person 4102 4110	monsieur
+A37	Experience T36 Family
+T37	Person 4228 4236	monsieur
+A38	Experience T37 Family

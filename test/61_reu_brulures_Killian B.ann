@@ -1,0 +1,95 @@
+T1	Person 28 43	NICOLAS GUILLAM
+A1	Experience T1 Healthcare_professional
+T2	Person 21 27	madame
+A2	Experience T2 Family
+T3	Person 55 70	médecin du SAMU
+A3	Experience T3 Healthcare_professional
+T4	Person 112 117	soeur
+A4	Experience T4 Patient
+T5	Disease 122 144	s'est brûlée c'est ça?
+A5	Temporality T5 Before_overlap
+A6	Hypothesis T5
+T6	Person 153 159	madame
+A7	Experience T6 Family
+T7	Person 177 182	soeur
+A8	Experience T7 Patient
+T8	Disease 194 228	problèmes de santé habituellement?
+A9	Temporality T8 Before_overlap
+A10	Hypothesis T8
+T9	Temporal_Marker 213 227	habituellement
+A11	Temporality T9 Before_overlap
+R1	Temp_mark Arg1:T9 Arg2:T8	
+T10	Sign_Symptom 322 367	elle prend pas de médicaments tous les jours?
+A12	Temporality T10 Overlap(default)
+A13	Hypothesis T10
+T11	Temporal_Marker 352 366	tous les jours
+A14	Temporality T11 Overlap(default)
+R2	Temp_mark Arg1:T11 Arg2:T10	
+T12	Sign_Symptom 487 502	elle est brûlée
+A15	Temporality T12 Overlap(default)
+T13	Sign_Symptom 517 547	s'est brûlée avec quoi madame?
+A16	Temporality T13 Before
+A17	Hypothesis T13
+T14	Person 540 546	madame
+A18	Experience T14 Family
+T15	Sign_Symptom 640 668	des brûlures ​à quel niveau?
+A19	Temporality T15 Overlap(default)
+A20	Hypothesis T15
+T16	Sign_Symptom 685 769	niveau des mains et au niveau de la jambe droite aussi un peu au niveau de la cuisse
+A21	Temporality T16 Overlap(default)
+T17	Sign_Symptom 1139 1205	c vous avez dit les mains c'est des deux côtés des mains c'est ça?
+A22	Temporality T17 Overlap(default)
+A23	Hypothesis T17
+T18	Sign_Symptom 1236 1252	les bras la tête
+A24	Temporality T18 Overlap(default)
+A25	Hypothesis T18
+T19	Sign_Symptom 1285 1292	cloques
+A26	Temporality T19 Overlap(default)
+T20	Sign_Symptom 1302 1350	sur la tête il y a pas de il y a pas d'atteinte?
+A27	Temporality T20 Overlap(default)
+A28	Hypothesis T20
+T21	Sign_Symptom 1358 1385	pas de brûlures sur la tête
+A29	Temporality T21 Overlap(default)
+A30	Hypothesis T21
+T22	Sign_Symptom 1455 1467	torse le dos
+A31	Temporality T22 Overlap(default)
+A32	Hypothesis T22
+T23	Sign_Symptom 1617 1646	'eau dessus sur les brûlures?
+A33	Temporality T23 Before
+A34	Hypothesis T23
+T24	Conduite 1811 1869	est ce que vous pouvez me la passer madame c'est possible?
+A35	Temporality T24 Overlap(default)
+A36	Hypothesis T24
+T25	Sign_Symptom 1911 1919	très mal
+A37	Temporality T25 Overlap(default)
+T26	Sign_Symptom 2085 2114	mis de l'eau sur les brûlures
+A38	Temporality T26 Before
+A39	Hypothesis T26
+T27	Conduite 2075 2203	vous avez mis de l'eau sur les brûlures est ce que vous avez fait couler de l'eau en ce moment sinon il faudrait le faire madame
+A40	Temporality T27 After
+T28	Conduite 2378 2615	est ce qu'elle peut se déplacer jusqu'à un endroit où il y a de l'eau le robinet pour mettre de l'eau au niveau de ses mains ou éventuellement dans la baignoire la salle de bain pour mettre de l'eau au niveau de ses mains et de ses jambe
+A41	Temporality T28 After
+T29	Conduite 2748 2816	faut aller à l'hôpital pour évaluer les lésions et pour s'en occuper
+A42	Temporality T29 After
+T30	Person 2721 2729	l'hôpita
+A43	Experience T30 Healthcare_professional
+T31	Person 2652 2661	ambulance
+A44	Experience T31 Healthcare_professional
+T32	Conduite 2831 2859	je vous envoie une ambulance
+A45	Temporality T32 After
+T33	Person 2850 2859	ambulance
+A46	Experience T33 Healthcare_professional
+T34	Conduite 2942 3152	c'est ça vous mettez sa main les zones brûlées la main les jambes sous l'eau vous retirez pas les vêtements et vous me confirmez madame il y a pas d'atteinte au niveau de la tête du cou ou des organes génitaux?
+A47	Temporality T34 Before
+A48	Hypothesis T34
+T35	Sign_Symptom 2975 2988	zones brûlées
+A49	Temporality T35 Overlap(default)
+T36	Sign_Symptom 3085 3152	pas d'atteinte au niveau de la tête du cou ou des organes génitaux?
+A50	Temporality T36 Overlap(default)
+A51	Hypothesis T36
+T37	Conduite 3175 3499	d'accord donc là vous vous donc vous faites ce que je vous ai dit vous mettez la dame dans la baignoire si possible ou dans la cuisine à à côté d'un robinet vous appuyez sur les zones découv- vous mettez de l'eau sur les zones découvertes pardon et on vous envoie une ambulance dans la demi heure elle va arriver l'ambulance
+A52	Temporality T37 After
+T38	Person 3443 3452	ambulance
+A53	Experience T38 Healthcare_professional
+T39	Person 3489 3499	'ambulance
+A54	Experience T39 Healthcare_professional

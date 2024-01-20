@@ -1,0 +1,25 @@
+T1	Person 22 38	docteur RICHARDO
+T2	Person 84 95	votre frère
+A1	Hypothesis T2
+A3	Experience T2 Patient
+T7	Conduite 980 1002	on envoie les pompiers
+T5	Geographic_Marker 342 357	dans la cuisine
+T8	Geographic_Marker 367 382	dans la cuisine
+T9	Geographic_Marker 419 431	juste à côté
+T10	Geographic_Marker 548 554	en bas
+T11	Geographic_Marker 643 649	en bas
+T13	Sign_Symptom 867 877	répond pas
+A8	Negation T13 Négation
+A9	Experience T13 Patient
+T14	Conduite 1089 1117	vous l'attendez comme ça oui
+T15	Conduite 1147 1168	les pompiers arrivent
+T16	Geographic_Marker 1038 1044	en bas
+T17	Geographic_Marker 944 950	en bas
+T3	Geographic_Marker 224 230	en bas
+T4	Geographic_Marker 258 264	en bas
+A4	Hypothesis T4
+T12	Sign_Symptom 895 905	répond pas
+T18	Geographic_Marker 668 674	en bas
+T19	Geographic_Marker 729 747	dans l'appartement
+T6	Person 822 831	mon frère
+A2	Experience T6 Patient

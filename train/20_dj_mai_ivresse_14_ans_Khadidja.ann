@@ -1,0 +1,84 @@
+T1	Person 67 82	docteur DETOURY
+T4	Sign_Symptom 676 683	douleur
+A3	Hypothesis T4
+A4	Experience T4 Patient
+T6	Drug_chemicals 1222 1231	DOLIPRANE
+T7	Drug_chemicals 1271 1280	DOLIPRANE
+T9	Drug_chemicals 1681 1686	vodka
+T12	Conduite 2628 2643	voir un médecin
+T13	Conduite 2683 2714	aller aux urgences pédiatriques
+T14	Conduite 2858 2880	l'emmener aux urgences
+T16	Sign_Symptom 251 265	un peu bizarre
+A10	Experience T16 Patient
+T17	Sign_Symptom 316 340	pas dans son état normal
+A11	Negation T17 Négation
+A12	Experience T17 Patient
+T18	Sign_Symptom 442 454	mal à parler
+A14	Experience T18 Patient
+T19	Sign_Symptom 499 509	bouge bien
+A15	Hypothesis T19
+A16	Experience T19 Patient
+T20	Sign_Symptom 562 580	marche bizarrement
+A17	Experience T20 Patient
+T21	Sign_Symptom 596 630	c'est pas du tout comme d'habitude
+A18	Negation T21 Négation
+A19	Experience T21 Patient
+T22	Person 697 708	votre fille
+A20	Experience T22 Patient
+T23	Sign_Symptom 776 816	troubles là de la parole et de la marche
+T25	Person 1133 1144	votre fille
+A21	Experience T25 Patient
+T26	Sign_Symptom 1114 1132	problèmes de santé
+A22	Hypothesis T26
+T27	Drug_chemicals 1314 1318	fume
+A23	Hypothesis T27
+T29	Sign_Symptom 1719 1732	sent l'alcool
+A30	Experience T29 Patient
+A31	Hypothesis T29
+T30	Geographic_Marker 1847 1858	à la maison
+A32	Hypothesis T30
+T31	Sign_Symptom 2038 2046	endormie
+T32	Sign_Symptom 2112 2118	répond
+A33	Hypothesis T32
+A34	Hypothesis T31
+T33	Sign_Symptom 2222 2230	s'endort
+T34	Sign_Symptom 2241 2247	répond
+T35	Sign_Symptom 2265 2275	se rendort
+T36	Temporal_Marker 2513 2526	à chaque fois
+A35	Hypothesis T36
+T37	Temporal_Marker 2435 2442	souvent
+A36	Temporality T36 Before_overlap
+A37	Temporality T37 Before
+T38	Conduite 2741 2804	orientée peut être vers un pédopsychologue ou un pédopsychiatre
+T39	Conduite 3177 3216	l'emmener aux urgences heu pédiatriques
+T8	Drug_chemicals 1480 1497	boit pas d'alcool
+A5	Negation T8 Négation
+T28	Sign_Symptom 410 427	parle bizarrement
+T24	Drug_chemicals 1392 1396	fume
+T41	Drug_chemicals 1439 1445	alcool
+A6	Hypothesis T41
+T11	Sign_Symptom 1770 1783	sent l'alcool
+T42	Conduite 2159 2183	vous lui secouez le bras
+T45	Drug_chemicals 2504 2512	l'alcool
+A24	Experience T1 Healthcare_professional
+A8	Hypothesis T24
+T5	Temporal_Marker 2369 2382	première fois
+R1	Temp_mark Arg1:T5 Arg2:T11	
+R2	Temp_mark Arg1:T37 Arg2:T11	
+R3	Temp_mark Arg1:T36 Arg2:T11	
+T15	Person 101 112	votre fille
+A25	Experience T15 Patient
+T2	Person 212 223	votre fille
+A2	Experience T2 Patient
+T3	Person 1319 1330	votre fille
+A1	Experience T3 Patient
+T40	Person 1381 1386	fille
+A26	Experience T40 Patient
+T46	Person 1699 1710	votre fille
+A27	Experience T46 Patient
+T10	Conduite 2068 2084	vous la stimulez
+A7	Hypothesis T10
+T47	Person 2399 2410	votre fille
+A28	Experience T47 Patient
+T43	Person 2590 2601	votre fille
+A9	Experience T43 Patient

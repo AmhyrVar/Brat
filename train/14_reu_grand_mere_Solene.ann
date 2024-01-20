@@ -1,0 +1,44 @@
+T1	Person 39 70	médecin du SAMU COLIN GUILLAUME
+A1	Experience T1 Healthcare_professional
+T2	Person 180 223	votre grand mère qui a quatre vingt six ans
+A2	Experience T2 Patient
+T3	Sign_Symptom 335 341	malade
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Temporal_Marker 429 447	trois quatre jours
+R1	Temp_mark Arg1:T4 Arg2:T3	
+T5	Sign_Symptom 506 525	respire normalement
+A5	Hypothesis T5
+A6	Experience T5 Patient
+T6	Sign_Symptom 585 591	tousse
+A7	Experience T6 Patient
+T7	Sign_Symptom 601 609	fatiguée
+A8	Experience T7 Patient
+T8	Sign_Symptom 615 622	respire
+A9	Experience T8 Patient
+T9	Conduite 659 686	passez moi votre grand mère
+T11	Geographic_Marker 850 864	dans la maison
+T12	Conduite 878 917	mettez juste le téléphone à côté d'elle
+T13	Drug_chemicals 1394 1401	cachets
+A10	Experience T13 Patient
+T14	Drug_chemicals 1429 1440	médicaments
+A11	Experience T14 Patient
+T15	Disease 1639 1646	tension
+A12	Experience T15 Patient
+T16	Drug_chemicals 1562 1603	médicaments pour la tension pour le coeur
+A13	Experience T16 Patient
+T17	Conduite 2382 2411	appeliez son médecin traitant
+T18	Conduite 2608 2618	appelez le
+T19	Conduite 3037 3059	demandez à votre mamie
+T20	Conduite 3715 3740	examiner votre grand mère
+T21	Temporal_Marker 3774 3789	dans la journée
+T22	Temporal_Marker 3834 3845	neuf heures
+T23	Conduite 4245 4275	rappelez si il y a un problème
+T27	Person 154 166	mon collègue
+A17	Experience T27 Healthcare_professional
+T28	Person 121 132	votre mamie
+A18	Experience T28 Patient
+A14	Hypothesis T16
+T10	Temporal_Marker 1920 1938	trois quatre jours
+T24	Person 3048 3059	votre mamie
+A15	Experience T24 Patient

@@ -1,0 +1,38 @@
+T1	Person 47 62	docteur DAHMANI
+T2	Person 104 116	votre voisin
+T3	Person 151 161	mon voisin
+T4	Person 166 176	mon voisin
+T5	Sign_Symptom 208 227	trouble psychotique
+T7	Sign_Symptom 367 371	bien
+A1	Negation T7 Négation
+T8	Sign_Symptom 392 412	rester chez chez lui
+A2	Negation T8 Négation
+T10	Disease 720 742	problème psychiatrique
+T11	Sign_Symptom 823 836	pète un plomb
+T12	Sign_Symptom 855 874	fait n'importe quoi
+T13	Sign_Symptom 933 956	comportement inhabituel
+T14	Temporal_Marker 796 807	une semaine
+A3	Temporality T14 Before_overlap
+A4	Experience T2 Patient
+A5	Hypothesis T5 Vrai
+R1	Temp_mark Arg1:T14 Arg2:T11	
+R2	Temp_mark Arg1:T14 Arg2:T12	
+A6	Hypothesis T13 Vrai
+T6	Sign_Symptom 1198 1213	il crie la nuit
+A7	Experience T6 Patient
+T9	Sign_Symptom 1218 1259	il jette des des des trucs par la fenêtre
+T15	Temporal_Marker 1375 1394	ça fait une semaine
+T16	Sign_Symptom 1520 1553	il a pas été agressif envers vous
+A8	Hypothesis T16 Vrai
+A9	Negation T16 Négation
+A10	Experience T16 Patient
+T17	Conduite 1741 1754	passez le moi
+T18	Geographic_Marker 2179 2204	il est chez chez chez lui
+T19	Temporal_Marker 2861 2874	a chaque fois
+T20	Disease 2913 2924	hospitalisé
+A11	Temporality T20 Before
+T21	Temporal_Marker 2899 2912	il a déjà été
+R3	Temp_mark Arg1:T21 Arg2:T20	
+R4	Temp_mark Arg1:T19 Arg2:T20	
+T22	Sign_Symptom 2938 2955	l est plus stable
+A12	Negation T22 Négation

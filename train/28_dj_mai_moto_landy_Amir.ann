@@ -1,0 +1,92 @@
+T1	Person 66 100	le docteur du SAMU le docteur ABAS
+A1	Experience T1 Healthcare_professional
+T2	Person 116 127	votre frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 135 154	un accident de moto
+A3	Experience T3 Patient
+T4	Geographic_Marker 421 439	le tunnel du LANDY
+A4	Experience T4 Patient
+T5	Geographic_Marker 473 485	aux urgences
+A5	Experience T5 Patient
+T6	Person 569 580	votre frère
+A6	Experience T6 Patient
+T7	Person 598 609	votre frère
+A7	Experience T7 Patient
+T8	Sign_Symptom 696 710	il est blessé?
+A8	Temporality T8 Overlap(default)
+A9	Experience T8 Patient
+T9	Sign_Symptom 724 751	il saigne un peu de la tête
+A10	Temporality T9 Overlap(default)
+A11	Experience T9 Patient
+T10	Sign_Symptom 761 784	il s'est cogné la tête?
+A12	Temporality T10 Overlap(default)
+A13	Hypothesis T10
+A14	Experience T10 Patient
+A15	Hypothesis T8
+T11	Sign_Symptom 809 863	vous l'avez vu chuter vous étiez avec lui sur la moto?
+A16	Temporality T11 Overlap(default)
+A17	Hypothesis T11
+A18	Experience T11 Patient
+T12	Sign_Symptom 912 937	il est tombé sur sa tête?
+A19	Temporality T12 Overlap(default)
+A20	Hypothesis T12
+A21	Experience T12 Patient
+T13	Conduite 1058 1107	est ce qu'il avait un casque lorsqu'il est tombé?
+A22	Temporality T13 Before
+A23	Hypothesis T13
+A24	Experience T13 Patient
+T14	Conduite 1270 1382	ok est ce que c'est la p- est ce que vous rouliez vite quand vous ça c'est arrivé vous rouliez à quelle vitesse?
+A25	Temporality T14 Before
+A26	Experience T14 Other
+T15	Conduite 1471 1528	et c'est à dire vous rouliez à quelle vitesse exactement?
+A27	Temporality T15 Before
+A28	Experience T15 Other
+T16	Sign_Symptom 1650 1702	est ce que quand il a chuté il a perdu connaissance?
+A29	Temporality T16 Before
+A30	Hypothesis T16
+A31	Experience T16 Patient
+T17	Sign_Symptom 2096 2149	est ce qu'il est conscient est ce qu'il respire bien?
+A32	Temporality T17 Overlap(default)
+A33	Hypothesis T17
+A34	Experience T17 Patient
+T18	Sign_Symptom 2222 2270	est ce que il se plaint de douleur quelque part?
+A35	Temporality T18 Overlap(default)
+A36	Hypothesis T18
+A37	Experience T18 Patient
+T19	Sign_Symptom 2296 2318	il a mal heu à la tête
+A38	Temporality T19 Overlap(default)
+A39	Experience T19 Patient
+T20	Sign_Symptom 2331 2377	il a un peu mal partout mais il est tombé quoi
+A40	Temporality T20 Overlap(default)
+A41	Experience T20 Patient
+T21	Sign_Symptom 2390 2410	est ce qu'il a vomi?
+A42	Temporality T21 Overlap(default)
+A43	Experience T21 Patient
+T22	Conduite 2433 2482	bon on va dé- on va amener les pompiers sur place
+A44	Temporality T22 Overlap(default)
+A45	Experience T22 Healthcare_professional
+T23	Geographic_Marker 2796 2814	le tunnel du LANDY
+A46	Temporality T23 Overlap(default)
+A47	Experience T23 Other
+T24	Person 2512 2524	les pompiers
+A48	Experience T24 Healthcare_professional
+T25	Person 2704 2712	pompiers
+A49	Experience T25 Healthcare_professional
+T26	Conduite 2921 3058	e comprends madame mais on va envoyer les pompiers ils vont venir sur place ils vont éva- vous évaluer et puis on va prendre une décision
+A50	Temporality T26 After
+A51	Experience T26 Healthcare_professional
+T27	Conduite 3168 3278	les pompiers vont venir ils vont venir je les ai déclenchés là à l'instant ils arrivent ils sont sur le trajet
+A52	Temporality T27 After
+A53	Experience T27 Healthcare_professional
+T28	Person 3394 3403	mon frère
+A54	Experience T28 Patient
+T29	Sign_Symptom 3413 3435	vous vous êtes tombée?
+A55	Temporality T29 Before_overlap
+A56	Experience T29 Other
+T30	Sign_Symptom 3503 3526	vous avez des douleurs?
+A57	Experience T30 Other
+T31	Conduite 3718 3886	il faut que vous soyez au moins évaluée par les pompiers en- ensuite rien ne vous oblige à à respecter leurs consignes mais les pompiers sont sur le chemin ils arrivent
+A58	Experience T31 Other
+T32	Conduite 3942 4130	vous pouvez prendre la décision que vous voulez mais en tous cas ils arrivent ils vont venir vous voir ils vont vous évaluer votre frère et vous et on prendra une décision par la suite ok?
+A59	Temporality T32 After
+A60	Experience T32 Patient

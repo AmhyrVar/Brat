@@ -1,0 +1,123 @@
+T1	Person 35 41	madame
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Family
+T2	Person 54 70	docteur LAKHLIFI
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 90 102	votre enfant
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Patient
+T4	Sign_Symptom 119 133	ne répond plus
+A7	Temporality T4 Overlap(default)
+A8	Hypothesis T4
+A9	Negation T4 Négation
+A10	Experience T4 Patient
+T5	Sign_Symptom 211 223	yeux ouverts
+A11	Temporality T5 Overlap(default)
+A12	Hypothesis T5
+A13	Experience T5 Patient
+T6	Geographic_Marker 270 282	dans son lit
+A14	Temporality T6 Overlap(default)
+A15	Experience T6 Patient
+T7	Conduite 339 352	aller le voir
+A16	Temporality T7 Overlap(default)
+A17	Experience T7 Family
+T8	Conduite 468 527	vous le secouez un petit peu et je veux savoir si il répond
+A18	Temporality T8 Overlap(default)
+A19	Experience T8 Patient
+T9	Conduite 617 630	allez le voir
+A20	Temporality T9 Overlap(default)
+A21	Experience T9 Family
+T10	Geographic_Marker 631 646	dans sa chambre
+A22	Temporality T10 Overlap(default)
+A23	Experience T10 Family
+T11	Conduite 718 740	posez lui une question
+A24	Temporality T11 Overlap(default)
+A25	Experience T11 Family
+T12	Conduite 750 780	demandez lui d'ouvrir les yeux
+A26	Temporality T12 Overlap(default)
+A27	Experience T12 Family
+T13	Person 1281 1285	ERIC
+A28	Temporality T13 Overlap(default)
+A29	Experience T13 Patient
+T14	Person 1309 1313	ERIC
+A30	Temporality T14 Overlap(default)
+A31	Experience T14 Patient
+T15	Conduite 1243 1271	réveillez le s'il vous plait
+A32	Temporality T15 Overlap(default)
+A33	Experience T15 Patient
+T16	Conduite 1028 1057	passez le moi s'il vous plait
+A34	Temporality T16 Overlap(default)
+A35	Experience T16 Patient
+T17	Conduite 954 990	est ce que vous pouvez me le passer?
+A36	Temporality T17 Overlap(default)
+A37	Experience T17 Patient
+T18	Conduite 836 882	est ce que vous pouvez mettre le haut parleur?
+A38	Temporality T18 Overlap(default)
+A39	Experience T18 Family
+T19	Sign_Symptom 1326 1337	se réveille
+A40	Temporality T19 Overlap(default)
+A41	Hypothesis T19
+A42	Experience T19 Patient
+T20	Sign_Symptom 1368 1386	ouvre pas les yeux
+A43	Temporality T20 Overlap(default)
+A44	Hypothesis T20
+A45	Negation T20 Négation
+A46	Experience T20 Patient
+T21	Conduite 1460 1490	demandez lui d'ouvrir les yeux
+A47	Temporality T21 Overlap(default)
+A48	Experience T21 Patient
+T22	Sign_Symptom 1542 1568	bouge un peu les paupières
+A49	Temporality T22 Overlap(default)
+A50	Experience T22 Patient
+T23	Geographic_Marker 1691 1713	depuis quatorze heures
+A51	Temporality T23 Before_overlap
+A52	Experience T23 Patient
+T24	Sign_Symptom 1877 1908	s'est pas réveillé spontanément
+A53	Temporality T24 Before_overlap
+A54	Hypothesis T24
+A55	Negation T24 Négation
+A56	Experience T24 Patient
+T25	Conduite 2322 2370	est ce que vous pouvez lui demander de se lever?
+A57	Temporality T25 Overlap(default)
+A58	Hypothesis T25
+A59	Experience T25 Family
+T26	Sign_Symptom 2645 2706	quand vous le secouez il ouvre quand même les yeux, il réagit
+A60	Temporality T26 Overlap(default)
+A61	Hypothesis T26
+A62	Experience T26 Patient
+T27	Sign_Symptom 2767 2801	il ne se réveille pas correctement
+A63	Temporality T27 Overlap(default)
+A64	Hypothesis T27
+A65	Negation T27 Négation
+A66	Experience T27 Patient
+T28	Sign_Symptom 2827 2834	il dort
+A67	Temporality T28 Overlap(default)
+A68	Experience T28 Patient
+T29	Geographic_Marker 2857 2869	dans son lit
+A69	Temporality T29 Overlap(default)
+A70	Experience T29 Patient
+T30	Geographic_Marker 2946 2958	dans son lit
+A71	Temporality T30 Overlap(default)
+A72	Experience T30 Patient
+T31	Sign_Symptom 2980 2990	il dormait
+A73	Temporality T31 Before_overlap
+A74	Experience T31 Patient
+T32	Conduite 3106 3268	lui demander de se de se lever, vous le stimulez, vous le réveillez, vous l'appelez, vous le secouez un petit peu, vous lui demandez se- se-de se lever de son lit
+A75	Temporality T32 Overlap(default)
+A76	Experience T32 Patient
+T33	Conduite 3408 3432	envoyer heu les pompiers
+A77	Temporality T33 After
+A78	Experience T33 Healthcare_professional
+T34	Conduite 3630 3690	laissez le dans son lit pour l'instant, restez à côté de lui
+A79	Temporality T34 Overlap(default)
+A80	Experience T34 Family
+T35	Conduite 3756 3811	vous nous rappelez si il y a quoique ce soit de nouveau
+A81	Temporality T35 After
+A82	Experience T35 Family
+T36	Conduite 4017 4044	on vous envoie les pompiers
+A83	Temporality T36 Overlap(default)
+A84	Experience T36 Healthcare_professional
+T37	Temporal_Marker 4148 4161	vingt minutes
+A85	Temporality T37 After
+A86	Experience T37 Healthcare_professional

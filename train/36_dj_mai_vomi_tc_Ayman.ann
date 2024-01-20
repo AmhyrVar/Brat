@@ -1,0 +1,60 @@
+T1	Person 17 29	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 83 89	enfant
+A2	Experience T2 Patient
+T3	Sign_Symptom 152 157	vomit
+A3	Hypothesis T3 Vrai
+A4	Experience T3 Patient
+T4	Temporal_Marker 181 193	depuis quand
+A5	Experience T4 Patient
+T5	Temporal_Marker 217 226	depuis là
+T6	Temporal_Marker 275 283	ce matin
+T7	Sign_Symptom 424 427	mal
+A6	Hypothesis T7 Faux
+A7	Experience T7 Patient
+T8	Sign_Symptom 479 485	fièvre
+A8	Hypothesis T8 Faux
+A9	Experience T8 Patient
+T9	Sign_Symptom 531 549	problèmes de santé
+A10	Hypothesis T9 Faux
+A11	Experience T9 Patient
+T10	Person 609 625	médecin traitant
+A12	Experience T10 Healthcare_professional
+T11	Sign_Symptom 946 959	mal à la tête
+A13	Negation T11 Négation
+A14	Experience T11 Patient
+T12	Conduite 1116 1143	aller peut être à l'hôpital
+T13	Conduite 1823 1838	appelez le SAMU
+T14	Conduite 1999 2015	rappelez au SAMU
+T15	Conduite 1233 1255	surveiller à la maison
+T16	Sign_Symptom 1747 1752	vomit
+A15	Experience T16 Patient
+T17	Sign_Symptom 335 344	diarrhées
+A16	Experience T17 Patient
+T18	Sign_Symptom 349 364	selles liquides
+A17	Experience T18 Patient
+T19	Conduite 1055 1077	surveiller à la maison
+T20	Person 2168 2175	docteur
+A18	Experience T20 Healthcare_professional
+T21	Person 788 810	'infirmière de l'école
+A19	Experience T21 Healthcare_professional
+T22	Person 820 826	enfant
+A20	Experience T22 Patient
+T23	Person 839 855	médecin traitant
+A21	Experience T23 Healthcare_professional
+T24	Sign_Symptom 874 887	cogné la tête
+A22	Hypothesis T24 Vrai
+A23	Experience T24 Patient
+T25	Sign_Symptom 1584 1596	vomissements
+A24	Experience T25 Patient
+T26	Temporal_Marker 1349 1364	toute la soirée
+T27	Sign_Symptom 708 725	'il s'était cogné
+A25	Experience T27 Patient
+T28	Temporal_Marker 1460 1490	toutes les trois quatre heures
+T29	Sign_Symptom 1776 1788	vomissements
+A26	Experience T29 Patient
+T30	Geographic_Marker 33 40	SAMU 93
+A27	Experience T30 Healthcare_professional
+T31	Conduite 2074 2108	faites la surveillance à la maison
+T32	Conduite 1628 1662	il faut qu'il boive beaucoup d'eau
+T33	Conduite 1898 1922	surveillance à la maison

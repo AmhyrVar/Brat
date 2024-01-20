@@ -1,0 +1,34 @@
+T1	Person 35 47	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T2	Person 148 156	collègue
+A2	Experience T2 Patient
+T3	Person 202 211	ma copine
+A3	Experience T3 Patient
+A4	Hypothesis T2
+A5	Negation T2 Négation
+T4	Geographic_Marker 343 354	chez moi là
+T5	Sign_Symptom 376 395	gênée pour respirer
+A6	Hypothesis T5
+T6	Temporal_Marker 807 837	entre une heure et deux heures
+T7	Sign_Symptom 857 882	elle arrive à vous parler
+A7	Hypothesis T7
+T8	Sign_Symptom 937 947	consciente
+A8	Hypothesis T8
+T9	Sign_Symptom 978 997	elle est consciente
+T10	Sign_Symptom 1021 1034	elle est pâle
+A9	Hypothesis T10
+A10	Negation T10 Négation
+T11	Sign_Symptom 1045 1062	elle est en sueur
+A11	Hypothesis T11
+A12	Negation T11 Négation
+T12	Sign_Symptom 1192 1196	pâle
+A13	Negation T12 Négation
+T13	Sign_Symptom 1200 1209	en sueurs
+A14	Negation T13 Négation
+T15	Sign_Symptom 1589 1618	ça serre heu dans mes poumons
+T16	Temporal_Marker 1719 1735	après le déjeune
+T14	Drug_chemicals 1478 1487	VENTOLINE
+A15	Negation T14 Négation
+T17	Conduite 1918 1949	contacter votre médecin traitan
+T18	Sign_Symptom 2087 2120	je suis pas bien là pour respirer
+T19	Conduite 2665 2689	vous attendez le médecin

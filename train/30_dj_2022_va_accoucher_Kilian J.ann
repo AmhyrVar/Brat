@@ -1,0 +1,49 @@
+T1	Person 17 23	madame
+T2	Person 51 64	docteur SHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 97 102	soeur
+A2	Experience T3 Patient
+T4	Sign_Symptom 116 127	d'accoucher
+T5	Person 383 388	soeur
+A3	Experience T5 Patient
+T6	Person 337 343	madame
+A4	Experience T6 Family
+T7	Person 556 562	madame
+A5	Experience T7 Family
+T8	Conduite 588 613	vous envoyer les pompiers
+T9	Person 641 649	pompiers
+A6	Experience T9 Healthcare_professional
+T10	Person 669 677	pompiers
+A7	Experience T10 Healthcare_professional
+T11	Person 605 613	pompiers
+A8	Experience T11 Healthcare_professional
+T12	Sign_Symptom 757 771	perte des eaux
+A9	Experience T12 Patient
+T13	Sign_Symptom 727 732	a mal
+A10	Experience T13 Patient
+T14	Person 937 950	madame madame
+A11	Experience T14 Family
+T15	Conduite 981 997	restez avec elle
+T16	Conduite 960 979	envoie les pompiers
+T17	Person 971 979	pompiers
+A12	Experience T17 Healthcare_professional
+T18	Conduite 1007 1031	préparez du linge propre
+T19	Conduite 1033 1051	mettez là à l'aise
+T20	Conduite 1106 1125	mettez là au assise
+T21	Conduite 1141 1165	préparez du linge propre
+T22	Person 1173 1181	pompiers
+A13	Experience T22 Healthcare_professional
+T23	Person 1439 1447	pompiers
+A14	Experience T23 Healthcare_professional
+T24	Conduite 1466 1490	préparez le linge propre
+T25	Person 1511 1519	pompiers
+A15	Experience T25 Healthcare_professional
+T26	Conduite 1590 1606	restez avec elle
+T27	Sign_Symptom 1728 1733	l'eau
+A16	Experience T27 Patient
+T28	Sign_Symptom 1793 1812	liquide transparent
+A17	Experience T28 Patient
+T29	Conduite 1828 1844	restez avec elle
+T30	Conduite 1846 1862	restez avec elle
+T31	Person 1936 1942	madame
+A18	Experience T31 Family

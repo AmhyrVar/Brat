@@ -1,0 +1,59 @@
+T1	Person 17 23	madame
+T2	Person 88 100	docteur ABAS
+T4	Sign_Symptom 138 154	accident de moto
+T9	Sign_Symptom 703 709	blessé
+T11	Sign_Symptom 764 783	s'est cogné la tête
+A5	Hypothesis T11
+T12	Sign_Symptom 824 830	chuter
+A6	Hypothesis T12
+T13	Sign_Symptom 919 936	tombé sur sa tête
+T15	Sign_Symptom 1683 1701	perdu connaissance
+A8	Hypothesis T13
+T17	Sign_Symptom 2113 2122	conscient
+A10	Hypothesis T17
+T18	Sign_Symptom 2136 2148	respire bien
+A11	Hypothesis T18
+T19	Sign_Symptom 2249 2256	douleur
+T20	Sign_Symptom 2301 2318	mal heu à la tête
+T21	Sign_Symptom 2343 2354	mal partout
+T22	Sign_Symptom 2403 2409	a vomi
+T23	Conduite 2453 2472	amener les pompiers
+T24	Geographic_Marker 2473 2482	sur place
+T26	Person 2933 2939	madame
+T27	Conduite 2951 2971	envoyer les pompiers
+T28	Geographic_Marker 2987 2996	sur place
+T29	Conduite 3011 3023	vous évaluer
+T30	Conduite 3032 3058	on va prendre une décision
+T31	Conduite 3168 3191	les pompiers vont venir
+T33	Sign_Symptom 3517 3525	douleurs
+A13	Experience T33 Family
+A14	Hypothesis T33
+T36	Conduite 3718 3774	il faut que vous soyez au moins évaluée par les pompiers
+T37	Conduite 4059 4078	évaluer votre frère
+T6	Geographic_Marker 424 439	tunnel du LANDY
+T10	Sign_Symptom 727 751	saigne un peu de la tête
+A1	Hypothesis T9
+A18	Hypothesis T19
+A19	Hypothesis T22
+T25	Geographic_Marker 2799 2814	tunnel du LANDY
+T34	Sign_Symptom 3460 3466	tombés
+A17	Hypothesis T34
+T5	Sign_Symptom 407 415	accident
+T40	Person 116 127	votre frère
+A20	Experience T40 Patient
+T3	Person 569 580	votre frère
+A2	Experience T3 Patient
+T7	Person 598 609	votre frère
+A3	Experience T7 Patient
+T8	Person 1251 1260	mon frère
+A4	Experience T8 Patient
+T14	Sign_Symptom 1670 1677	a chuté
+T38	Sign_Symptom 1756 1768	il est tombé
+T41	Person 2081 2092	votre frère
+A7	Experience T41 Patient
+T16	Sign_Symptom 2360 2372	il est tombé
+T39	Person 3394 3403	mon frère
+A9	Experience T39 Patient
+T32	Sign_Symptom 3418 3434	vous êtes tombée
+A12	Hypothesis T32
+A21	Experience T32 Family

@@ -1,0 +1,95 @@
+T1	Person 54 70	docteur LAKHLIFI
+T2	Person 90 114	votre enfant de huit ans
+T3	Sign_Symptom 119 133	ne répond plus
+A1	Hypothesis T3
+A2	Experience T3 Patient
+A3	Experience T2 Patient
+A4	Experience T1 Healthcare_professional
+T4	Sign_Symptom 211 223	yeux ouverts
+A5	Hypothesis T4
+A6	Experience T4 Patient
+T5	Geographic_Marker 270 282	dans son lit
+T6	Conduite 316 369	est ce que vous pouvez aller le voir s'il vous plait?
+T7	Conduite 412 463	j'ai besoin que vous alliez le voir s'il vous plait
+T8	Conduite 468 527	vous le secouez un petit peu et je veux savoir si il répond
+T9	Conduite 617 646	allez le voir dans sa chambre
+T10	Conduite 718 740	posez lui une question
+T11	Conduite 750 780	demandez lui d'ouvrir les yeux
+T12	Conduite 836 882	est ce que vous pouvez mettre le haut parleur?
+T13	Conduite 954 990	est ce que vous pouvez me le passer?
+T14	Conduite 1028 1057	passez le moi s'il vous plait
+T15	Sign_Symptom 1120 1130	il dormait
+A7	Temporality T15 Before
+T16	Conduite 1243 1271	réveillez le s'il vous plait
+T17	Person 1281 1285	ERIC
+A8	Experience T17 Patient
+T18	Person 1309 1313	ERIC
+A9	Experience T18 Patient
+A10	Experience T15 Patient
+T19	Sign_Symptom 1368 1386	ouvre pas les yeux
+A11	Hypothesis T19
+A12	Experience T19 Patient
+A13	Negation T19 Négation
+T20	Conduite 1460 1490	demandez lui d'ouvrir les yeux
+T21	Person 1500 1504	ERIC
+A14	Experience T21 Patient
+T22	Person 1525 1529	ERIC
+A15	Experience T22 Patient
+T23	Sign_Symptom 1542 1568	bouge un peu les paupières
+A16	Experience T23 Patient
+T24	Temporal_Marker 1698 1713	quatorze heures
+A17	Experience T24 Patient
+T25	Temporal_Marker 1728 1752	sieste à quatorze heures
+A18	Experience T25 Patient
+T26	Sign_Symptom 1883 1908	pas réveillé spontanément
+A19	Hypothesis T26
+A20	Negation T26 Négation
+A21	Experience T26 Patient
+T27	Sign_Symptom 1955 1979	couché couché super tard
+A22	Experience T27 Patient
+T28	Sign_Symptom 1998 2016	problèmes de santé
+A23	Hypothesis T28
+A24	Experience T28 Patient
+T29	Sign_Symptom 2091 2103	réveille pas
+A25	Hypothesis T29
+A26	Negation T29 Négation
+A27	Experience T29 Patient
+T30	Temporal_Marker 2212 2227	heure du goûter
+T31	Sign_Symptom 2247 2251	bien
+A28	Temporality T31 Before
+A29	Hypothesis T31
+A30	Experience T31 Patient
+T32	Conduite 2322 2370	est ce que vous pouvez lui demander de se lever?
+T33	Sign_Symptom 2546 2561	se réveille pas
+A31	Negation T33 Négation
+A32	Experience T33 Patient
+A33	Negation T3 Négation
+T34	Sign_Symptom 2670 2695	ouvre quand même les yeux
+A34	Hypothesis T34
+A35	Experience T34 Patient
+T35	Sign_Symptom 2700 2706	réagit
+A36	Hypothesis T35
+A37	Experience T35 Patient
+T36	Sign_Symptom 2770 2801	ne se réveille pas correctement
+A39	Negation T36 Négation
+A40	Experience T36 Patient
+T37	Sign_Symptom 2830 2834	dort
+A38	Experience T37 Patient
+T38	Geographic_Marker 2857 2869	dans son lit
+A41	Experience T38 Patient
+T39	Geographic_Marker 2946 2958	dans son lit
+A42	Experience T39 Patient
+T40	Sign_Symptom 2983 2990	dormait
+A43	Temporality T40 Before
+A44	Experience T40 Patient
+T41	Conduite 3056 3268	est ce que vous pouvez s'il vous plait madame heu lui demander de se de se lever, vous le stimulez, vous le réveillez, vous l'appelez, vous le secouez un petit peu, vous lui demandez se- se-de se lever de son lit
+T42	Conduite 3397 3522	on va vous envoyer heu les pompiers qui vont évaluer un peu la situation et heu ils nous rappelleront si y a quoi que ce soit
+T43	Sign_Symptom 3553 3565	il bouge pas
+A45	Negation T43 Négation
+A46	Experience T43 Patient
+T44	Conduite 3630 3719	laissez le dans son lit pour l'instant, restez à côté de lui et les pompiers vont arriver
+T45	Conduite 3756 3811	vous nous rappelez si il y a quoique ce soit de nouveau
+T46	Geographic_Marker 677 692	dans sa chambre
+T47	Person 1070 1074	ERIC
+A47	Experience T47 Patient
+T48	Temporal_Marker 4140 4161	maximum vingt minutes

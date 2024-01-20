@@ -1,0 +1,25 @@
+T1	Person 21 33	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 90 96	un SDF
+A2	Experience T2 Patient
+T3	Sign_Symptom 97 109	dans le coma
+A3	Experience T3 Patient
+T4	Person 73 77	vous
+A4	Experience T4 Other
+T5	Person 50 54	vous
+A5	Experience T5 Other
+T6	Person 465 476	ce monsieur
+A6	Experience T6 Patient
+T7	Person 483 506	un monsieur du quartier
+A7	Experience T7 Patient
+T8	Conduite 559 599	il faut que vous vous rapprochiez de lui
+T9	Conduite 603 631	que vous le stimuliez un peu
+T10	Conduite 632 653	approchez vous de lui
+T11	Conduite 870 899	vous allez rester près de lui
+T12	Conduite 904 1011	on va envoyer les pompiers vous restez près de lui jusqu'à l'arrivée des pompiers et on envoie les pompiers
+T13	Sign_Symptom 285 301	il ronfle un peu
+T14	Sign_Symptom 723 732	il grogne
+T15	Sign_Symptom 733 747	il me repousse
+A8	Experience T15 Patient
+A9	Experience T14 Patient
+A10	Experience T13 Patient

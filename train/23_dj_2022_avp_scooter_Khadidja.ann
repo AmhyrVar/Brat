@@ -1,0 +1,35 @@
+T1	Person 32 38	madame
+T2	Person 88 102	docteur DAMANI
+T3	Person 196 205	quelqu'un
+A2	Experience T3 Patient
+T4	Sign_Symptom 351 362	s'est cogné
+A3	Hypothesis T4
+T5	Sign_Symptom 449 472	il s'est pris un camion
+T6	Sign_Symptom 416 439	il s'est pris un camion
+T7	Temporal_Marker 659 672	trois minutes
+T8	Sign_Symptom 231 242	un accident
+R1	Temp_mark Arg1:T7 Arg2:T5	
+R2	Temp_mark Arg1:T7 Arg2:T8	
+T9	Sign_Symptom 778 786	il bouge
+A4	Hypothesis T9
+T10	Sign_Symptom 820 839	bouger un petit peu
+T11	Sign_Symptom 864 887	essayé de de se relever
+T12	Conduite 1710 1765	on va envoyer heu une équipe heu une équipe de pompiers
+T13	Geographic_Marker 1766 1775	sur place
+T14	Conduite 1818 1831	aller le voir
+T15	Conduite 1909 1954	les pompiers qui vont se qui vont se déplacer
+A6	Experience T10 Patient
+A7	Experience T11 Patient
+T17	Sign_Symptom 1408 1422	bien conscient
+A8	Hypothesis T17
+A9	Experience T17 Patient
+T18	Sign_Symptom 157 168	un accident
+T16	Sign_Symptom 1609 1623	s'était relevé
+A1	Experience T2 Healthcare_professional
+T19	Sign_Symptom 753 758	bouge
+A5	Hypothesis T19
+T20	Sign_Symptom 1669 1681	a pas réussi
+A10	Negation T20 Négation
+T21	Sign_Symptom 1652 1660	a essayé
+T22	Conduite 1343 1392	vous pouvez pas du tout heu vous approcher de lui
+A11	Hypothesis T22

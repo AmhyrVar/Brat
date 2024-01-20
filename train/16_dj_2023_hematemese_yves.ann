@@ -1,0 +1,33 @@
+T1	Person 78 93	docteur DAHMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 133 145	votre voisin
+A2	Experience T2 Patient
+T3	Person 58 66	monsieur
+A3	Experience T3 Other
+T4	Sign_Symptom 152 164	vomi du sang
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T5	Disease 807 834	il m'a parlé d'hypertension
+A6	Hypothesis T5
+A7	Experience T5 Patient
+T6	Drug_chemicals 977 985	l'alcool
+A8	Hypothesis T6
+A9	Experience T6 Patient
+T7	Drug_chemicals 1040 1048	l'alcool
+A10	Hypothesis T7
+A11	Experience T7 Patient
+T8	Sign_Symptom 1791 1803	vomi du sang
+A12	Experience T8 Patient
+T9	Person 2063 2065	je
+A13	Experience T9 Other
+T10	Person 2084 2086	je
+A14	Experience T10 Other
+T11	Person 2122 2124	il
+A15	Experience T11 Patient
+T12	Conduite 2382 2421;2444 2453	dites lui de se dites lui de se moucher bien fort
+T13	Conduite 2495 2538	comprimer heu son nez avec heu avec sa main
+T14	Person 3543 3551	monsieur
+A16	Experience T14 Other
+T15	Person 3634 3637	moi
+A17	Experience T15 Other
+T16	Conduite 3406 3492	si ça saigne encore vous nous rappelez et si ça ne saigne plus il consulte son médecin

@@ -1,0 +1,86 @@
+T1	Person 138 154	docteur ISABELLE
+A1	Experience T1 Healthcare_professional
+T2	Person 215 231	votre grand mère
+A2	Experience T2 Patient
+T3	Person 273 280	ma mère
+A3	Experience T3 Patient
+T4	Person 296 311	madame BERTRAND
+A4	Experience T4 Patient
+T5	Person 330 338	la femme
+A5	Experience T5 Patient
+T6	Person 354 373	professeur BERTRAND
+A6	Experience T6 Healthcare_professional
+T7	Person 678 685	ma mère
+A7	Experience T7 Patient
+T8	Person 1020 1027	ma mère
+A8	Experience T8 Patient
+T9	Person 1179 1198	professeur BERTRAND
+A9	Experience T9 Healthcare_professional
+T10	Person 1166 1174	mon père
+A10	Experience T10 Family
+T11	Person 1442 1452	votre mère
+A11	Experience T11 Patient
+T12	Person 1202 1215	des collègues
+A12	Experience T12 Healthcare_professional
+T15	Geographic_Marker 2184 2195	à la maison
+T16	Person 2249 2261	les pompiers
+A15	Experience T16 Other
+T18	Disease 2355 2367	un infarctus
+A17	Hypothesis T18
+T19	Person 2369 2381	les pompiers
+A18	Experience T19 Other
+T20	Person 2433 2440	ma mère
+A19	Experience T20 Patient
+T21	Person 2480 2511	la femme du professeur BERTRAND
+A20	Experience T21 Patient
+T22	Person 2563 2573	un médecin
+A21	Experience T22 Healthcare_professional
+T23	Person 2579 2591	les pompiers
+A22	Experience T23 Other
+T25	Geographic_Marker 2690 2701	à la maison
+T26	Person 2906 2912	madame
+A24	Experience T26 Family
+T27	Person 2871 2878	médecin
+A25	Experience T27 Healthcare_professional
+T29	Person 3047 3059	les pompiers
+A27	Experience T29 Other
+T31	Person 3416 3428	les pompiers
+A29	Experience T31 Other
+T32	Person 3293 3299	madame
+A30	Experience T32 Family
+T24	Conduite 2601 2632	on va envoyer déjà les pompiers
+A23	Temporality T24 After
+T28	Conduite 2913 2939	on va envoyer les pompiers
+T30	Conduite 3266 3292	on va envoyer les pompiers
+T33	Sign_Symptom 484 513	elle répond plus au téléphone
+A26	Temporality T33 Overlap(default)
+T34	Sign_Symptom 734 749	elle répond pas
+A28	Negation T34 Négation
+T35	Sign_Symptom 1271 1299	de pas répondre au téléphone
+A32	Temporality T35 Overlap(default)
+A34	Temporality T18 Before_overlap
+T13	Disease 1792 1810	un arrêt cardiaque
+A13	Temporality T13 Overlap(default)
+A31	Hypothesis T13
+T36	Temporal_Marker 1769 1791	elle en train de faire
+R1	Temp_mark Arg1:T36 Arg2:T13	
+T14	Conduite 2119 2145	on va envoyer les pompiers
+T17	Disease 2301 2319	un arrêt cardiaque
+T37	Temporal_Marker 2274 2291	elle est en train
+R2	Temp_mark Arg1:T37 Arg2:T17	
+A14	Temporality T17 Before_overlap
+A16	Hypothesis T17
+T38	Temporal_Marker 2321 2338	elle est en train
+R3	Temp_mark Arg1:T38 Arg2:T18	
+A33	Temporality T14 After
+T39	Temporal_Marker 686 688	là
+A35	Temporality T39 Overlap(default)
+R4	Temp_mark Arg1:T39 Arg2:T34	
+T40	Temporal_Marker 476 478	là
+A36	Temporality T40 Overlap(default)
+R5	Temp_mark Arg1:T40 Arg2:T33	
+A37	Temporality T28 After
+A38	Temporality T30 After
+A39	Temporality T37 Overlap(default)
+A40	Temporality T36 Overlap(default)
+A41	Temporality T38 Overlap(default)

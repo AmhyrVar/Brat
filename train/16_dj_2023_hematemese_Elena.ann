@@ -1,0 +1,74 @@
+T1	Person 78 93	docteur DAHMANI
+A1	Experience T1 Healthcare_professional
+T2	Person 133 145	votre voisin
+A2	Experience T2 Patient
+T3	Sign_Symptom 152 164	vomi du sang
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Sign_Symptom 345 384	vomi un un caillot gros comme mon poing
+A5	Experience T4 Patient
+T5	Person 451 457	voisin
+A6	Experience T5 Patient
+T6	Sign_Symptom 467 485	problèmes de santé
+A7	Hypothesis T6
+A8	Experience T6 Patient
+T7	Temporal_Marker 562 577	deux trois fois
+T8	Sign_Symptom 638 646	en forme
+A9	Experience T8 Patient
+T9	Disease 683 710	pas de maladie particulière
+A10	Negation T9 Négation
+A11	Experience T9 Patient
+T10	Drug_chemicals 729 762	pas de médicaments tous les jours
+A12	Temporality T10 Overlap(default)
+A13	Hypothesis T10
+A14	Negation T10 Négation
+A15	Experience T10 Patient
+T11	Disease 822 834	hypertension
+A16	Experience T11 Patient
+T12	Sign_Symptom 965 985	consomme de l'alcool
+A17	Hypothesis T12
+A18	Experience T12 Patient
+T13	Sign_Symptom 1028 1048	consomme de l'alcool
+A19	Hypothesis T13
+A20	Experience T13 Patient
+T14	Geographic_Marker 1065 1073	chez lui
+T15	Sign_Symptom 1283 1314	premier épisode de vomissements
+A21	Hypothesis T15
+A22	Experience T15 Patient
+T16	Temporal_Marker 1384 1402	pas tous les jours
+A23	Negation T16 Négation
+T17	Geographic_Marker 1427 1435	chez moi
+A24	Experience T17 Patient
+T18	Person 1531 1537	voisin
+A25	Experience T18 Patient
+T19	Geographic_Marker 1675 1693	dans mes toilettes
+A26	Experience T19 Patient
+T20	Sign_Symptom 1738 1752	sang qui coule
+A27	Experience T20 Patient
+T21	Sign_Symptom 1791 1803	vomi du sang
+A28	Temporality T21 Overlap(default)
+A29	Experience T21 Patient
+T22	Sign_Symptom 1818 1850	sort par la bouche et par le nez
+A30	Experience T22 Patient
+T23	Sign_Symptom 227 254	sang sur son sur sa chemise
+A31	Experience T23 Patient
+T24	Temporal_Marker 1784 1790	encore
+A32	Temporality T24 Overlap(default)
+T25	Sign_Symptom 1892 1905	saigne du nez
+A33	Hypothesis T25
+A34	Experience T25 Patient
+T26	Sign_Symptom 1933 1953	sang qui sort du nez
+A35	Experience T26 Patient
+T27	Sign_Symptom 2041 2046	vomir
+A36	Experience T27 Patient
+A37	Hypothesis T27
+T28	Sign_Symptom 2148 2199	sang autour sur le visage et sur sur son sa chemise
+A38	Experience T28 Patient
+T29	Geographic_Marker 2266 2290	dans votre salle de bain
+A39	Experience T29 Patient
+A40	Hypothesis T29
+T30	Conduite 2382 2421	dites lui de se dites lui de se moucher
+T31	Conduite 2486 2573	après de comprimer heu son nez avec heu avec sa main donc ses deux narines avec sa main
+T32	Conduite 2714 2825	il faut bien qu'il se mouche et qu'il appuie qu'il heu qu'il comprime heu son nez ses deux narines avec sa main
+T33	Conduite 2939 2984	on on surveille si heu le saignement s'arrête
+T34	Conduite 3406 3492	si ça saigne encore vous nous rappelez et si ça ne saigne plus il consulte son médecin

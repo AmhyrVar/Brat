@@ -1,0 +1,38 @@
+T1	Person 21 33	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 93 96	SDF
+A2	Experience T2 Patient
+T3	Disease 105 109	coma
+A3	Temporality T3 Before_overlap
+T4	Sign_Symptom 168 185	il est conscient?
+A4	Temporality T4 Overlap(default)
+A5	Hypothesis T4
+T5	Sign_Symptom 220 241	est ce qu'il respire?
+A6	Temporality T5 Overlap(default)
+A7	Hypothesis T5
+T6	Sign_Symptom 288 294	ronfle
+A8	Temporality T6 Overlap(default)
+T7	Person 468 476	monsieur
+A9	Experience T7 Patient
+T8	Person 486 494	monsieur
+A10	Experience T8 Patient
+T9	Person 516 522	madame
+A11	Experience T9 Other
+T10	Person 536 542	madame
+A12	Experience T10 Other
+T11	Conduite 562 653	faut que vous vous rapprochiez de lui et que vous le stimuliez un peu approchez vous de lui
+A13	Temporality T11 Overlap(default)
+T12	Conduite 311 389	d'accord là vous pouvez le le stimuler un peu pour qu'il qu'il ouvre les yeux?
+A14	Temporality T12 Overlap(default)
+A15	Hypothesis T12
+T13	Conduite 865 899	vous vous allez rester près de lui
+A16	Temporality T13 Overlap(default)
+T14	Conduite 904 1011	on va envoyer les pompiers vous restez près de lui jusqu'à l'arrivée des pompiers et on envoie les pompiers
+A17	Temporality T14 After
+T15	Person 1003 1011	pompiers
+A18	Experience T15 Other
+T16	Person 922 930	pompiers
+A19	Experience T16 Other
+T17	Person 977 985	pompiers
+A20	Temporality T17 Before
+A21	Experience T17 Other

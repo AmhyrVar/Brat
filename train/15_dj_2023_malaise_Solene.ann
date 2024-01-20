@@ -1,0 +1,48 @@
+T1	Person 51 67	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 86 97	votre femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 116 122	malais
+A3	Experience T3 Patient
+A4	Hypothesis T3
+T4	Temporal_Marker 128 137	récemment
+T5	Sign_Symptom 434 453	elle est consciente
+A5	Hypothesis T5
+A6	Experience T5 Patient
+T6	Conduite 556 591	secouez là pour voir si elle réagit
+T7	Conduite 702 721	prenez lui les bras
+T8	Conduite 754 793	appuyez sur les mains et vous l'appelez
+T9	Sign_Symptom 1044 1056	respire fort
+A7	Experience T9 Patient
+T10	Sign_Symptom 1120 1139	mouvements anormaux
+A8	Hypothesis T10
+A9	Experience T10 Patient
+T11	Sign_Symptom 1203 1209	tendue
+A10	Experience T11 Patient
+T12	Geographic_Marker 1307 1317	la cuisine
+T13	Sign_Symptom 1609 1626	tremble des mains
+A11	Hypothesis T13
+A12	Experience T13 Patient
+T14	Sign_Symptom 1650 1656	tendue
+A13	Experience T14 Patient
+T15	Sign_Symptom 2500 2509	me répond
+A14	Experience T15 Patient
+T16	Conduite 2454 2485	redemandez lui de vous répondre
+T17	Conduite 2617 2633	restez avec elle
+T18	Conduite 2707 2715	rappelez
+T19	Temporal_Marker 2729 2739	demi heure
+T20	Conduite 2845 2873	rappelez dans une demi heure
+T21	Disease 266 284	problèmes de santé
+A15	Hypothesis T21
+T22	Drug_chemicals 351 361	médicament
+A16	Hypothesis T22
+T23	Sign_Symptom 1265 1272	malaise
+A17	Experience T23 Patient
+T24	Sign_Symptom 1553 1560	malaise
+A18	Experience T24 Patient
+T25	Conduite 1689 1706	secouez là encore
+T26	Sign_Symptom 1909 1928	reprend ses esprits
+A19	Hypothesis T26
+T27	Person 2231 2243	inconsciente
+A20	Hypothesis T27
+A21	Experience T27 Patient

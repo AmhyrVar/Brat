@@ -1,0 +1,37 @@
+T1	Person 55 61	madame
+T2	Person 81 89	LAKHLIFI
+T3	Person 119 123	mère
+T4	Sign_Symptom 400 410	consciente
+T5	Sign_Symptom 484 490	plaies
+T6	Sign_Symptom 512 516	sang
+T7	Person 1350 1354	père
+T8	Geographic_Marker 1931 1940	l'hôpital
+T9	Person 2059 2063	mère
+T10	Sign_Symptom 2176 2181	plaie
+T11	Sign_Symptom 2453 2465	diagnostiqué
+T12	Disease 2485 2503	troubles cognitifs
+T13	Disease 2524 2536	neurologique
+T14	Geographic_Marker 2798 2804	maison
+T15	Geographic_Marker 2958 2967	l'hôpital
+T16	Sign_Symptom 3144 3150	crises
+T17	Sign_Symptom 3371 3377	plaies
+T18	Sign_Symptom 3908 3922	l'hospitaliser
+T19	Geographic_Marker 4035 4044	l'hôpital
+T20	Geographic_Marker 3814 3823	l'hôpital
+T21	Geographic_Marker 4492 4500	urgences
+T22	Sign_Symptom 4639 4644	plaie
+T23	Person 4697 4704	médecin
+T24	Geographic_Marker 4951 4960	l'hôpital
+T25	Person 5073 5078	maman
+T26	Sign_Symptom 5235 5241	saigne
+T27	Person 5388 5404	médecin traitant
+T28	Geographic_Marker 5537 5545	urgences
+T29	Person 5585 5589	père
+T30	Disease 5606 5628	troubles heu cognitifs
+T31	Geographic_Marker 5839 5848	l'hôpital
+T32	Person 5919 5923	père
+T33	Geographic_Marker 6073 6081	domicile
+T34	Person 6187 6191	mère
+T35	Geographic_Marker 6196 6204	urgences
+T36	Person 6301 6305	papa
+T37	Person 6466 6481	médecin traitan

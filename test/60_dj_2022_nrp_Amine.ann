@@ -1,0 +1,25 @@
+T1	Person 138 154	docteur ISABELLE
+A1	Experience T1 Healthcare_professional
+T2	Person 273 280	ma mère
+A2	Experience T2 Patient
+T3	Person 296 311	madame BERTRAND
+A3	Experience T3 Patient
+T4	Person 348 373	grand professeur BERTRAND
+A4	Experience T4 Family
+T5	Conduite 2119 2145	on va envoyer les pompiers
+A5	Temporality T5 After
+T6	Geographic_Marker 719 728	chez elle
+A6	Experience T6 Patient
+T7	Conduite 2601 2632	on va envoyer déjà les pompiers
+T8	Conduite 2661 2725	ils vont déjà pouvoir entrer à la maison et voir ce qui se passe
+T9	Conduite 2913 2939	on va envoyer les pompiers
+T10	Conduite 3266 3292	on va envoyer les pompiers
+T11	Conduite 3406 3428	on envoie les pompiers
+T12	Person 2906 2912	madame
+A7	Experience T12 Family
+T13	Person 3293 3299	madame
+A8	Experience T13 Family
+T14	Person 2492 2511	professeur BERTRAND
+A9	Experience T14 Family
+T15	Person 2483 2512	femme du professeur BERTRAND,
+A10	Experience T15 Patient

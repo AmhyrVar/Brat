@@ -1,0 +1,67 @@
+T1	Person 17 29	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 83 89	enfant
+A2	Experience T2 Patient
+T3	Sign_Symptom 152 157	vomit
+A3	Temporality T3 Overlap(default)
+A4	Hypothesis T3
+T4	Sign_Symptom 197 202	vomit
+A5	Temporality T4 Before_overlap
+A6	Hypothesis T4
+T5	Temporal_Marker 227 241	tout à l'heure
+A7	Temporality T5 Before_overlap
+R1	Temp_mark Arg1:T5 Arg2:T4	
+T6	Sign_Symptom 335 344	diarrhées
+A8	Temporality T6 Before_overlap
+A9	Hypothesis T6
+T7	Sign_Symptom 349 364	selles liquides
+A10	Temporality T7 Before_overlap
+A11	Hypothesis T7
+T8	Sign_Symptom 422 427	a mal
+A12	Temporality T8 Overlap(default)
+A13	Hypothesis T8
+T9	Sign_Symptom 479 485	fièvre
+A14	Temporality T9 Overlap(default)
+A15	Hypothesis T9
+T10	Sign_Symptom 531 549	problèmes de santé
+A16	Temporality T10 Before_overlap
+A17	Hypothesis T10
+T11	Person 609 616	médecin
+A18	Experience T11 Healthcare_professional
+T12	Sign_Symptom 720 725	cogné
+A19	Temporality T12 Before
+T13	Person 789 799	infirmière
+A20	Experience T13 Healthcare_professional
+T14	Person 839 846	médecin
+A21	Experience T14 Healthcare_professional
+T15	Sign_Symptom 874 887	cogné la tête
+A22	Temporality T15 Before
+A23	Hypothesis T15
+T16	Sign_Symptom 946 959	mal à la tête
+A24	Temporality T16 Overlap(default)
+A25	Hypothesis T16
+T18	Sign_Symptom 1004 1021	pas mal à la tête
+A26	Temporality T18 Overlap(default)
+A27	Negation T18 Négation
+T17	Conduite 1055 1077	surveiller à la maison
+T19	Person 1087 1094	voisine
+A28	Experience T19 Other
+T20	Geographic_Marker 1132 1143	à l'hôpital
+T21	Conduite 1230 1255	le surveiller à la maison
+T22	Conduite 1208 1221	le surveiller
+T23	Conduite 1320 1333	le surveillez
+T24	Conduite 1378 1390;1399 1425;1460 1490	le réveillez régulièrement dans la nuit toutes les trois quatre heures
+T25	Sign_Symptom 1584 1596	vomissements
+A29	Temporality T25 Overlap(default)
+T26	Conduite 1642 1662	boive beaucoup d'eau
+T27	Conduite 1747 1752	vomit
+T28	Sign_Symptom 1776 1788	vomissements
+A30	Temporality T28 After
+T29	Conduite 1805 1814	consultez
+A31	Hypothesis T29
+T30	Conduite 1823 1838	appelez le SAMU
+T31	Conduite 1898 1922	surveillance à la maison
+T32	Conduite 1999 2015	rappelez au SAMU
+T33	Conduite 2084 2108	surveillance à la maison
+T34	Person 2168 2175	docteur
+A32	Experience T34 Healthcare_professional

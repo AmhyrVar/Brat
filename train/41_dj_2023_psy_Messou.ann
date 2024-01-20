@@ -1,0 +1,28 @@
+T1	Person 55 62	DAHMANI
+T2	Person 110 116	voisin
+T3	Disease 194 227	très probable trouble psychotique
+T4	Sign_Symptom 275 290	hospitalisation
+T5	Geographic_Marker 404 412	chez lui
+T6	Temporal_Marker 550 563	régulièrement
+T7	Temporal_Marker 580 594	quelques jours
+T8	Person 684 692	monsieur
+T9	Disease 701 711	ma- malade
+T10	Disease 720 742	problème psychiatrique
+T11	Temporal_Marker 800 807	semaine
+T12	Sign_Symptom 933 956	comportement inhabituel
+T13	Sign_Symptom 974 984	inhabituel
+T14	Sign_Symptom 1074 1091	problème de santé
+T15	Sign_Symptom 1201 1205	crie
+T16	Temporal_Marker 1387 1394	semaine
+T17	Geographic_Marker 1484 1493	l'hôpital
+T18	Sign_Symptom 1533 1541	agressif
+T19	Sign_Symptom 1657 1664	méchant
+T20	Disease 1721 1727	malade
+T21	Geographic_Marker 1786 1794	chez moi
+T22	Geographic_Marker 1838 1846	chez lui
+T23	Person 1869 1879	sa famille
+T24	Geographic_Marker 2158 2178	autre bout du palier
+T25	Geographic_Marker 2196 2204	chez lui
+T26	Temporal_Marker 2205 2217	actuellement
+T27	Person 2521 2528	médecin
+T28	Sign_Symptom 2886 2898	hospitaliser

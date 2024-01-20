@@ -1,0 +1,92 @@
+T1	Person 35 47	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T3	Disease 170 175	COVID
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T2	Person 119 148	père de quatre vingt cinq ans
+A2	Experience T2 Patient
+T4	Disease 216 221	COVID
+A5	Experience T4 Patient
+T5	Temporal_Marker 457 465	ce matin
+T6	Temporal_Marker 524 539	depuis ce matin
+T7	Person 856 864	mon papa
+A6	Experience T7 Patient
+T8	Temporal_Marker 894 905	trois jours
+A7	Experience T8 Patient
+T9	Sign_Symptom 914 920	fièvre
+A8	Experience T9 Patient
+T10	Sign_Symptom 924 930	tousse
+A9	Experience T10 Patient
+T11	Geographic_Marker 983 994	à la maison
+A10	Experience T11 Patient
+T12	Sign_Symptom 1138 1157	respire normalement
+A11	Experience T12 Patient
+T13	Sign_Symptom 1177 1199	difficultés à respirer
+A12	Hypothesis T13
+A13	Experience T13 Patient
+A14	Hypothesis T12
+T14	Sign_Symptom 1232 1252	respirer normalement
+A15	Experience T14 Patient
+T15	Temporal_Marker 1307 1317	aujourd'hu
+T16	Sign_Symptom 1330 1354	aggravation particulière
+A16	Hypothesis T16
+A17	Experience T16 Patient
+T17	Temporal_Marker 1363 1383	trois derniers jours
+T18	Sign_Symptom 1590 1607	pas d'aggravation
+A18	Experience T18 Patient
+T19	Sign_Symptom 1734 1752	problèmes de santé
+A19	Hypothesis T19
+A20	Experience T19 Patient
+T20	Disease 1822 1832	hypertendu
+A21	Experience T20 Patient
+T21	Disease 1866 1876	diabétique
+A22	Experience T21 Patient
+T22	Disease 1890 1900	diabétique
+A23	Experience T22 Patient
+T23	Sign_Symptom 2053 2072	problèmes cognitifs
+A24	Hypothesis T23
+A25	Experience T23 Patient
+T24	Sign_Symptom 2080 2100	problèmes de mémoire
+A26	Hypothesis T24
+A27	Experience T24 Patient
+T25	Temporal_Marker 2336 2352	semaine dernière
+T26	Person 2361 2366	maman
+A28	Experience T26 Family
+T27	Disease 2380 2385	COVID
+A29	Experience T27 Family
+A30	Temporality T27 Before
+T28	Temporal_Marker 2566 2582	depuis un moment
+T29	Person 2727 2732	maman
+A31	Experience T29 Family
+T30	Person 2751 2755	papa
+A32	Experience T30 Patient
+T31	Person 2779 2784	maman
+A33	Experience T31 Family
+T32	Sign_Symptom 2794 2802	fatiguée
+A34	Experience T32 Family
+T33	Conduite 2817 2878	passez le moi au téléphone j'aimerais bien pouvoir lui parler
+T34	Person 3167 3171	papa
+A35	Experience T34 Patient
+T35	Geographic_Marker 3537 3548	à la maison
+T36	Person 3566 3571	maman
+A36	Experience T36 Family
+T37	Sign_Symptom 3581 3601	pas dans un bon état
+A37	Experience T37 Family
+T38	Disease 3635 3640	COVID
+A38	Experience T38 Family
+T39	Sign_Symptom 3650 3670	extrêmement fatiguée
+A39	Experience T39 Family
+T40	Conduite 3752 3798	prendre un rendez vous avec le médecin traitan
+T41	Conduite 3869 3912	passer un médecin à domicile pour l'évaluer
+R1	Temp_mark Arg1:T8 Arg2:T9	
+R2	Temp_mark Arg1:T8 Arg2:T10	
+T42	Person 1051 1061	votre papa
+A40	Experience T42 Patient
+R3	Temp_mark Arg1:T15 Arg2:T16	
+T43	Geographic_Marker 1467 1478	à la maison
+T44	Geographic_Marker 1936 1947	à la maison
+T45	Geographic_Marker 2013 2024	à la maison
+T46	Geographic_Marker 2197 2208	à l'hôpital
+R4	Temp_mark Arg1:T25 Arg2:T27	
+T47	Geographic_Marker 2483 2494	à l'hôpital
+T48	Conduite 4391 4463	si il y a une aggravation ou un changement particulier vous nous rappele

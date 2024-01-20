@@ -1,0 +1,125 @@
+T1	Person 21 38	madame ALAN PIROT
+A1	Experience T1 Patient
+T2	Person 50 57	médecin
+A2	Experience T2 Healthcare_professional
+T3	Geographic_Marker 61 65	SAMU
+A3	Experience T3 Healthcare_professional
+T4	Sign_Symptom 99 107	enceinte
+A4	Experience T4 Patient
+T5	Sign_Symptom 122 134	contractions
+A5	Experience T5 Patient
+T6	Sign_Symptom 145 153	enceinte
+A6	Experience T6 Patient
+A7	Hypothesis T4 Vrai
+A8	Hypothesis T5 Vrai
+T7	Temporal_Marker 157 176	combien de semaines
+T8	Sign_Symptom 203 223	en train d'accoucher
+A9	Experience T8 Patient
+T9	Conduite 242 263	on vienne me chercher
+T10	Sign_Symptom 431 443	contractions
+A10	Hypothesis T10 Vrai
+A11	Experience T10 Patient
+T11	Temporal_Marker 597 619	toutes les dix minutes
+T12	Temporal_Marker 629 651	toutes les dix minutes
+T13	Sign_Symptom 1285 1297	contractions
+A12	Experience T13 Patient
+T14	Temporal_Marker 1324 1346	toutes les dix minutes
+T15	Sign_Symptom 1354 1366	contractions
+A13	Experience T15 Patient
+T16	Sign_Symptom 1311 1323	contractions
+A14	Experience T16 Patient
+T17	Temporal_Marker 1466 1506	quelques secondes toutes les dix minutes
+T18	Sign_Symptom 1540 1559	envie de faire caca
+A15	Experience T18 Patient
+T19	Sign_Symptom 1752 1778	perdu le la poche des eaux
+A16	Hypothesis T19 Faux
+A17	Experience T19 Patient
+T20	Conduite 2020 2038	appelé l'ambulance
+T21	Conduite 4935 4953	amener à l'hôpital
+T22	Conduite 5052 5070	amener à l'hôpital
+T23	Sign_Symptom 493 505	contractions
+A18	Experience T23 Patient
+T24	Sign_Symptom 666 669	mal
+A19	Experience T24 Patient
+T25	Sign_Symptom 915 927	contractions
+A20	Experience T25 Patient
+T26	Temporal_Marker 928 950	toutes les dix minutes
+A21	Experience T26 Patient
+T27	Person 2085 2093	pompiers
+A22	Experience T27 Other
+T28	Person 2532 2540	pompiers
+A23	Experience T28 Other
+T29	Conduite 3164 3183	emmener à l'hôpital
+T30	Sign_Symptom 3622 3638	peux pas marcher
+A24	Negation T30 Négation
+A25	Experience T30 Patient
+T31	Person 836 840	fils
+A26	Experience T31 Family
+T32	Sign_Symptom 387 407	en train d'accoucher
+A27	Experience T32 Patient
+T33	Sign_Symptom 286 306	en train d'accoucher
+A28	Experience T33 Patient
+T34	Sign_Symptom 981 991	faire caca
+A29	Temporality T34 Before_overlap
+A30	Experience T34 Patient
+T35	Sign_Symptom 1802 1829	pas rompu la poche des eaux
+A31	Negation T35 Négation
+A32	Experience T35 Patient
+T36	Sign_Symptom 1849 1876	pas rompu la poche des eaux
+A33	Negation T36 Négation
+A34	Experience T36 Patient
+T37	Person 4537 4544	voisins
+A35	Experience T37 Other
+T38	Person 756 760	fils
+A36	Experience T38 Family
+T39	Person 1919 1925	garçon
+A37	Experience T39 Family
+T40	Person 3130 3134	fils
+A38	Experience T40 Family
+T41	Temporal_Marker 3083 3091	huit ans
+A39	Temporality T41 Before_overlap
+T42	Person 3038 3042	fils
+A40	Experience T42 Family
+T43	Conduite 2827 2844	s'occuper de vous
+T44	Person 2436 2440	fils
+A41	Experience T44 Family
+T45	Sign_Symptom 2448 2462	vous accoucher
+T46	Conduite 2483 2503	appelé une ambulance
+T47	Sign_Symptom 1665 1674	accoucher
+T48	Sign_Symptom 1707 1716	accoucher
+T49	Temporal_Marker 1699 1706	bientôt
+T50	Person 2259 2263	fils
+A42	Experience T50 Family
+T51	Person 2278 2282	fils
+A43	Experience T51 Family
+T52	Person 2961 2965	fils
+A44	Experience T52 Family
+T53	Person 2990 2997	un mari
+A45	Hypothesis T53 Faux
+A46	Experience T53 Family
+T54	Person 3239 3243	fils
+A47	Experience T54 Family
+T55	Geographic_Marker 3290 3302	une immeuble
+A48	Hypothesis T55 Vrai
+T56	Geographic_Marker 3341 3349	immeuble
+T57	Sign_Symptom 3892 3904	contractions
+T58	Temporal_Marker 3905 3927	toutes les dix minutes
+T59	Conduite 3949 3972	vous alliez à l'hôpital
+A49	Temporality T59 After
+T60	Conduite 4306 4329	vous amener à l'hôpital
+T61	Conduite 4815 4836	m'emmener à l'hôpital
+T62	Person 4068 4078	votre mari
+A50	Experience T62 Family
+T63	Geographic_Marker 3717 3733	je suis chez moi
+T64	Sign_Symptom 2290 2301	m'accoucher
+T65	Person 1999 2009	mon garçon
+A51	Experience T65 Family
+T66	Sign_Symptom 2238 2249	d'accoucher
+T67	Temporal_Marker 2132 2153	ça fait vingt minutes
+T68	Conduite 4460 4483	vous alliez à l'hôpital
+T69	Conduite 5131 5147	je vous rappelle
+T70	Sign_Symptom 1133 1144	d'accoucher
+T71	Person 855 867	votre garçon
+A52	Experience T71 Family
+T72	Sign_Symptom 1189 1226	vous voyez la tête du bébé à la vulve
+T73	Geographic_Marker 3367 3375	immeuble

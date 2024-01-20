@@ -1,0 +1,111 @@
+T1	Person 73 85	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T3	Sign_Symptom 186 209	problèmes pour respirer
+T4	Sign_Symptom 282 300	gêné pour respirer
+T5	Disease 346 351	COVID
+T8	Temporal_Marker 479 483	2019
+A5	Temporality T8 Before
+T9	Sign_Symptom 505 522	gêne respiratoire
+T10	Sign_Symptom 564 581	gêne respiratoire
+T11	Person 614 622	collègue
+A6	Experience T11 Patient
+T12	Person 632 640	collègue
+A7	Experience T12 Patient
+T13	Temporal_Marker 694 705	aujourd'hui
+A8	Temporality T13 Overlap(default)
+T14	Sign_Symptom 784 795	elle tousse
+T16	Disease 868 873	COVID
+T18	Temporal_Marker 1003 1022	trois quatre heures
+T19	Temporal_Marker 1027 1046	trois quatre heures
+T20	Geographic_Marker 1097 1107	au travail
+T21	Temporal_Marker 1150 1161	une semaine
+A9	Temporality T21 Overlap(default)
+A10	Temporality T18 Overlap(default)
+A11	Temporality T19 Overlap(default)
+T22	Sign_Symptom 1181 1200	gênée pour respirer
+T23	Temporal_Marker 1241 1252	une semaine
+A12	Temporality T23 Overlap(default)
+T24	Person 1565 1577	docteur ABAZ
+A13	Experience T24 Healthcare_professional
+T25	Sign_Symptom 1620 1643	problèmes pour respirer
+T26	Sign_Symptom 1723 1740	gêne respiratoire
+T27	Temporal_Marker 1763 1774	une semaine
+A14	Temporality T27 Overlap(default)
+T28	Sign_Symptom 1787 1806	gênée pour respirer
+T29	Person 1945 1953	collègue
+A15	Experience T29 Other
+T30	Person 1967 1975	collègue
+A16	Experience T30 Other
+T31	Disease 1997 2005	le COVID
+T32	Drug_chemicals 2206 2228	un ou deux traitements
+T33	Drug_chemicals 2261 2271	traitement
+T34	Disease 2294 2307	hypothyroïdie
+T35	Sign_Symptom 2341 2356	la constipation
+T36	Sign_Symptom 2389 2404	autre symptômes
+T37	Sign_Symptom 2415 2432	gêne respiratoire
+T38	Sign_Symptom 2473 2497	pas d'autre symptôme non
+A17	Negation T38 Négation
+T39	Person 17 23	madame
+T40	Person 2510 2516	madame
+T41	Sign_Symptom 2527 2541	votre problème
+T42	Person 2566 2576	un médecin
+A18	Experience T42 Healthcare_professional
+T43	Person 2600 2610	un médecin
+A19	Experience T43 Healthcare_professional
+T45	Temporal_Marker 2699 2714	dans la journée
+A21	Temporality T45 After
+T47	Temporal_Marker 2797 2803	samedi
+A23	Temporality T47 After
+T48	Conduite 2885 2894	consulter
+T49	Geographic_Marker 2908 2923	maison médicale
+T50	Geographic_Marker 2927 2939	aux urgences
+T51	Person 3020 3028	collègue
+A24	Experience T51 Other
+T52	Person 3211 3218	docteur
+A25	Experience T52 Healthcare_professional
+T2	Person 142 150	collègue
+A2	Experience T2 Patient
+A26	Temporality T3 Overlap(default)
+A27	Experience T5 Other
+T6	Temporal_Marker 389 401	y a deux ans
+A3	Temporality T6 Before
+R1	Temp_mark Arg1:T6 Arg2:T5	
+T7	Temporal_Marker 442 450	au début
+T53	Disease 454 459	COVID
+R2	Temp_mark Arg1:T7 Arg2:T53	
+R3	Temp_mark Arg1:T8 Arg2:T53	
+A4	Temporality T7 Before
+A29	Experience T10 Other
+A28	Hypothesis T9 Vrai
+R4	Temp_mark Arg1:T13 Arg2:T9	
+T15	Disease 831 836	COVID
+T17	Sign_Symptom 949 968	gênée pour respirer
+A30	Temporality T4 Overlap(default)
+A31	Temporality T14 Overlap(default)
+A32	Hypothesis T17 Vrai
+R5	Temp_mark Arg1:T18 Arg2:T17	
+R6	Temp_mark Arg1:T19 Arg2:T17	
+R7	Temp_mark Arg1:T21 Arg2:T22	
+R8	Temp_mark Arg1:T23 Arg2:T22	
+T54	Conduite 1329 1355	passez la moi au téléphone
+T55	Conduite 1408 1434	passez la moi au téléphone
+A33	Temporality T22 Before_overlap
+A34	Temporality T25 Overlap(default)
+A35	Hypothesis T26 Vrai
+A36	Hypothesis T28 Vrai
+R9	Temp_mark Arg1:T27 Arg2:T28	
+T56	Sign_Symptom 2118 2136	problèmes de santé
+A37	Hypothesis T56 Vrai
+A38	Temporality T16 Before
+A39	Experience T16 Other
+A40	Temporality T34 Overlap(default)
+A41	Temporality T35 Overlap(default)
+A42	Hypothesis T36 Vrai
+A43	Hypothesis T37 Vrai
+A44	Experience T40 Patient
+A45	Temporality T41 Overlap(default)
+T57	Conduite 2630 2673	prendre contact avec votre médecin traitant
+T44	Temporal_Marker 2751 2763	on est lundi
+A20	Temporality T44 Overlap(default)
+T46	Temporal_Marker 2718 2733	dans la semaine
+A22	Temporality T46 After

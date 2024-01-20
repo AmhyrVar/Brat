@@ -1,0 +1,83 @@
+T1	Person 17 25	monsieur
+A1	Experience T1 Family
+T2	Person 26 38	docteur CHI-
+A2	Experience T2 Healthcare_professional
+T3	Person 119 132	docteur CHITZ
+A3	Experience T3 Healthcare_professional
+T4	Person 110 118	monsieur
+A4	Experience T4 Family
+T5	Person 186 191	maman
+A5	Experience T5 Patient
+T6	Person 248 253	maman
+A6	Experience T6 Patient
+T7	Person 3359 3367	monsieur
+A7	Experience T7 Family
+T11	Person 1477 1482	maman
+A11	Experience T11 Patient
+T12	Geographic_Marker 3141 3150	l'hôpital
+T13	Geographic_Marker 2372 2381	l'hôpital
+T14	Geographic_Marker 2302 2317	maison médicale
+T15	Geographic_Marker 2164 2173	l'hôpital
+T16	Person 2496 2500	mère
+A12	Experience T16 Patient
+T17	Person 2760 2764	mère
+A13	Experience T17 Patient
+T18	Sign_Symptom 1019 1036	elle est fatiguée
+A14	Experience T18 Patient
+T19	Sign_Symptom 509 521	elle a chaud
+A15	Experience T19 Patient
+T20	Sign_Symptom 434 453	elle a de la fièvre
+A16	Experience T20 Patient
+T21	Geographic_Marker 1127 1136	l'hôpital
+T22	Sign_Symptom 1191 1207	elle a la fièvre
+A17	Experience T22 Patient
+T23	Geographic_Marker 3255 3264	l'hôpital
+T24	Geographic_Marker 2901 2910	l'hôpital
+T25	Sign_Symptom 254 273	elle a de la fièvre
+A18	Experience T25 Patient
+T26	Sign_Symptom 677 689	de la fièvre
+A19	Experience T26 Patient
+T27	Temporal_Marker 654 662	ce matin
+T28	Temporal_Marker 603 611	ce matin
+R1	Temp_mark Arg1:T27 Arg2:T26	
+T30	Sign_Symptom 1641 1647	fièvre
+A20	Experience T30 Patient
+T31	Person 1778 1785	médecin
+A21	Experience T31 Healthcare_professional
+T32	Geographic_Marker 3092 3103	à la maison
+T9	Conduite 2638 2720	je vais vous envoyer un médecin à la maison pour qu'il évalue votre mère d'accord?
+A9	Hypothesis T9
+A10	Temporality T26 Before_overlap
+T10	Sign_Symptom 832 843	c'est chaud
+A22	Temporality T10 Before_overlap
+A23	Experience T10 Patient
+T33	Sign_Symptom 1172 1189	elle a trop chaud
+A24	Temporality T33 Before_overlap
+A25	Experience T33 Patient
+A26	Temporality T22 Before_overlap
+T34	Sign_Symptom 1231 1256	elle a du mal à respirer?
+A27	Temporality T34 Overlap(default)
+A28	Hypothesis T34
+A29	Temporality T19 Overlap(default)
+A30	Temporality T25 Overlap(default)
+A31	Temporality T20 Overlap(default)
+T35	Conduite 2235 2264	il faut aller voir un médecin
+A32	Temporality T35 After
+T36	Conduite 1417 1430	passez la moi
+T37	Conduite 1877 1931	vous pouvez me la passer au téléphone s'il vous plait?
+A33	Hypothesis T37
+T38	Sign_Symptom 2942 2964	elle a très très chaud
+A34	Temporality T38 Overlap(default)
+T39	Sign_Symptom 2966 2989	elle avait de la fièvre
+A35	Temporality T39 Before_overlap
+T8	Conduite 3060 3091	je vais faire passer un médecin
+A8	Temporality T8 After
+A36	Temporality T36 Overlap(default)
+A37	Temporality T30 Overlap(default)
+T40	Sign_Symptom 531 569	elle a chaud. depuis combien de temps?
+A38	Temporality T40 Overlap(default)
+A39	Hypothesis T40
+R3	Temp_mark Arg1:T28 Arg2:T40	
+A40	Temporality T9 After
+A41	Temporality T37 Overlap(default)
+A42	Temporality T18 Overlap(default)

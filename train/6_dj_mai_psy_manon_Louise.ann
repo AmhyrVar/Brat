@@ -1,0 +1,79 @@
+T1	Person 35 55	docteur ABAS du SAMU
+A1	Experience T1 Healthcare_professional
+T2	Person 78 107	votre voisin de cinquante ans
+A2	Experience T2 Patient
+T3	Person 17 23	madame
+A3	Experience T3 Other
+T4	Sign_Symptom 162 183	j'en peux plus de lui
+A4	Temporality T4 Before_overlap
+A5	Experience T4 Patient
+T5	Temporal_Marker 268 311	des jours voire peut être même des semaines
+A6	Temporality T5 Before_overlap
+T6	Sign_Symptom 325 327	nu
+A7	Temporality T6 Before_overlap
+A8	Experience T6 Patient
+T7	Geographic_Marker 328 343	dans l'immeuble
+T8	Sign_Symptom 347 362	parle tout seul
+A9	Temporality T8 Before_overlap
+A10	Experience T8 Patient
+T9	Sign_Symptom 372 376	chié
+A11	Temporality T9 Before
+A12	Experience T9 Patient
+T10	Geographic_Marker 377 393	dans l'ascenseur
+T11	Sign_Symptom 511 518	violent
+A13	Temporality T11 Before
+A14	Hypothesis T11
+A15	Experience T11 Patient
+T12	Sign_Symptom 554 569	parle tout seul
+A16	Experience T12 Patient
+T13	Sign_Symptom 653 675	violent avec quelqu'un
+A17	Temporality T13 Before
+A18	Experience T13 Patient
+T14	Sign_Symptom 719 724	chier
+A19	Temporality T14 Before
+A20	Experience T14 Patient
+T15	Geographic_Marker 725 741	dans l'ascenseur
+T16	Sign_Symptom 764 771	violent
+A21	Temporality T16 Before
+A22	Experience T16 Patient
+T17	Conduite 2588 2607	j'appelle la police
+T18	Person 901 908	médecin
+A23	Experience T18 Healthcare_professional
+T19	Person 954 961	médecin
+T20	Person 1045 1052	médecin
+T21	Person 1211 1218	médecin
+A24	Experience T21 Healthcare_professional
+A25	Experience T20 Healthcare_professional
+A26	Experience T19 Healthcare_professional
+T22	Disease 1380 1391	psychiatrie
+A27	Temporality T22 Before
+A28	Experience T22 Patient
+T23	Geographic_Marker 1439 1455	il est tout seul
+A29	Experience T23 Patient
+T24	Geographic_Marker 1406 1420	il habite seul
+A30	Hypothesis T24
+A31	Experience T24 Patient
+T25	Person 1518 1529	les voisins
+A32	Experience T25 Other
+T26	Person 1614 1620	madame
+A33	Experience T26 Other
+T27	Sign_Symptom 1668 1691	il n'est dan- dangereux
+A34	Negation T27 Négation
+A35	Experience T27 Patient
+T28	Sign_Symptom 1756 1758	nu
+A36	Temporality T28 Before_overlap
+A37	Experience T28 Patient
+T29	Geographic_Marker 1759 1770	dans la rue
+T30	Geographic_Marker 1771 1786	dans l'immeuble
+A38	Experience T30 Patient
+A39	Experience T29 Patient
+T31	Sign_Symptom 1790 1805	parle tout seul
+A40	Temporality T31 Before_overlap
+A41	Experience T31 Patient
+T32	Conduite 1866 1893	il faut contacter la police
+T33	Sign_Symptom 2377 2384	il crie
+A42	Temporality T33 Before_overlap
+A43	Experience T33 Patient
+T34	Person 2469 2477	monsieur
+A44	Experience T34 Healthcare_professional
+T35	Conduite 2487 2520	contactez la police appelez le 17

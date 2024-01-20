@@ -1,0 +1,45 @@
+T1	Person 28 41	FABRICE DAMAS
+T2	Person 50 74	médecin de la régulation
+T3	Person 158 168	grand père
+T4	Temporal_Marker 184 201	quatre vingt cinq
+T5	Disease 226 243	douleur au ventre
+T6	Geographic_Marker 318 327	l'hôpital
+T7	Sign_Symptom 665 677	vomissements
+T8	Person 639 645	madame
+T9	Geographic_Marker 749 758	l'hôpital
+T10	Geographic_Marker 885 894	l'hôpital
+T11	Person 1038 1046	monsieur
+T12	Sign_Symptom 1019 1028	diarrhées
+T13	Disease 1085 1098	mal au ventre
+T14	Person 1146 1152	madame
+T15	Temporal_Marker 1197 1206	longtemps
+T16	Sign_Symptom 1217 1228	la prostate
+T17	Sign_Symptom 1238 1261	problèmes à la prostate
+T18	Person 1412 1425	vos collègues
+T19	Person 1484 1498	mon grand père
+T20	Temporal_Marker 1693 1707	tous les jours
+T21	Disease 1883 1893	la tension
+T22	Drug_chemicals 1929 1944	d'anticoagulant
+T23	Drug_chemicals 1999 2024	KARDEGIC PLAVIX COUMADINE
+T24	Person 2300 2306	madame
+T25	Geographic_Marker 2647 2656	l'hôpital
+T26	Person 2666 2674	monsieur
+T27	Person 2726 2730	vous
+T28	Person 2857 2865	monsieur
+T29	Sign_Symptom 2832 2853	communique facilement
+T30	Sign_Symptom 3041 3050	conscient
+T31	Sign_Symptom 3140 3147	vomisse
+T32	Disease 3181 3202	une douleur au ventre
+T33	Geographic_Marker 3352 3360	urgences
+T34	Temporal_Marker 3397 3406	longtemps
+T35	Temporal_Marker 3447 3458	deux heures
+T36	Temporal_Marker 3558 3567	une heure
+T37	Geographic_Marker 3914 3922	urgences
+T38	Person 3999 4005	madame
+T39	Person 3837 3843	madame
+T40	Person 3791 3798	médecin
+T41	Geographic_Marker 4068 4076	urgences
+T42	Sign_Symptom 4183 4195	vomissements
+T43	Sign_Symptom 4148 4173	vomissements avec du sang
+T44	Person 4300 4306	madame
+T45	Sign_Symptom 4421 4443	va moins aux toilettes

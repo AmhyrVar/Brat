@@ -1,0 +1,48 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 69 79	grand mère
+A2	Experience T2 Patient
+T3	Sign_Symptom 84 108	répond plus au téléphone
+A3	Hypothesis T3 Vrai
+A4	Negation T3 Négation
+A5	Experience T3 Patient
+T4	Person 266 277	mes parents
+A6	Experience T4 Family
+T5	Sign_Symptom 343 358	elle répond pas
+A7	Negation T5 Négation
+A8	Experience T5 Patient
+T6	Sign_Symptom 1046 1057	réponde pas
+A9	Experience T6 Patient
+T7	Conduite 1312 1332	envoyer les pompiers
+T8	Person 1394 1402	pompiers
+A10	Experience T8 Healthcare_professional
+T9	Person 1324 1332	pompiers
+A11	Experience T9 Healthcare_professional
+T10	Person 1507 1517	grand mère
+A12	Experience T10 Patient
+T11	Person 1559 1567	pompiers
+A13	Experience T11 Healthcare_professional
+T12	Conduite 1531 1546	ouvrir la porte
+T13	Person 1605 1615	grand mère
+A14	Experience T13 Patient
+T14	Person 2023 2033	grand mère
+A15	Experience T14 Patient
+T15	Conduite 2006 2059	aller chez votre grand mère en attendant les pompiers
+T16	Person 2159 2169	grand mère
+A16	Experience T16 Patient
+T17	Conduite 2260 2306	d'aller chez vos grands parents pour l'instant
+T18	Conduite 2505 2549	les pompiers ils vont aller chez vos parents
+T19	Person 2567 2575	pompiers
+A17	Experience T19 Healthcare_professional
+T20	Person 2509 2517	pompiers
+A18	Experience T20 Healthcare_professional
+T21	Person 2051 2059	pompiers
+A19	Experience T21 Healthcare_professional
+T22	Person 1773 1781	pompiers
+A20	Experience T22 Healthcare_professional
+T23	Person 717 727	grand mère
+A21	Experience T23 Patient
+T24	Person 1205 1231	quelqu'un de votre famille
+A22	Experience T24 Family
+T25	Person 2314 2322	pompiers
+A23	Experience T25 Healthcare_professional

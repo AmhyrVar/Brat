@@ -1,0 +1,43 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 69 79	grand mère
+A2	Experience T2 Patient
+T3	Temporal_Marker 647 667	quarante huit heures
+A3	Temporality T3 Before_overlap
+T4	Sign_Symptom 84 108	répond plus au téléphone
+A4	Temporality T4 Before_overlap
+A5	Hypothesis T4 Vrai
+A6	Negation T4 Négation
+T5	Sign_Symptom 348 354	répond
+A7	Negation T5 Négation
+T6	Person 383 390	parents
+A8	Experience T6 Family
+T7	Temporal_Marker 421 425	hier
+A9	Temporality T7 Before
+T8	Temporal_Marker 427 437	avant hier
+A10	Temporality T8 Before
+T9	Temporal_Marker 541 558	cinq, dix minutes
+A11	Temporality T9 Before
+T10	Person 717 727	grand mère
+A12	Experience T10 Patient
+T11	Conduite 1306 1332	on va envoyer les pompiers
+T12	Person 1324 1332	pompiers
+A13	Experience T12 Healthcare_professional
+T13	Person 1773 1781	pompiers
+A14	Experience T13 Healthcare_professional
+T14	Person 1394 1402	pompiers
+A15	Experience T14 Healthcare_professional
+T15	Person 1559 1567	pompiers
+A16	Experience T15 Healthcare_professional
+T16	Person 2051 2059	pompiers
+A17	Experience T16 Healthcare_professional
+T17	Person 2159 2169	grand mère
+A18	Experience T17 Patient
+T18	Person 2314 2322	pompiers
+A19	Experience T18 Patient
+T19	Person 2509 2517	pompiers
+A20	Experience T19 Healthcare_professional
+T20	Person 2542 2549	parents
+A21	Experience T20 Family
+T21	Person 2567 2575	pompiers
+A22	Experience T21 Healthcare_professional

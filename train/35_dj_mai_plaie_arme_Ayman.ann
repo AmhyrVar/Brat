@@ -1,0 +1,58 @@
+T1	Person 59 72	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 139 146	blessée
+A2	Experience T2 Patient
+T3	Person 110 115	femme
+A3	Experience T3 Patient
+T4	Conduite 488 506	avoir au téléphone
+T5	Geographic_Marker 427 445	est à côté de vous
+T6	Person 1710 1718	pompiers
+A4	Experience T6 Other
+T7	Sign_Symptom 294 302	la plaie
+A5	Experience T7 Patient
+T8	Sign_Symptom 346 353	au bras
+A6	Experience T8 Patient
+T9	Sign_Symptom 329 336	au bras
+A7	Experience T9 Patient
+T10	Sign_Symptom 551 566	peut pas parler
+A8	Experience T10 Patient
+T11	Sign_Symptom 529 535	pleure
+A9	Experience T11 Patient
+T12	Sign_Symptom 608 623	peut pas parler
+A10	Experience T12 Patient
+T13	Geographic_Marker 662 689	dans la même pièce que vous
+A11	Hypothesis T13 Vrai
+A12	Experience T13 Patient
+T14	Sign_Symptom 935 944	une plaie
+A13	Experience T14 Patient
+T15	Sign_Symptom 948 962	niveau du bras
+A14	Experience T15 Patient
+T16	Geographic_Marker 988 999	à la maison
+A15	Experience T16 Patient
+T17	Sign_Symptom 1058 1075	au niveau du bras
+A16	Experience T17 Patient
+T18	Sign_Symptom 1093 1113	au niveau de la main
+A17	Experience T18 Patient
+T19	Sign_Symptom 1141 1161	au dessus de la main
+A18	Experience T19 Patient
+T20	Sign_Symptom 1166 1194	entre le poignet et le coude
+A19	Experience T20 Patient
+T21	Sign_Symptom 1247 1256	ça saigne
+A20	Hypothesis T21 Vrai
+A21	Experience T21 Patient
+T22	Sign_Symptom 1299 1308	ça saigne
+A22	Experience T22 Patient
+T23	Sign_Symptom 1343 1351	la plaie
+A23	Experience T23 Patient
+T24	Sign_Symptom 1423 1439	cinq centimètres
+A24	Experience T24 Patient
+T25	Sign_Symptom 380 395	une seule plaie
+A25	Experience T25 Patient
+T26	Conduite 1768 1789	faire une compression
+A26	Experience T26 Family
+T27	Conduite 1916 1935	laisse garde appuyé
+A27	Experience T27 Family
+T28	Conduite 1955 1968	gardez appuyé
+T29	Sign_Symptom 808 814	pleure
+T30	Person 2022 2029	docteur
+A28	Experience T30 Healthcare_professional

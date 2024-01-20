@@ -1,0 +1,49 @@
+T1	Person 32 38	madame
+T2	Person 88 102	docteur DAMANI
+T3	Conduite 143 168	témoin d'un d'un accident
+T4	Person 133 137	vous
+T5	Temporal_Marker 138 142	êtes
+T6	Person 196 205	quelqu'un
+T7	Conduite 225 264	avoir un accident un un type en scooter
+T8	Person 416 418	il
+T9	Temporal_Marker 419 424	s'est
+T10	Conduite 425 439	pris un camion
+T11	Person 512 516	vous
+T12	Geographic_Marker 543 561	lieu de l'accident
+T13	Geographic_Marker 587 601	sur le trottoi
+T14	Temporal_Marker 655 672	y a trois minutes
+T15	Person 691 703	le chauffeur
+T16	Sign_Symptom 750 758	il bouge
+T17	Sign_Symptom 778 786	il bouge
+T18	Sign_Symptom 817 826	vu bouger
+T19	Person 859 861	il
+T20	Person 809 811	je
+T21	Conduite 864 887	essayé de de se relever
+T22	Conduite 1082 1096	approchez vous
+T23	Person 1097 1103	de lui
+T24	Conduite 1163 1186	vous ramenez une équipe
+T25	Conduite 1216 1234	j'aille au travail
+T26	Person 1199 1201	je
+T27	Temporal_Marker 1277 1292	hyper en retard
+T28	Conduite 1372 1385	ous approcher
+T29	Person 1389 1392	lui
+T30	Person 1401 1403	il
+T31	Sign_Symptom 1408 1422	bien conscient
+T32	Temporal_Marker 1610 1616	'était
+T33	Person 1605 1608	'il
+T34	Sign_Symptom 1617 1623	relevé
+T35	Conduite 1652 1660	a essayé
+T36	Sign_Symptom 1669 1681	a pas réussi
+T37	Person 1666 1668	il
+T38	Person 1649 1651	il
+T39	Conduite 1710 1723	on va envoyer
+T40	Person 1728 1738	une équipe
+T41	Person 1757 1765	pompiers
+T42	Geographic_Marker 1770 1775	place
+T43	Person 1747 1753	équipe
+T44	Person 1802 1806	vous
+T45	Conduite 1818 1831	aller le voir
+T46	Person 1846 1848	je
+T47	Conduite 1849 1857	peux pas
+T48	Person 1913 1921	pompiers
+T49	Conduite 1938 1954	vont se déplacer

@@ -1,0 +1,59 @@
+T1	Person 51 87	docteur CELINE le médecin régulateur
+A1	Experience T1 Healthcare_professional
+T2	Person 112 122	votre fils
+A2	Experience T2 Patient
+T3	Person 244 252	mon mari
+A3	Experience T3 Family
+T4	Person 289 297	le petit
+A4	Experience T4 Patient
+T5	Person 510 518	l'enfant
+A5	Experience T5 Patient
+T6	Geographic_Marker 652 662	sa chambre
+T7	Sign_Symptom 142 147	coups
+A6	Hypothesis T7 Vrai
+A7	Experience T7 Patient
+T8	Temporal_Marker 416 432	la première fois
+A8	Temporality T8 Overlap(default)
+R1	Temp_mark Arg1:T8 Arg2:T7	
+T9	Sign_Symptom 908 916	pleurait
+A10	Experience T9 Patient
+A11	Temporality T7 Overlap(default)
+T10	Sign_Symptom 1019 1025	pleure
+A12	Experience T10 Patient
+T11	Sign_Symptom 1085 1104	gifle sur le visage
+A9	Temporality T11 Overlap(default)
+A13	Hypothesis T11 Vrai
+A14	Experience T11 Patient
+T12	Geographic_Marker 1331 1344	dans le salon
+A15	Experience T12 Family
+A16	Experience T6 Patient
+T13	Person 1392 1400	mon mari
+A17	Experience T13 Family
+T14	Geographic_Marker 1554 1574	plus ​dans la maison
+A18	Negation T14 Négation
+A19	Experience T14 Family
+T15	Conduite 1597 1658	on va vous envoyer des hum des secours pour aller à l'hôpital
+A20	Temporality T15 After
+T16	Conduite 1729 1747	restez à la maison
+A21	Temporality T16 Overlap(default)
+T17	Conduite 1755 1817	si il se passe heu quelque chose de nouveau vous nous rappelez
+A22	Temporality T17 Overlap(default)
+T18	Conduite 1859 1900	si le mari revient vous appelez la police
+A23	Temporality T18 Overlap(default)
+T19	Person 1862 1869	le mari
+A24	Experience T19 Family
+T20	Person 1892 1900	a police
+A25	Experience T20 Other
+T21	Person 1624 1635	des secours
+A26	Experience T21 Healthcare_professional
+T22	Geographic_Marker 1649 1658	l'hôpital
+A27	Experience T22 Healthcare_professional
+T23	Conduite 2086 2131	les pompiers vont pas vont arriver assez vite
+A28	Temporality T23 After
+T24	Conduite 2193 2215	vous appelez la police
+T25	Conduite 1970 2003	les secours arrivent au plus vite
+A29	Temporality T25 After
+T26	Person 2086 2098	les pompiers
+A30	Experience T26 Healthcare_professional
+T27	Person 2206 2215	la police
+A31	Experience T27 Other

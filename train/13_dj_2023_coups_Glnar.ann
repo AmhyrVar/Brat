@@ -1,0 +1,211 @@
+T1	Person 57 65	monsieur
+T2	Person 77 84	docteur
+A1	Experience T2 Healthcare_professional
+T3	Person 85 91	DAMANI
+A2	Experience T3 Healthcare_professional
+#1	AnnotatorNotes T3	le nom du medecin
+T4	Geographic_Marker 95 102	SAMU 93
+T5	Person 135 140	femme
+A3	Experience T5 Patient
+T6	Sign_Symptom 141 167	qui s'est blessée c'est ça
+A4	Temporality T6 Before_overlap
+A5	Hypothesis T6
+T7	Geographic_Marker 260 275	dans la cuisine
+A6	Temporality T7 Before
+T8	Sign_Symptom 223 259	est tombée là sur un elle est tombée
+A7	Temporality T8 Before
+A8	Experience T8 Patient
+T9	Geographic_Marker 294 303	par terre
+T10	Geographic_Marker 315 325	de cuisine
+T11	Disease 371 380	une plaie
+A9	Temporality T11 Before_overlap
+A10	Experience T11 Patient
+T12	Disease 402 418	elle a une plaie
+A11	Temporality T12 Before_overlap
+T13	Disease 475 502	une plaie au niveau du bras
+A12	Temporality T13 Before_overlap
+A13	Experience T13 Patient
+T14	Geographic_Marker 485 502	au niveau du bras
+T15	Disease 512 539	une plaie au niveau du bras
+A14	Temporality T15 Before_overlap
+A15	Experience T15 Patient
+T16	Geographic_Marker 522 539	au niveau du bras
+T17	Sign_Symptom 612 621	ça saigne
+A16	Temporality T17 Before_overlap
+A17	Experience T17 Patient
+T18	Sign_Symptom 632 647	ça saigne un pe
+A18	Temporality T18 Before_overlap
+A19	Hypothesis T18
+A20	Experience T18 Patient
+T19	Conduite 679 696	approché pour voi
+A21	Temporality T19 Overlap(default)
+A22	Experience T19 Family
+T20	Sign_Symptom 755 771	ça saigne un peu
+A23	Temporality T20 Before_overlap
+A24	Experience T20 Patient
+T21	Sign_Symptom 786 802	ca saigne un peu
+A25	Temporality T21 Before_overlap
+A26	Experience T21 Patient
+T22	Geographic_Marker 816 835	niveau dans le bras
+T23	Geographic_Marker 850 862	vers la main
+T24	Geographic_Marker 902 915	vers le coude
+T25	Geographic_Marker 926 949	vers vers vers le coude
+T26	Geographic_Marker 965 978	vers le coude
+T27	Sign_Symptom 1044 1073	le couteau au niveau du coude
+A27	Temporality T27 Before
+A28	Experience T27 Patient
+T28	Geographic_Marker 1055 1073	au niveau du coude
+T29	Disease 1162 1212	elle a une plaie là aussi au niveau de de l'arcade
+A29	Temporality T29 Before_overlap
+A30	Experience T29 Patient
+T30	Geographic_Marker 1188 1212	au niveau de de l'arcade
+T31	Sign_Symptom 1241 1265	cognée la tête par terre
+A31	Temporality T31 Before
+A32	Experience T31 Patient
+T32	Geographic_Marker 1256 1265	par terre
+T33	Sign_Symptom 1311 1330	elle est consciente
+T34	Sign_Symptom 1375 1402	elle vous parle normalement
+A33	Temporality T34 Overlap(default)
+A34	Experience T34 Patient
+T35	Geographic_Marker 1477 1501	au niveau de de la plaie
+T36	Geographic_Marker 1507 1525	au niveau du coude
+T37	Conduite 1617 1676	retirez son son pull pour regarder vraiment où est la plaie
+A35	Temporality T37 After
+A36	Experience T37 Family
+T38	Disease 1668 1676	la plaie
+T39	Geographic_Marker 1723 1749	enfermée dans les chiottes
+T40	Sign_Symptom 1913 1933	ça saigne activement
+A37	Temporality T40 Before_overlap
+A38	Experience T40 Patient
+T41	Sign_Symptom 1952 1967	la plaie saigne
+A39	Temporality T41 Before_overlap
+A40	Experience T41 Patient
+T42	Conduite 2111 2131	veut pas vous ouvrir
+A41	Temporality T42 After
+A42	Experience T42 Patient
+T43	Geographic_Marker 2274 2284	mon appart
+T44	Sign_Symptom 2509 2538	elle veut pas ouvrir la porte
+A43	Experience T44 Patient
+T45	Conduite 2670 2697	faut qu'elle ouvre la porte
+A44	Temporality T45 Overlap(default)
+A45	Experience T45 Patient
+A46	Negation T44 Négation
+T46	Sign_Symptom 2753 2760	blessée
+A47	Temporality T46 Before_overlap
+A48	Experience T46 Patient
+T47	Sign_Symptom 2767 2792	elle n'ouvre pas la porte
+A49	Temporality T47 Overlap(default)
+A50	Experience T47 Patient
+T48	Conduite 2802 2827	on envoie heu des secours
+A51	Temporality T48 After
+A52	Experience T48 Healthcare_professional
+T49	Conduite 2832 2852	vont forcer la porte
+A53	Temporality T49 After
+A54	Experience T49 Healthcare_professional
+T50	Conduite 2962 2994	dites lui qu'elle ouvre la porte
+A55	Experience T50 Patient
+T51	Person 2975 2979	elle
+A56	Experience T51 Patient
+A57	Temporality T50 Overlap(default)
+T52	Sign_Symptom 3128 3149	elle veut pas me voir
+A58	Temporality T52 Overlap(default)
+A59	Negation T52 Négation
+A60	Experience T52 Patient
+T53	Sign_Symptom 3172 3203	elle veut pas que je l'approche
+A61	Temporality T53 Overlap(default)
+A62	Negation T53 Négation
+A63	Experience T53 Patient
+T54	Conduite 3214 3225	je la force
+A64	Temporality T54 After
+A65	Experience T54 Family
+T55	Sign_Symptom 3255 3293	c'était à la à la suite d'une dispute?
+A66	Temporality T55 Before
+A67	Hypothesis T55
+A68	Experience T55 Healthcare_professional
+T56	Conduite 3420 3443	je l'amène aux urgences
+A69	Temporality T56 After
+A70	Experience T56 Patient
+T57	Geographic_Marker 3431 3443	aux urgences
+T58	Sign_Symptom 3489 3508	vous êtes disputés?
+A71	Temporality T58 Before_overlap
+A72	Hypothesis T58
+A73	Experience T58 Patient
+T59	Temporal_Marker 3525 3538	out à l'heure
+A74	Experience T59 Family
+T60	Sign_Symptom 3557 3605	c'est suite à ça qu'il y a eu heu un coup porté?
+A75	Temporality T60 Before_overlap
+A76	Hypothesis T60
+T61	Sign_Symptom 3631 3648	on s'est disputés
+T62	Sign_Symptom 3688 3708	vous l'avez poussée?
+A77	Temporality T62 Before
+A78	Hypothesis T62
+A79	Experience T62 Family
+T63	Temporal_Marker 3662 3667	après
+T64	Temporal_Marker 3652 3657	après
+A80	Temporality T64 Before
+T65	Sign_Symptom 3746 3766	vous l'avez poussée?
+A81	Temporality T65 Before
+A82	Hypothesis T65
+A83	Experience T65 Family
+T66	Conduite 3777 3790	e l'ai poussé
+A84	Temporality T66 Before
+A85	Experience T66 Family
+T67	Person 3833 3844	votre femme
+A86	Experience T67 Patient
+T68	Geographic_Marker 3867 3896	dans la dans la salle de bain
+A87	Temporality T68 Overlap(default)
+A88	Hypothesis T68
+A89	Experience T68 Patient
+T69	Conduite 3990 4031	vous envoyer heu les les premiers secours
+T70	Person 4012 4031	es premiers secours
+A90	Temporality T70 After
+A91	Experience T70 Healthcare_professional
+T71	Person 4060 4085	qui les premiers secours?
+A92	Experience T71 Healthcare_professional
+T72	Conduite 4102 4141	il faut qu'elle soit amenée à l'hôpital
+A93	Temporality T72 After
+A94	Experience T72 Patient
+T73	Geographic_Marker 4130 4140	à l'hôpita
+A95	Temporality T73 After
+T74	Conduite 4154 4179	je peux peux l'amener moi
+A96	Temporality T74 After
+A97	Experience T74 Family
+T75	Conduite 4202 4256	n va amener les pompiers pour qu'elle aille à l'hôpita
+A98	Temporality T75 After
+A99	Experience T75 Healthcare_professional
+T76	Geographic_Marker 4246 4257	à l'hôpital
+A100	Temporality T76 After
+T77	Conduite 4267 4297	ramener les pompiers chez moi?
+A101	Temporality T77 After
+A102	Hypothesis T77
+A103	Experience T77 Family
+T78	Person 4335 4346	t la police
+A104	Temporality T78 After
+A105	Experience T78 Other
+T79	Conduite 4420 4447	moi je l'amène aux urgences
+A106	Temporality T79 After
+A107	Experience T79 Family
+T80	Geographic_Marker 4435 4447	aux urgences
+T81	Sign_Symptom 4495 4506	deux plaies
+A108	Temporality T81 Before_overlap
+A109	Experience T81 Patient
+T82	Geographic_Marker 4542 4564	dans la salle de bains
+A110	Temporality T82 Before_overlap
+A111	Experience T82 Patient
+T83	Conduite 4569 4594	les pompiers vont arriver
+A112	Temporality T83 After
+A113	Experience T83 Other
+T84	Person 4570 4581	es pompiers
+A114	Temporality T84 After
+A115	Experience T84 Other
+T85	Person 4611 4623	les pompiers
+A116	Temporality T85 After
+A117	Experience T85 Other
+T86	Conduite 4658 4706	reste dans la salle de bain les pompiers arriven
+A118	Temporality T86 After
+A119	Experience T86 Patient
+T87	Person 4686 4698	les pompiers
+A120	Experience T87 Other
+T88	Geographic_Marker 4664 4685	dans la salle de bain
+A121	Temporality T88 Overlap(default)
+A122	Experience T88 Patient

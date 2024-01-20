@@ -1,0 +1,40 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 59 66	voisine
+A2	Experience T2 Patient
+T3	Geographic_Marker 71 95	s'est réfugiée chez vous
+T4	Geographic_Marker 199 213	venue chez moi
+T5	Sign_Symptom 265 276	y a du sang
+A3	Experience T5 Patient
+T6	Conduite 313 325	me la passer
+T7	Conduite 336 349	passez la moi
+T8	Conduite 443 476	me décrire ce que vous vous voyez
+T9	Sign_Symptom 483 491	blessure
+A4	Experience T9 Patient
+T10	Sign_Symptom 505 516	y a du sang
+A5	Experience T10 Patient
+T11	Sign_Symptom 526 537	y a du sang
+A6	Experience T11 Patient
+T12	Sign_Symptom 547 567	endroit de son corps
+A7	Experience T12 Patient
+T13	Sign_Symptom 582 593	sur la tête
+A8	Experience T13 Patient
+T14	Person 635 642	voisine
+A9	Experience T14 Patient
+T15	Sign_Symptom 1325 1341	sang sur la tête
+A10	Experience T15 Patient
+T16	Geographic_Marker 1438 1458	elle était à côté là
+A11	Experience T16 Patient
+T17	Conduite 2098 2118	amenez aux urgences.
+T18	Conduite 1811 1829	vue par un médecin
+T19	Temporal_Marker 1830 1841	aujourd'hui
+T20	Conduite 1843 1866	emmenez la aux urgences
+T21	Conduite 1676 1698	amenez la aux urgences
+T22	Conduite 1963 1986	emmenez la aux urgences
+T23	Conduite 1503 1526	l'emmeniez aux urgences
+T24	Sign_Symptom 1255 1271	sang sur la tête
+A12	Hypothesis T24 Vrai
+T25	Person 836 840	mari
+A13	Experience T25 Family
+A14	Hypothesis T15 Vrai
+T26	Sign_Symptom 1376 1389	venue à pieds

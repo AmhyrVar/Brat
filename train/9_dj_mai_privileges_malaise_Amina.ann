@@ -1,0 +1,90 @@
+T1	Person 35 58	docteur DETOURY au SAMU
+A1	Experience T1 Healthcare_professional
+T2	Person 80 112	docteur SAIEB médecin urgentiste
+A2	Experience T2 Family
+T3	Person 171 206	votre papa de quatre vingt cinq ans
+A3	Experience T3 Patient
+T4	Sign_Symptom 221 228	malaise
+A4	Temporality T4 Overlap(default)
+A5	Experience T4 Patient
+A6	Hypothesis T4 Vrai
+T5	Person 256 260	papa
+A7	Experience T5 Patient
+T6	Sign_Symptom 355 362	malaise
+A8	Experience T6 Patient
+T7	Temporal_Marker 376 396	il y a pas longtemps
+A9	Temporality T7 Before_overlap
+R1	Temp_mark Arg1:T7 Arg2:T6	
+T8	Person 301 320	grand PH à la PITIE
+A10	Experience T8 Patient
+T9	Person 268 287	docteur aussi SAIEB
+A11	Experience T9 Patient
+T10	Person 334 338	papa
+A12	Experience T10 Patient
+T11	Geographic_Marker 423 432	toilettes
+A13	Experience T11 Patient
+T12	Sign_Symptom 459 466	malaise
+A14	Experience T12 Patient
+T13	Sign_Symptom 575 593	perdu connaissance
+A15	Temporality T13 Before
+A16	Hypothesis T13 Vrai
+A17	Experience T13 Patient
+T14	Sign_Symptom 611 633	pas perdu connaissance
+A18	Temporality T14 Before
+A19	Negation T14 Négation
+A20	Experience T14 Patient
+T15	Sign_Symptom 746 753	malaise
+A21	Experience T15 Patient
+T16	Person 754 760	madame
+A22	Experience T16 Family
+T17	Geographic_Marker 812 821	toilettes
+A23	Experience T17 Patient
+T18	Sign_Symptom 862 883	il s'est senti partir
+A24	Temporality T18 Before
+A25	Experience T18 Patient
+T19	Disease 1133 1151	problèmes de santé
+A26	Temporality T19 Before
+A27	Hypothesis T19 Vrai
+A28	Experience T19 Patient
+T20	Person 1152 1162	votre papa
+A29	Experience T20 Patient
+T21	Disease 1253 1263	hypertendu
+A30	Temporality T21 Before
+A31	Experience T21 Patient
+T22	Drug_chemicals 1329 1362	traitements contre l'hypertension
+A32	Experience T22 Patient
+#1	AnnotatorNotes T22	Substance thérapeutique
+T23	Sign_Symptom 1484 1491	malaise
+A33	Experience T23 Patient
+T24	Sign_Symptom 1510 1523	malaise vagal
+A34	Experience T24 Patient
+T25	Person 1544 1554	votre papa
+A35	Experience T25 Patient
+T26	Sign_Symptom 1649 1662	malaise vagal
+A36	Experience T26 Patient
+T27	Conduite 1806 1828	l'emmener aux urgences
+A37	Hypothesis T27 Vrai
+T28	Temporal_Marker 1589 1602	première fois
+A38	Temporality T28 Overlap(default)
+R2	Temp_mark Arg1:T28 Arg2:T24	
+A39	Hypothesis T28 Vrai
+R3	Temp_mark Arg1:T28 Arg2:T23	
+T29	Sign_Symptom 2165 2172	malaise
+A40	Experience T29 Patient
+A43	Hypothesis T29 Vrai
+T30	Sign_Symptom 2185 2229	il se sent partir sans perte de connaissance
+A41	Hypothesis T30 Vrai
+A42	Experience T30 Patient
+T31	Conduite 2936 3053	vous vous rendez aux urgences heu avec votre papa et oubliez pas de prendre l'ordonnance de ses traitements habituels
+A44	Temporality T31 Overlap(default)
+T32	Person 3263 3269	madame
+A45	Experience T32 Family
+T33	Person 3288 3298	votre papa
+A46	Experience T33 Patient
+T34	Conduite 3326 3355	vous vous rendez aux urgences
+A47	Temporality T34 Overlap(default)
+A48	Hypothesis T34 Vrai
+T35	Conduite 2271 2339	vous pouvez l'emmener sans problème aux urgences à côté de chez vous
+A49	Temporality T35 Overlap(default)
+T36	Geographic_Marker 2908 2917	toilettes
+A50	Experience T36 Patient

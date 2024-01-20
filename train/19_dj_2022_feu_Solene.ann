@@ -1,0 +1,21 @@
+T1	Person 22 38	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 84 95	votre frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 72 78	le feu
+A3	Experience T3 Patient
+T4	Conduite 932 950	vous restez en bas
+T5	Conduite 980 1016	on envoie les pompiers tout de suite
+T6	Conduite 1026 1044	vous restez en bas
+T7	Conduite 1127 1145	vous restez en bas
+T8	Sign_Symptom 895 901	répond
+A4	Experience T8 Patient
+T9	Geographic_Marker 347 357	la cuisine
+T10	Geographic_Marker 399 409	la chambre
+T11	Geographic_Marker 736 747	appartement
+T12	Geographic_Marker 548 554	en bas
+T13	Person 822 831	mon frère
+A5	Experience T13 Patient
+T14	Sign_Symptom 867 873	répond
+A6	Negation T14 Négation
+A7	Experience T14 Patient

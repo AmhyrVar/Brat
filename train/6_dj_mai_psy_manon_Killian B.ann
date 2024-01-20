@@ -1,0 +1,91 @@
+T1	Person 84 90	voisin
+A1	Experience T1 Patient
+T2	Person 35 47	docteur ABAS
+A2	Temporality T2 Overlap(default)
+A3	Experience T2 Healthcare_professional
+T3	Person 51 55	SAMU
+A4	Experience T3 Healthcare_professional
+T4	Person 17 23	madame
+A5	Experience T4 Other
+T5	Temporal_Marker 272 277	jours
+A6	Temporality T5 Before_overlap
+T6	Temporal_Marker 303 311	semaines
+A7	Temporality T6 Before_overlap
+T7	Sign_Symptom 318 327	balade nu
+T8	Sign_Symptom 347 362	parle tout seul
+A8	Temporality T8 Before_overlap
+A9	Temporality T7 Before_overlap
+R1	Temp_mark Arg1:T5 Arg2:T7	
+R4	Temp_mark Arg1:T6 Arg2:T7	
+R5	Temp_mark Arg1:T6 Arg2:T8	
+T10	Sign_Symptom 554 569	parle tout seul
+A11	Temporality T10 Overlap(default)
+T11	Sign_Symptom 644 676	il a été violent avec quelqu'un?
+A12	Temporality T11 Before
+A13	Hypothesis T11
+T12	Sign_Symptom 502 529	il a été violent avec vous?
+A14	Temporality T12 Before
+A15	Hypothesis T12
+R2	Temp_mark Arg1:T5 Arg2:T8	
+T9	Sign_Symptom 888 909	suivi par un médecin?
+A10	Temporality T9 Overlap(default)
+A16	Hypothesis T9
+T13	Person 901 908	médecin
+A17	Experience T13 Healthcare_professional
+T14	Sign_Symptom 941 962	suivi par un médecin?
+A18	Temporality T14 Overlap(default)
+A19	Hypothesis T14
+T15	Person 954 961	médecin
+A20	Experience T15 Healthcare_professional
+T16	Sign_Symptom 1032 1053	suivi par un médecin?
+A21	Temporality T16 Overlap(default)
+A22	Hypothesis T16
+T17	Person 1045 1052	médecin
+A23	Hypothesis T17
+A24	Experience T17 Healthcare_professional
+T18	Sign_Symptom 1194 1219	est suivi par un médecin?
+A25	Temporality T18 Overlap(default)
+A26	Hypothesis T18
+T19	Person 1211 1218	médecin
+A27	Experience T19 Healthcare_professional
+T20	Person 1248 1255	famille
+A28	Experience T20 Family
+T21	Sign_Symptom 1361 1396	été hospitalisé en psychiatrie ​oui
+A29	Temporality T21 Before
+T22	Person 1380 1391	psychiatrie
+A30	Experience T22 Healthcare_professional
+T23	Person 1614 1620	madame
+A31	Experience T23 Other
+T24	Person 1522 1529	voisins
+A32	Experience T24 Other
+T26	Temporal_Marker 884 887	est
+A34	Temporality T26 Overlap(default)
+R6	Temp_mark Arg1:T26 Arg2:T9	
+T27	Temporal_Marker 937 940	est
+A35	Temporality T27 Overlap(default)
+R7	Temp_mark Arg1:T27 Arg2:T14	
+T28	Temporal_Marker 1028 1031	est
+A36	Temporality T28 Overlap(default)
+R8	Temp_mark Arg1:T28 Arg2:T16	
+T29	Temporal_Marker 1194 1197	est
+A37	Temporality T29 Overlap(default)
+R9	Temp_mark Arg1:T29 Arg2:T18	
+T30	Temporal_Marker 1350 1364	avait déjà été
+A38	Temporality T30 Before
+R3	Temp_mark Arg1:T30 Arg2:T21	
+T25	Sign_Symptom 1741 1805	se balade tout nu dans la rue dans l'immeuble il parle tout seul
+A33	Temporality T25 Overlap(default)
+T31	Person 1887 1893	police
+A39	Experience T31 Other
+T32	Person 1931 1939	urgences
+A40	Experience T32 Healthcare_professional
+T33	Conduite 2562 2607	d'accord ça marche eh bah j'appelle la police
+A41	Temporality T33 After
+T34	Person 2500 2506	police
+A42	Experience T34 Other
+T35	Person 2546 2552	police
+A43	Experience T35 Other
+T36	Sign_Symptom 2380 2384	crie
+A44	Temporality T36 Overlap(default)
+T37	Sign_Symptom 2407 2412	bruit
+A45	Temporality T37 Overlap(default)

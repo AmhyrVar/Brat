@@ -1,0 +1,117 @@
+T1	Person 25 31	madame
+T2	Person 44 58	docteur DAMANI
+A1	Experience T2 Healthcare_professional
+T3	Person 89 95	voisin
+T4	Sign_Symptom 112 118	fièvre
+A2	Temporality T4 Overlap(default)
+T5	Geographic_Marker 316 330	votre domicile
+T6	Person 433 450	voisin de pallier
+T7	Sign_Symptom 587 593	fièvre
+A3	Temporality T7 Overlap(default)
+T8	Sign_Symptom 623 632	il tousse
+A4	Temporality T8 Overlap(default)
+T9	Sign_Symptom 683 689	fièvre
+T10	Sign_Symptom 727 736	je tousse
+T11	Person 1722 1729	voisine
+T12	Person 2243 2249	madame
+T13	Sign_Symptom 2317 2326	il tousse
+A5	Experience T3 Patient
+A6	Hypothesis T4 Vrai
+A7	Experience T6 Patient
+A8	Experience T9 Other
+T14	Temporal_Marker 694 721	y a pas très très longtemps
+A9	Temporality T14 Before
+R1	Temp_mark Arg1:T14 Arg2:T9	
+A10	Experience T10 Other
+T15	Person 1636 1643	famille
+A11	Hypothesis T15 Vrai
+A12	Experience T15 Family
+A13	Experience T11 Other
+T16	Conduite 2026 2045;2063 2110	pouvez lui demander si heu y a quelqu'un d'autre qui pourrait venir
+T17	Sign_Symptom 2167 2173	fièvre
+A14	Temporality T17 Overlap(default)
+T18	Sign_Symptom 2182 2212	il se tient debout normalement
+A15	Temporality T18 Overlap(default)
+A16	Experience T12 Healthcare_professional
+T19	Disease 2289 2294	COVID
+A17	Temporality T19 Overlap(default)
+A18	Temporality T13 Overlap(default)
+T20	Disease 2380 2385	COVID
+A19	Experience T20 Other
+T21	Temporal_Marker 2400 2408	six mois
+A20	Temporality T21 Before
+R2	Temp_mark Arg1:T21 Arg2:T20	
+T22	Sign_Symptom 2413 2421	toussais
+A21	Temporality T22 Before
+A22	Experience T22 Other
+T23	Sign_Symptom 2441 2450	symptômes
+A23	Temporality T23 Before
+A24	Experience T23 Other
+T24	Sign_Symptom 2535 2549	mal à respirer
+A25	Temporality T24 Before
+A26	Experience T24 Other
+T25	Sign_Symptom 2568 2580	hospitalisée
+A27	Temporality T25 Before
+A28	Experience T25 Other
+T26	Sign_Symptom 2591 2603	hospitalisée
+A29	Temporality T26 Before
+A30	Experience T26 Other
+T27	Drug_chemicals 2660 2667	oxygène
+A31	Experience T27 Other
+A32	Temporality T27 Before
+T28	Sign_Symptom 2710 2728	très très fatiguée
+A33	Temporality T28 Before_overlap
+A34	Experience T28 Other
+T29	Disease 2817 2822	COVID
+A35	Temporality T29 Before_overlap
+A36	Experience T29 Other
+T30	Sign_Symptom 2871 2891	mal dans la poitrine
+A37	Temporality T30 Before_overlap
+A38	Experience T30 Other
+T31	Person 2946 2952	voisin
+A39	Experience T31 Patient
+T32	Person 2991 2997	voisin
+A40	Experience T32 Patient
+T33	Disease 3035 3040	COVID
+A41	Temporality T33 Overlap(default)
+T34	Disease 3056 3061	COVID
+T35	Disease 3065 3074	pas COVID
+A42	Negation T35 Négation
+T36	Sign_Symptom 3088 3097	symptômes
+A43	Temporality T36 Overlap(default)
+T37	Conduite 3171 3185	examen médical
+T38	Conduite 3246 3261	voir un médecin
+A44	Temporality T38 After
+T39	Conduite 3376 3391	voir un médecin
+T40	Geographic_Marker 3400 3417	maisons médicales
+T41	Conduite 3467 3482	voir un médecin
+T42	Person 3570 3577	médecin
+A45	Experience T42 Healthcare_professional
+T43	Conduite 3706 3721	voir un médecin
+T44	Geographic_Marker 3731 3739	en ville
+T45	Conduite 3815 3839	voir un médecin en ville
+T46	Conduite 3893 3946	nous rappeler si il se passe quelque chose de nouveau
+T47	Sign_Symptom 4008 4031	comportement inhabituel
+A46	Temporality T47 After
+T48	Sign_Symptom 4042 4051	se plaint
+A47	Temporality T48 After
+T49	Person 4065 4081	nouvelle plainte
+A48	Temporality T49 After
+T50	Conduite 4136 4166	aller voir un médecin en ville
+T51	Person 4203 4209	madame
+A49	Experience T51 Other
+T52	Person 4247 4253	madame
+A50	Experience T52 Healthcare_professional
+T53	Sign_Symptom 4278 4285	fatigue
+A51	Temporality T53 Overlap(default)
+A52	Experience T53 Other
+T54	Person 4294 4302	douleurs
+A53	Temporality T54 Overlap(default)
+A54	Experience T54 Other
+T55	Person 4358 4364	voisin
+A55	Experience T55 Patient
+T56	Person 4365 4371	madame
+A56	Experience T56 Other
+T57	Person 4421 4428	médecin
+A57	Experience T57 Healthcare_professional
+T58	Conduite 4438 4460	rapprochez vous de lui

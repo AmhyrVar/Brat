@@ -1,0 +1,70 @@
+T1	Person 77 84	docteur
+A1	Experience T1 Healthcare_professional
+T2	Person 35 47	docteur ABAZ
+A2	Experience T2 Healthcare_professional
+T3	Person 205 211	copine
+A3	Experience T3 Patient
+T4	Person 94 106	mon collègue
+A4	Experience T4 Healthcare_professional
+T5	Person 148 156	collègue
+A5	Experience T5 Patient
+T6	Person 285 291	copine
+A6	Experience T6 Patient
+T8	Temporal_Marker 807 837	entre une heure et deux heures
+T9	Drug_chemicals 1478 1487	VENTOLINE
+T10	Person 1340 1352	docteur ABAZ
+A8	Experience T10 Healthcare_professional
+T12	Person 2712 2719	docteur
+A10	Experience T12 Healthcare_professional
+T13	Person 2144 2151	docteur
+A11	Experience T13 Healthcare_professional
+T14	Person 2039 2045	copine
+A12	Experience T14 Patient
+T16	Person 2468 2475	médecin
+A14	Experience T16 Healthcare_professional
+T17	Person 2407 2413	madame
+A15	Experience T17 Patient
+T18	Person 2247 2254	médecin
+A16	Experience T18 Healthcare_professional
+T7	Temporal_Marker 752 782	ça fait une heure deux heures?
+A7	Hypothesis T7
+T19	Sign_Symptom 928 948	elle est consciente?
+A17	Hypothesis T19
+T20	Sign_Symptom 1011 1034	est ce qu'elle est pâle
+A18	Hypothesis T20
+T21	Sign_Symptom 1035 1063	est ce qu'elle est en sueur?
+A19	Hypothesis T21
+T22	Sign_Symptom 847 898	est ce qu'elle arrive à vous parler ou pas du tout?
+A20	Hypothesis T22
+T15	Conduite 1901 1996	c'est qu'il faut contacter votre médecin traitant pour prendre ​rendez-vous rapidement avec lui
+T23	Conduite 2745 2790	si il y a le moindre souci vous nous rappelez
+T11	Conduite 2665 2689	vous attendez le médecin
+T24	Sign_Symptom 1638 1685	ça vous serre comme ça depuis combien de temps?
+A9	Hypothesis T24
+T25	Sign_Symptom 367 412	elle est gênée pour respirer c'est bien cela?
+A13	Hypothesis T25
+T26	Temporal_Marker 730 742	l'après midi
+T27	Sign_Symptom 1162 1209	elle est pas particulièrement pâle ou en sueurs
+A21	Negation T27 Négation
+T28	Person 1322 1328	madame
+A22	Experience T28 Patient
+T29	Person 1378 1385	docteur
+A23	Experience T29 Healthcare_professional
+T30	Sign_Symptom 1589 1618	ça serre heu dans mes poumons
+T31	Person 2855 2862	docteur
+A24	Experience T31 Healthcare_professional
+T33	Conduite 2559 2572	vous examiner
+A25	Temporality T22 Overlap(default)
+A26	Temporality T20 Overlap(default)
+A27	Temporality T21 Overlap(default)
+A28	Temporality T19 Overlap(default)
+A29	Temporality T27 Overlap(default)
+A30	Temporality T30 Overlap(default)
+A31	Temporality T15 Overlap(default)
+R1	Temp_mark Arg1:T26 Arg2:T25	
+T34	Temporal_Marker 1699 1736	depuis cet aprem là après le déjeuner
+A32	Temporality T34 Before_overlap
+R2	Temp_mark Arg1:T34 Arg2:T24	
+A33	Temporality T11 Overlap(default)
+A34	Temporality T23 Overlap(default)
+A35	Temporality T33 After

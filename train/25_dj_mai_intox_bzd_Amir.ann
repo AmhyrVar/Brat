@@ -1,0 +1,54 @@
+T1	Person 38 53	docteur DETOURY
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 57 61	SAMU
+T3	Person 140 148	ma femme
+A3	Experience T3 Patient
+T4	Person 161 172	votre femme
+A4	Experience T4 Patient
+T5	Person 235 247	votre femme?
+A5	Experience T5 Patient
+T6	Drug_chemicals 265 323	elle a pris des médicaments là elle a pris des médicaments
+A6	Temporality T6 Before
+A7	Experience T6 Patient
+T7	Sign_Symptom 328 357	je la trouve pas bien du tout
+A8	Temporality T7 Overlap(default)
+A9	Experience T7 Patient
+T8	Conduite 406 496	est ce que vous savez est ce que vous savez exactement quel médicament elle a pris madame?
+A10	Temporality T8 Before
+A11	Experience T8 Patient
+T9	Drug_chemicals 640 649	LORAZEPAM
+A12	Experience T9 Patient
+T10	Conduite 668 730	est ce qu'elle a pu prendre d'autres médicaments que celui là?
+A13	Temporality T10 Before
+A14	Experience T10 Patient
+T11	Conduite 904 1016	quand vous dites qu'elle est pas bien quand vous dites qu'elle est pas bien madame est ce qu'elle est réveillée?
+A15	Temporality T11 Overlap(default)
+A16	Experience T11 Patient
+T12	Sign_Symptom 1057 1069	elle dort là
+A17	Temporality T12 Overlap(default)
+A18	Experience T12 Patient
+T13	Conduite 1082 1155	quand vous la stimulez quand vous la stimulez est ce qu'elle vous répond?
+A19	Temporality T13 Overlap(default)
+A20	Experience T13 Patient
+T14	Geographic_Marker 1575 1597	un hôpital particulier
+A21	Experience T14 Patient
+T15	Conduite 1559 1605	est suivie dans un hôpital particulier ou pas?
+A22	Temporality T15 Before
+A23	Hypothesis T15
+A24	Experience T15 Patient
+T16	Conduite 1626 1685	elle est suivie dans un hôpital heu pour heu sa dépression?
+A25	Temporality T16 Before
+A26	Experience T16 Patient
+T17	Person 1736 1762	un psychiatre heu en ville
+A27	Experience T17 Healthcare_professional
+T18	Person 1791 1803	les pompiers
+A28	Experience T18 Healthcare_professional
+T19	Conduite 1776 1807	je vous envoie les pompiers heu
+A29	Experience T19 Family
+T20	Conduite 1835 1864	qui vont la prendre en charge
+A30	Temporality T20 After
+A31	Experience T20 Patient
+T21	Conduite 1996 2175	vous pouvez la mettre sur le côté elle est allongée vous pouvez l'allonger sur le côté et les pompiers arrivent tout de suite et ils vont la prendre en charge c'est bon pour vous?
+A32	Temporality T21 Overlap(default)
+A33	Experience T21 Patient

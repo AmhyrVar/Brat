@@ -1,0 +1,74 @@
+T1	Person 94 110	docteur LAKHLIFI
+A1	Experience T1 Healthcare_professional
+T2	Person 29 35	madame
+A2	Experience T2 Family
+T3	Person 132 144	votre enfant
+A3	Experience T3 Patient
+T4	Drug_chemicals 709 720	paracétamol
+T5	Person 1496 1508	votre enfant
+A4	Experience T5 Patient
+T6	Person 2105 2117	votre enfant
+A5	Experience T6 Patient
+T7	Person 2670 2676	madame
+A6	Experience T7 Family
+T8	Person 2678 2689	les secours
+A7	Experience T8 Healthcare_professional
+T9	Person 2644 2655	les secours
+A8	Experience T9 Healthcare_professional
+T10	Person 1746 1757	les secours
+A9	Experience T10 Healthcare_professional
+T11	Sign_Symptom 304 348	des médicaments qu'il aurait pas dû prendre?
+A10	Temporality T11 Before
+A11	Hypothesis T11
+A12	Negation T11 Négation
+T12	Temporal_Marker 468 489	depuis très longtemps
+A13	Temporality T12 Before
+T13	Sign_Symptom 762 776	en quelle dose
+A14	Temporality T13 Before
+A15	Hypothesis T13
+T14	Sign_Symptom 975 990	une grande dose
+A16	Temporality T14 Before
+T15	Sign_Symptom 992 1040	trois fois la dose qu'il faut j'aurais dû donner
+A17	Temporality T15 Before
+T16	Conduite 1226 1255	vous restez avec votre enfant
+A18	Temporality T16 Overlap(default)
+T17	Conduite 1257 1297	vous lui donnez rien à boire ni à manger
+A19	Negation T17 Négation
+T18	Conduite 1299 1317	vous le surveillez
+A20	Temporality T18 Overlap(default)
+T19	Conduite 1321 1341	j'envoie les secours
+A21	Temporality T19 Overlap(default)
+T21	Conduite 1463 1493	il faut donner absolument rien
+A23	Negation T21 Négation
+A24	Temporality T21 Overlap(default)
+T22	Conduite 1510 1567	ni ​à boire, ni à manger, ni du lait, ni quoi que ce soit
+A25	Temporality T22 Overlap(default)
+A26	Negation T22 Négation
+T23	Conduite 1669 1716	non, il ne faut pas il faut pas le faire vomir.
+A27	Negation T23 Négation
+A28	Temporality T23 Overlap(default)
+T24	Conduite 1720 1744	vous le gardez avec vous
+A29	Negation T24 Négation
+T25	Conduite 2029 2101	n'hésitez pas à nous rappeler si heu il y a quoi que ce soit de nouveau.
+A30	Temporality T25 After
+T26	Sign_Symptom 2118 2123	vomit
+A31	Temporality T26 After
+T27	Sign_Symptom 2125 2148	si il perd connaissance
+A32	Temporality T27 After
+A33	Hypothesis T27
+T28	Sign_Symptom 2262 2325	si heu vous voyez il devient tout blanc, tout jaune, tout rouge
+A34	Temporality T28 After
+A35	Hypothesis T28
+T29	Sign_Symptom 2327 2338	si il vomit
+A36	Temporality T29 After
+A37	Hypothesis T29
+T20	Temporal_Marker 964 974	j'ai donné
+A22	Temporality T20 Before
+R1	Temp_mark Arg1:T20 Arg2:T14	
+R2	Temp_mark Arg1:T20 Arg2:T15	
+T30	Temporal_Marker 784 795	il l'a pris
+A38	Temporality T30 Before
+R3	Temp_mark Arg1:T30 Arg2:T13	
+T31	Temporal_Marker 294 303	il a pris
+A39	Temporality T31 Before
+R4	Temp_mark Arg1:T31 Arg2:T11	

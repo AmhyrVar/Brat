@@ -1,0 +1,44 @@
+T1	Person 47 64	docteur BEAUCHAMP
+A1	Experience T1 Healthcare_professional
+T2	Geographic_Marker 221 245	en bas de de l'immeuble?
+A2	Hypothesis T2
+T3	Geographic_Marker 275 295	en bas de l'immeuble
+T4	Person 4146 4158	les pompiers
+A3	Experience T4 Other
+T5	Person 4173 4181	monsieur
+A4	Experience T5 Other
+T6	Person 1685 1690	maman
+T7	Person 1009 1016	mon ami
+T8	Sign_Symptom 1260 1278	elle a pas répondu
+A5	Hypothesis T8
+A6	Experience T7 Patient
+T10	Conduite 2096 2136	on va vous vous envoyer les les pompiers
+A7	Temporality T10 After
+T11	Conduite 2142 2183	on a appelé les pompiers ils vont arriver
+A8	Temporality T11 After
+T12	Conduite 2187 2225	on va vous envoyer une équipe médicale
+A9	Temporality T12 After
+T13	Conduite 2480 2525	faut pas que vous approchiez trop des flammes
+A10	Temporality T13 Overlap(default)
+A11	Negation T13 Négation
+T14	Conduite 3102 3208	restez plutôt en avant pour pas que les pompi- pour que les pompiers ils vous voient directement d'accord?
+A12	Temporality T14 Overlap(default)
+A13	Hypothesis T14
+T15	Conduite 3605 3670	vous comme ça vous trouvez en attendant qu'ils arrivent d'accord?
+A14	Hypothesis T15
+T16	Conduite 3987 4013	vous rappelez le heu le 15
+T17	Conduite 4096 4114	vous appelez le 15
+T18	Person 3810 3818	monsieur
+A15	Experience T18 Other
+T19	Person 3784 3795	es pompiers
+A16	Experience T19 Other
+T20	Person 3701 3711	le médecin
+A17	Experience T20 Healthcare_professional
+T21	Person 3676 3688	les pompiers
+A18	Experience T21 Other
+T22	Conduite 3102 3198	restez plutôt en avant pour pas que les pompi- pour que les pompiers ils vous voient directement
+A19	Temporality T22 After
+A20	Temporality T15 Overlap(default)
+A21	Temporality T16 After
+A22	Temporality T17 After
+A23	Experience T6 Family

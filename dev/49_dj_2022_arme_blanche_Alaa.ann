@@ -1,0 +1,64 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 80 85	frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 94 100	blessé
+A3	Temporality T3 Overlap(default)
+A4	Experience T3 Patient
+T4	Person 225 230	frère
+A5	Experience T4 Patient
+T7	Sign_Symptom 234 270	avait du du du sang sur son pantalon
+A8	Temporality T7 Before_overlap
+A9	Experience T7 Patient
+T8	Sign_Symptom 308 342	est encore fait un coup de couteau
+A10	Temporality T8 Before
+A11	Experience T8 Patient
+T9	Sign_Symptom 398 420	la plaie saigne encore
+A12	Temporality T9 Overlap(default)
+A13	Hypothesis T9
+A14	Experience T9 Patient
+T10	Sign_Symptom 484 500	est hyper énervé
+A15	Temporality T10 Overlap(default)
+A16	Experience T10 Patient
+T11	Conduite 544 578	allez le voir et regardez la plaie
+A17	Experience T11 Family
+T12	Conduite 580 614	allez le voir et regardez la plaie
+A18	Experience T12 Family
+T13	Conduite 632 683	vous regardiez la plaie et que vous me la décriviez
+A19	Experience T13 Family
+T14	Conduite 896 949	dites lui que le les secours ont besoin de lui parler
+A20	Experience T14 Family
+T15	Sign_Symptom 1317 1335	est rentré à pieds
+A21	Temporality T15 Before
+A22	Hypothesis T15
+A23	Experience T15 Patient
+T17	Sign_Symptom 1438 1485	il est debout, il est assis, il est al- allongé
+A26	Temporality T17 Overlap(default)
+A27	Experience T17 Patient
+T18	Sign_Symptom 1506 1515	est assis
+A28	Temporality T18 Overlap(default)
+A29	Experience T18 Patient
+T19	Conduite 1572 1605	vous restez auprès de votre frère
+A30	Experience T19 Family
+T5	Conduite 1610 1666	vous nous rappelez si il y a quoi que ce soit de nouveau
+A6	Experience T5 Family
+T20	Conduite 1745 1773	attendez quand même avec lui
+A31	Experience T20 Family
+T21	Conduite 2129 2152	restez avec votre frère
+A32	Experience T21 Family
+T6	Geographic_Marker 206 209	bar
+A7	Hypothesis T17
+T16	Person 1562 1570	pompiers
+A24	Experience T16 Other
+T22	Person 1779 1787	pompiers
+A25	Experience T22 Other
+T23	Person 1812 1820	pompiers
+A33	Experience T23 Other
+T24	Person 1888 1896	pompiers
+A34	Experience T24 Other
+T25	Geographic_Marker 1909 1918	la maison
+T26	Geographic_Marker 2055 2064	chez nous
+T27	Person 2082 2090	pompiers
+A35	Experience T27 Other
+T28	Person 2241 2249	pompiers
+A36	Experience T28 Other

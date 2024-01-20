@@ -1,0 +1,28 @@
+T1	Person 82 89	DETOURY
+T2	Person 128 136	collègue
+T3	Sign_Symptom 148 158	un malaise
+T4	Sign_Symptom 381 400	respire normalement
+T5	Sign_Symptom 545 566	se sent pas très bien
+T6	Sign_Symptom 1042 1060	perdu connaissance
+T7	Temporal_Marker 1074 1083	un moment
+T8	Sign_Symptom 1506 1516	un malaise
+T9	Temporal_Marker 1710 1723	première fois
+T10	Sign_Symptom 1906 1924	problèmes de santé
+T11	Sign_Symptom 1926 1938	des maladies
+T12	Sign_Symptom 2038 2049	fa- fatigué
+T13	Geographic_Marker 2197 2205	urgences
+T14	Person 2356 2363	docteur
+T15	Person 2472 2488	médecin traitant
+T16	Geographic_Marker 2646 2666	STEF heu AUL- AULNAY
+T17	Person 2715 2734	médecin généraliste
+T18	Person 2841 2849	collègue
+T19	Geographic_Marker 2989 2998	la maison
+T20	Person 3141 3172	médecin généraliste de de garde
+T21	Geographic_Marker 3204 3210	maison
+T22	Geographic_Marker 3341 3346	BONDY
+T23	Geographic_Marker 3359 3379	hôpital JEAN VERDIER
+T24	Geographic_Marker 3481 3496	AULNAY à AULNEY
+T25	Geographic_Marker 3583 3589	AULNAY
+T26	Person 3724 3732	collègue
+T27	Geographic_Marker 4171 4194;4194 4195	maison médicale de gard e
+T28	Sign_Symptom 241 248	malaise

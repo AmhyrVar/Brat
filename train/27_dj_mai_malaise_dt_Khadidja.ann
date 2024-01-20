@@ -1,0 +1,73 @@
+T1	Person 17 23	madame
+T2	Person 74 86	docteur ABAS
+T3	Sign_Symptom 191 209	douleur thoracique
+A2	Hypothesis T3
+A1	Experience T2 Healthcare_professional
+T4	Sign_Symptom 251 267	se sent pas bien
+A3	Negation T4 Négation
+T5	Sign_Symptom 325 341	se sent pas bien
+A4	Negation T5 Négation
+T6	Sign_Symptom 353 360	malaise
+T8	Sign_Symptom 387 396	conscient
+A6	Hypothesis T8
+T9	Sign_Symptom 423 430	respire
+A7	Hypothesis T9
+T10	Sign_Symptom 555 559	pâle
+A8	Hypothesis T10
+T11	Sign_Symptom 596 600	pâle
+T13	Sign_Symptom 669 676	allongé
+T14	Sign_Symptom 663 668	assis
+T15	Sign_Symptom 694 699	assis
+T16	Sign_Symptom 736 759	se tient heu le le cœur
+A10	Hypothesis T16
+T17	Sign_Symptom 769 790	position particulière
+A11	Hypothesis T17
+T18	Sign_Symptom 829 855	la main heu sur le côté là
+T19	Conduite 913 939	passez le moi au téléphone
+T20	Person 998 1003	frère
+A12	Experience T20 Patient
+T22	Sign_Symptom 1102 1105	mal
+T23	Disease 1173 1180	diabète
+T24	Disease 1202 1214	hypertension
+T25	Sign_Symptom 1372 1379	douleur
+T27	Temporal_Marker 1517 1528	deux heures
+A13	Hypothesis T27
+T28	Temporal_Marker 1550 1567	moins d'une heure
+T29	Sign_Symptom 1593 1601	pas bien
+A14	Negation T29 Négation
+T30	Sign_Symptom 1609 1613	pale
+T31	Sign_Symptom 1625 1632	malaise
+T32	Sign_Symptom 1695 1703	douleurs
+A15	Hypothesis T32
+T33	Sign_Symptom 1743 1750	douleur
+T34	Sign_Symptom 1783 1791	ça serre
+T35	Sign_Symptom 1792 1800	ça pique
+A16	Hypothesis T34
+A17	Hypothesis T35
+T36	Sign_Symptom 1846 1862	ça fait un point
+T37	Person 1894 1900	madame
+T38	Conduite 1916 1943	vous envoyer heu un médecin
+T39	Geographic_Marker 1944 1953	sur place
+T40	Conduite 1983 2032	une équipe du SAMU avec un médecin qui va arriver
+T41	Conduite 2036 2069	les pompiers qui vont se déplacer
+A19	Hypothesis T14
+A20	Hypothesis T13
+T21	Drug_chemicals 1252 1256	fume
+A21	Hypothesis T21
+#1	AnnotatorNotes T21	tabac
+T43	Drug_chemicals 1298 1302	fume
+#2	AnnotatorNotes T43	tabac
+R1	Temp_mark Arg1:T27 Arg2:T25	
+A22	Temporality T27 Before_overlap
+R2	Temp_mark Arg1:T28 Arg2:T31	
+A23	Temporality T28 Before_overlap
+T26	Sign_Symptom 2237 2254	perd connaissance
+T42	Person 133 144	votre frère
+A18	Experience T42 Patient
+T7	Person 609 618	mon frère
+A5	Experience T7 Patient
+R3	Temp_mark Arg1:T28 Arg2:T29	
+T12	Temporal_Marker 1651 1664	première fois
+R4	Temp_mark Arg1:T12 Arg2:T32	
+T44	Conduite 2261 2320	il lui arrive quoique ce soit de nouveau vous nous rappelez
+T45	Conduite 2375 2395	vous restez avec lui

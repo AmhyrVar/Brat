@@ -1,0 +1,25 @@
+T1	Person 35 47	docteur ABAS
+A1	Experience T1 Healthcare_professional
+T2	Person 78 107	votre voisin de cinquante ans
+A2	Experience T2 Patient
+T3	Person 180 183	lui
+A3	Experience T3 Patient
+T4	Temporal_Marker 260 277	ça fait des jours
+A4	Temporality T4 Before_overlap
+T5	Sign_Symptom 312 327	il se balade nu
+A5	Experience T5 Patient
+T6	Temporal_Marker 328 343	dans l'immeuble
+T7	Sign_Symptom 344 362	il parle tout seul
+A6	Experience T7 Patient
+T8	Sign_Symptom 367 393	il a chié dans l'ascenseur
+A7	Experience T8 Patient
+T9	Person 415 418	lui
+A8	Experience T9 Patient
+T10	Sign_Symptom 551 569	il parle tout seul
+A9	Experience T10 Patient
+T11	Disease 1347 1391	il avait déjà été hospitalisé en psychiatrie
+A10	Experience T11 Patient
+A11	Temporality T11 Before
+T12	Person 1614 1620	madame
+A12	Experience T12 Other
+T13	Conduite 2487 2520	contactez la police appelez le 17

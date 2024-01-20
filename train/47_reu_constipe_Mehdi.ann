@@ -1,0 +1,53 @@
+T1	Person 21 41	madame FABRICE DAMAS
+T2	Person 50 74	médecin de la régulation
+A1	Experience T2 Healthcare_professional
+T3	Person 158 168	grand père
+T4	Sign_Symptom 226 243	douleur au ventre
+A2	Experience T4 Patient
+T5	Geographic_Marker 318 327	l'hôpital
+T6	Person 337 353	médecin traitant
+A3	Experience T6 Healthcare_professional
+T7	Sign_Symptom 605 677	est ce qu'il a d'autres symptômes madame est ce qu'il a des vomissements
+A4	Hypothesis T7
+T8	Sign_Symptom 1006 1046	il a des heu diarrhées aussi ce monsieur
+A5	Hypothesis T8
+T9	Sign_Symptom 1079 1098	juste mal au ventre
+A6	Experience T9 Patient
+T10	Sign_Symptom 1108 1152	est ce qu'il a des problèmes de santé madame
+A7	Hypothesis T10
+T11	Disease 1182 1189	tension
+A8	Temporality T11 Before_overlap
+T12	Disease 1234 1261	des problèmes à la prostate
+A9	Temporality T12 Before_overlap
+T13	Person 1416 1425	collègues
+T14	Person 1562 1567	soeur
+T15	Temporal_Marker 1693 1707	tous les jours
+T16	Sign_Symptom 1752 1786	est ce qu'il prend des médicaments
+A10	Hypothesis T16
+T17	Sign_Symptom 1894 1906	oui je crois
+A11	Experience T17 Patient
+T18	Sign_Symptom 1916 1944	il prend pas d'anticoagulant
+A12	Hypothesis T18
+T19	Drug_chemicals 1999 2024	KARDEGIC PLAVIX COUMADINE
+T20	Sign_Symptom 2025 2060	il prend pas ce genre de médicament
+A13	Hypothesis T20
+A14	Negation T20 Négation
+T21	Person 2398 2414	médecin traitant
+A15	Experience T21 Healthcare_professional
+T22	Sign_Symptom 2675 2730	est ce qu'il est conscient est ce qu'il parle avec vous
+A16	Hypothesis T22
+T23	Sign_Symptom 2819 2853	est ce qu'il communique facilement
+A17	Hypothesis T23
+T24	Sign_Symptom 2933 2947	il est grognon
+A18	Experience T24 Patient
+T25	Sign_Symptom 3034 3067	il est conscient comme d'habitude
+A19	Experience T25 Patient
+T26	Sign_Symptom 3149 3201	il a pas de vomissements pardon une douleur au ventr
+A20	Hypothesis T26
+T27	Temporal_Marker 3447 3458	deux heures
+T28	Temporal_Marker 3558 3567	une heure
+T29	Sign_Symptom 4137 4195	si y a des vomissements avec du sang dans les vomissements
+A21	Hypothesis T29
+T30	Sign_Symptom 4240 4258	il y a pas de sang
+A22	Experience T30 Patient
+T31	Geographic_Marker 4430 4443	aux toilettes

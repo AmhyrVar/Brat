@@ -1,0 +1,153 @@
+T1	Person 17 25	monsieur
+A1	Experience T1 Other
+T2	Person 27 40	docteur CHITZ
+A2	Experience T2 Healthcare_professional
+T3	Person 91 112	collègue de cinquante
+A3	Experience T3 Patient
+T4	Sign_Symptom 123 126	mal
+A4	Temporality T4 Before_overlap
+A5	Hypothesis T4
+A6	Experience T4 Patient
+T5	Sign_Symptom 181 204	mal a la poit- poitrine
+A7	Temporality T5 Before_overlap
+A8	Experience T5 Patient
+T6	Sign_Symptom 378 397	il est plié en deux
+A9	Temporality T6 Before_overlap
+A10	Experience T6 Patient
+T7	Temporal_Marker 360 374	quinze minutes
+A11	Temporality T7 Before_overlap
+R1	Temp_mark Arg1:T7 Arg2:T5	
+R2	Temp_mark Arg1:T7 Arg2:T6	
+T8	Sign_Symptom 432 444	pas en forme
+A12	Temporality T8 Before_overlap
+A13	Negation T8 Négation
+A14	Experience T8 Patient
+T9	Sign_Symptom 509 515	sueurs
+A15	Temporality T9 Overlap(default)
+A16	Hypothesis T9
+A17	Experience T9 Patient
+T10	Sign_Symptom 529 538	conscient
+A18	Temporality T10 Overlap(default)
+A19	Hypothesis T10
+A20	Experience T10 Patient
+T11	Sign_Symptom 561 572	il est plié
+A21	Temporality T11 Overlap(default)
+A22	Experience T11 Patient
+T12	Sign_Symptom 582 585	mal
+A23	Temporality T12 Overlap(default)
+A24	Experience T12 Patient
+T13	Sign_Symptom 670 683	pas de sueurs
+A25	Negation T13 Négation
+A26	Experience T13 Patient
+T14	Sign_Symptom 696 709	pas de sueurs
+A27	Negation T14 Négation
+A28	Experience T14 Patient
+T15	Disease 731 749	problèmes de santé
+A29	Temporality T15 Before_overlap
+A30	Hypothesis T15
+A31	Experience T15 Patient
+T16	Person 750 764	votre collègue
+A32	Experience T16 Patient
+T17	Sign_Symptom 893 911	problèmes de santé
+A33	Hypothesis T17
+A34	Experience T17 Patient
+T18	Sign_Symptom 967 970	mal
+A36	Experience T18 Patient
+T19	Temporal_Marker 971 979	des fois
+A37	Temporality T19 Before_overlap
+R3	Temp_mark Arg1:T19 Arg2:T18	
+T20	Sign_Symptom 986 989	mal
+A35	Experience T20 Patient
+T21	Temporal_Marker 998 1011	deux semaines
+A38	Temporality T21 Before_overlap
+T22	Sign_Symptom 1020 1023	mal
+A39	Experience T22 Patient
+R4	Temp_mark Arg1:T21 Arg2:T22	
+T23	Sign_Symptom 1100 1108	poitrine
+A40	Temporality T23 Before_overlap
+A41	Hypothesis T23
+A42	Negation T23 Négation
+A43	Experience T23 Patient
+T24	Sign_Symptom 1055 1080	mal où ça? à la poitrine?
+A44	Hypothesis T24
+A45	Experience T24 Patient
+T25	Conduite 1242 1271	passez le moi s'il vous plait
+T26	Person 1337 1345	monsieur
+A46	Experience T26 Patient
+T27	Person 1396 1409	docteur CHITZ
+A47	Experience T27 Healthcare_professional
+T28	Person 1435 1453	médecin régulateur
+A48	Experience T28 Healthcare_professional
+T29	Sign_Symptom 1475 1492	mal à la poitrine
+A49	Temporality T29 Before_overlap
+A50	Hypothesis T29
+A51	Experience T29 Patient
+T30	Temporal_Marker 1578 1592	quinze minutes
+A52	Hypothesis T30
+R5	Temp_mark Arg1:T30 Arg2:T29	
+T31	Temporal_Marker 1639 1653	quinze minutes
+A53	Temporality T31 Before_overlap
+A54	Hypothesis T31
+A55	Temporality T30 Before_overlap
+T32	Temporal_Marker 1889 1902	deux semaines
+A56	Temporality T32 Before_overlap
+A57	Experience T32 Patient
+T33	Sign_Symptom 1988 2003	peux pas parler
+A58	Temporality T33 Overlap(default)
+A59	Experience T33 Patient
+T34	Person 2029 2034	vomir
+A60	Temporality T34 After
+A61	Experience T34 Patient
+T35	Sign_Symptom 2035 2049	j'en peux plus
+A62	Temporality T35 Overlap(default)
+A63	Experience T35 Patient
+T36	Sign_Symptom 2062 2067	vomir
+A64	Experience T36 Patient
+T37	Sign_Symptom 2091 2098	douleur
+A65	Temporality T37 Before_overlap
+A66	Hypothesis T37
+A67	Experience T37 Patient
+T38	Sign_Symptom 2143 2153	oppression
+A68	Hypothesis T38
+A69	Experience T38 Patient
+T39	Sign_Symptom 2158 2163	brûle
+A70	Hypothesis T39
+A71	Experience T39 Patient
+A72	Temporality T39 Overlap(default)
+A73	Temporality T38 Overlap(default)
+T40	Disease 2242 2247	fumez
+A74	Hypothesis T40
+A75	Experience T40 Patient
+T41	Sign_Symptom 2319 2333	j'en peux plus
+A76	Temporality T41 Overlap(default)
+A77	Experience T41 Patient
+T42	Disease 2347 2351	fume
+A78	Temporality T42 Before_overlap
+A79	Experience T42 Patient
+A80	Temporality T40 Before_overlap
+T43	Drug_chemicals 2408 2413	stent
+A81	Temporality T43 Before
+A82	Hypothesis T43
+A83	Experience T43 Patient
+T44	Sign_Symptom 2528 2562	pris quelque chose pour la douleur
+A84	Temporality T44 Before_overlap
+A85	Hypothesis T44
+A86	Experience T44 Patient
+T45	Conduite 2782 2808	envoyer un heu les secours
+A87	Temporality T45 After
+T46	Conduite 2877 2903	restez avec votre collègue
+A88	Temporality T46 Overlap(default)
+T47	Conduite 2905 2968	prenez si vous avez un doliprane pour l'instant pour la douleur
+A89	Temporality T47 Overlap(default)
+T48	Conduite 2981 2996	restez au calme
+T49	Conduite 2998 3020	ne faites aucun effort
+T50	Geographic_Marker 3078 3092	dans le camion
+A90	Temporality T50 Overlap(default)
+A91	Experience T50 Patient
+T51	Geographic_Marker 3118 3132	dans le camion
+A92	Temporality T51 Overlap(default)
+A93	Experience T51 Patient
+T52	Conduite 3192 3204	restez assis
+T53	Conduite 3219 3252	attendez que les secours arrivent
+T54	Person 3305 3313	monsieur
+A94	Experience T54 Patient

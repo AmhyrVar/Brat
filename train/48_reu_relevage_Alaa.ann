@@ -1,0 +1,199 @@
+T1	Person 21 27	madame
+A1	Experience T1 Family
+T2	Person 80 90	grand père
+A2	Experience T2 Patient
+T3	Sign_Symptom 106 115	est tombé
+A3	Temporality T3 Before_overlap
+A4	Experience T3 Patient
+T4	Person 142 149	médecin
+A5	Experience T4 Healthcare_professional
+T5	Person 170 178	collègue
+A6	Experience T5 Healthcare_professional
+T6	Person 215 219	papi
+A7	Experience T6 Patient
+T7	Person 254 258	papi
+A8	Experience T7 Patient
+T8	Person 544 548	papi
+A9	Experience T8 Patient
+T9	Person 661 665	papi
+A10	Experience T9 Patient
+T10	Person 682 686	papi
+A11	Experience T10 Patient
+T11	Person 1024 1028	papi
+A12	Experience T11 Patient
+T12	Person 1134 1138	papi
+A13	Experience T12 Patient
+T13	Person 1403 1407	papi
+A14	Experience T13 Patient
+T14	Person 2257 2261	papi
+A15	Experience T14 Patient
+T15	Person 2375 2379	papi
+A16	Experience T15 Patient
+T16	Person 2797 2801	papi
+A17	Experience T16 Patient
+T17	Person 3100 3104	papi
+A18	Experience T17 Patient
+T20	Sign_Symptom 228 233	tombé
+A23	Temporality T20 Before_overlap
+A24	Experience T20 Patient
+T21	Geographic_Marker 400 407	cuisine
+T24	Person 531 537	madame
+A30	Experience T24 Family
+T25	Person 1145 1151	madame
+A31	Experience T25 Family
+T26	Person 1390 1396	madame
+A32	Experience T26 Family
+T27	Person 1783 1789	madame
+A33	Experience T27 Family
+T28	Person 2533 2539	madame
+A34	Experience T28 Family
+T29	Person 3278 3284	madame
+A35	Experience T29 Family
+T30	Sign_Symptom 508 521	est conscient
+A36	Temporality T30 Overlap(default)
+A37	Hypothesis T30
+A38	Experience T30 Patient
+T32	Sign_Symptom 646 654	il parle
+A39	Temporality T32 Overlap(default)
+A40	Hypothesis T32
+A41	Experience T32 Patient
+T33	Sign_Symptom 667 675	il parle
+A42	Temporality T33 Overlap(default)
+A43	Hypothesis T33
+A44	Experience T33 Patient
+T34	Sign_Symptom 725 733	il parle
+A45	Temporality T34 Overlap(default)
+A46	Experience T34 Patient
+T35	Sign_Symptom 772 783	est orienté
+A47	Temporality T35 Overlap(default)
+A48	Hypothesis T35
+A49	Experience T35 Patient
+T36	Sign_Symptom 743 751	il parle
+A50	Temporality T36 Overlap(default)
+A51	Experience T36 Patient
+T37	Sign_Symptom 828 835	il boit
+A52	Temporality T37 Before
+A53	Experience T37 Patient
+T38	Sign_Symptom 839 865	sait jamais trop où il est
+A54	Temporality T38 Before_overlap
+A55	Experience T38 Patient
+T39	Temporal_Marker 912 926	tout à l'heure
+T40	Sign_Symptom 892 908	a bu de l'alcool
+A56	Temporality T40 Before
+A57	Experience T40 Patient
+R5	Temp_mark Arg1:T39 Arg2:T40	
+T41	Sign_Symptom 941 948	il boit
+A58	Temporality T41 Before
+A59	Experience T41 Patient
+T42	Temporal_Marker 966 980	tous les jours
+R6	Temp_mark Arg1:T42 Arg2:T41	
+T43	Sign_Symptom 1007 1017	il respire
+A60	Temporality T43 Overlap(default)
+A61	Experience T43 Patient
+A62	Hypothesis T43
+T44	Sign_Symptom 1117 1127	il respire
+A63	Temporality T44 Overlap(default)
+A64	Hypothesis T44
+A65	Experience T44 Patient
+T45	Sign_Symptom 1166 1176	il respire
+A66	Temporality T45 Overlap(default)
+A67	Experience T45 Patient
+T46	Sign_Symptom 1202 1228	bouge bien les deux jambes
+A68	Temporality T46 Overlap(default)
+A69	Hypothesis T46
+A70	Experience T46 Patient
+T47	Sign_Symptom 1245 1254	par terre
+A71	Experience T47 Patient
+T48	Sign_Symptom 1380 1389	il saigne
+A72	Temporality T48 Overlap(default)
+A73	Hypothesis T48
+A74	Experience T48 Patient
+T49	Sign_Symptom 1429 1439	saigne pas
+A75	Temporality T49 Overlap(default)
+A76	Negation T49 Négation
+A77	Experience T49 Patient
+T50	Sign_Symptom 1449 1514	au niveau de la tête au niveau du reste du corps il ne saigne pas
+A78	Temporality T50 Overlap(default)
+A79	Hypothesis T50
+A80	Experience T50 Patient
+T51	Sign_Symptom 1532 1544	tout va bien
+A81	Temporality T51 Overlap(default)
+A82	Experience T51 Patient
+T52	Sign_Symptom 1561 1570	par terre
+A83	Temporality T52 Overlap(default)
+A84	Experience T52 Patient
+T53	Sign_Symptom 1642 1660	a mal quelque part
+A85	Temporality T53 Overlap(default)
+A86	Hypothesis T53
+A87	Experience T53 Patient
+T54	Sign_Symptom 1764 1782	a mal quelque part
+A88	Temporality T54 Overlap(default)
+A89	Hypothesis T54
+A90	Experience T54 Patient
+T55	Sign_Symptom 1811 1824	se plaint pas
+A91	Temporality T55 Overlap(default)
+A92	Negation T55 Négation
+A93	Experience T55 Patient
+T56	Sign_Symptom 1848 1872	arrivez pas à le relever
+A94	Temporality T56 Overlap(default)
+A95	Negation T56 Négation
+A96	Experience T56 Patient
+A97	Hypothesis T56
+T57	Sign_Symptom 1893 1916	arrive pas à le relever
+A98	Temporality T57 Overlap(default)
+A99	Negation T57 Négation
+A100	Experience T57 Patient
+T58	Sign_Symptom 2003 2029	a mal au niveau des jambes
+A101	Temporality T58 Overlap(default)
+A102	Hypothesis T58
+A103	Experience T58 Patient
+T59	Sign_Symptom 2127 2151	se plaint pas de douleur
+A104	Temporality T59 Overlap(default)
+A105	Negation T59 Négation
+A106	Experience T59 Patient
+T60	Disease 2208 2239	problèmes de santé particuliers
+A107	Temporality T60 Before_overlap
+A108	Hypothesis T60
+A109	Experience T60 Patient
+T61	Sign_Symptom 2332 2353	prend des médicaments
+A110	Temporality T61 Before_overlap
+A111	Hypothesis T61
+A112	Experience T61 Patient
+T62	Temporal_Marker 2354 2368	tous les jours
+T63	Sign_Symptom 2405 2427	prend aucun médicament
+A113	Temporality T63 Before_overlap
+A114	Negation T63 Négation
+A115	Experience T63 Patient
+T64	Sign_Symptom 2438 2454	boit de l'alcool
+A116	Temporality T64 Before_overlap
+A117	Experience T64 Patient
+T65	Drug_chemicals 2475 2481	alcool
+T66	Drug_chemicals 952 960	l'alcool
+T67	Conduite 2811 2861	le surveiller jusqu'à que les secours ils arrivent
+A118	Temporality T67 Overlap(default)
+A119	Experience T67 Family
+T68	Conduite 3067 3093	vous avez juste à rassurer
+A120	Temporality T68 Overlap(default)
+A121	Experience T68 Family
+T69	Conduite 3152 3198	vous restez auprès de lui que vous le rassurez
+A122	Temporality T69 Overlap(default)
+A123	Experience T69 Family
+T22	Sign_Symptom 435 441	debout
+A25	Experience T22 Patient
+A26	Temporality T22 Before
+A27	Hypothesis T22
+T23	Sign_Symptom 489 495	debout
+A28	Temporality T23 Before
+A29	Experience T23 Patient
+T18	Sign_Symptom 343 352	est tombé
+A19	Temporality T18 Before_overlap
+A20	Experience T18 Patient
+T19	Sign_Symptom 375 384	est tombé
+A21	Temporality T19 Before_overlap
+A22	Experience T19 Patient
+R1	Temp_mark Arg1:T42 Arg2:T37	
+R2	Temp_mark Arg1:T42 Arg2:T38	
+T31	Sign_Symptom 1994 1999	a mal
+A124	Temporality T31 Before_overlap
+A125	Experience T31 Patient
+R3	Temp_mark Arg1:T62 Arg2:T61	

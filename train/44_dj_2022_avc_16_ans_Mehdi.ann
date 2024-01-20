@@ -1,0 +1,66 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 39 46	médecin
+T3	Person 74 98	votre fille de seize ans
+A2	Experience T3 Patient
+T4	Sign_Symptom 113 132	un problème au bras
+A3	Experience T4 Patient
+T5	Sign_Symptom 184 210	elle est paralysée du bras
+A4	Hypothesis T5
+T6	Sign_Symptom 276 299	elle bouge pas son bras
+A5	Experience T6 Patient
+T7	Sign_Symptom 309 332	depuis combien de temps
+A6	Hypothesis T7
+T8	Sign_Symptom 343 364	une petite demi heure
+A7	Experience T8 Patient
+T9	Temporal_Marker 354 364	demi heure
+T10	Sign_Symptom 378 419	est ce qu'elle a elle décrit des douleurs
+A8	Hypothesis T10
+T11	Sign_Symptom 493 515	elle a pas mal au bras
+A9	Hypothesis T11
+A10	Negation T11 Négation
+T12	Sign_Symptom 525 547	elle a pas mal au bras
+A11	Negation T12 Négation
+T13	Sign_Symptom 557 589	est ce qu'elle a mal dans le cou
+A12	Hypothesis T13
+T14	Sign_Symptom 654 684	elle heu a pas mal dans le cou
+A13	Negation T14 Négation
+T15	Sign_Symptom 706 725	elle a mal nul part
+A14	Hypothesis T15
+T16	Sign_Symptom 736 797	elle pas mal non. mais elle bouge heu pas son bras par contre
+A15	Experience T16 Patient
+T17	Sign_Symptom 841 890	elle bah elle me dit rien là elle heu elle pleure
+A16	Experience T17 Patient
+T18	Geographic_Marker 1195 1202	l'école
+T19	Temporal_Marker 1170 1181	aujourd'hui
+T20	Geographic_Marker 1057 1062	lycée
+T21	Geographic_Marker 1271 1278	travail
+T22	Sign_Symptom 1463 1496	est ce qu'elle marche normalement
+A17	Hypothesis T22
+T23	Sign_Symptom 1507 1543	elle marche enfin là elle est assise
+A18	Experience T23 Patient
+T24	Sign_Symptom 1563 1629	si vous lui demandez de marcher, est ce qu'elle marche normalement
+A19	Hypothesis T24
+T25	Sign_Symptom 1687 1712	elle veut pas marcher non
+A20	Experience T25 Patient
+T26	Conduite 1746 1769	demandez lui de marcher
+A21	Experience T26 Healthcare_professional
+T27	Sign_Symptom 1973 2017	est ce que votre fille prend des médicaments
+A22	Hypothesis T27
+T28	Sign_Symptom 2078 2107	elle prend pas de médicaments
+A23	Experience T28 Patient
+T29	Sign_Symptom 2137 2188	quand elle essaye de bouger le bras ça lui fait mal
+A24	Hypothesis T29
+T30	Sign_Symptom 2221 2239	non elle a pas mal
+A25	Experience T30 Patient
+T31	Temporal_Marker 2351 2362	quatre fois
+T32	Person 2440 2447	médecin
+T33	Conduite 2683 2739	on va faire passer un médecin à domicile pour l'examiner
+A26	Experience T33 Healthcare_professional
+T34	Geographic_Marker 2793 2802	l'hôpital
+T35	Person 3067 3072	fille
+T36	Sign_Symptom 3221 3241	la paralysie du bras
+A27	Hypothesis T36
+T37	Temporal_Marker 3642 3660	six et huit heures
+T38	Person 4420 4434	une infirmière
+A28	Experience T38 Healthcare_professional

@@ -1,0 +1,32 @@
+T1	Person 33 45	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 90 101	votre frère
+A2	Experience T2 Patient
+T3	Disease 127 132	brûlé
+A3	Experience T3 Patient
+T4	Person 273 282	mon frère
+A4	Experience T4 Patient
+T5	Disease 300 326	tout le bras qui est brûlé
+A5	Experience T5 Patient
+T6	Person 623 625	il
+A6	Experience T6 Patient
+T7	Person 638 640	il
+A7	Experience T7 Patient
+T8	Person 872 883	votre frère
+A8	Experience T8 Patient
+T9	Conduite 915 938	alliez aux aux urgences
+A9	Experience T9 Healthcare_professional
+T10	Geographic_Marker 940 968	es plus proches de chez vous
+A10	Experience T10 Healthcare_professional
+T11	Disease 1368 1382	drépanocytaire
+A11	Experience T11 Patient
+T12	Sign_Symptom 1536 1560	il reste très douloureux
+A12	Experience T12 Patient
+T13	Conduite 1692 1732	il faut que vous alliez aux aux urgences
+A13	Experience T13 Healthcare_professional
+T14	Disease 2026 2040	drépanocytaire
+A14	Experience T14 Patient
+T15	Conduite 2067 2098	on va appeler nous les urgences
+A15	Experience T15 Healthcare_professional
+T16	Geographic_Marker 2376 2398	urgences de d'AVICENNE
+A16	Experience T16 Healthcare_professional

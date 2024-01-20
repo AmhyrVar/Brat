@@ -1,0 +1,82 @@
+T1	Person 44 59	docteur DAMANI.
+A1	Experience T1 Healthcare_professional
+T2	Person 89 95	voisin
+A2	Experience T2 Patient
+T3	Sign_Symptom 112 118	fièvre
+T4	Conduite 167 184	demandé d'appeler
+T5	Geographic_Marker 204 225	il est à côté de vous
+T6	Geographic_Marker 390 401	appartement
+T7	Person 433 450	voisin de pallier
+A3	Experience T7 Patient
+T8	Sign_Symptom 587 593	fièvre
+T9	Sign_Symptom 622 632	'il tousse
+A4	Temporality T9 Overlap(default)
+A5	Experience T9 Patient
+A6	Temporality T8 Overlap(default)
+A7	Experience T8 Patient
+T10	Sign_Symptom 683 689	fièvre
+A8	Experience T10 Other
+T11	Sign_Symptom 730 736	tousse
+A9	Experience T11 Other
+T12	Conduite 1457 1476	parler au téléphone
+T13	Sign_Symptom 2167 2173	fièvre
+T14	Sign_Symptom 2720 2728	fatiguée
+A10	Experience T13 Patient
+A11	Experience T14 Other
+T15	Disease 2289 2294	COVID
+A12	Experience T15 Patient
+T16	Sign_Symptom 2320 2326	tousse
+A13	Experience T16 Patient
+T17	Sign_Symptom 2339 2345	fièvre
+A14	Experience T17 Patient
+T18	Disease 2380 2385	COVID
+A15	Experience T18 Other
+T19	Sign_Symptom 2413 2421	toussais
+A16	Experience T19 Other
+T20	Sign_Symptom 2441 2450	symptômes
+A17	Experience T20 Other
+T21	Sign_Symptom 2535 2549	mal à respirer
+A18	Experience T21 Other
+T22	Disease 2817 2827	COVID long
+T23	Sign_Symptom 2849 2857	fatiguée
+A19	Experience T23 Other
+T24	Disease 3056 3061	COVID
+T25	Disease 3035 3040	COVID
+T26	Disease 3069 3074	COVID
+T27	Person 2946 2952	voisin
+A20	Experience T27 Patient
+T28	Sign_Symptom 3088 3097	symptômes
+T29	Conduite 3803 3830	qu'il aille voir un médecin
+T30	Conduite 3885 3906	il peut nous rappeler
+T31	Conduite 3563 3577	vu mon médecin
+A21	Experience T31 Other
+T32	Conduite 4106 4119	vous rappelez
+T33	Conduite 4136 4157	aller voir un médecin
+T34	Sign_Symptom 4278 4285	fatigue
+A22	Experience T34 Other
+T35	Sign_Symptom 4294 4302	douleurs
+A23	Experience T35 Other
+T36	Conduite 4407 4428	déjà vu votre médecin
+T37	Conduite 4438 4460	rapprochez vous de lui
+T38	Conduite 3694 3721	qu'il aille voir un médecin
+A24	Experience T38 Patient
+T39	Geographic_Marker 3731 3739	en ville
+T40	Conduite 3234 3261	qu'il aille voir un médecin
+T41	Conduite 3364 3391	qu'il aille voir un médecin
+T42	Conduite 3455 3482	qu'il aille voir un médecin
+T43	Person 4358 4364	voisin
+A25	Experience T43 Patient
+A26	Hypothesis T3 Vrai
+A27	Experience T3 Patient
+T44	Sign_Symptom 4008 4031	comportement inhabituel
+T45	Sign_Symptom 4042 4051	se plaint
+T46	Sign_Symptom 4065 4081	nouvelle plainte
+T47	Geographic_Marker 314 330	à votre domicile
+T48	Temporal_Marker 531 543	spontanément
+T49	Person 1884 1892	des gens
+A28	Experience T49 Other
+T50	Person 1722 1729	voisine
+A29	Experience T50 Other
+T51	Person 4203 4209	madame
+A30	Experience T51 Other
+T52	Sign_Symptom 1306 1321	fait des signes

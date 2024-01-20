@@ -1,0 +1,52 @@
+T1	Person 117 125	mon fils
+A1	Experience T1 Patient
+T2	Sign_Symptom 126 140	il s'est pendu
+A2	Temporality T2 Overlap(default)
+A3	Experience T2 Patient
+T3	Person 168 175	médecin
+A4	Experience T3 Healthcare_professional
+T4	Person 228 235	médecin
+A5	Experience T4 Healthcare_professional
+T5	Conduite 245 330	les les secours partent tout de suite là monsieur ils partent tout de suite d'accord?
+A6	Temporality T5 Overlap(default)
+A7	Experience T5 Healthcare_professional
+T6	Person 286 294	monsieur
+A8	Experience T6 Family
+T7	Conduite 355 415	vous êtes a- vous êtes arrivé à quelle heure là à la maison?
+A9	Temporality T7 Before
+A10	Experience T7 Family
+T8	Temporal_Marker 491 512	il y a quinze minutes
+A11	Experience T8 Family
+T9	Sign_Symptom 535 552	pendu au toboggan
+A12	Experience T9 Patient
+T10	Person 597 604	médecin
+A13	Experience T10 Healthcare_professional
+T11	Conduite 641 724	il y a le les médecins qui arrivent aussi hein également ils arrivent tout de suite
+A14	Experience T11 Healthcare_professional
+T12	Conduite 737 792	votre enfant il est il est où là il est dans le jardin?
+A15	Temporality T12 Overlap(default)
+A16	Hypothesis T12
+A17	Experience T12 Patient
+T13	Sign_Symptom 901 926	il était devenu tout bleu
+A18	Temporality T13 Before
+A19	Experience T13 Patient
+T14	Sign_Symptom 944 955	il respire?
+A20	Temporality T14 Overlap(default)
+A21	Hypothesis T14
+A22	Experience T14 Patient
+T15	Sign_Symptom 965 1003	oui il respire un un peu difficilement
+A23	Temporality T15 Overlap(default)
+A24	Experience T15 Patient
+T16	Sign_Symptom 1117 1151	est conscient là il est conscient?
+A25	Temporality T16 Overlap(default)
+A26	Experience T16 Patient
+T17	Sign_Symptom 1169 1216	il est conscient il respire il est conscient là
+A27	Temporality T17 Overlap(default)
+A28	Experience T17 Patient
+T18	Conduite 1226 1348	d'accord vous vous vous mettez à côté de lui vous l'allongez et heu et les médecins et les pompiers arrivent tout de suite
+A29	Temporality T18 Overlap(default)
+A30	Experience T18 Patient
+T19	Person 1418 1428	un médecin
+A31	Experience T19 Healthcare_professional
+T20	Person 1437 1449	les pompiers
+A32	Experience T20 Healthcare_professional

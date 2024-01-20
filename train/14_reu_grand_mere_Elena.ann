@@ -1,0 +1,68 @@
+T1	Person 39 70	médecin du SAMU COLIN GUILLAUME
+A1	Experience T1 Healthcare_professional
+T2	Person 121 132	votre mamie
+A2	Experience T2 Patient
+T3	Person 180 223	votre grand mère qui a quatre vingt six ans
+A3	Experience T3 Patient
+T4	Person 289 299	grand mère
+A4	Experience T4 Family
+T5	Disease 335 341	malade
+A5	Experience T5 Patient
+T6	Disease 369 375	malade
+A7	Experience T6 Patient
+T7	Temporal_Marker 376 399	depuis combien de temps
+T8	Temporal_Marker 422 447	quatre trois quatre jours
+A6	Experience T8 Patient
+T9	Temporal_Marker 470 488	trois quatre jours
+A8	Experience T9 Patient
+T10	Sign_Symptom 506 525	respire normalement
+A9	Hypothesis T10
+A10	Experience T10 Patient
+T11	Sign_Symptom 585 591	tousse
+A11	Experience T11 Patient
+T12	Sign_Symptom 601 609	fatiguée
+A12	Experience T12 Patient
+T13	Sign_Symptom 615 622	respire
+A13	Experience T13 Patient
+T14	Sign_Symptom 632 640	fatiguée
+A14	Experience T14 Patient
+T15	Conduite 659 756	passez moi votre grand mère madame monsieur s'il vous plait je veux entendre comment elle respire
+T16	Geographic_Marker 850 864	dans la maison
+A15	Experience T16 Patient
+T17	Conduite 878 952	mettez juste le téléphone à côté d'elle que j'entende juste sa respiration
+T18	Sign_Symptom 1295 1312	problème de santé
+A16	Hypothesis T18
+A17	Experience T18 Patient
+T19	Sign_Symptom 1350 1353	âge
+A18	Experience T19 Patient
+T20	Drug_chemicals 1394 1401	cachets
+A19	Experience T20 Patient
+T21	Drug_chemicals 1419 1440	prend des médicaments
+A20	Experience T21 Patient
+T22	Drug_chemicals 1562 1603	médicaments pour la tension pour le coeur
+A21	Hypothesis T22
+A22	Experience T22 Patient
+T23	Sign_Symptom 1639 1646	tension
+A23	Experience T23 Patient
+T24	Temporal_Marker 1913 1938	depuis trois quatre jours
+T25	Sign_Symptom 1949 1952	mal
+A24	Hypothesis T25
+A25	Experience T25 Patient
+T26	Conduite 2157 2174	il faut l'appeler
+T27	Conduite 2377 2534	vous appeliez son médecin traitant monsieur pour savoir si il peut passer si il peut pas passer de dans ce cas là vous nous rappelez et on trouvera quelqu'un
+T28	Conduite 3037 3059	demandez à votre mamie
+T29	Conduite 3267 3419	je vous transfère chez heu chez chez les collègues de je vous donne le numéro de SOS médecin de pour heu puissiez les appeler pour qu'ils puissent venir
+T30	Person 1694 1710	votre grand mère
+A26	Experience T30 Patient
+R1	Temp_mark Arg1:T24 Arg2:T25	
+T31	Person 3575 3586	votre mamie
+A27	Experience T31 Patient
+T32	Temporal_Marker 3774 3789	dans la journée
+T33	Person 3724 3740	votre grand mère
+A28	Experience T33 Patient
+T34	Temporal_Marker 3834 3845	neuf heures
+T35	Temporal_Marker 3802 3813	aujourd'hui
+T36	Person 3963 3976	ma grand mère
+A29	Experience T36 Patient
+T37	Person 4007 4023	votre grand mère
+A30	Experience T37 Patient

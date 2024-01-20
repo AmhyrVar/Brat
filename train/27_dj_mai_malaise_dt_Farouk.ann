@@ -1,0 +1,123 @@
+T1	Person 17 23	madame
+T2	Person 71 86	le docteur ABAS
+T3	Person 114 118	vous
+T4	Person 133 144	votre frère
+T5	Conduite 119 127	appeliez
+T6	Sign_Symptom 148 163	trente deux ans
+T7	Sign_Symptom 187 209	une douleur thoracique
+T8	Sign_Symptom 251 267	se sent pas bien
+T9	Temporal_Marker 268 270	là
+T10	Temporal_Marker 606 608	là
+T11	Person 322 324	il
+T12	Person 248 250	il
+T13	Sign_Symptom 325 341	se sent pas bien
+T14	Person 342 344	il
+T15	Sign_Symptom 350 360	un malaise
+T16	Temporal_Marker 345 349	fait
+T17	Sign_Symptom 387 396	conscient
+T18	Temporal_Marker 383 386	est
+T19	Sign_Symptom 423 442	respire normalement
+T20	Person 420 422	il
+T21	Sign_Symptom 555 559	pâle
+T22	Person 547 550	'il
+T23	Person 581 588	docteur
+T24	Person 589 591	il
+T25	Sign_Symptom 596 600	pâle
+T26	Person 609 618	mon frère
+T27	Temporal_Marker 592 595	est
+T28	Conduite 640 655	quelle position
+T29	Conduite 663 676	assis allongé
+T30	Temporal_Marker 659 662	est
+T31	Person 656 658	il
+T32	Person 628 630	il
+T33	Temporal_Marker 631 634	est
+T34	Person 687 689	il
+T35	Temporal_Marker 690 693	est
+T36	Conduite 694 699	assis
+T37	Geographic_Marker 704 720	là sur le canapé
+T38	Person 733 735	il
+T39	Sign_Symptom 736 759	se tient heu le le cœur
+T40	Conduite 769 790	position particulière
+T41	Person 824 826	il
+T42	Temporal_Marker 853 855	là
+T43	Sign_Symptom 827 852	a la main heu sur le côté
+T44	Person 994 1003	mon frère
+T45	Person 1004 1011	docteur
+T46	Person 972 974	il
+T47	Conduite 975 993	parle pas français
+T48	Sign_Symptom 1044 1079	des problèmes de santé particuliers
+T49	Temporal_Marker 1094 1096	là
+T50	Person 1097 1099	il
+T51	Sign_Symptom 1100 1105	a mal
+T52	Temporal_Marker 1125 1140	en temps normal
+T53	Person 1148 1153	qu'il
+T54	Disease 1173 1180	diabète
+T55	Disease 1200 1214	d'hypertension
+T56	Conduite 1252 1256	fume
+T57	Person 1249 1251	il
+T58	Person 1267 1269	il
+T59	Sign_Symptom 1270 1278	a pas ça
+T60	Person 1295 1297	il
+T61	Conduite 1298 1302	fume
+T62	Person 1344 1346	il
+T63	Person 1306 1309	lui
+T64	Person 1303 1305	je
+T65	Conduite 1347 1359	m'écoute pas
+T66	Sign_Symptom 1372 1379	douleur
+T67	Temporal_Marker 1428 1445	là tout à l'heure
+T68	Conduite 1449 1468	rentrait du travail
+T69	Person 1446 1448	il
+T70	Temporal_Marker 1550 1570	moins d'une heure là
+T71	Person 1574 1576	il
+T72	Sign_Symptom 1589 1601	est pas bien
+T73	Sign_Symptom 1605 1613	est pale
+T74	Sign_Symptom 1617 1632	fait un malaise
+T75	Person 1614 1616	il
+T76	Person 1602 1604	il
+T77	Person 1586 1588	il
+T78	Sign_Symptom 1683 1703	ce genre de douleurs
+T79	Person 1675 1680	qu'il
+T80	Sign_Symptom 1743 1750	douleur
+T81	Person 1751 1753	il
+T82	Conduite 1757 1771	décrit comment
+T83	Sign_Symptom 1783 1800	ça serre ça pique
+T84	Person 1818 1821	lui
+T85	Conduite 1822 1829	demande
+T86	Person 1815 1817	je
+T87	Person 1839 1841	il
+T88	Conduite 1842 1845	dit
+T89	Sign_Symptom 1846 1862	ça fait un point
+T90	Person 1894 1900	madame
+T91	Conduite 1916 1928	vous envoyer
+T92	Person 1936 1943	médecin
+T93	Geographic_Marker 1944 1953	sur place
+T94	Person 1967 1975	pompiers
+T95	Person 1987 2001	équipe du SAMU
+T96	Person 2010 2017	médecin
+T97	Temporal_Marker 2022 2024	va
+T98	Conduite 2025 2032	arriver
+T99	Person 2036 2048	les pompiers
+T100	Temporal_Marker 2053 2057	vont
+T101	Conduite 2058 2069	se déplacer
+T102	Person 2128 2135	docteur
+T103	Temporal_Marker 2145 2157	en attendant
+T104	Person 2158 2162	vous
+T105	Conduite 2163 2174	restez avec
+T106	Person 2175 2178	lui
+T107	Person 2185 2187	il
+T108	Sign_Symptom 2199 2227	tout changement de situation
+T109	Sign_Symptom 2237 2254	perd connaissance
+T110	Person 2234 2236	il
+T111	Person 2258 2263	qu'il
+T112	Person 2264 2267	lui
+T113	Sign_Symptom 2268 2301	arrive quoique ce soit de nouveau
+T114	Person 2302 2306	vous
+T115	Conduite 2312 2320	rappelez
+T116	Temporal_Marker 2344 2346	là
+T117	Person 2347 2349	je
+T118	Conduite 2350 2360	reste avec
+T119	Person 2361 2364	lui
+T120	Person 2375 2379	vous
+T121	Person 2392 2395	lui
+T122	Conduite 2380 2391	restez avec
+T123	Person 2433 2440	docteur

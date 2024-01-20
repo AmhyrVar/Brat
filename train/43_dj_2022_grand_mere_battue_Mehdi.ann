@@ -1,0 +1,51 @@
+T1	Person 55 61	madame
+T2	Person 73 89	docteur LAKHLIFI
+A1	Experience T2 Healthcare_professional
+T3	Person 151 161	votre père
+T4	Person 113 123	votre mère
+T5	Sign_Symptom 376 410	est ce qu'elle est bien consciente
+A2	Hypothesis T5
+T6	Sign_Symptom 434 449	elle vous parle
+A3	Hypothesis T6
+T7	Sign_Symptom 473 490	elle a des plaies
+A4	Hypothesis T7
+T8	Sign_Symptom 505 516	y a du sang
+A5	Experience T8 Patient
+T9	Person 527 540	à quel niveau
+A6	Hypothesis T9
+T10	Sign_Symptom 580 615	est ce que vous pouvez me la passer
+A7	Hypothesis T10
+T11	Conduite 626 655	passez la moi s'il vous plait
+A8	Experience T11 Healthcare_professional
+T12	Sign_Symptom 802 830	elle est en train de pleurer
+A9	Experience T12 Patient
+T13	Sign_Symptom 1378 1400	actuellement il est où
+A10	Hypothesis T13
+T14	Sign_Symptom 1761 1807	ils l'ont diagnostiqué heu la semaine dernière
+A11	Experience T14 Patient
+T15	Temporal_Marker 1791 1807	semaine dernière
+T16	Sign_Symptom 1839 1872	ils ont dit qu'il a perdu sa tête
+A12	Experience T16 Patient
+T17	Sign_Symptom 1967 1979	il est calme
+A13	Hypothesis T17
+T18	Conduite 2065 2122	il faudrait absolument qu'elle qu'elle aille aux urgences
+A14	Experience T18 Healthcare_professional
+T19	Sign_Symptom 2485 2503	troubles cognitifs
+A15	Experience T19 Patient
+T20	Sign_Symptom 2586 2664	il a des des phases comme ça où il est violent envers vous et ou ou votre mère
+A16	Hypothesis T20
+T21	Sign_Symptom 3151 3179	elles sont plutôt fréquentes
+A17	Hypothesis T21
+T22	Sign_Symptom 3464 3538	est ce qu'il est il est dans la capacité de de rester seul heu au domicile
+A18	Hypothesis T22
+T23	Sign_Symptom 3640 3674	il est plutôt autonome à la maison
+A19	Hypothesis T23
+T24	Sign_Symptom 5093 5125	vous allez l'amener aux urgences
+A20	Hypothesis T24
+T25	Sign_Symptom 5371 5419	est ce que votre médecin traitant est disponible
+A21	Hypothesis T25
+T26	Person 5735 5746	vos parents
+T27	Geographic_Marker 5839 5848	l'hôpital
+T28	Geographic_Marker 6073 6081	domicile
+T29	Conduite 6173 6204	emmenez votre mère aux urgences
+A22	Experience T29 Healthcare_professional

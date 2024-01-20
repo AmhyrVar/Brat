@@ -1,0 +1,43 @@
+T1	Person 59 72	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Person 110 115	femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 139 146	blessée
+A3	Temporality T3 Overlap(default)
+A4	Hypothesis T3
+T4	Conduite 217 229	racontez moi
+T5	Sign_Symptom 248 269	tombée sur un couteau
+A5	Temporality T5 Before
+T6	Sign_Symptom 297 302	plaie
+A6	Hypothesis T6
+T7	Sign_Symptom 390 395	plaie
+A7	Temporality T6 Overlap(default)
+A8	Temporality T7 Overlap(default)
+T8	Sign_Symptom 529 535	pleure
+A9	Temporality T8 Overlap(default)
+T9	Sign_Symptom 551 566	peut pas parler
+A10	Temporality T9 Overlap(default)
+A11	Negation T9 Négation
+T10	Sign_Symptom 608 623	peut pas parler
+A12	Temporality T10 Overlap(default)
+A13	Negation T10 Négation
+T11	Sign_Symptom 808 814	pleure
+A14	Temporality T11 Overlap(default)
+T12	Sign_Symptom 939 944	plaie
+A15	Temporality T12 Overlap(default)
+A16	Hypothesis T12
+T13	Sign_Symptom 1231 1237	saigne
+A17	Temporality T13 Overlap(default)
+A18	Hypothesis T13
+T14	Sign_Symptom 1250 1256	saigne
+A19	Temporality T14 Overlap(default)
+A20	Hypothesis T14
+T15	Sign_Symptom 1302 1308	saigne
+A21	Temporality T15 Overlap(default)
+T16	Sign_Symptom 1346 1351	plaie
+A22	Temporality T16 Overlap(default)
+T17	Conduite 1698 1718	envoyer les pompiers
+T18	Conduite 1768 1789	faire une compression
+T19	Conduite 1955 1968	gardez appuyé
+T20	Person 2022 2029	docteur
+A23	Experience T20 Healthcare_professional

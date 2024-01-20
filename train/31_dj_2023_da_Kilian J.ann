@@ -1,0 +1,121 @@
+T1	Person 55 71	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 105 118	mal au ventre
+A2	Hypothesis T2 Vrai
+A3	Experience T2 Patient
+T3	Sign_Symptom 153 171	avez mal au ventre
+A4	Experience T3 Patient
+T4	Temporal_Marker 217 225	ce matin
+R1	Temp_mark Arg1:T4 Arg2:T3	
+T5	Temporal_Marker 242 250	ce matin
+R2	Temp_mark Arg1:T5 Arg2:T3	
+T6	Sign_Symptom 276 288	vomissements
+A5	Hypothesis T6 Vrai
+A6	Experience T6 Patient
+T8	Sign_Symptom 312 331	pas de vomissements
+A7	Negation T8 Négation
+A8	Experience T8 Patient
+T7	Sign_Symptom 357 367	diarrhées?
+A9	Hypothesis T7 Vrai
+A10	Experience T7 Patient
+T9	Person 390 405	pas de diarrhée
+A11	Negation T9 Négation
+A12	Experience T9 Patient
+T10	Disease 480 487	diabète
+A13	Experience T10 Patient
+T11	Disease 497 504	diabète
+A14	Experience T11 Patient
+T12	Drug_chemicals 521 531	l'insuline
+A15	Experience T12 Patient
+A16	Hypothesis T12 Vrai
+A17	Temporality T5 Before_overlap
+A18	Temporality T4 Before_overlap
+A19	Experience T4 Patient
+A20	Experience T5 Patient
+T13	Drug_chemicals 678 688	l'insuline
+A21	Experience T13 Patient
+T14	Sign_Symptom 735 738	mal
+A22	Experience T14 Patient
+T15	Temporal_Marker 751 759	ce matin
+A23	Temporality T15 Before_overlap
+R3	Temp_mark Arg1:T15 Arg2:T14	
+T16	Sign_Symptom 770 778	pas vomi
+A24	Negation T16 Négation
+A25	Experience T16 Patient
+T17	Sign_Symptom 789 804	pas de diarrhée
+A26	Negation T17 Négation
+A27	Experience T17 Patient
+T18	Sign_Symptom 818 856	mal en bas du ventre en haut du ventre
+A28	Hypothesis T18 Vrai
+A29	Experience T18 Patient
+T19	Sign_Symptom 878 885	en haut
+A30	Experience T19 Patient
+T20	Sign_Symptom 912 921	l'estomac
+A31	Hypothesis T20 Vrai
+A32	Experience T20 Patient
+T21	Sign_Symptom 957 962	brûle
+A33	Hypothesis T21 Vrai
+A34	Experience T21 Patient
+T22	Sign_Symptom 1002 1009	douleur
+A35	Experience T22 Patient
+T23	Sign_Symptom 1028 1077	tendance à remonter ou elle reste au même endroit
+A36	Hypothesis T23 Vrai
+A37	Experience T23 Patient
+T24	Sign_Symptom 1169 1200	mal ailleurs que dans le ventre
+A38	Hypothesis T24 Vrai
+A39	Experience T24 Patient
+T25	Sign_Symptom 1222 1238	un peu en au dos
+A40	Experience T25 Patient
+T26	Sign_Symptom 1239 1259	au bras un peu aussi
+A41	Experience T26 Patient
+T27	Sign_Symptom 1272 1300	bras gauche ou au bras droit
+A42	Hypothesis T27 Vrai
+A43	Experience T27 Patient
+T28	Sign_Symptom 1319 1330	bras gauche
+A44	Experience T28 Patient
+T29	Sign_Symptom 1350 1368	mal au bras gauche
+A45	Experience T29 Patient
+T30	Sign_Symptom 1391 1411	mal dans la mâchoire
+A46	Hypothesis T30 Vrai
+A47	Experience T30 Patient
+T31	Sign_Symptom 1446 1467	un peu mal à la gorge
+A48	Experience T31 Patient
+T32	Sign_Symptom 1493 1507	mal à la gorge
+A49	Experience T32 Patient
+T33	Sign_Symptom 1519 1533	mal à la gorge
+A50	Experience T33 Patient
+T34	Temporal_Marker 1568 1576	ce matin
+A51	Temporality T34 Before_overlap
+A52	Experience T34 Patient
+R4	Temp_mark Arg1:T34 Arg2:T33	
+T35	Drug_chemicals 1674 1693	do- doli- DOLIPRANE
+A53	Experience T35 Patient
+T36	Drug_chemicals 1707 1716	DOLIPRANE
+A54	Experience T36 Patient
+T37	Sign_Symptom 1787 1801	envie de vomir
+A55	Hypothesis T37 Vrai
+A56	Experience T37 Patient
+T38	Sign_Symptom 1990 2053	avez mal en haut du ventre au niveau de l'estomac ça vous brûle
+A57	Experience T38 Patient
+T39	Sign_Symptom 2070 2087	mal dans la gorge
+A58	Experience T39 Patient
+T40	Temporal_Marker 2101 2109	ce matin
+A59	Experience T40 Patient
+R5	Temp_mark Arg1:T40 Arg2:T39	
+T41	Sign_Symptom 2129 2143	envie de vomir
+A60	Experience T41 Patient
+T42	Conduite 2309 2347	faire passer un médecin heu à domicile
+T43	Person 2348 2354	madame
+A61	Experience T43 Patient
+T45	Sign_Symptom 2404 2428	douleur si les symptômes
+A63	Hypothesis T45 Vrai
+A64	Experience T45 Patient
+T46	Conduite 2453 2472	vous rappelez le 15
+A65	Experience T46 Patient
+T47	Person 2497 2504	médecin
+A66	Experience T47 Healthcare_professional
+T48	Person 2562 2568	madame
+A67	Experience T48 Patient
+T49	Person 2584 2591	docteur
+A68	Experience T49 Healthcare_professional
+A69	Temporality T40 Before_overlap

@@ -1,0 +1,60 @@
+T1	Person 54 62	monsieur
+T2	Sign_Symptom 74 89	docteur DETOURY
+A1	Experience T2 Healthcare_professional
+T3	Sign_Symptom 148 158	un malaise
+A2	Experience T3 Patient
+T4	Sign_Symptom 220 248	il a récupéré de son malaise
+A3	Hypothesis T4
+T5	Sign_Symptom 296 332	il vous répond quand vous lui parlez
+A4	Hypothesis T5
+T6	Sign_Symptom 343 356	oui il répond
+A5	Experience T6 Patient
+T7	Sign_Symptom 378 400	il respire normalement
+A6	Hypothesis T7
+T8	Sign_Symptom 411 433	il respire normalement
+A7	Experience T8 Patient
+T9	Sign_Symptom 473 527	est ce que là il vous pouvez me le passer au téléphone
+A8	Hypothesis T9
+T10	Sign_Symptom 542 566	il se sent pas très bien
+A9	Experience T10 Patient
+T11	Sign_Symptom 671 736	il vous a prévenu de quelque chose il a senti que ça n'allait pas
+A10	Hypothesis T11
+T12	Sign_Symptom 1027 1112	est ce qu'il a perdu connaissance est ce que à un moment il était comme si il dormait
+A11	Hypothesis T12
+T13	Sign_Symptom 1127 1158	non il a pas perdu connaissance
+A12	Negation T13 Négation
+A13	Experience T13 Patient
+T14	Sign_Symptom 1177 1193	il est pas tombé
+A14	Hypothesis T14
+T15	Sign_Symptom 1208 1228	non il est pas tombé
+A15	Experience T15 Patient
+T16	Conduite 1272 1298	passez le moi au téléphone
+A16	Experience T16 Healthcare_professional
+T17	Person 1416 1423	médecin
+A17	Experience T17 Healthcare_professional
+T18	Sign_Symptom 1458 1525	est ce que heu ça vous est déjà arrivé de faire un malaise comme ça
+A18	Hypothesis T18
+T19	Temporal_Marker 1710 1723	première fois
+T20	Sign_Symptom 1749 1786	vous avez eu une douleur quelque part
+A19	Hypothesis T20
+T21	Sign_Symptom 1814 1828	pas de douleur
+A20	Hypothesis T21
+T22	Sign_Symptom 1881 1938	est ce que vous avez des problèmes de santé? des maladies
+A21	Hypothesis T22
+T23	Sign_Symptom 1956 1975	non pas maladie non
+A22	Experience T23 Patient
+T24	Sign_Symptom 2042 2049	fatigué
+A23	Experience T24 Patient
+T25	Geographic_Marker 2193 2205	aux urgences
+T26	Person 2472 2488	médecin traitant
+A24	Experience T26 Healthcare_professional
+T27	Geographic_Marker 2541 2556	lieu de travail
+T28	Geographic_Marker 2635 2650	entreprise STEF
+T29	Person 2715 2734	médecin généraliste
+A25	Experience T29 Healthcare_professional
+T30	Person 2841 2849	collègue
+T31	Geographic_Marker 2992 3007	maison médicale
+T32	Geographic_Marker 3341 3379	BONDY à côté de l'hôpital JEAN VERDIER
+T33	Geographic_Marker 3461 3466	ville
+T34	Geographic_Marker 3488 3496	à AULNEY
+T35	Person 3847 3854	patient

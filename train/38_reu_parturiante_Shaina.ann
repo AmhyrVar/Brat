@@ -1,0 +1,191 @@
+T1	Person 21 38	madame ALAN PIROT
+A1	Experience T1 Patient
+T2	Person 50 57	médecin
+A2	Experience T2 Healthcare_professional
+T3	Sign_Symptom 99 107	enceinte
+A3	Temporality T3 Overlap(default)
+T4	Sign_Symptom 122 133	contraction
+A4	Temporality T4 Overlap(default)
+T5	Sign_Symptom 145 153	enceinte
+A5	Temporality T5 Overlap(default)
+T6	Sign_Symptom 214 223	accoucher
+A6	Temporality T6 Overlap(default)
+T7	Sign_Symptom 297 306	accoucher
+A7	Temporality T7 Overlap(default)
+T8	Sign_Symptom 398 407	accoucher
+A8	Temporality T8 Overlap(default)
+A9	Hypothesis T8
+T9	Sign_Symptom 431 443	contractions
+A10	Temporality T9 Overlap(default)
+A11	Hypothesis T9
+T10	Sign_Symptom 467 479	contractions
+A12	Temporality T10 Overlap(default)
+T11	Sign_Symptom 493 505	contractions
+A13	Temporality T11 Overlap(default)
+T12	Temporal_Marker 597 619	toutes les dix minutes
+A14	Temporality T12 Before_overlap
+R1	Temp_mark Arg1:T12 Arg2:T11	
+T13	Temporal_Marker 629 651	toutes les dix minutes
+A15	Temporality T13 Before_overlap
+R2	Temp_mark Arg1:T13 Arg2:T11	
+T14	Sign_Symptom 674 683	'accouche
+A16	Temporality T14 Overlap(default)
+T15	Sign_Symptom 661 669	fait mal
+A17	Temporality T15 Overlap(default)
+T16	Sign_Symptom 696 704	fait mal
+A18	Temporality T16 Overlap(default)
+T17	Person 756 760	fils
+A19	Experience T17 Family
+T18	Person 836 840	fils
+A20	Experience T18 Family
+T19	Person 861 867	garçon
+A21	Experience T19 Family
+T20	Sign_Symptom 915 927	contractions
+A22	Temporality T20 Overlap(default)
+T21	Temporal_Marker 928 950	toutes les dix minutes
+A23	Temporality T21 Before_overlap
+T22	Sign_Symptom 961 977	envie de pousser
+A24	Temporality T22 Overlap(default)
+A25	Hypothesis T22
+T23	Sign_Symptom 1135 1144	accoucher
+A26	Temporality T23 Overlap(default)
+T24	Sign_Symptom 1285 1297	contractions
+A27	Temporality T24 Overlap(default)
+T25	Sign_Symptom 1311 1323	contractions
+A28	Temporality T25 Overlap(default)
+T26	Temporal_Marker 1324 1346	toutes les dix minutes
+A29	Temporality T26 Before_overlap
+T27	Sign_Symptom 1354 1366	contractions
+A30	Temporality T27 Overlap(default)
+T28	Person 1397 1403	madame
+A31	Experience T28 Patient
+T29	Temporal_Marker 1439 1456	quelques secondes
+A32	Temporality T29 Before_overlap
+T30	Temporal_Marker 1466 1506	quelques secondes toutes les dix minutes
+A33	Temporality T30 Before_overlap
+R3	Temp_mark Arg1:T26 Arg2:T25	
+R4	Temp_mark Arg1:T29 Arg2:T27	
+R5	Temp_mark Arg1:T30 Arg2:T27	
+T31	Sign_Symptom 1570 1586	envie de pousser
+A34	Temporality T31 Overlap(default)
+A35	Hypothesis T31
+T32	Sign_Symptom 1540 1559	envie de faire caca
+A36	Temporality T32 Overlap(default)
+A37	Hypothesis T32
+T33	Sign_Symptom 1665 1674	accoucher
+A38	Temporality T33 After
+T34	Sign_Symptom 1707 1716	accoucher
+A39	Temporality T34 After
+T35	Sign_Symptom 1752 1778	perdu le la poche des eaux
+A40	Temporality T35 Overlap(default)
+A41	Hypothesis T35
+T36	Sign_Symptom 1802 1829	pas rompu la poche des eaux
+A42	Temporality T36 Overlap(default)
+A43	Negation T36 Négation
+T37	Sign_Symptom 1849 1876	pas rompu la poche des eaux
+A44	Temporality T37 Overlap(default)
+A45	Negation T37 Négation
+T38	Person 1919 1925	garçon
+A46	Experience T38 Family
+T39	Person 2003 2009	garçon
+A47	Experience T39 Family
+T40	Person 2081 2093	les pompiers
+A48	Experience T40 Healthcare_professional
+T41	Person 2029 2038	ambulance
+A49	Experience T41 Healthcare_professional
+T42	Temporal_Marker 2140 2153	vingt minutes
+A50	Temporality T42 Before_overlap
+T43	Sign_Symptom 2240 2249	accoucher
+A51	Temporality T43 Overlap(default)
+T44	Person 2259 2263	fils
+A52	Experience T44 Family
+T45	Person 2278 2282	fils
+A53	Experience T45 Family
+T46	Sign_Symptom 2292 2301	accoucher
+A54	Temporality T46 Overlap(default)
+T47	Person 2436 2440	fils
+A55	Experience T47 Family
+T48	Sign_Symptom 2453 2462	accoucher
+A56	Temporality T48 Overlap(default)
+T49	Person 2494 2503	ambulance
+A57	Experience T49 Healthcare_professional
+T50	Person 2532 2540	pompiers
+A58	Experience T50 Healthcare_professional
+T51	Person 2595 2601	madame
+A59	Experience T51 Patient
+T52	Conduite 2559 2573	'appeler le 15
+T53	Conduite 2111 2124	vous rappeler
+T54	Person 2961 2965	fils
+A60	Experience T54 Family
+T55	Person 2993 2997	mari
+A61	Experience T55 Family
+T56	Person 3001 3005	papa
+A62	Experience T56 Family
+T57	Person 3038 3042	fils
+A63	Experience T57 Family
+T58	Person 3069 3073	fils
+A64	Experience T58 Family
+T59	Person 3130 3134	fils
+A65	Experience T59 Family
+T60	Geographic_Marker 3172 3183	à l'hôpital
+T61	Person 3239 3243	fils
+A66	Experience T61 Family
+T62	Person 3380 3387	voisins
+A67	Experience T62 Other
+T63	Person 3424 3431	voisins
+A68	Experience T63 Other
+T64	Person 3455 3462	voisins
+A69	Experience T64 Other
+T65	Conduite 3477 3534	allez frapper chez eux et voir si ils peuvent vous amener
+T66	Sign_Symptom 3576 3588	contractions
+A70	Temporality T66 Overlap(default)
+T67	Sign_Symptom 3622 3637	peux pas marche
+A71	Temporality T67 Overlap(default)
+T68	Sign_Symptom 3653 3674	arrivez pas à marcher
+A72	Temporality T68 Overlap(default)
+T69	Sign_Symptom 3753 3761	allongée
+A73	Temporality T69 Overlap(default)
+A74	Hypothesis T69
+T70	Sign_Symptom 3762 3768	assise
+A75	Temporality T70 Overlap(default)
+A76	Hypothesis T70
+T71	Sign_Symptom 3769 3775	debout
+A77	Temporality T71 Overlap(default)
+A78	Hypothesis T71
+T72	Sign_Symptom 3813 3819	assise
+A79	Temporality T72 Overlap(default)
+T73	Sign_Symptom 3839 3845	assise
+A80	Temporality T73 Overlap(default)
+T74	Sign_Symptom 3871 3877	assise
+A81	Temporality T74 Overlap(default)
+T75	Sign_Symptom 3892 3904	contractions
+A82	Temporality T75 Overlap(default)
+T76	Temporal_Marker 3905 3927	toutes les dix minutes
+A83	Temporality T76 Before_overlap
+R6	Temp_mark Arg1:T76 Arg2:T75	
+T77	Conduite 3954 3972	alliez à l'hôpital
+T78	Person 4074 4078	mari
+A84	Experience T78 Family
+T79	Person 4112 4119	voisins
+A85	Experience T79 Other
+T80	Conduite 4141 4163	allez frapper chez eux
+T81	Conduite 4200 4222	aller chez vos voisins
+T82	Conduite 4237 4259	aller chez vos voisins
+T83	Conduite 4265 4329	allez frapper et demander si ils peuvent vous amener à l'hôpital
+T84	Conduite 4465 4483	alliez à l'hôpital
+T85	Person 4537 4544	voisins
+A86	Experience T85 Other
+T86	Person 4595 4602	voisins
+A87	Experience T86 Other
+T87	Person 4785 4792	voisins
+A88	Experience T87 Other
+T88	Geographic_Marker 4825 4836	à l'hôpital
+T89	Person 4913 4920	voisins
+A89	Experience T89 Other
+T90	Geographic_Marker 4942 4953	à l'hôpital
+T91	Person 5002 5009	voisins
+A90	Experience T91 Other
+T92	Person 5030 5037	voisins
+A91	Experience T92 Other
+T93	Geographic_Marker 5059 5070	à l'hôpital
+T94	Conduite 5204 5221	restez au télépho

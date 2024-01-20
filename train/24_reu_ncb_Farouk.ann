@@ -1,0 +1,62 @@
+T1	Person 26 38	DIANE DOUPLE
+T2	Person 47 54	médecin
+T3	Disease 118 123	d'AVC
+T4	Disease 151 156	d'AVC
+T5	Conduite 294 303	expliquez
+T6	Sign_Symptom 364 390	mon bras il il est bizarre
+T7	Sign_Symptom 441 452	bras gauche
+T8	Conduite 505 520	fait une sieste
+T9	Temporal_Marker 538 543	après
+T10	Temporal_Marker 636 656	treize heures trente
+T11	Temporal_Marker 666 686	treize heures trente
+T12	Sign_Symptom 701 719	problèmes de santé
+T13	Sign_Symptom 747 765	problèmes de santé
+T14	Disease 831 838	diabète
+T15	Disease 854 861	tension
+T16	Drug_chemicals 881 892	médicaments
+T17	Conduite 897 908	vous prenez
+T18	Conduite 986 1022	faut que vous récupériez l'ordonnanc
+T19	Geographic_Marker 1028 1037	chez vous
+T20	Conduite 1045 1073	vous me donniez les les noms
+T21	Drug_chemicals 1078 1089	médicaments
+T22	Sign_Symptom 1291 1316	bras gauche il bouge plus
+T23	Temporal_Marker 1317 1319	là
+T24	Sign_Symptom 1347 1365	la main bouge plus
+T25	Conduite 1397 1459	prenez la la main droite et que vous touchez le la main gauche
+T26	Drug_chemicals 1529 1540	paracétamol
+T27	Geographic_Marker 1580 1586	maison
+T28	Conduite 1664 1673	allongiez
+T29	Conduite 1689 1708	envoyer les secours
+T30	Geographic_Marker 1728 1737	chez vous
+T31	Person 1659 1663	vous
+T32	Person 1555 1559	vous
+T33	Sign_Symptom 1506 1515	sens bien
+T34	Person 1812 1821	quelqu'un
+T35	Geographic_Marker 1841 1850	l'hôpital
+T36	Conduite 1831 1838	j'aille
+T37	Person 1878 1887	quelqu'un
+T38	Person 1903 1905	me
+T39	Conduite 1907 1922	aire une piqûre
+T40	Sign_Symptom 1931 1938	douleur
+T41	Geographic_Marker 1979 1988	l'hôpital
+T42	Person 1965 1969	vous
+T43	Conduite 1970 1976	alliez
+T44	Geographic_Marker 2063 2072	l'hôpital
+T45	Person 2082 2084	je
+T46	Person 2109 2118	quelqu'un
+T47	Conduite 2119 2125	vienne
+T48	Sign_Symptom 2156 2175	douleur de mon bras
+T49	Geographic_Marker 2206 2215	l'hôpital
+T50	Person 2256 2263	médecin
+T51	Person 2268 2272	vous
+T52	Conduite 2273 2279	évalue
+T53	Conduite 2302 2315	vous déplacer
+T54	Temporal_Marker 2321 2331	l'immédiat
+T55	Geographic_Marker 2381 2390	chez vous
+T56	Conduite 2421 2435	vous allongiez
+T57	Person 2416 2420	vous
+T58	Conduite 2448 2484	gardiez votre téléphone près de vous
+T59	Person 2490 2496	qu'ils
+T60	Person 2506 2510	vous
+T61	Conduite 2511 2518	joindre
+T62	Person 2568 2574	madame

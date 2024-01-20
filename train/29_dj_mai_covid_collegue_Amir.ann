@@ -1,0 +1,74 @@
+T1	Person 73 85	docteur ABAZ
+A1	Experience T1 Healthcare_professional
+T2	Geographic_Marker 92 96	SAMU
+T3	Person 136 150	votre collègue
+A2	Experience T3 Patient
+T4	Sign_Symptom 172 226	qui avait des problèmes pour respirer c'est bien cela?
+A3	Hypothesis T4
+A4	Experience T4 Patient
+T5	Sign_Symptom 274 300	'il est gêné pour respirer
+A5	Temporality T5 Overlap(default)
+A6	Experience T5 Patient
+T6	Disease 335 412	j'ai eu un COVID assez long heu et en fait je l'ai eu y a deux ans maintenant
+A7	Temporality T6 Before
+A8	Experience T6 Other
+T7	Temporal_Marker 434 483	c'était au début du COVID en fait c'était en 2019
+A9	Temporality T7 Before
+A10	Experience T7 Other
+T8	Sign_Symptom 502 551	la gêne respiratoire a commencé quand exactement?
+A11	Hypothesis T8
+A12	Experience T8 Patient
+T9	Temporal_Marker 680 705	a commencé là aujourd'hui
+A13	Experience T9 Patient
+T10	Sign_Symptom 784 795	elle tousse
+A14	Temporality T10 Overlap(default)
+A15	Experience T10 Patient
+T11	Sign_Symptom 905 968	depuis quelle heure exactement elle se sent gênée pour respirer
+A16	Experience T11 Patient
+T12	Temporal_Marker 1003 1046	trois quatre heures heu trois quatre heures
+A17	Experience T12 Patient
+T13	Temporal_Marker 1123 1161	a fait un petit m- ça fait une semaine
+A18	Temporality T13 Before
+A19	Experience T13 Patient
+T14	Sign_Symptom 1174 1200	un peu gênée pour respirer
+A20	Temporality T14 Before
+A21	Experience T14 Patient
+T15	Conduite 1408 1450	passez la moi au téléphone s'il vous plait
+A22	Temporality T15 Overlap(default)
+A23	Experience T15 Other
+T16	Person 1565 1577	docteur ABAZ
+A24	Experience T16 Healthcare_professional
+T17	Sign_Symptom 1605 1643	vous aviez des problèmes pour respirer
+A25	Temporality T17 Overlap(default)
+A26	Hypothesis T17
+A27	Experience T17 Patient
+T18	Sign_Symptom 1683 1741	depuis combien de temps vous avez cette gêne respiratoire?
+A28	Hypothesis T18
+A29	Experience T18 Patient
+T19	Sign_Symptom 1755 1806	ça fait une semaine que je suis gênée pour respirer
+A30	Temporality T19 Before
+A31	Experience T19 Patient
+T20	Disease 2089 2152	est ce que vous avez des des problèmes de santé habituellement?
+A32	Temporality T20 Before
+A33	Experience T20 Patient
+T21	Drug_chemicals 2197 2227	juste un un ou deux traitement
+A34	Experience T21 Patient
+T22	Disease 2294 2307	hypothyroïdie
+A35	Temporality T22 Overlap(default)
+A36	Experience T22 Patient
+T23	Disease 2344 2356	constipation
+A37	Temporality T23 Before
+A38	Experience T23 Patient
+T24	Sign_Symptom 2387 2433	d'autre symptômes à part la gêne respiratoire?
+A39	Hypothesis T24
+A40	Experience T24 Patient
+T25	Sign_Symptom 2468 2497	j'ai pas d'autre symptôme non
+A41	Temporality T25 Overlap(default)
+A42	Negation T25 Négation
+A43	Experience T25 Patient
+T26	Conduite 2507 2733	ok madame pour pour votre problème là il faudra aller voir un médecin hum il faut aller voir un médecin heu je vous laisse prendre contact avec votre médecin traitant pour le pour le voir heu dans la journée ou dans la semaine
+A44	Temporality T26 After
+A45	Experience T26 Patient
+T27	Conduite 2835 2939	si la situation s'aggrave entre temps vous pouvez consulter heu soit une maison médicale ou aux urgences
+A46	Temporality T27 After
+A47	Experience T27 Patient

@@ -1,0 +1,235 @@
+T1	Person 20 26	madame
+A1	Experience T1 Other
+T2	Person 64 77	docteur SHITZ
+A2	Experience T2 Healthcare_professional
+T3	Conduite 78 153	vous appelez pour votre frère qui est qui est dans qui est rép- répond plus
+A3	Temporality T3 Overlap(default)
+A4	Experience T3 Other
+T4	Person 96 107	votre frère
+A5	Experience T4 Patient
+T5	Sign_Symptom 129 153	qui est rép- répond plus
+A6	Temporality T5 Before_overlap
+A7	Experience T5 Patient
+T6	Temporal_Marker 217 229	depuis quand
+T7	Sign_Symptom 233 247	il répond plus
+A8	Temporality T7 Before_overlap
+A9	Experience T7 Patient
+T8	Conduite 298 367	je suis allé le voir et il est en train de dormir il il il répond pas
+A10	Temporality T8 Overlap(default)
+A11	Experience T8 Other
+T9	Sign_Symptom 322 367	il est en train de dormir il il il répond pas
+A12	Temporality T9 Overlap(default)
+A13	Experience T9 Patient
+T10	Conduite 406 421	vous le stimule
+A14	Temporality T10 Overlap(default)
+A15	Experience T10 Other
+T11	Sign_Symptom 424 443	l répond pas du tou
+A16	Temporality T11 Before_overlap
+A17	Experience T11 Patient
+T12	Sign_Symptom 459 468	il grogne
+A18	Temporality T12 Overlap(default)
+A19	Experience T12 Patient
+T13	Sign_Symptom 478 487	il grogne
+A20	Temporality T13 Overlap(default)
+A21	Experience T13 Patient
+T14	Sign_Symptom 490 503	l respire pas
+A22	Temporality T14 Overlap(default)
+A23	Negation T14 Négation
+A24	Experience T14 Patient
+T15	Sign_Symptom 514 527	il respire si
+A25	Temporality T15 Overlap(default)
+A26	Experience T15 Patient
+T16	Conduite 565 585	essayez de le secoue
+A27	Temporality T16 After
+A28	Experience T16 Other
+T17	Sign_Symptom 587 605	il vous répond pas
+A29	Temporality T17 Overlap(default)
+A30	Experience T17 Patient
+T18	Sign_Symptom 616 625	il grogne
+A31	Temporality T18 Overlap(default)
+A32	Experience T18 Patient
+T19	Conduite 648 682	si vous le secouez, il vous répond
+A33	Temporality T19 Overlap(default)
+A34	Experience T19 Other
+T20	Sign_Symptom 693 702	il grogne
+A35	Temporality T20 Overlap(default)
+A36	Experience T20 Patient
+T21	Sign_Symptom 713 731	il râle, il grogne
+A37	Temporality T21 Overlap(default)
+A38	Experience T21 Patient
+T22	Sign_Symptom 763 790	il a des problèmes de santé
+A39	Temporality T22 Before_overlap
+A40	Experience T22 Patient
+T23	Sign_Symptom 801 824	il se réveille pas bien
+A41	Temporality T23 Overlap(default)
+A42	Negation T23 Négation
+A43	Experience T23 Patient
+T24	Disease 852 891	il a des problèmes de santé votre frère
+A44	Temporality T24 Before_overlap
+A45	Experience T24 Patient
+T25	Person 880 891	votre frère
+A46	Experience T25 Patient
+T26	Drug_chemicals 940 967	il prend pas de médicaments
+A47	Temporality T26 Before_overlap
+A48	Negation T26 Négation
+A49	Experience T26 Patient
+T27	Person 1018 1028	un médecin
+A50	Experience T27 Healthcare_professional
+T28	Conduite 1029 1043	lui a prescrit
+A51	Temporality T28 Before
+A52	Experience T28 Healthcare_professional
+T29	Temporal_Marker 1044 1060	l'année dernière
+T30	Drug_chemicals 1109 1133	il y a pas de médicament
+A53	Negation T30 Négation
+T31	Conduite 1224 1249	il y a pas une ordonnance
+A54	Negation T31 Négation
+T32	Geographic_Marker 1134 1180	à côté de lui sur le sur le co- sur la commode
+T33	Geographic_Marker 1250 1256	à côté
+T34	Drug_chemicals 1260 1298	vous savez les médicaments qu'il prend
+T35	Drug_chemicals 1363 1381	c'est un médicamen
+T36	Sign_Symptom 1406 1420	un peu stressé
+A55	Temporality T36 Before_overlap
+A56	Experience T36 Patient
+T37	Temporal_Marker 1517 1533	la dernière fois
+T38	Temporal_Marker 1476 1487	juste avant
+T39	Temporal_Marker 1594 1604	une soirée
+T40	Geographic_Marker 1605 1616	à la maison
+T41	Conduite 1630 1646	on s'est couchés
+T42	Temporal_Marker 1665 1695	vers quat- trois quatre heures
+T43	Sign_Symptom 1696 1722	il était pas trop en forme
+T44	Temporal_Marker 1875 1892	une petite soirée
+T45	Drug_chemicals 1998 2021	on a pas pris de drogue
+A57	Negation T45 Négation
+T46	Drug_chemicals 2045 2069	il a pris des médicament
+T47	Temporal_Marker 2072 2098	c'est pas la première fois
+T48	Geographic_Marker 2136 2147	à l'hôpital
+T49	Drug_chemicals 2167 2200	il a pris beaucoup de médicaments
+T50	Temporal_Marker 2220 2229	y a un an
+T51	Conduite 2260 2294	il est resté à l'hôpital longtemps
+T52	Temporal_Marker 2285 2294	longtemps
+T53	Geographic_Marker 2273 2284	à l'hôpital
+T54	Conduite 2312 2339	il est passé en réanimation
+A58	Temporality T54 After
+A59	Experience T54 Patient
+T55	Disease 2385 2427	il a déjà fait une intoxication volontaire
+A60	Temporality T55 Before
+A61	Experience T55 Patient
+T56	Sign_Symptom 2468 2478	il respire
+T57	Sign_Symptom 2588 2596	il bouge
+T58	Sign_Symptom 2609 2617	il bouge
+T59	Sign_Symptom 2684 2713	il avait pas des idées noires
+A62	Temporality T59 Before
+A63	Negation T59 Négation
+A64	Experience T59 Patient
+T60	Drug_chemicals 2718 2776	il a pas pris beaucoup de médicaments à votre connaissance
+A65	Temporality T60 Before
+A66	Negation T60 Négation
+A67	Experience T60 Patient
+T61	Sign_Symptom 2851 2872	il était pas en forme
+A68	Temporality T61 Before
+A69	Negation T61 Négation
+A70	Experience T61 Patient
+T62	Temporal_Marker 2906 2919	petite soirée
+T63	Geographic_Marker 2920 2931	à la maison
+T64	Sign_Symptom 2941 2970	il a pas des idées de suicide
+A71	Temporality T64 Before_overlap
+A72	Negation T64 Négation
+A73	Experience T64 Patient
+T65	Conduite 3177 3195	vous le surveillez
+A74	Temporality T65 After
+A75	Experience T65 Family
+T66	Drug_chemicals 3274 3319	il a déjà fait il a déjà pris des médicaments
+A76	Temporality T66 Before
+A77	Experience T66 Patient
+T67	Sign_Symptom 3341 3358	il était pas bien
+A78	Temporality T67 Before
+A79	Negation T67 Négation
+A80	Experience T67 Patient
+T68	Sign_Symptom 3447 3456	il réagit
+A81	Temporality T68 Overlap(default)
+A82	Experience T68 Patient
+T69	Sign_Symptom 3458 3496	il se réveille pas, il se réveille pas
+A83	Temporality T69 Overlap(default)
+A84	Negation T69 Négation
+A85	Experience T69 Patient
+T70	Sign_Symptom 3550 3559	il grogne
+A86	Temporality T70 Overlap(default)
+A87	Experience T70 Patient
+T71	Sign_Symptom 3605 3639	il parle pas donc c'est pas normal
+A88	Temporality T71 Overlap(default)
+A89	Negation T71 Négation
+A90	Experience T71 Patient
+T72	Sign_Symptom 3657 3697	il bouge vous m'avez dit, il se retourne
+A91	Temporality T72 Overlap(default)
+A92	Experience T72 Patient
+T73	Sign_Symptom 3717 3725	il bouge
+A93	Temporality T73 Overlap(default)
+A94	Experience T73 Patient
+T74	Sign_Symptom 3751 3777	il fait que bouger le bras
+A95	Temporality T74 Overlap(default)
+A96	Experience T74 Patient
+T75	Conduite 3778 3796	quand je le secoue
+A97	Temporality T75 Overlap(default)
+A98	Experience T75 Other
+T76	Sign_Symptom 3802 3820	il se réveille pas
+A99	Temporality T76 Overlap(default)
+A100	Experience T76 Patient
+T77	Sign_Symptom 3843 3861	il se réveille pas
+A101	Temporality T77 Overlap(default)
+A102	Experience T77 Patient
+T78	Sign_Symptom 3864 3876	l a pas vomi
+A103	Temporality T78 Before
+A104	Negation T78 Négation
+A105	Experience T78 Patient
+T79	Sign_Symptom 3926 3943	il ouvre les yeux
+A106	Temporality T79 Overlap(default)
+A107	Experience T79 Patient
+T80	Sign_Symptom 3958 4011	il ouvre pas les yeux spontanément quand je l'appelle
+A108	Temporality T80 Overlap(default)
+A109	Negation T80 Négation
+A110	Experience T80 Patient
+T81	Sign_Symptom 4034 4103	il bouge les j- mais il bouge les jambes enfin quand vous le stimulez
+A111	Temporality T81 Overlap(default)
+A112	Experience T81 Patient
+T82	Conduite 4117 4135	quand je le secoue
+A113	Temporality T82 Overlap(default)
+A114	Experience T82 Patient
+T83	Conduite 4215 4241	on va envoyer les pompiers
+A115	Temporality T83 After
+A116	Experience T83 Healthcare_professional
+T84	Person 4265 4286	mais pas les pompiers
+A117	Negation T84 Négation
+T85	Geographic_Marker 4329 4340	à la maison
+T86	Conduite 4314 4365	ils vont venir à la maison, ils vont venir à quinze
+A118	Temporality T86 After
+A119	Experience T86 Healthcare_professional
+T87	Temporal_Marker 4357 4365	à quinze
+T88	Conduite 4389 4418	on va envoyer les pompiers là
+A120	Temporality T88 Overlap(default)
+A121	Experience T88 Healthcare_professional
+T89	Conduite 4442 4538	vous pouvez pas envoyer un médecin pour qu'il l'évalue à la maison et qu'on l'emmène à l'hôpital
+A122	Temporality T89 Overlap(default)
+A123	Experience T89 Healthcare_professional
+T90	Person 4466 4476	un médecin
+T91	Geographic_Marker 4497 4507	à la maiso
+T92	Geographic_Marker 4527 4539	à l'hôpital?
+T93	Conduite 4561 4587	on va envoyer les pompiers
+A124	Temporality T93 After
+A125	Experience T93 Healthcare_professional
+T94	Person 4641 4661	pas que les pompiers
+A126	Negation T94 Négation
+A127	Experience T94 Healthcare_professional
+T95	Conduite 4680 4706	on va envoyer les pompiers
+A128	Temporality T95 After
+A129	Experience T95 Healthcare_professional
+T96	Temporal_Marker 4722 4733	entre temps
+T97	Sign_Symptom 4825 4838	il répond pas
+A130	Temporality T97 Overlap(default)
+A131	Experience T97 Patient
+T98	Conduite 4885 4911	on va envoyer les pompiers
+T99	Person 4899 4911	les pompiers
+T100	Conduite 4934 4952	restez près de lui
+A132	Temporality T100 After
+A133	Experience T100 Family
+T101	Person 4866 4872	madame
+A134	Experience T101 Other

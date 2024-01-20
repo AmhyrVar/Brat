@@ -1,0 +1,62 @@
+T3	Conduite 592 619	l'emmener dans les urgences
+T4	Person 57 63	madame
+T5	Sign_Symptom 707 715	brûlures
+T6	Sign_Symptom 899 904	brûlé
+T7	Conduite 1000 1021	évalué par un médecin
+T9	Conduite 1027 1059	voir la profondeur de sa brûlure
+T10	Conduite 1448 1475	emmenez le aux aux urgences
+T11	Conduite 1648 1670	l'emmener aux urgences
+T12	Conduite 1732 1770	amenez votre enfant dans votre voiture
+T13	Conduite 1774 1826	amenez le aux urgences pédiatriques les plus proches
+T15	Conduite 2044 2069	mettez le dans la voiture
+T16	Conduite 2070 2092	amenez le aux urgences
+T17	Person 2185 2191	madame
+T18	Sign_Symptom 2280 2285	brûlé
+T20	Disease 2325 2332	brûlure
+T21	Conduite 2557 2578	évalué par un médecin
+T22	Disease 2517 2524	brûlure
+T23	Conduite 2607 2641	vous le mettiez dans votre voiture
+T24	Conduite 2649 2677	vous l'emmeniez aux urgences
+T25	Conduite 2679 2701	amenez le aux urgences
+T26	Conduite 2968 2989	mis sous l'eau froide
+T27	Conduite 3135 3169	évalué par un médecin aux urgences
+T28	Conduite 3371 3436	mettez le bras de l'enfant sous de l'eau ch- sous de l'eau froide
+T29	Conduite 3455 3488	vous le mettez dans votre voiture
+T30	Conduite 3492 3518	vous l'amenez aux urgences
+T14	Person 2341 2353	votre enfant
+A7	Experience T14 Patient
+T35	Person 3001 3009	l'enfant
+A9	Experience T35 Patient
+A10	Temporality T26 Before
+T37	Person 3358 3366	l'enfant
+A12	Experience T37 Patient
+A13	Hypothesis T3
+T38	Sign_Symptom 949 954	brûlé
+T39	Sign_Symptom 1288 1315	brûlé au niveau de son bras
+T40	Sign_Symptom 2261 2266	grave
+T41	Sign_Symptom 2248 2253	grave
+T42	Sign_Symptom 1997 2002	grave
+T43	Sign_Symptom 2900 2919	en train de pleurer
+T44	Sign_Symptom 3082 3087	grave
+T45	Sign_Symptom 1543 1548	grave
+T46	Person 87 97	votre fils
+A14	Experience T46 Patient
+T1	Sign_Symptom 120 131	s'est brûlé
+A1	Hypothesis T1
+T2	Sign_Symptom 250 261	s'est brûlé
+A2	Hypothesis T2
+T8	Person 905 915	mon enfant
+A15	Experience T8 Patient
+T19	Person 1549 1559	mon enfant
+A3	Experience T19 Patient
+T31	Person 1978 1988	mon enfant
+A4	Experience T31 Patient
+T32	Person 2306 2318	votre enfant
+A5	Experience T32 Patient
+T33	Person 2498 2510	votre enfant
+A6	Experience T33 Patient
+T34	Person 2880 2889	mon gosse
+A8	Experience T34 Patient
+A16	Hypothesis T26
+T47	Person 3266 3276	mon enfant
+A17	Experience T47 Patient

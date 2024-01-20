@@ -1,0 +1,55 @@
+T1	Person 59 72	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Conduite 86 115	vous appelez pour votre femme
+A2	Temporality T2 Overlap(default)
+A3	Experience T2 Family
+T3	Person 104 115	votre femme
+A4	Experience T3 Patient
+T4	Sign_Symptom 133 146	s'est blessée
+A5	Temporality T4 Before_overlap
+A6	Experience T4 Patient
+T5	Sign_Symptom 239 269	elle est tombée sur un couteau
+A7	Temporality T5 Before
+A8	Experience T5 Patient
+T6	Sign_Symptom 294 302	la plaie
+A9	Temporality T6 Before_overlap
+A10	Experience T6 Patient
+T7	Geographic_Marker 329 336	au bras
+T8	Sign_Symptom 370 395	il y a qu'une seule plaie
+T9	Geographic_Marker 422 445	elle est à côté de vous
+T10	Sign_Symptom 524 540	elle pleure trop
+T11	Sign_Symptom 546 565	elle peut pas parle
+A11	Temporality T11 Overlap(default)
+A12	Experience T11 Patient
+T12	Sign_Symptom 603 623	elle peut pas parler
+A13	Temporality T12 Overlap(default)
+A14	Experience T12 Patient
+T13	Geographic_Marker 662 680	dans la même pièce
+T14	Sign_Symptom 803 821	elle pleure à côté
+A15	Experience T14 Patient
+T15	Geographic_Marker 843 854	dans la rue
+T16	Temporal_Marker 908 927	elle a dix huit ans
+T17	Sign_Symptom 935 978	une plaie au niveau du bras avec un couteau
+T18	Geographic_Marker 945 962	au niveau du bras
+T19	Geographic_Marker 988 999	à la maison
+T20	Geographic_Marker 1058 1075	au niveau du bras
+T21	Geographic_Marker 1093 1123	au niveau de la main au niveau
+T22	Geographic_Marker 1141 1194	au dessus de la main heu entre le poignet et le coude
+T23	Sign_Symptom 1228 1266	ça saigne beaucoup ça saigne encore là
+T24	Temporal_Marker 1257 1267	encore là?
+T25	Sign_Symptom 1299 1317	ça saigne beaucoup
+T26	Sign_Symptom 1343 1388	la plaie elle est comment elle mesure combien
+T27	Geographic_Marker 1418 1439	cinq cinq centimètres
+T28	Conduite 1485 1549	vous avez mis un pansement quelque chose une heu une compression
+A16	Temporality T28 Before
+A17	Experience T28 Healthcare_professional
+T29	Conduite 1610 1642	je vous ai appelés tout de suite
+T30	Conduite 1673 1687	je vous laisse
+A18	Temporality T30 After
+A19	Experience T30 Healthcare_professional
+T31	Conduite 1692 1870	on va envoyer les pompiers et puis je vous laisse heu hum prendre heu enfin faire une compression avec heu avec ce que vous avez à la maison quelque chose de propre une serviette
+T32	Person 1706 1718	les pompiers
+A20	Experience T32 Healthcare_professional
+T33	Geographic_Marker 1821 1832	à la maison
+T34	Conduite 1950 1968	vous gardez appuyé
+T35	Conduite 1913 1935	je laisse garde appuyé

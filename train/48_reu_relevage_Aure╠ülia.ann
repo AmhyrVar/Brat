@@ -1,0 +1,93 @@
+T1	Person 76 90	mon grand père
+A1	Experience T1 Patient
+T2	Sign_Symptom 106 115	est tombé
+A2	Temporality T2 Before
+T3	Geographic_Marker 392 407	dans la cuisine
+T4	Person 209 219	votre papi
+A3	Experience T4 Patient
+T5	Person 248 258	votre papi
+A4	Experience T5 Patient
+T6	Sign_Symptom 512 521	conscient
+A5	Hypothesis T6 Vrai
+T7	Person 531 537	madame
+A6	Experience T7 Family
+T8	Person 538 548	votre papi
+A7	Experience T8 Patient
+T9	Geographic_Marker 442 457	dans la cuisine
+T10	Sign_Symptom 567 583	il est conscient
+T11	Sign_Symptom 646 654	il parle
+A8	Hypothesis T11 Vrai
+T12	Person 656 665	otre papi
+A9	Experience T12 Patient
+T13	Sign_Symptom 668 675	l parle
+A10	Hypothesis T13 Vrai
+T14	Person 676 686	votre papi
+A11	Experience T14 Patient
+T15	Sign_Symptom 721 733	oui il parle
+T16	Sign_Symptom 743 751	il parle
+T17	Sign_Symptom 769 783	il est orienté
+A12	Hypothesis T17 Vrai
+T18	Drug_chemicals 827 835	'il boit
+A13	Temporality T18 Before_overlap
+T19	Sign_Symptom 836 865	il sait jamais trop où il est
+A14	Temporality T19 Before_overlap
+T20	Drug_chemicals 889 908	il a bu de l'alcool
+A15	Hypothesis T20 Vrai
+T21	Drug_chemicals 941 960	il boit de l'alcool
+A16	Temporality T21 Overlap(default)
+T22	Temporal_Marker 961 980	tous tous les jours
+T23	Sign_Symptom 1007 1017	il respire
+A17	Hypothesis T23 Vrai
+T24	Person 1018 1028	votre papi
+A18	Experience T24 Patient
+T25	Sign_Symptom 1117 1127	il respire
+A19	Hypothesis T25 Vrai
+T26	Person 1128 1138	votre papi
+A20	Experience T26 Patient
+T27	Person 1145 1151	madame
+A21	Experience T27 Family
+T28	Sign_Symptom 1162 1176	oui il respire
+T29	Sign_Symptom 1199 1228	il bouge bien les deux jambes
+A22	Hypothesis T29 Vrai
+T30	Sign_Symptom 1380 1389	il saigne
+A23	Hypothesis T30 Vrai
+T31	Person 1390 1396	madame
+A24	Experience T31 Family
+T32	Person 1397 1408	votre papi?
+A25	Experience T32 Patient
+T33	Sign_Symptom 1426 1439	il saigne pas
+A26	Negation T33 Négation
+T34	Sign_Symptom 1449 1514	au niveau de la tête au niveau du reste du corps il ne saigne pas
+T35	Sign_Symptom 1639 1647	il a mal
+A27	Hypothesis T35 Vrai
+T36	Sign_Symptom 1760 1782	'il a mal quelque part
+A28	Hypothesis T36 Vrai
+T37	Person 1783 1789	madame
+A29	Experience T37 Family
+T38	Sign_Symptom 1804 1824	non il se plaint pas
+A30	Negation T38 Négation
+T39	Sign_Symptom 2124 2151	il se plaint pas de douleur
+A31	Negation T39 Négation
+T40	Sign_Symptom 2000 2090	il a mal au niveau des jambes ou pas pour le relever au niveau du dos au niveau de la tête
+A32	Hypothesis T40 Vrai
+T41	Person 2251 2261	votre papi
+A33	Experience T41 Patient
+T42	Person 2369 2379	votre papi
+A34	Experience T42 Patient
+T43	Disease 2208 2226	problèmes de santé
+A35	Hypothesis T43 Vrai
+T44	Drug_chemicals 2342 2353	médicaments
+T45	Temporal_Marker 2354 2368	tous les jours
+T46	Drug_chemicals 2411 2427	aucun médicament
+A36	Negation T46 Négation
+T47	Drug_chemicals 2435 2454	il boit de l'alcool
+T48	Drug_chemicals 2464 2481	juste de l'alcool
+T49	Conduite 2509 2532	on va venir le chercher
+T50	Conduite 2595 2621	les secours qui vont venir
+T51	Person 2791 2801	votre papi
+A37	Experience T51 Patient
+T52	Conduite 2812 2861	e surveiller jusqu'à que les secours ils arrivent
+T53	Conduite 3083 3104	à rassurer votre papi
+T54	Person 3094 3104	votre papi
+A38	Experience T54 Patient
+T55	Conduite 3152 3198	vous restez auprès de lui que vous le rassurez

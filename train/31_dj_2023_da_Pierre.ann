@@ -1,0 +1,95 @@
+T1	Sign_Symptom 357 366	diarrhées
+T2	Person 55 71	docteur RICHARDO
+T3	Sign_Symptom 105 118	mal au ventre
+T4	Sign_Symptom 158 171	mal au ventre
+T5	Temporal_Marker 210 225	depuis ce matin
+A1	Temporality T5 Overlap(default)
+A2	Experience T2 Healthcare_professional
+T6	Sign_Symptom 276 288	vomissements
+T7	Sign_Symptom 319 331	vomissements
+T8	Sign_Symptom 390 405	pas de diarrhée
+A3	Negation T8 Négation
+T9	Disease 480 487	diabète
+T10	Disease 497 504	diabète
+T11	Drug_chemicals 521 531	l'insuline
+T12	Drug_chemicals 678 688	l'insuline
+T13	Sign_Symptom 735 738	mal
+T14	Sign_Symptom 770 778	pas vomi
+A4	Negation T14 Négation
+T15	Sign_Symptom 789 804	pas de diarrhée
+A5	Negation T15 Négation
+T16	Temporal_Marker 744 759	depuis ce matin
+A6	Temporality T16 Overlap(default)
+T17	Sign_Symptom 957 962	brûle
+T18	Sign_Symptom 1002 1009	douleur
+T19	Sign_Symptom 1350 1368	mal au bras gauche
+T20	Sign_Symptom 1391 1411	mal dans la mâchoire
+T21	Sign_Symptom 1453 1467	mal à la gorge
+T22	Temporal_Marker 1568 1576	ce matin
+A7	Temporality T22 Overlap(default)
+T23	Sign_Symptom 1519 1533	mal à la gorge
+T24	Sign_Symptom 1493 1507	mal à la gorge
+T25	Drug_chemicals 1684 1693	DOLIPRANE
+T26	Drug_chemicals 1707 1716	DOLIPRANE
+T27	Sign_Symptom 1782 1801	avez envie de vomir
+T28	Sign_Symptom 1870 1877	douleur
+T29	Sign_Symptom 1995 2039	mal en haut du ventre au niveau de l'estomac
+T30	Sign_Symptom 2048 2053	brûle
+T31	Sign_Symptom 2070 2087	mal dans la gorge
+T32	Temporal_Marker 2088 2109	depuis ce m- ce matin
+T33	Sign_Symptom 2129 2143	envie de vomir
+T34	Sign_Symptom 2404 2411	douleur
+T35	Conduite 2303 2347	on va faire passer un médecin heu à domicile
+T36	Person 2348 2354	madame
+A8	Experience T36 Patient
+T37	Person 2497 2504	médecin
+A9	Experience T37 Healthcare_professional
+T38	Person 2325 2332	médecin
+A10	Experience T38 Healthcare_professional
+T39	Geographic_Marker 2337 2347	à domicile
+T40	Temporal_Marker 2441 2452	entre temps
+A11	Temporality T40 After
+T41	Person 2562 2568	madame
+A12	Experience T41 Patient
+T42	Person 2584 2591	docteur
+A13	Experience T42 Healthcare_professional
+T43	Sign_Symptom 1169 1172	mal
+T44	Temporal_Marker 2369 2397	dans les quatre à six heures
+A14	Temporality T44 After
+T45	Temporal_Marker 235 250	depuis ce matin
+A15	Temporality T45 Before_overlap
+T46	Sign_Symptom 818 821	mal
+A16	Experience T3 Patient
+A17	Experience T4 Patient
+A18	Hypothesis T6 Vrai
+A19	Experience T6 Patient
+A20	Negation T7 Négation
+A21	Hypothesis T1 Vrai
+A22	Experience T1 Patient
+A23	Experience T7 Patient
+A24	Experience T8 Patient
+A25	Experience T9 Patient
+A26	Experience T10 Patient
+A27	Experience T11 Patient
+A28	Experience T12 Patient
+A29	Experience T13 Patient
+A30	Experience T14 Patient
+A31	Experience T15 Patient
+A32	Experience T46 Patient
+A33	Hypothesis T17 Vrai
+A34	Experience T17 Patient
+A35	Experience T18 Patient
+A36	Hypothesis T43 Vrai
+A37	Experience T43 Patient
+A38	Hypothesis T19 Vrai
+A39	Experience T19 Patient
+A40	Experience T25 Patient
+A41	Experience T26 Patient
+A42	Hypothesis T27 Vrai
+A43	Experience T27 Patient
+A44	Hypothesis T28 Vrai
+A45	Experience T28 Patient
+A46	Experience T20 Patient
+A47	Experience T21 Patient
+A48	Experience T24 Patient
+A49	Experience T23 Patient

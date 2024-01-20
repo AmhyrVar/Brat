@@ -1,0 +1,26 @@
+T1	Person 76 92	docteur LAKHLIFI
+A1	Experience T1 Healthcare_professional
+T2	Person 134 138	fils
+A2	Experience T2 Patient
+T3	Sign_Symptom 163 178	se réveille pas
+A3	Hypothesis T3
+T4	Sign_Symptom 358 368	il respire
+A4	Hypothesis T4
+A5	Negation T4 Négation
+T5	Sign_Symptom 504 526	son thorax se soulever
+A6	Hypothesis T5
+A7	Negation T5 Négation
+T6	Sign_Symptom 561 569	il bouge
+A8	Negation T6 Négation
+T7	Sign_Symptom 606 613	respire
+A9	Hypothesis T7
+A10	Negation T7 Négation
+T8	Geographic_Marker 762 770	domicile
+T9	Conduite 850 869	prenez votre enfant
+T10	Conduite 900 941	votre main sur son thorax en plein milieu
+T11	Conduite 1126 1149	vous le posez par terre
+T12	Conduite 1243 1312	mettez votre main sur son thorax, en plein milieu, entre les mamelons
+T13	Conduite 1340 1352	vous appuyez
+T14	Conduite 1417 1440	vous appuyez en continu
+T15	Conduite 1601 1631	le médecin qui est en en route
+T16	Conduite 1721 1752	vous continuez vous arrêtez pas

@@ -1,0 +1,66 @@
+T1	Person 25 37	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 69 107	vous avez mal au ventre c'est bien ça?
+A2	Hypothesis T2
+A3	Experience T2 Patient
+T3	Person 152 160	ma femme
+A4	Experience T3 Family
+T4	Person 265 268	moi
+A5	Experience T4 Patient
+T5	Person 282 285	moi
+A6	Experience T5 Patient
+T6	Temporal_Marker 411 419	ce matin
+T7	Sign_Symptom 380 387	douleur
+A7	Experience T7 Patient
+R1	Temp_mark Arg1:T6 Arg2:T7	
+T8	Sign_Symptom 474 497	vous avez des diarrhées
+A8	Hypothesis T8
+A9	Experience T8 Patient
+T10	Temporal_Marker 517 529	en ce moment
+T9	Sign_Symptom 498 516	vous êtes constipé
+A10	Hypothesis T9
+A11	Experience T9 Patient
+T11	Sign_Symptom 655 674	pas de vomissements
+A12	Negation T11 Négation
+A13	Experience T11 Patient
+T12	Sign_Symptom 711 724	pas de fièvre
+A14	Negation T12 Négation
+A15	Experience T12 Patient
+T16	Person 1099 1106	médecin
+A17	Experience T16 Healthcare_professional
+T17	Person 1147 1155	ma femme
+A18	Experience T17 Family
+T18	Person 1240 1247	médecin
+A19	Experience T18 Healthcare_professional
+T19	Person 1259 1266	médecin
+A20	Experience T19 Healthcare_professional
+T20	Drug_chemicals 1462 1471	DOLIPRANE
+T21	Drug_chemicals 1509 1518	DOLIPRANE
+T24	Person 1798 1805	médecin
+A22	Experience T24 Healthcare_professional
+T25	Temporal_Marker 1844 1857	cette semaine
+T26	Sign_Symptom 564 579	pas de diarrhée
+A23	Negation T26 Négation
+A24	Experience T26 Patient
+T27	Sign_Symptom 580 599	pas de constipation
+A25	Negation T27 Négation
+A26	Experience T27 Patient
+R2	Temp_mark Arg1:T10 Arg2:T9	
+R3	Temp_mark Arg1:T10 Arg2:T8	
+A27	Temporality T7 Before_overlap
+A28	Temporality T2 Overlap(default)
+A29	Temporality T8 Overlap(default)
+A30	Temporality T9 Overlap(default)
+A31	Temporality T26 Overlap(default)
+A32	Temporality T27 Overlap(default)
+A33	Temporality T11 Overlap(default)
+T28	Sign_Symptom 684 697	de la fièvre?
+A34	Temporality T28 Overlap(default)
+A35	Hypothesis T28
+T13	Conduite 909 948	il faut que vous alliez voir un médecin
+A16	Temporality T13 After
+T29	Conduite 1013 1079	il faut prendre rendez vous là pour heu d'ici la fin de la semaine
+A36	Temporality T29 After
+T22	Conduite 1390 1419	il faut aller voir un médecin
+A21	Temporality T22 After
+A37	Temporality T12 Overlap(default)

@@ -1,0 +1,89 @@
+T1	Person 17 23	madame
+A1	Experience T1 Family
+T2	Person 69 89	docteur ABAS du SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 120 148	votre sœur de vingt huit ans
+A3	Experience T3 Patient
+T4	Sign_Symptom 168 175	malaise
+A4	Hypothesis T4 Vrai
+A5	Experience T4 Patient
+T5	Sign_Symptom 224 231	malaise
+A6	Temporality T5 Before_overlap
+A7	Experience T5 Patient
+T6	Sign_Symptom 270 295	elle veut pas me répondre
+A8	Negation T6 Négation
+A9	Experience T6 Patient
+T7	Sign_Symptom 324 336	inconsciente
+A10	Hypothesis T7 Vrai
+A11	Experience T7 Patient
+T8	Sign_Symptom 412 424	inconsciente
+A12	Hypothesis T8 Vrai
+A13	Experience T8 Patient
+T9	Sign_Symptom 443 461	elle me répond pas
+A14	Negation T9 Négation
+A15	Experience T9 Patient
+T10	Sign_Symptom 476 483	respire
+A16	Hypothesis T10 Vrai
+A17	Experience T10 Patient
+T11	Sign_Symptom 502 511	parle pas
+A18	Negation T11 Négation
+A19	Experience T11 Patient
+T12	Sign_Symptom 521 528	respire
+A20	Experience T12 Patient
+T13	Sign_Symptom 549 561	yeux ouverts
+A21	Hypothesis T13 Vrai
+A22	Experience T13 Patient
+T14	Conduite 585 611	passez la moi au téléphone
+A23	Temporality T14 Overlap(default)
+T15	Sign_Symptom 631 640	parle pas
+A24	Negation T15 Négation
+A25	Experience T15 Patient
+T16	Person 644 652	monsieur
+A26	Experience T16 Healthcare_professional
+T17	Conduite 662 699	passez la moi quand même au téléphone
+A27	Temporality T17 Overlap(default)
+T18	Conduite 700 753	approchez le téléphone de son oreille et de sa bouche
+A28	Temporality T18 Overlap(default)
+T19	Person 779 785	madame
+A29	Experience T19 Patient
+T20	Sign_Symptom 786 801	vous m'entendez
+A30	Hypothesis T20 Vrai
+A31	Experience T20 Patient
+T21	Sign_Symptom 861 876	vous m'entendez
+A32	Hypothesis T21 Vrai
+A33	Experience T21 Patient
+T22	Sign_Symptom 926 946	elle peut pas parler
+A34	Hypothesis T22 Vrai
+A35	Negation T22 Négation
+A36	Experience T22 Patient
+T23	Sign_Symptom 1024 1031	douleur
+A37	Hypothesis T23 Vrai
+A38	Experience T23 Patient
+T24	Sign_Symptom 1083 1090	crispée
+A39	Experience T24 Patient
+T25	Sign_Symptom 1064 1073	parle pas
+A40	Experience T25 Patient
+A41	Negation T25 Négation
+T26	Temporal_Marker 1169 1181	cinq minutes
+A42	Temporality T26 Before_overlap
+R1	Temp_mark Arg1:T26 Arg2:T24	
+T27	Sign_Symptom 1302 1309	crispée
+A43	Temporality T27 Before_overlap
+A44	Experience T27 Patient
+R2	Temp_mark Arg1:T26 Arg2:T27	
+T28	Sign_Symptom 1318 1328	répond pas
+A45	Negation T28 Négation
+A46	Experience T28 Patient
+T29	Sign_Symptom 1261 1279	allongée par terre
+A47	Temporality T29 Overlap(default)
+A48	Experience T29 Patient
+T30	Conduite 1669 1695	on va envoyer les pompiers
+A49	Temporality T30 After
+T31	Person 1653 1659	madame
+A50	Experience T31 Family
+T32	Temporal_Marker 1489 1506	c'est déjà arrivé
+A51	Temporality T32 Before
+T33	Temporal_Marker 1507 1526	c'est tout le temps
+A52	Temporality T33 Before_overlap
+R3	Temp_mark Arg1:T32 Arg2:T27	
+R4	Temp_mark Arg1:T33 Arg2:T27	

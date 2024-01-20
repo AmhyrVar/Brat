@@ -1,0 +1,197 @@
+T1	Person 20 26	madame
+T2	Person 64 77	docteur SHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 102 107	frère
+A2	Experience T3 Patient
+T4	Sign_Symptom 142 153	répond plus
+A3	Temporality T4 Overlap(default)
+A4	Hypothesis T4
+T5	Sign_Symptom 236 247	répond plus
+A5	Hypothesis T5
+A6	Negation T5 Négation
+A7	Negation T4 Négation
+T6	Sign_Symptom 341 347	dormir
+A8	Temporality T6 Overlap(default)
+T7	Sign_Symptom 357 367	répond pas
+A9	Temporality T7 Overlap(default)
+A10	Negation T7 Négation
+T8	Disease 426 436	répond pas
+A11	Temporality T8 Overlap(default)
+A12	Hypothesis T8
+A13	Negation T8 Négation
+T9	Sign_Symptom 462 468	grogne
+A14	Temporality T9 Overlap(default)
+T10	Sign_Symptom 481 487	grogne
+A15	Temporality T10 Overlap(default)
+T11	Sign_Symptom 492 503	respire pas
+A16	Hypothesis T11
+A17	Negation T11 Négation
+T12	Sign_Symptom 517 524	respire
+A18	Temporality T12 Overlap(default)
+T13	Conduite 565 586	essayez de le secouer
+T14	Sign_Symptom 595 605	répond pas
+A19	Negation T14 Négation
+T15	Sign_Symptom 619 625	grogne
+A20	Temporality T15 Overlap(default)
+A21	Hypothesis T14
+T16	Sign_Symptom 676 682	répond
+A22	Hypothesis T16
+T17	Sign_Symptom 696 702	grogne
+A23	Temporality T17 Overlap(default)
+A24	Temporality T16 Overlap(default)
+A25	Temporality T14 Overlap(default)
+A26	Temporality T11 Overlap(default)
+A27	Temporality T5 Overlap(default)
+T18	Sign_Symptom 725 731	grogne
+A28	Temporality T18 Overlap(default)
+T19	Sign_Symptom 772 790	problèmes de santé
+A29	Temporality T19 Before_overlap
+A30	Hypothesis T19
+T20	Sign_Symptom 804 824	se réveille pas bien
+A31	Temporality T20 Overlap(default)
+T21	Sign_Symptom 861 879	problèmes de santé
+A32	Temporality T21 Before_overlap
+A33	Hypothesis T21
+T22	Person 886 891	frère
+A34	Experience T22 Patient
+T23	Drug_chemicals 956 967	médicaments
+A36	Hypothesis T23
+T24	Drug_chemicals 1006 1016	médicament
+T25	Person 1021 1028	médecin
+A38	Experience T25 Healthcare_professional
+T26	Temporal_Marker 1046 1060	année dernière
+A39	Temporality T26 Before
+T27	Drug_chemicals 1123 1133	médicament
+A40	Negation T27 Négation
+T28	Drug_chemicals 1275 1286	médicaments
+A35	Hypothesis T28
+A37	Hypothesis T27
+T29	Drug_chemicals 1372 1382	médicament
+T30	Sign_Symptom 1413 1420	stressé
+A41	Temporality T30 Before_overlap
+T31	Temporal_Marker 1520 1533	dernière fois
+A42	Temporality T31 Before
+A43	Hypothesis T31
+T32	Temporal_Marker 1676 1695	trois quatre heures
+A44	Temporality T32 Before
+T33	Sign_Symptom 1705 1722	pas trop en forme
+A45	Temporality T33 Before
+A46	Negation T33 Négation
+T34	Drug_chemicals 1960 1968	toxiques
+A47	Hypothesis T34
+T35	Drug_chemicals 2015 2021	drogue
+A48	Negation T35 Négation
+T37	Temporal_Marker 2085 2098	première fois
+A49	Temporality T37 Before
+A50	Negation T37 Négation
+T38	Geographic_Marker 2136 2147	à l'hôpital
+T40	Temporal_Marker 2220 2229	y a un an
+A51	Temporality T40 Before
+T41	Temporal_Marker 2239 2248	y a un an
+A52	Temporality T41 Before
+T42	Geographic_Marker 2273 2284	à l'hôpital
+T43	Sign_Symptom 2328 2339	réanimation
+A53	Hypothesis T43
+T44	Drug_chemicals 2404 2416	intoxication
+T45	Sign_Symptom 2471 2478	respire
+A55	Temporality T45 Overlap(default)
+A56	Hypothesis T45
+T46	Conduite 2491 2512	essayez de le secouer
+T47	Sign_Symptom 2552 2563	se retourne
+A54	Temporality T47 Overlap(default)
+A57	Hypothesis T47
+T48	Sign_Symptom 2588 2596	il bouge
+A58	Temporality T48 Overlap(default)
+T49	Sign_Symptom 2727 2755	pris beaucoup de médicaments
+A59	Hypothesis T49
+T50	Sign_Symptom 2701 2713	idées noires
+A60	Hypothesis T50
+A61	Negation T50 Négation
+A62	Negation T49 Négation
+T51	Sign_Symptom 2860 2871	pas en form
+A63	Negation T51 Négation
+T52	Sign_Symptom 2954 2970	idées de suicide
+A64	Hypothesis T52
+A65	Negation T52 Négation
+T53	Person 2980 2985	frère
+A66	Experience T53 Patient
+T54	Person 3161 3167	madame
+A67	Experience T54 Family
+T55	Conduite 3177 3195	vous le surveillez
+T56	Temporal_Marker 3279 3283	déjà
+A68	Temporality T56 Before
+T57	Temporal_Marker 3294 3298	déjà
+A69	Temporality T57 Before
+T58	Drug_chemicals 3308 3319	médicaments
+A70	Temporality T58 Before
+T59	Sign_Symptom 3344 3358	était pas bien
+A71	Temporality T59 Before
+T39	Sign_Symptom 2172 2200	pris beaucoup de médicaments
+A72	Temporality T39 Before
+T60	Sign_Symptom 3450 3456	réagit
+A73	Temporality T60 Overlap(default)
+T61	Sign_Symptom 3461 3475	se réveille pa
+A74	Negation T61 Négation
+T62	Sign_Symptom 3481 3496	se réveille pas
+A75	Negation T62 Négation
+T63	Sign_Symptom 3553 3559	grogne
+A76	Temporality T63 Overlap(default)
+A77	Temporality T61 Overlap(default)
+A78	Temporality T62 Overlap(default)
+T64	Sign_Symptom 3608 3617	parle pas
+A79	Temporality T64 Overlap(default)
+A80	Negation T64 Négation
+T65	Sign_Symptom 3660 3665	bouge
+A81	Temporality T65 Overlap(default)
+T66	Sign_Symptom 3686 3697	se retourne
+A82	Temporality T66 Overlap(default)
+T67	Sign_Symptom 3720 3725	bouge
+A83	Temporality T67 Overlap(default)
+T68	Sign_Symptom 3763 3777	bouger le bras
+A84	Temporality T68 Overlap(default)
+T69	Sign_Symptom 3805 3820	se réveille pas
+A85	Temporality T69 Overlap(default)
+A86	Negation T69 Négation
+T70	Sign_Symptom 3846 3861	se réveille pas
+A87	Temporality T70 Overlap(default)
+A88	Negation T70 Négation
+T71	Sign_Symptom 3929 3943	ouvre les yeux
+A89	Hypothesis T71
+T72	Sign_Symptom 3961 3979	ouvre pas les yeux
+A90	Temporality T72 Overlap(default)
+A91	Negation T72 Négation
+A92	Temporality T71 Overlap(default)
+T73	Sign_Symptom 4058 4074	bouge les jambes
+A93	Temporality T73 Overlap(default)
+A94	Hypothesis T73
+T74	Conduite 4221 4241	envoyer les pompiers
+T75	Person 4242 4248	madame
+A95	Experience T75 Family
+T76	Person 4278 4286	pompiers
+A96	Experience T76 Healthcare_professional
+T77	Conduite 4395 4415	envoyer les pompiers
+T78	Person 4381 4387	madame
+A97	Experience T78 Family
+T79	Geographic_Marker 4527 4538	à l'hôpital
+T80	Person 4553 4559	madame
+A98	Experience T80 Family
+T81	Conduite 4567 4587	envoyer les pompiers
+T82	Person 4653 4661	pompiers
+A99	Experience T82 Healthcare_professional
+T83	Conduite 4686 4706	envoyer les pompiers
+T84	Conduite 4769 4777	rappelez
+T85	Sign_Symptom 4828 4838	répond pas
+A100	Temporality T85 Overlap(default)
+A101	Negation T85 Négation
+T86	Person 4866 4872	madame
+A102	Experience T86 Family
+T87	Conduite 4891 4911	envoyer les pompiers
+T88	Conduite 4934 4952	restez près de lui
+R1	Temp_mark Arg1:T32 Arg2:T33	
+T36	Sign_Symptom 2050 2070	pris des médicaments
+A103	Temporality T36 Before
+R2	Temp_mark Arg1:T37 Arg2:T36	
+R3	Temp_mark Arg1:T40 Arg2:T39	
+R4	Temp_mark Arg1:T41 Arg2:T39	
+R5	Temp_mark Arg1:T57 Arg2:T59	
+R6	Temp_mark Arg1:T56 Arg2:T59	

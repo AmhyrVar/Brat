@@ -1,0 +1,82 @@
+T1	Person 138 154	docteur ISABELLE
+A1	Experience T1 Healthcare_professional
+T3	Person 203 213	votre mère
+A3	Experience T3 Patient
+T4	Person 273 280	ma mère
+A4	Experience T4 Family
+T5	Person 296 311	madame BERTRAND
+A5	Experience T5 Patient
+T6	Person 354 373	professeur BERTRAND
+A6	Experience T6 Healthcare_professional
+T7	Person 678 685	ma mère
+A7	Experience T7 Patient
+T8	Person 330 338	la femme
+A8	Experience T8 Patient
+T9	Person 1020 1027	ma mère
+A9	Experience T9 Patient
+T10	Person 1053 1058	femme
+A10	Experience T10 Patient
+T11	Person 1179 1198	professeur BERTRAND
+A11	Experience T11 Healthcare_professional
+T12	Person 1166 1174	mon père
+A12	Experience T12 Family
+T14	Person 1507 1511	mère
+A14	Experience T14 Patient
+T15	Person 1542 1553	grande dame
+A15	Experience T15 Patient
+T18	Person 2253 2261	pompiers
+A16	Experience T18 Other
+T19	Sign_Symptom 2304 2319	arrêt cardiaque
+T20	Sign_Symptom 2358 2367	infarctus
+T21	Person 2373 2381	pompiers
+A17	Experience T21 Other
+T22	Person 2436 2440	mère
+A18	Experience T22 Patient
+T23	Person 2492 2511	professeur BERTRAND
+A19	Experience T23 Healthcare_professional
+T24	Person 2566 2573	médecin
+A20	Experience T24 Healthcare_professional
+T25	Person 2583 2591	pompiers
+A21	Experience T25 Other
+T26	Conduite 2607 2632	envoyer déjà les pompiers
+T27	Person 2871 2878	médecin
+A22	Experience T27 Healthcare_professional
+T28	Conduite 2913 2939	on va envoyer les pompiers
+T29	Person 3047 3059	les pompiers
+A23	Experience T29 Other
+T31	Person 3293 3299	madame
+A25	Experience T31 Family
+T30	Conduite 3272 3292	envoyer les pompiers
+T32	Conduite 3409 3428	envoie les pompiers
+T33	Person 375 386	cardiologue
+A24	Experience T33 Healthcare_professional
+T37	Person 1342 1346	SAMU
+A28	Experience T37 Healthcare_professional
+T38	Disease 1615 1633	problèmes de santé
+T40	Sign_Symptom 1795 1810	arrêt cardiaque
+T41	Person 1581 1592	ses enfants
+A29	Experience T41 Family
+T42	Person 1206 1215	collègues
+A30	Experience T42 Healthcare_professional
+T13	Disease 1412 1453	elle a des problèmes de santé votre mère?
+A13	Hypothesis T13
+T39	Person 1448 1452	mère
+A31	Hypothesis T39
+A32	Experience T39 Patient
+A33	Temporality T13 Overlap(default)
+T2	Person 215 241	votre grand mère c'est ça?
+A2	Temporality T2 Overlap(default)
+A34	Hypothesis T2
+A35	Temporality T38 Overlap(default)
+A36	Temporality T40 Overlap(default)
+A37	Hypothesis T40
+T16	Conduite 2091 2195	on va en- envoyer une amb-, on va envoyer les pompiers pour aller voir ce qui se passe à ​d- à la maison
+A38	Temporality T16 After
+T17	Person 2133 2145	les pompiers
+A39	Experience T17 Other
+A40	Temporality T19 Overlap(default)
+A41	Temporality T20 Overlap(default)
+A42	Temporality T26 After
+A43	Temporality T28 After
+A44	Temporality T30 After
+A45	Temporality T32 After

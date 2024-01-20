@@ -1,0 +1,146 @@
+T1	Person 21 27	madame
+A1	Experience T1 Family
+T2	Person 54 90	docteur DAMANI le médecin régulateur
+A2	Experience T2 Healthcare_professional
+T3	Person 115 125	votre mère
+A3	Experience T3 Patient
+T4	Sign_Symptom 136 160	douleur dans la poitrine
+A4	Temporality T4 Overlap(default)
+A5	Hypothesis T4 Vrai
+A6	Experience T4 Patient
+T5	Temporal_Marker 217 233	la première fois
+A7	Hypothesis T5 Vrai
+T6	Temporal_Marker 305 321	la première fois
+T7	Temporal_Marker 402 413	aujourd'hui
+A8	Temporality T7 Overlap(default)
+T8	Temporal_Marker 440 470	quinzaine vingtaine de minutes
+A9	Temporality T8 Before_overlap
+T9	Temporal_Marker 531 551	quinze vingt minutes
+A10	Temporality T9 Before_overlap
+T10	Sign_Symptom 754 760	sueurs
+A11	Temporality T10 Overlap(default)
+A12	Hypothesis T10 Vrai
+A13	Experience T10 Patient
+T11	Disease 1158 1167	infarctus
+A14	Temporality T11 Before
+A15	Experience T11 Family
+T12	Sign_Symptom 988 993	poids
+A16	Temporality T12 Overlap(default)
+A17	Hypothesis T12 Vrai
+A18	Experience T12 Patient
+T13	Person 1387 1389	15
+A19	Experience T13 Healthcare_professional
+T14	Disease 1515 1537	antécédent d'infarctus
+A20	Temporality T14 Before
+A21	Hypothesis T14 Vrai
+A22	Experience T14 Patient
+T15	Conduite 1714 1727	passez la moi
+A23	Temporality T15 Overlap(default)
+T16	Temporal_Marker 1105 1115	auparavant
+A24	Temporality T16 Before
+A25	Experience T16 Family
+R1	Temp_mark Arg1:T16 Arg2:T11	
+R2	Temp_mark Arg1:T5 Arg2:T4	
+R3	Temp_mark Arg1:T6 Arg2:T4	
+R4	Temp_mark Arg1:T7 Arg2:T4	
+R5	Temp_mark Arg1:T8 Arg2:T4	
+R6	Temp_mark Arg1:T9 Arg2:T4	
+T17	Conduite 1903 1916	passez là moi
+T18	Person 2024 2063	le docteur DAMANI le médecin régulateur
+A26	Experience T18 Healthcare_professional
+T19	Person 2082 2093	votre fille
+A27	Experience T19 Family
+T20	Sign_Symptom 2133 2165	douleur au niveau de la poitrine
+A29	Experience T20 Patient
+T21	Disease 2272 2290	problèmes de santé
+A28	Temporality T21 Before
+A30	Hypothesis T21 Vrai
+A31	Experience T21 Patient
+T22	Disease 2326 2337	cholestérol
+A32	Temporality T22 Before
+A33	Experience T22 Patient
+T23	Disease 2348 2360	hypertension
+A34	Temporality T23 Before
+A35	Experience T23 Patient
+T24	Disease 2445 2454	infarctus
+A36	Temporality T24 Before
+A37	Hypothesis T24 Vrai
+A38	Experience T24 Patient
+T26	Disease 2518 2557	les artères bouchées au niveau du coeur
+A42	Temporality T26 Before
+A43	Hypothesis T26 Vrai
+A44	Experience T26 Patient
+T27	Person 2597 2605	mon fils
+A45	Experience T27 Family
+T28	Person 2637 2647	votre fils
+A46	Experience T28 Family
+T29	Temporal_Marker 2708 2730	ça fait quinze minutes
+A47	Temporality T29 Before_overlap
+T30	Sign_Symptom 2814 2847	ça serre au niveau de la poitrine
+A48	Hypothesis T30 Vrai
+A49	Experience T30 Patient
+T31	Sign_Symptom 2879 2891	ça serre pas
+A50	Experience T31 Patient
+T32	Sign_Symptom 2901 2909	ça brûle
+A51	Hypothesis T32 Vrai
+A52	Experience T32 Patient
+T33	Sign_Symptom 2911 2919	ça pique
+A53	Hypothesis T33 Vrai
+A54	Experience T33 Patient
+T34	Sign_Symptom 3115 3127	vous toussez
+A55	Hypothesis T34 Vrai
+A56	Experience T34 Patient
+A57	Negation T31 Négation
+T25	Disease 2483 2492	infarctus
+A39	Temporality T25 Before
+A40	Negation T25 Négation
+A41	Experience T25 Patient
+T35	Sign_Symptom 3144 3154	tousse pas
+A58	Negation T35 Négation
+A59	Experience T35 Patient
+T36	Sign_Symptom 3184 3190	fièvre
+A60	Hypothesis T36 Vrai
+A61	Experience T36 Patient
+T37	Person 3558 3564	madame
+A62	Experience T37 Patient
+T38	Conduite 3566 3591	il faut aller à l'hôpital
+A63	Temporality T38 Overlap(default)
+T39	Person 3623 3634	votre fille
+A64	Experience T39 Family
+T40	Conduite 3736 3760	repassez moi votre fille
+A65	Temporality T40 Overlap(default)
+T41	Person 3749 3760	votre fille
+A66	Experience T41 Family
+T42	Person 3825 3831	madame
+A67	Experience T42 Family
+T43	Person 3848 3859	votre maman
+A68	Experience T43 Patient
+T44	Conduite 3848 3882	votre maman doit aller à l'hôpital
+A69	Temporality T44 Overlap(default)
+T45	Disease 3922 3931	infarctus
+A70	Temporality T45 Overlap(default)
+A71	Hypothesis T45 Vrai
+A72	Experience T45 Patient
+T46	Conduite 4104 4125	amenez là à l'hôpital
+A73	Temporality T46 Overlap(default)
+T47	Conduite 4217 4271	vous prenez votre voiture et vous l'amenez à l'hôpital
+A74	Temporality T47 Overlap(default)
+T48	Temporal_Marker 3321 3330	hier soir
+A75	Temporality T48 Before_overlap
+T49	Temporal_Marker 3416 3437	depuis quinze minutes
+A76	Temporality T49 Before_overlap
+T50	Temporal_Marker 3254 3262	ce matin
+A77	Temporality T50 Before_overlap
+A78	Hypothesis T50 Vrai
+T51	Sign_Symptom 2698 2701	mal
+A79	Experience T51 Patient
+R7	Temp_mark Arg1:T29 Arg2:T51	
+T52	Sign_Symptom 2759 2766	douleur
+A80	Experience T52 Patient
+R8	Temp_mark Arg1:T29 Arg2:T52	
+T53	Temporal_Marker 3475 3496	depuis quinze minutes
+A81	Temporality T53 Before_overlap
+R9	Temp_mark Arg1:T50 Arg2:T52	
+R10	Temp_mark Arg1:T48 Arg2:T52	
+R11	Temp_mark Arg1:T49 Arg2:T52	
+R12	Temp_mark Arg1:T53 Arg2:T52	

@@ -1,0 +1,42 @@
+T1	Person 59 72	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 110 115	femme
+A2	Experience T2 Patient
+T3	Sign_Symptom 139 146	blessée
+A3	Hypothesis T3 Vrai
+A4	Experience T3 Patient
+T4	Sign_Symptom 332 336	bras
+A5	Experience T4 Patient
+T5	Sign_Symptom 297 302	plaie
+A6	Hypothesis T5 Vrai
+A7	Experience T5 Patient
+T6	Sign_Symptom 377 395	qu'une seule plaie
+A8	Hypothesis T6 Vrai
+A9	Experience T6 Patient
+T7	Sign_Symptom 608 623	peut pas parler
+A10	Negation T7 Négation
+A11	Experience T7 Patient
+T8	Sign_Symptom 935 962	une plaie au niveau du bras
+A12	Experience T8 Patient
+T9	Sign_Symptom 1093 1113	au niveau de la main
+A13	Hypothesis T9 Vrai
+A14	Experience T9 Patient
+T10	Sign_Symptom 1166 1194	entre le poignet et le coude
+A15	Experience T10 Patient
+T11	Sign_Symptom 1231 1246	saigne beaucoup
+A16	Hypothesis T11 Vrai
+A17	Experience T11 Patient
+T12	Sign_Symptom 1247 1266	ça saigne encore là
+A18	Hypothesis T12 Vrai
+A19	Experience T12 Patient
+T13	Sign_Symptom 1299 1317	ça saigne beaucoup
+A20	Experience T13 Patient
+T14	Sign_Symptom 1346 1351	plaie
+A21	Experience T14 Patient
+T15	Sign_Symptom 1423 1439	cinq centimètres
+A22	Experience T15 Patient
+T16	Conduite 1698 1718	envoyer les pompiers
+T17	Conduite 1768 1891	faire une compression avec heu avec ce que vous avez à la maison quelque chose de propre une serviette heu ce que vous avez
+T18	Conduite 1950 1968	vous gardez appuyé
+T19	Person 2022 2029	docteur
+A23	Experience T19 Healthcare_professional

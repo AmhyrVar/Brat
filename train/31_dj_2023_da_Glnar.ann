@@ -1,0 +1,208 @@
+T1	Person 55 71	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 105 119	mal au ventre?
+A2	Experience T2 Patient
+T3	Sign_Symptom 142 196	alors vous avez mal au ventre depuis combien de temps?
+A3	Temporality T3 Before_overlap
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Temporal_Marker 172 195	depuis combien de temps
+A6	Temporality T4 Before_overlap
+T5	Temporal_Marker 210 225	depuis ce matin
+A7	Temporality T5 Before_overlap
+A8	Experience T5 Patient
+T6	Temporal_Marker 235 250	depuis ce matin
+A9	Temporality T6 Before_overlap
+A10	Experience T6 Patient
+T7	Sign_Symptom 253 289	st ce qu'il y a eu des vomissements?
+A11	Temporality T7 Before_overlap
+A12	Hypothesis T7
+A13	Experience T7 Patient
+T8	Sign_Symptom 312 331	pas de vomissements
+A14	Temporality T8 Before_overlap
+A15	Negation T8 Négation
+A16	Experience T8 Patient
+T9	Sign_Symptom 333 366	est ce qu'il y a eu des diarrhées
+A17	Temporality T9 Before_overlap
+A18	Hypothesis T9
+A19	Experience T9 Patient
+T10	Sign_Symptom 390 405	pas de diarrhée
+A20	Temporality T10 Overlap(default)
+A21	Negation T10 Négation
+A22	Experience T10 Patient
+T11	Disease 407 451	est ce que vous avez des problèmes de santé?
+A23	Temporality T11 Before
+A24	Hypothesis T11
+A25	Experience T11 Patient
+T12	Disease 470 487	un peu de diabète
+A26	Temporality T12 Before_overlap
+A27	Experience T12 Patient
+T13	Disease 497 504	diabète
+A28	Temporality T13 Before_overlap
+A29	Experience T13 Patient
+T14	Drug_chemicals 506 532	vous prenez de l'insuline?
+A30	Temporality T14 Before
+A31	Hypothesis T14
+A32	Experience T14 Patient
+T15	Disease 559 608	est ce que vous avez d'autres problèmes de santé?
+A33	Temporality T15 Before_overlap
+A34	Hypothesis T15
+A35	Experience T15 Patient
+T16	Drug_chemicals 636 689	vous prenez pas d'autre médicament que de l'insuline?
+A36	Temporality T16 Before_overlap
+A37	Hypothesis T16
+A38	Experience T16 Patient
+T17	Temporal_Marker 744 759	depuis ce matin
+A39	Temporality T17 Before_overlap
+A40	Hypothesis T17
+A41	Experience T17 Patient
+T18	Sign_Symptom 725 738	vous avez mal
+A42	Temporality T18 Before_overlap
+A43	Experience T18 Patient
+T19	Sign_Symptom 760 804	vous avez pas vomi vous avez pas de diarrhée
+A44	Temporality T19 Before_overlap
+A45	Hypothesis T19
+A46	Negation T19 Négation
+A47	Experience T19 Patient
+T20	Sign_Symptom 818 857	mal en bas du ventre en haut du ventre?
+A48	Temporality T20 Overlap(default)
+A49	Hypothesis T20
+A50	Experience T20 Patient
+T21	Sign_Symptom 872 884	n peu en hau
+A51	Temporality T21 Overlap(default)
+A52	Experience T21 Patient
+T22	Sign_Symptom 899 922	au niveau de l'estomac?
+A53	Temporality T22 Overlap(default)
+A54	Hypothesis T22
+A55	Experience T22 Patient
+T23	Sign_Symptom 954 963	ça brûle?
+A56	Temporality T23 Before_overlap
+A57	Hypothesis T23
+A58	Experience T23 Patient
+T24	Sign_Symptom 999 1078	la douleur est ce que elle a tendance à remonter ou elle reste au même endroit?
+A59	Temporality T24 Before_overlap
+A60	Hypothesis T24
+A61	Experience T24 Patient
+T25	Sign_Symptom 1149 1201	st ce que vous avez mal ailleurs que dans le ventre?
+A62	Temporality T25 Before_overlap
+A63	Hypothesis T25
+A64	Experience T25 Patient
+T26	Person 1215 1259	un peu un peu en au dos au bras un peu aussi
+A65	Temporality T26 Before_overlap
+A66	Experience T26 Patient
+T27	Sign_Symptom 1247 1249	un
+T28	Sign_Symptom 1269 1301	au bras gauche ou au bras droit?
+A67	Temporality T28 Before_overlap
+A68	Hypothesis T28
+A69	Experience T28 Patient
+T29	Sign_Symptom 1319 1330	bras gauche
+A70	Temporality T29 Before_overlap
+A71	Experience T29 Patient
+T30	Sign_Symptom 1340 1368	vous avez mal au bras gauche
+A72	Temporality T30 Before_overlap
+A73	Experience T30 Patient
+T31	Sign_Symptom 1371 1418	st ce que vous avez mal dans la mâchoire aussi?
+A74	Temporality T31 Before_overlap
+A75	Hypothesis T31
+A76	Experience T31 Patient
+T32	Sign_Symptom 1441 1473	j'ai un peu mal à la gorge aussi
+A77	Temporality T32 Before_overlap
+A78	Experience T32 Patient
+T33	Sign_Symptom 1483 1507	vous avez mal à la gorge
+A79	Temporality T33 Overlap(default)
+A80	Experience T33 Patient
+T34	Sign_Symptom 1509 1558	vous avez mal à la gorge depuis combien de temps?
+A81	Temporality T34 Overlap(default)
+A82	Hypothesis T34
+A83	Experience T34 Patient
+T35	Temporal_Marker 1534 1557	depuis combien de temps
+A84	Temporality T35 Overlap(default)
+A85	Experience T35 Patient
+T36	Temporal_Marker 1568 1576	ce matin
+A86	Temporality T36 Before
+A87	Experience T36 Patient
+T37	Conduite 1586 1647	est ce que vous avez pris des médicaments pour vous soulager?
+A88	Temporality T37 Before_overlap
+A89	Hypothesis T37
+A90	Experience T37 Patient
+T38	Drug_chemicals 1612 1627	des médicaments
+A91	Temporality T38 After
+A92	Experience T38 Patient
+T39	Conduite 1661 1694	j'ai pris un do- doli- DOLIPRANE?
+A93	Temporality T39 Before
+A94	Experience T39 Patient
+T40	Drug_chemicals 1684 1694	DOLIPRANE?
+A95	Temporality T40 Before
+A96	Experience T40 Patient
+T41	Drug_chemicals 1707 1716	DOLIPRANE
+A97	Temporality T41 Before
+A98	Experience T41 Patient
+T42	Drug_chemicals 1726 1756	voilà ça m'a pas trop soulagée
+A99	Temporality T42 Before_overlap
+A100	Negation T42 Négation
+A101	Experience T42 Patient
+T43	Sign_Symptom 1766 1802	est ce que vous avez envie de vomir?
+A102	Temporality T43 Before_overlap
+A103	Hypothesis T43
+A104	Experience T43 Patient
+T44	Sign_Symptom 1793 1802	de vomir?
+T45	Sign_Symptom 1829 1878	est ce que vous avez déjà eu ce genre de douleur?
+A105	Temporality T45 Before
+A106	Hypothesis T45
+A107	Experience T45 Patient
+T46	Sign_Symptom 1918 1944	ça vous est jamais arrivé?
+A108	Temporality T46 Before
+A109	Hypothesis T46
+A110	Negation T46 Négation
+A111	Experience T46 Patient
+T47	Sign_Symptom 1985 2039	vous avez mal en haut du ventre au niveau de l'estomac
+A112	Temporality T47 Before_overlap
+A113	Experience T47 Patient
+T48	Sign_Symptom 2040 2053	ça vous brûle
+A114	Temporality T48 Overlap(default)
+A115	Experience T48 Patient
+T49	Sign_Symptom 2070 2087	mal dans la gorge
+A116	Temporality T49 Before_overlap
+A117	Experience T49 Patient
+T50	Temporal_Marker 2088 2109	depuis ce m- ce matin
+A118	Temporality T50 Before_overlap
+A119	Experience T50 Patient
+T51	Sign_Symptom 2113 2143	vous avez aussi envie de vomir
+A120	Temporality T51 Before_overlap
+A121	Experience T51 Patient
+T52	Sign_Symptom 2171 2220	il y a des gens qui sont ​malades autour de vous?
+A122	Temporality T52 Before_overlap
+A123	Experience T52 Family
+A124	Hypothesis T52
+T53	Person 2178 2186	des gens
+A125	Experience T53 Other
+T54	Person 2260 2271	personne là
+A126	Experience T54 Other
+T55	Conduite 2309 2347	faire passer un médecin heu à domicile
+A127	Temporality T55 After
+A128	Experience T55 Healthcare_professional
+T56	Person 2322 2332	un médecin
+A129	Experience T56 Healthcare_professional
+T57	Geographic_Marker 2337 2347	à domicile
+T58	Person 2348 2354	madame
+A130	Experience T58 Patient
+T59	Conduite 2358 2368	va arriver
+A131	Temporality T59 After
+A132	Experience T59 Healthcare_professional
+T60	Temporal_Marker 2374 2397	les quatre à six heures
+A133	Temporality T60 After
+T61	Sign_Symptom 2398 2440	si la douleur si les symptômes s'aggravent
+A134	Experience T61 Patient
+T62	Temporal_Marker 2441 2451	entre temp
+T63	Conduite 2453 2472	vous rappelez le 15
+A135	Temporality T63 After
+A136	Experience T63 Patient
+T64	Person 2470 2472	15
+A137	Experience T64 Healthcare_professional
+T65	Person 2497 2504	médecin
+A138	Experience T65 Healthcare_professional
+T66	Geographic_Marker 2505 2516	à la maison
+T67	Person 2562 2568	madame
+A139	Experience T67 Patient
+T68	Person 2584 2591	docteur
+A140	Experience T68 Healthcare_professional

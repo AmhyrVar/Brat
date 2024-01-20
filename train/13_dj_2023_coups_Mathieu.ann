@@ -1,0 +1,147 @@
+T1	Person 77 91	docteur DAMANI
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 95 102	SAMU 93
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 129 140	votre femme
+A5	Temporality T3 Overlap(default)
+A6	Experience T3 Patient
+T4	Sign_Symptom 151 158	blessée
+A7	Temporality T4 Overlap(default)
+A8	Hypothesis T4
+A9	Experience T4 Patient
+T5	Sign_Symptom 218 233	elle est tombée
+A10	Temporality T5 Before_overlap
+A11	Experience T5 Patient
+T6	Sign_Symptom 244 259	elle est tombée
+A12	Temporality T6 Before_overlap
+A13	Experience T6 Patient
+T7	Temporal_Marker 260 275	dans la cuisine
+A14	Temporality T7 Before_overlap
+A15	Experience T7 Patient
+T8	Sign_Symptom 375 380	plaie
+A16	Temporality T8 Overlap(default)
+A17	Experience T8 Patient
+T9	Sign_Symptom 479 502	plaie au niveau du bras
+A18	Temporality T9 Overlap(default)
+A19	Experience T9 Patient
+T10	Sign_Symptom 516 550	plaie au niveau du bras qui saigne
+A20	Temporality T10 Overlap(default)
+A21	Hypothesis T10
+A22	Experience T10 Patient
+T11	Sign_Symptom 632 648	ça saigne un peu
+A23	Temporality T11 Overlap(default)
+A24	Experience T11 Patient
+T12	Sign_Symptom 755 771	ça saigne un peu
+A25	Temporality T12 Overlap(default)
+A26	Experience T12 Patient
+T13	Sign_Symptom 786 802	ca saigne un peu
+A27	Temporality T13 Overlap(default)
+A28	Experience T13 Patient
+T14	Sign_Symptom 1014 1073	en tombant qu'elle s'est pris le couteau au niveau du coude
+A29	Temporality T14 Before_overlap
+A30	Hypothesis T14
+A31	Experience T14 Patient
+T15	Sign_Symptom 1113 1128	elle est tombée
+A32	Temporality T15 Overlap(default)
+A33	Experience T15 Patient
+T16	Sign_Symptom 1173 1212	plaie là aussi au niveau de de l'arcade
+A34	Temporality T16 Overlap(default)
+A35	Experience T16 Patient
+T17	Sign_Symptom 1230 1265	elle s'est cognée la tête par terre
+A36	Temporality T17 Before_overlap
+A37	Hypothesis T17
+A38	Experience T17 Patient
+T18	Sign_Symptom 1320 1330	consciente
+A39	Temporality T18 Overlap(default)
+A40	Hypothesis T18
+A41	Experience T18 Patient
+T19	Sign_Symptom 1375 1402	elle vous parle normalement
+A42	Temporality T19 Overlap(default)
+A43	Hypothesis T19
+A44	Experience T19 Patient
+T20	Sign_Symptom 1416 1427	elle chiale
+A45	Temporality T20 Overlap(default)
+A46	Experience T20 Patient
+T21	Sign_Symptom 1461 1471	elle parle
+A47	Temporality T21 Overlap(default)
+A48	Experience T21 Patient
+T22	Conduite 1617 1637	retirez son son pull
+A49	Temporality T22 Overlap(default)
+A50	Experience T22 Patient
+T23	Geographic_Marker 1732 1749	dans les chiottes
+A51	Temporality T23 Overlap(default)
+A52	Experience T23 Patient
+T24	Sign_Symptom 1753 1764	elle chiale
+A53	Temporality T24 Overlap(default)
+A54	Experience T24 Patient
+T25	Sign_Symptom 1952 1967	la plaie saigne
+A55	Temporality T25 Overlap(default)
+A56	Hypothesis T25
+A57	Experience T25 Patient
+T26	Geographic_Marker 2036 2053	dans les chiottes
+A58	Temporality T26 Overlap(default)
+A59	Experience T26 Patient
+T27	Conduite 2175 2201	demandez d'ouvrir la porte
+A60	Temporality T27 Overlap(default)
+A61	Experience T27 Family
+T28	Conduite 2555 2585	il faut qu'elle ouvre la porte
+A62	Temporality T28 Overlap(default)
+A63	Experience T28 Patient
+T29	Sign_Symptom 2602 2616	elle bouge pas
+A64	Temporality T29 Overlap(default)
+A65	Experience T29 Patient
+T30	Sign_Symptom 2623 2634	elle chiale
+A66	Temporality T30 Overlap(default)
+A67	Experience T30 Patient
+T31	Conduite 2670 2697	faut qu'elle ouvre la porte
+A68	Temporality T31 Overlap(default)
+A69	Experience T31 Patient
+T32	Conduite 2802 2827	on envoie heu des secours
+A70	Temporality T32 After
+A71	Hypothesis T32
+A72	Experience T32 Healthcare_professional
+T33	Conduite 2962 2994	dites lui qu'elle ouvre la porte
+A73	Temporality T33 Overlap(default)
+A74	Experience T33 Family
+T34	Conduite 3022 3047	vous l'ameniez à l'hôpita
+A75	Temporality T34 After
+A76	Experience T34 Family
+T35	Geographic_Marker 3875 3896	dans la salle de bain
+A77	Temporality T35 Overlap(default)
+A78	Hypothesis T35
+A79	Experience T35 Patient
+T36	Person 3833 3844	votre femme
+A80	Temporality T36 Overlap(default)
+A81	Experience T36 Patient
+T37	Conduite 4102 4141	il faut qu'elle soit amenée à l'hôpital
+A82	Temporality T37 After
+A83	Experience T37 Healthcare_professional
+T38	Conduite 3984 4031	on va vous envoyer heu les les premiers secours
+A84	Temporality T38 After
+A85	Experience T38 Healthcare_professional
+T39	Conduite 4201 4226	on va amener les pompiers
+A86	Temporality T39 After
+A87	Experience T39 Healthcare_professional
+T40	Conduite 4337 4346	la police
+A88	Temporality T40 After
+A89	Experience T40 Healthcare_professional
+T41	Sign_Symptom 4495 4506	deux plaies
+A90	Temporality T41 Overlap(default)
+A91	Experience T41 Patient
+T42	Geographic_Marker 4542 4564	dans la salle de bains
+A92	Temporality T42 Overlap(default)
+A93	Experience T42 Patient
+T43	Conduite 4569 4594	les pompiers vont arriver
+A94	Temporality T43 After
+A95	Experience T43 Healthcare_professional
+T44	Conduite 4686 4707	les pompiers arrivent
+A96	Temporality T44 After
+A97	Experience T44 Healthcare_professional
+T45	Conduite 4653 4685	elle reste dans la salle de bain
+A98	Temporality T45 Overlap(default)
+A99	Experience T45 Patient
+T46	Temporal_Marker 4664 4685	dans la salle de bain
+A100	Temporality T46 Overlap(default)
+A101	Experience T46 Patient

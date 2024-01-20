@@ -1,0 +1,48 @@
+T1	Person 27 40	docteur CHITZ
+A1	Experience T1 Healthcare_professional
+T2	Person 91 116	collègue de cinquante ans
+A2	Experience T2 Patient
+T3	Person 17 25	monsieur
+A3	Experience T3 Other
+T4	Sign_Symptom 117 126	qui a mal
+A4	Temporality T4 Overlap(default)
+T5	Sign_Symptom 185 204	a la poit- poitrine
+T6	Temporal_Marker 334 359	ça fait quinze minutes là
+A5	Temporality T6 Before
+T7	Sign_Symptom 378 397	il est plié en deux
+T8	Temporal_Marker 375 377	là
+A6	Temporality T8 Overlap(default)
+T9	Sign_Symptom 425 444	il est pas en forme
+A7	Temporality T9 Overlap(default)
+T10	Sign_Symptom 561 585	il est plié là, il a mal
+T11	Sign_Symptom 665 683	il a pas de sueurs
+A8	Negation T11 Négation
+T12	Sign_Symptom 691 709	il a pas de sueurs
+A9	Negation T12 Négation
+T13	Person 750 764	votre collègue
+A10	Experience T13 Patient
+T14	Sign_Symptom 990 1023	ça fait deux semaines qu'il a mal
+A11	Temporality T14 Before
+T15	Sign_Symptom 1100 1108	poitrine
+T16	Person 1396 1409	docteur CHITZ
+A12	Experience T16 Healthcare_professional
+T17	Sign_Symptom 1475 1492	mal à la poitrine
+T18	Temporal_Marker 1571 1592	il y a quinze minutes
+A13	Temporality T18 Before
+T19	Temporal_Marker 1881 1902	ça fait deux semaines
+A14	Temporality T19 Before
+T20	Sign_Symptom 2022 2034	e vais vomir
+A15	Temporality T20 Overlap(default)
+A16	Experience T20 Patient
+A17	Experience T17 Patient
+A18	Experience T15 Patient
+A19	Experience T14 Patient
+T21	Conduite 2905 2937	prenez si vous avez un doliprane
+T22	Drug_chemicals 2928 2937	doliprane
+T23	Conduite 2981 2996	restez au calme
+T24	Conduite 2998 3020	ne faites aucun effort
+A20	Negation T24 Négation
+T25	Geographic_Marker 3071 3092	e suis dans le camion
+A21	Experience T25 Patient
+T26	Conduite 3214 3252	vous attendez que les secours arrivent
+A22	Experience T26 Patient

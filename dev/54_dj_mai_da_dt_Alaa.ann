@@ -1,0 +1,78 @@
+T1	Person 25 37	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 74 92	avez mal au ventre
+A2	Experience T2 Patient
+T3	Person 155 160	femme
+A3	Experience T3 Family
+T4	Sign_Symptom 321 334	mal au ventre
+A4	Experience T4 Patient
+T5	Sign_Symptom 377 387	la douleur
+A5	Experience T5 Patient
+T6	Sign_Symptom 484 497	des diarrhées
+A6	Hypothesis T6
+A7	Experience T6 Patient
+T7	Sign_Symptom 508 516	constipé
+A8	Hypothesis T7
+A9	Experience T7 Patient
+T8	Temporal_Marker 517 529	en ce moment
+T10	Sign_Symptom 564 579	pas de diarrhée
+A10	Negation T10 Négation
+A11	Experience T10 Family
+T9	Sign_Symptom 580 599	pas de constipation
+A12	Negation T9 Négation
+A13	Experience T9 Patient
+T11	Sign_Symptom 627 636	avez vomi
+A14	Hypothesis T11
+A15	Experience T11 Patient
+T12	Sign_Symptom 655 674	pas de vomissements
+A16	Negation T12 Négation
+A17	Experience T12 Patient
+T13	Sign_Symptom 690 696	fièvre
+T14	Sign_Symptom 718 724	fièvre
+A18	Experience T14 Patient
+T15	Sign_Symptom 748 779	problèmes de santé particuliers
+A19	Hypothesis T15
+A20	Experience T15 Patient
+T16	Sign_Symptom 854 883	pas trop de problème de santé
+A21	Negation T16 Négation
+A22	Experience T16 Patient
+T17	Sign_Symptom 897 905	monsieur
+A23	Experience T17 Patient
+T18	Conduite 912 948	faut que vous alliez voir un médecin
+A24	Experience T18 Patient
+T19	Temporal_Marker 996 1007	aujourd'hui
+R1	Temp_mark Arg1:T19 Arg2:T14	
+R2	Temp_mark Arg1:T19 Arg2:T13	
+R3	Temp_mark Arg1:T19 Arg2:T12	
+R4	Temp_mark Arg1:T19 Arg2:T11	
+R5	Temp_mark Arg1:T8 Arg2:T9	
+R6	Temp_mark Arg1:T8 Arg2:T10	
+T20	Temporal_Marker 411 419	ce matin
+R7	Temp_mark Arg1:T20 Arg2:T5	
+R8	Temp_mark Arg1:T20 Arg2:T4	
+R9	Temp_mark Arg1:T20 Arg2:T2	
+T21	Conduite 1016 1040	faut prendre rendez vous
+A25	Experience T21 Patient
+T22	Temporal_Marker 1062 1079	fin de la semaine
+T23	Person 1150 1155	femme
+A26	Experience T23 Family
+T24	Person 1240 1247	médecin
+A27	Experience T24 Healthcare_professional
+T25	Person 1099 1106	médecin
+A28	Experience T25 Healthcare_professional
+T26	Person 1259 1266	médecin
+A29	Experience T26 Healthcare_professional
+T27	Conduite 1393 1448	faut aller voir un médecin heu dans les prochains jours
+A30	Experience T27 Patient
+T28	Drug_chemicals 1462 1471	DOLIPRANE
+T29	Geographic_Marker 1474 1483	la maison
+T30	Drug_chemicals 1509 1518	DOLIPRANE
+T31	Sign_Symptom 1627 1634	douleur
+A31	Experience T31 Patient
+T32	Sign_Symptom 1715 1720	ça va
+A32	Experience T32 Patient
+T33	Person 1798 1805	médecin
+A33	Experience T33 Healthcare_professional
+T34	Conduite 1752 1786	je vous laisse prendre rendez vous
+A34	Experience T34 Patient
+T35	Temporal_Marker 1844 1857	cette semaine

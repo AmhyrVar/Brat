@@ -1,0 +1,239 @@
+T1	Person 17 23	madame
+A1	Experience T1 Family
+T2	Person 35 42	docteur
+A2	Experience T2 Healthcare_professional
+T3	Person 43 47	ABAZ
+A3	Experience T3 Healthcare_professional
+#1	AnnotatorNotes T3	le nom du medecin
+T4	Geographic_Marker 51 55	SAMU
+T5	Person 60 76	moi mon collègue
+A4	Experience T5 Healthcare_professional
+T6	Person 119 123	père
+A5	Experience T6 Patient
+T8	Person 124 148	de quatre vingt cinq ans
+A7	Experience T8 Patient
+#3	AnnotatorNotes T8	age du patient
+T9	Disease 170 175	COVID
+T10	Disease 170 191	COVID c'est bien cela
+A8	Hypothesis T10
+T11	Disease 216 221	COVID
+T7	Temporal_Marker 140 144	cinq
+#2	AnnotatorNotes T7	patient age
+T12	Person 237 240	moi
+A6	Experience T12 Patient
+T13	Person 253 260	médecin
+A9	Negation T13 Négation
+A10	Experience T13 Family
+T14	Temporal_Marker 460 465	matin
+A11	Temporality T14 Overlap(default)
+T15	Temporal_Marker 534 539	matin
+A12	Temporality T15 Overlap(default)
+T16	Person 552 564	SOS médecins
+A13	Experience T16 Healthcare_professional
+T17	Temporal_Marker 524 539	depuis ce matin
+A14	Temporality T17 Before_overlap
+T18	Person 664 672	médecins
+A15	Experience T18 Healthcare_professional
+T19	Person 690 695	le 18
+A16	Experience T19 Other
+T20	Sign_Symptom 771 834	es symptômes qui vous ont motivé à appeler le le 15 aujourd'hui
+A17	Temporality T20 Before_overlap
+A18	Hypothesis T20
+A19	Experience T20 Patient
+T21	Person 856 864	mon papa
+A20	Experience T21 Patient
+T22	Person 865 868	moi
+A21	Experience T22 Family
+T23	Temporal_Marker 889 905	fait trois jours
+T24	Sign_Symptom 912 930	a fièvre il tousse
+A22	Temporality T24 Before_overlap
+A23	Experience T24 Patient
+T25	Sign_Symptom 976 1003	il est à la maison comme ça
+A24	Temporality T25 Before_overlap
+A25	Experience T25 Patient
+T26	Geographic_Marker 985 994	la maison
+A26	Temporality T26 Before_overlap
+A27	Experience T26 Patient
+T27	Person 1057 1061	papa
+A28	Experience T27 Patient
+T28	Geographic_Marker 1066 1080	à côté de vous
+A29	Experience T28 Family
+T29	Geographic_Marker 1102 1115	à côté de moi
+A30	Experience T29 Patient
+T30	Sign_Symptom 1138 1199	respire normalement ou il est il a des difficultés à respirer
+A31	Hypothesis T30
+A32	Experience T30 Patient
+T31	Sign_Symptom 1326 1341	une aggravation
+A33	Temporality T31 Overlap(default)
+A34	Hypothesis T31
+A35	Experience T31 Patient
+T32	Temporal_Marker 1356 1383	ur les trois derniers jours
+A36	Temporality T32 Before_overlap
+T33	Person 1378 1383	jours
+A37	Hypothesis T33
+T34	Conduite 1403 1434	je peux pas le laisser comme ça
+A38	Temporality T34 Overlap(default)
+A39	Negation T34 Négation
+A40	Experience T34 Patient
+T35	Conduite 1444 1487	je peux pas le laisser à la maison comme ça
+A41	Temporality T35 Overlap(default)
+A42	Negation T35 Négation
+A43	Experience T35 Patient
+T36	Conduite 1492 1524	sans surveillance sans personnel
+A44	Temporality T36 After
+A45	Negation T36 Négation
+A46	Experience T36 Patient
+T37	Sign_Symptom 1588 1607	a pas d'aggravation
+A47	Temporality T37 After
+A48	Negation T37 Négation
+A49	Experience T37 Patient
+T38	Temporal_Marker 1619 1641	durer combien de temps
+A50	Temporality T38 After
+A51	Experience T38 Patient
+T39	Disease 1730 1752	des problèmes de santé
+A52	Temporality T39 Before_overlap
+A53	Experience T39 Family
+T40	Person 1717 1727	votre papa
+A54	Experience T40 Patient
+T41	Disease 1788 1809	il en a des problèmes
+A55	Temporality T41 Before_overlap
+A56	Experience T41 Family
+T42	Disease 1815 1832	il est hypertendu
+A57	Temporality T42 Before_overlap
+A58	Experience T42 Family
+T43	Conduite 1837 1854	​il a un un stent
+A59	Temporality T43 Before
+A60	Experience T43 Family
+T44	Disease 1859 1900	il est diabétique aussi il est diabétique
+A61	Temporality T44 Before_overlap
+A62	Experience T44 Family
+T45	Geographic_Marker 1936 1947	à la maison
+A63	Temporality T45 Before_overlap
+A64	Experience T45 Patient
+T46	Geographic_Marker 2013 2024	à la maison
+A65	Temporality T46 Before_overlap
+T47	Sign_Symptom 2049 2120	des problèmes cognitifs ou des problèmes de mémoire ou heu de confusion
+A66	Temporality T47 Before_overlap
+A67	Experience T47 Family
+T48	Conduite 2179 2208	je veux pas aller à l'hôpital
+A68	Temporality T48 After
+A69	Negation T48 Négation
+A70	Experience T48 Patient
+T49	Temporal_Marker 2333 2352	la semaine dernière
+A71	Temporality T49 Before
+T50	Person 2361 2365	mama
+A72	Experience T50 Patient
+T51	Disease 2371 2385	avait le COVID
+A73	Temporality T51 Before
+A74	Experience T51 Family
+T52	Conduite 2409 2426	ça me rassure pas
+A75	Hypothesis T52
+A76	Negation T52 Négation
+T53	Conduite 2477 2494	aille à l'hôpital
+A77	Temporality T53 After
+A78	Experience T53 Patient
+T54	Geographic_Marker 2485 2494	l'hôpital
+A79	Temporality T54 After
+T55	Sign_Symptom 2542 2582	les symptômes perdurent depuis un moment
+A80	Temporality T55 Before_overlap
+A81	Experience T55 Patient
+T56	Temporal_Marker 2556 2582	perdurent depuis un moment
+A82	Temporality T56 Before_overlap
+T57	Conduite 2609 2627	faut le surveiller
+A83	Temporality T57 After
+A84	Experience T57 Healthcare_professional
+T58	Conduite 2633 2654	il faut le surveiller
+A85	Temporality T58 After
+A86	Experience T58 Healthcare_professional
+T59	Person 2727 2732	maman
+A87	Experience T59 Family
+T60	Person 2751 2755	papa
+A88	Experience T60 Patient
+T61	Person 2779 2784	maman
+A89	Experience T61 Family
+T62	Sign_Symptom 2794 2802	fatiguée
+A90	Temporality T62 Before
+A91	Experience T62 Family
+T63	Conduite 2817 2843	passez le moi au téléphone
+A92	Temporality T63 Overlap(default)
+T64	Conduite 2860 2878	pouvoir lui parler
+A93	Temporality T64 After
+A94	Experience T64 Patient
+T65	Conduite 2888 2925	il veut pas parler il veut pas parler
+A95	Temporality T65 After
+A96	Negation T65 Négation
+A97	Experience T65 Patient
+T66	Person 2934 2941	médecin
+A98	Experience T66 Healthcare_professional
+T67	Conduite 3058 3171	je ne vois pas là d'arguments pour une hospitalisation tout de suite tout de suite pour votre heu pour votre papa
+A99	Temporality T67 After
+A100	Negation T67 Négation
+A101	Experience T67 Patient
+T68	Temporal_Marker 3113 3140	tout de suite tout de suite
+A102	Temporality T68 Overlap(default)
+T69	Person 3161 3171	votre papa
+A103	Experience T69 Patient
+T70	Conduite 3212 3264	soit surveillé heu par vous ou par quelqu'un d'autre
+A104	Temporality T70 After
+A105	Experience T70 Family
+T71	Conduite 3301 3324	surveillance à domicile
+A106	Temporality T71 After
+A107	Experience T71 Family
+T72	Conduite 3335 3469	bah moi je travaille hein je travaille hein après non je travaille je peux pas je peux pas la journée là comme ça heu non je travaille
+A108	Negation T72 Négation
+T73	Temporal_Marker 3426 3436	la journée
+T74	Temporal_Marker 3379 3384	après
+T75	Conduite 3523 3548	le surveiller à la maison
+A109	Temporality T75 After
+A110	Experience T75 Family
+T76	Person 3566 3571	maman
+A111	Experience T76 Family
+T77	Sign_Symptom 3581 3601	pas dans un bon état
+A112	Temporality T77 Before_overlap
+A113	Negation T77 Négation
+A114	Experience T77 Family
+T78	Disease 3632 3640	le COVID
+A115	Temporality T78 Overlap(default)
+T79	Sign_Symptom 3650 3670	extrêmement fatiguée
+A116	Temporality T79 Before_overlap
+A117	Experience T79 Family
+T80	Conduite 3675 3716	je crois pas qu'elle pourra le surveiller
+A118	Temporality T80 After
+A119	Negation T80 Négation
+A120	Experience T80 Family
+T81	Conduite 3752 3799	prendre un rendez vous avec le médecin traitant
+A121	Temporality T81 After
+T82	Person 3781 3799	e médecin traitant
+A122	Experience T82 Healthcare_professional
+T83	Conduite 3863 3897	faire passer un médecin à domicile
+A123	Temporality T83 After
+A124	Experience T83 Healthcare_professional
+T84	Person 3876 3886	un médecin
+A125	Experience T84 Healthcare_professional
+T85	Geographic_Marker 3887 3897	à domicile
+A126	Temporality T85 After
+T86	Temporal_Marker 3931 3939	un délai
+T87	Temporal_Marker 3969 3985	plusieurs heures
+T88	Conduite 3998 4033	quelqu'un qui va passer à la maison
+A127	Temporality T88 After
+T89	Conduite 4055 4080	arrivez avec SOS médecins
+A128	Temporality T89 After
+T90	Person 4068 4080	SOS médecins
+A129	Experience T90 Healthcare_professional
+T91	Conduite 4116 4133	l'hospitalisation
+A130	Temporality T91 After
+A131	Experience T91 Patient
+T92	Conduite 4296 4338	pas donner v-d'informations sur les délais
+A132	Temporality T92 After
+A133	Negation T92 Négation
+T93	Temporal_Marker 4328 4338	les délais
+T94	Temporal_Marker 4344 4353	le moment
+T95	Conduite 4367 4387	vous restez avec lui
+A134	Temporality T95 After
+A135	Experience T95 Family
+T96	Sign_Symptom 4401 4445	une aggravation ou un changement particulier
+A136	Temporality T96 After
+A137	Experience T96 Patient
+T97	Conduite 4446 4464	vous nous rappelez
+A138	Temporality T97 After
+A139	Experience T97 Family

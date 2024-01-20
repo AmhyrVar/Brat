@@ -1,0 +1,93 @@
+T1	Person 25 31	madame
+T2	Person 44 58	docteur DAMANI
+A1	Experience T2 Healthcare_professional
+T3	Person 83 95	votre voisin
+A2	Experience T3 Patient
+T4	Sign_Symptom 112 118	fièvre
+A3	Hypothesis T4 Vrai
+A4	Experience T4 Patient
+T5	Person 433 450	voisin de pallier
+A5	Hypothesis T5 Vrai
+A6	Experience T5 Patient
+T6	Sign_Symptom 587 593	fièvre
+A7	Experience T6 Patient
+T7	Person 626 639	tousse un peu
+A8	Experience T7 Patient
+T8	Sign_Symptom 683 689	fièvre
+A9	Experience T8 Other
+T9	Sign_Symptom 730 743	tousse un peu
+A10	Experience T9 Other
+T10	Temporal_Marker 698 721	pas très très longtemps
+A11	Temporality T10 Before
+A12	Negation T10 Négation
+A13	Experience T10 Other
+T11	Sign_Symptom 803 828	il vous parle normalement
+A14	Hypothesis T11 Vrai
+A15	Experience T11 Patient
+T12	Person 1722 1729	voisine
+A16	Experience T12 Other
+T13	Sign_Symptom 2167 2173	fièvre
+A17	Experience T13 Patient
+T14	Person 2243 2249	madame
+A18	Experience T14 Healthcare_professional
+T15	Sign_Symptom 2320 2326	tousse
+A19	Experience T15 Patient
+T16	Sign_Symptom 2339 2345	fièvre
+A20	Experience T16 Patient
+T17	Sign_Symptom 2413 2421	toussais
+A21	Experience T17 Other
+T18	Disease 2380 2385	COVID
+A22	Experience T18 Other
+T19	Temporal_Marker 2400 2408	six mois
+A23	Temporality T19 Before
+A24	Experience T19 Other
+R1	Temp_mark Arg1:T19 Arg2:T18	
+T20	Sign_Symptom 2532 2549	du mal à respirer
+A25	Experience T20 Other
+T21	Drug_chemicals 2660 2667	oxygène
+T22	Sign_Symptom 2716 2728	rès fatiguée
+A26	Experience T22 Other
+T23	Sign_Symptom 2849 2857	fatiguée
+A27	Experience T23 Other
+T24	Disease 2817 2827	COVID long
+A28	Experience T24 Other
+T25	Sign_Symptom 2871 2891	mal dans la poitrine
+A29	Experience T25 Other
+T26	Person 2946 2952	voisin
+A30	Experience T26 Patient
+T27	Person 2991 2997	voisin
+A31	Experience T27 Patient
+T28	Sign_Symptom 3035 3040	COVID
+A32	Experience T28 Patient
+T29	Conduite 3240 3261	aille voir un médecin
+T30	Conduite 3370 3391	aille voir un médecin
+T31	Conduite 3461 3482	aille voir un médecin
+T32	Person 3570 3577	médecin
+A33	Experience T32 Healthcare_professional
+T33	Conduite 3700 3721	aille voir un médecin
+T34	Conduite 3809 3839	aille voir un médecin en ville
+T35	Sign_Symptom 4008 4031	comportement inhabituel
+A34	Hypothesis T35 Vrai
+A35	Experience T35 Patient
+T36	Sign_Symptom 4042 4051	se plaint
+A36	Hypothesis T36 Vrai
+A37	Experience T36 Patient
+T37	Sign_Symptom 4061 4081	une nouvelle plainte
+A38	Hypothesis T37 Vrai
+A39	Experience T37 Patient
+T38	Conduite 4136 4166	aller voir un médecin en ville
+T39	Person 4203 4209	madame
+A40	Experience T39 Other
+T40	Sign_Symptom 4278 4285	fatigue
+A41	Experience T40 Other
+T41	Sign_Symptom 4290 4302	mes douleurs
+A42	Experience T41 Other
+T42	Person 4247 4253	madame
+A43	Experience T42 Healthcare_professional
+T43	Person 4352 4364	votre voisin
+A44	Experience T43 Patient
+T44	Person 4365 4371	madame
+A45	Experience T44 Other
+T45	Person 4421 4428	médecin
+A46	Experience T45 Healthcare_professional
+T46	Conduite 4439 4459	approchez vous de lu

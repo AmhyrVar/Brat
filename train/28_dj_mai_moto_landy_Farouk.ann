@@ -1,0 +1,172 @@
+T1	Person 17 23	madame
+T2	Person 69 76	docteur
+T3	Person 85 100	le docteur ABAS
+T4	Person 116 127	votre frère
+T5	Conduite 135 154	un accident de moto
+T6	Person 192 194	il
+T7	Person 204 208	vous
+T8	Conduite 209 247	m'envoyiez une ambulance pour l'emmene
+T9	Geographic_Marker 249 261	aux urgences
+T10	Person 279 281	je
+T11	Conduite 282 300	peux pas l'emmener
+T12	Person 310 312	je
+T13	Conduite 313 332	m'occupe de ma moto
+T14	Geographic_Marker 416 439	dans le tunnel du LANDY
+T15	Person 461 466	qu'il
+T16	Conduite 467 472	aille
+T17	Geographic_Marker 473 485	aux urgences
+T18	Temporal_Marker 450 452	là
+T19	Person 491 494	moi
+T20	Person 507 509	je
+T21	Conduite 510 529	m'occupe de ma moto
+T22	Person 541 549	monsieur
+T23	Person 569 580	votre frère
+T24	Person 598 609	votre frère
+T25	Geographic_Marker 620 629	à côté de
+T26	Person 630 634	vous
+T27	Geographic_Marker 660 683	sur le côté de la route
+T28	Person 653 655	il
+T29	Sign_Symptom 703 709	blessé
+T30	Sign_Symptom 727 751	saigne un peu de la tête
+T31	Person 724 726	il
+T32	Person 696 698	il
+T33	Conduite 770 783	cogné la tête
+T34	Temporal_Marker 764 769	s'est
+T35	Person 761 763	il
+T36	Person 809 813	vous
+T37	Conduite 815 862	'avez vu chuter vous étiez avec lui sur la moto
+T38	Person 881 883	il
+T39	Temporal_Marker 884 889	était
+T40	Geographic_Marker 890 898	derrière
+T41	Person 899 902	moi
+T42	Person 912 914	il
+T43	Conduite 919 936	tombé sur sa tête
+T44	Person 1021 1025	vous
+T45	Conduite 1026 1048	emmeniez une ambulance
+T47	Temporal_Marker 1087 1106	lorsqu'il est tombé
+T46	Conduite 1071 1086	avait un casque
+T48	Person 1065 1070	qu'il
+T49	Person 1251 1260	mon frère
+T50	Person 1307 1311	vous
+T51	Conduite 1312 1324	rouliez vite
+T52	Temporal_Marker 1325 1351	quand vous ça c'est arrivé
+T53	Person 1352 1356	vous
+T54	Person 1406 1407	t
+T55	Person 1399 1402	moi
+T56	Person 1418 1420	je
+T57	Conduite 1422 1456	especte les limitations de vitesse
+T58	Person 1487 1491	vous
+T59	Conduite 1492 1527	rouliez à quelle vitesse exactement
+T60	Geographic_Marker 1545 1559	dans le tunnel
+T61	Conduite 1572 1618	à quarante kilomètres heure peut être pas plus
+T63	Sign_Symptom 1683 1702	perdu connaissance?
+T62	Temporal_Marker 1661 1677	quand il a chuté
+T64	Geographic_Marker 1772 1786	devant la moto
+T65	Conduite 1759 1768	est tombé
+T66	Person 1756 1758	il
+T67	Person 1808 1812	vous
+T68	Conduite 1813 1835	envoyiez une ambulance
+T69	Person 2020 2024	vous
+T70	Conduite 2057 2080	on va se concentrer sur
+T71	Person 2081 2092	votre frère
+T72	Temporal_Marker 2093 2095	là
+T73	Sign_Symptom 2109 2122	est conscient
+T74	Sign_Symptom 2136 2148	respire bien
+T75	Person 2130 2135	qu'il
+T76	Person 2103 2108	qu'il
+T77	Sign_Symptom 2236 2256	se plaint de douleur
+T78	Person 2233 2235	il
+T79	Person 2296 2298	il
+T80	Sign_Symptom 2299 2318	a mal heu à la tête
+T81	Sign_Symptom 2334 2354	a un peu mal partout
+T82	Conduite 2363 2372	est tombé
+T83	Person 2360 2362	il
+T84	Person 2331 2333	il
+T85	Person 2397 2402	qu'il
+T86	Conduite 2403 2409	a vomi
+T87	Person 2464 2472	pompiers
+T88	Conduite 2453 2459	amener
+T89	Geographic_Marker 2473 2482	sur place
+T90	Person 2512 2524	les pompiers
+T91	Temporal_Marker 2535 2537	eu
+T92	Person 2551 2554	ils
+T93	Person 2563 2567	nous
+T94	Person 2576 2593	tous les deux moi
+T95	Person 2612 2615	moi
+T96	Conduite 2640 2659	m'occupe de ma moto
+T97	Person 2634 2636	je
+T98	Person 2637 2639	je
+T99	Person 2631 2633	je
+T100	Person 2700 2712	les pompiers
+T101	Person 2713 2721	monsieur
+T102	Geographic_Marker 2796 2814	le tunnel du LANDY
+T103	Person 2886 2894	monsieur
+T104	Person 2933 2939	madame
+T105	Conduite 2945 2958	on va envoyer
+T106	Person 2959 2971	les pompiers
+T107	Temporal_Marker 2976 2980	vont
+T108	Geographic_Marker 2987 2996	sur place
+T109	Person 3011 3015	vous
+T110	Person 2997 3000	ils
+T111	Conduite 3016 3058	évaluer et puis on va prendre une décision
+T112	Person 3068 3071	ils
+T113	Conduite 3121 3140	ai dit de pas venir
+T114	Person 3141 3144	moi
+T115	Person 3113 3115	je
+T116	Person 3116 3120	leur
+T117	Person 3158 3180	les pomp- les pompiers
+T118	Temporal_Marker 3196 3200	vont
+T119	Temporal_Marker 3181 3185	vont
+T120	Conduite 3214 3227	ai déclenchés
+T121	Person 3207 3209	je
+T122	Person 3210 3213	les
+T123	Temporal_Marker 3228 3242	là à l'instant
+T124	Geographic_Marker 3265 3278	sur le trajet
+T125	Conduite 3247 3255	arrivent
+T126	Person 3244 3245	l
+T127	Person 3308 3311	ils
+T128	Person 3328 3331	moi
+T129	Person 3337 3340	moi
+T130	Person 3341 3343	je
+T131	Conduite 3344 3371	m'occupe de ma moto en fait
+T132	Person 3394 3403	mon frère
+T133	Person 3377 3380	ils
+T134	Conduite 3381 3393	prennent que
+T135	Conduite 3312 3327	me prennent pas
+T136	Conduite 3423 3434	êtes tombée
+T137	Person 3418 3422	vous
+T138	Person 3467 3480	tous les deux
+T139	Conduite 3456 3466	est tombés
+T140	Sign_Symptom 3513 3525	des douleurs
+T141	Person 3503 3507	vous
+T142	Person 3591 3595	vous
+T143	Person 3615 3618	moi
+T144	Person 3619 3621	je
+T145	Conduite 3622 3641	m'occupe de ma moto
+T146	Person 3651 3655	vous
+T147	Conduite 3656 3717	avez chuté à moto heu à une vitesse qui n'est pas négligeable
+T148	Person 3730 3734	vous
+T149	Conduite 3735 3761	soyez au moins évaluée par
+T150	Person 3762 3774	les pompiers
+T151	Temporal_Marker 3775 3786	en- ensuite
+T152	Person 3842 3854	les pompiers
+T153	Geographic_Marker 3860 3873	sur le chemin
+T154	Conduite 3878 3886	arrivent
+T155	Person 3874 3877	ils
+T156	Geographic_Marker 3910 3911	y
+T157	Person 3904 3907	moi
+T158	Conduite 3912 3932	vais pas en tous cas
+T159	Person 3942 3946	vous
+T160	Conduite 3947 3989	pouvez prendre la décision que vous voulez
+T161	Person 4007 4010	ils
+T162	Conduite 4011 4019	arrivent
+T163	Temporal_Marker 4024 4028	vont
+T164	Person 4035 4039	vous
+T165	Person 4020 4023	ils
+T166	Person 4045 4048	ils
+T167	Temporal_Marker 4049 4053	vont
+T168	Person 4054 4058	vous
+T169	Conduite 4059 4066	évaluer
+T170	Person 4067 4086	votre frère et vous
+T171	Conduite 4093 4113	prendra une décision
+T172	Temporal_Marker 4114 4126	par la suite

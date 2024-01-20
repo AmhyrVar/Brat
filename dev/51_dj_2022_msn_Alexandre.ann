@@ -1,0 +1,41 @@
+T1	Person 76 92	docteur LAKHLIFI
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 295 316	est ce qu'il respire?
+A2	Hypothesis T2
+T3	Person 134 138	fils
+A3	Experience T3 Patient
+T4	Person 793 801	ma femme
+A4	Experience T4 Family
+T5	Person 1647 1654	médecin
+A5	Experience T5 Healthcare_professional
+T6	Person 1604 1611	médecin
+A6	Experience T6 Healthcare_professional
+T7	Person 712 724	votre enfant
+A8	Experience T7 Patient
+T9	Sign_Symptom 262 280	il se réveille pas
+T10	Sign_Symptom 348 369	est ce qu'il respire?
+A9	Hypothesis T10
+T11	Conduite 885 941	mettez une heu votre main sur son thorax en plein milieu
+T12	Conduite 1126 1164	vous le posez par terre à côté de vous
+T13	Conduite 1238 1312	vous mettez votre main sur son thorax, en plein milieu, entre les mamelons
+T14	Geographic_Marker 759 770	au domicile
+T15	Sign_Symptom 561 585	il bouge plus du du tout
+T16	Conduite 1340 1352	vous appuyez
+T18	Conduite 1721 1752	vous continuez vous arrêtez pas
+T19	Sign_Symptom 463 480	il ne respire pas
+T20	Sign_Symptom 481 527	vous voyez pas heu son son thorax se soulever?
+A10	Hypothesis T20
+A11	Negation T19 Négation
+A12	Temporality T9 Overlap(default)
+A13	Temporality T2 Overlap(default)
+A14	Temporality T19 Overlap(default)
+A15	Temporality T10 Overlap(default)
+A16	Temporality T20 Overlap(default)
+A17	Temporality T11 Overlap(default)
+T8	Conduite 850 879	prenez votre enfant avec vous
+A7	Temporality T8 Overlap(default)
+A18	Temporality T16 Overlap(default)
+A19	Temporality T13 Overlap(default)
+A20	Temporality T12 Overlap(default)
+A21	Temporality T18 Overlap(default)
+A22	Temporality T15 Overlap(default)

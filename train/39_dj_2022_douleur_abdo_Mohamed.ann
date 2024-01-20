@@ -1,0 +1,56 @@
+T1	Person 25 33	RICHARDO
+T2	Person 73 78	fille
+T3	Person 125 130	fille
+T4	Sign_Symptom 177 185	très mal
+T5	Sign_Symptom 207 220	mal au ventre
+T6	Sign_Symptom 246 259	mal au ventre
+T7	Sign_Symptom 380 387	douleur
+T8	Sign_Symptom 455 459	vomi
+T9	Sign_Symptom 602 610	diarrhée
+T10	Sign_Symptom 720 729	vomissais
+T11	Sign_Symptom 798 806	diarrhée
+T12	Sign_Symptom 848 856	diarrhée
+T13	Sign_Symptom 915 923	diarrhée
+T14	Sign_Symptom 994 1002	diarrhée
+T15	Person 200 204	elle
+T16	Person 405 408	moi
+T17	Person 834 839	fille
+T18	Person 784 789	fille
+T19	Sign_Symptom 638 651	mal au ventre
+T20	Temporal_Marker 1170 1189	plus de deux heures
+T21	Temporal_Marker 1005 1013	l'époque
+T22	Sign_Symptom 1334 1347	très très mal
+T23	Sign_Symptom 1386 1392	règles
+T24	Sign_Symptom 1454 1460	règles
+T25	Sign_Symptom 1486 1492	réglée
+T26	Sign_Symptom 1583 1594	médicaments
+T27	Drug_chemicals 1627 1636	contracep
+T28	Sign_Symptom 1709 1715	règles
+T29	Sign_Symptom 1733 1741	vomissez
+T30	Temporal_Marker 1782 1792	quinze ans
+T31	Person 1967 1979	MICHEL CYMES
+T32	Sign_Symptom 1983 2003	errance diagnostique
+T33	Person 2039 2045	femmes
+T34	Drug_chemicals 2124 2137	contraception
+T35	Temporal_Marker 2367 2373	depuis
+T36	Temporal_Marker 2433 2444	deux heures
+T37	Sign_Symptom 2457 2461	vomi
+T38	Sign_Symptom 2477 2485	diarrhée
+T39	Geographic_Marker 2871 2880	l'hôpital
+T40	Sign_Symptom 2942 2949	souffre
+T41	Person 3045 3052	qu'elle
+T42	Person 3125 3132	médecin
+T43	Geographic_Marker 3159 3167	domicile
+T44	Person 3277 3284	médecin
+T45	Temporal_Marker 3371 3384	tous les mois
+T46	Geographic_Marker 3486 3494	domicile
+T47	Person 3459 3466	médecin
+T48	Person 3574 3593	médecin ​à domicile
+T49	Person 3769 3776	médecin
+T50	Temporal_Marker 3990 4000	six heures
+T51	Sign_Symptom 4092 4098	hurler
+T52	Temporal_Marker 4069 4079	six heures
+T53	Drug_chemicals 4364 4373	doliprane
+T54	Sign_Symptom 4701 4714	mal au ventre
+T55	Temporal_Marker 4755 4765	quinze ans
+T56	Drug_chemicals 4790 4799	doliprane

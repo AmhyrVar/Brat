@@ -1,0 +1,56 @@
+T1	Person 21 34	docteur SAIEB
+A1	Experience T1 Healthcare_professional
+T2	Person 53 67	votre heu père
+A2	Experience T2 Patient
+T3	Sign_Symptom 119 126	malaise
+A3	Hypothesis T3 Vrai
+T4	Sign_Symptom 249 266	allongé par terre
+T5	Sign_Symptom 293 331	il sentait un peu la tête qui tournait
+T6	Sign_Symptom 364 378	il était tombé
+T7	Sign_Symptom 427 450	il a perdu connaissance
+A4	Hypothesis T7 Vrai
+T8	Temporal_Marker 557 573	la première fois
+T9	Temporal_Marker 614 636	c'est la première fois
+T10	Temporal_Marker 637 653	la première fois
+T11	Temporal_Marker 672 700	c'est la toute première fois
+T12	Conduite 823 847	vous pouvez me le passer
+T13	Person 931 944	docteur SAIEB
+A5	Experience T13 Healthcare_professional
+T14	Person 740 744	papa
+A6	Experience T14 Patient
+T15	Sign_Symptom 984 991	malaise
+T16	Sign_Symptom 1215 1240	je me suis senti pas bien
+A7	Temporality T16 Before
+T17	Sign_Symptom 1248 1275	je suis un peu tombé au sol
+A8	Temporality T17 Before
+T18	Sign_Symptom 1276 1316	j'ai pas réussi à me lever tout de suite
+A9	Temporality T18 Before
+T19	Sign_Symptom 1331 1359	vous avez perdu connaissance
+A10	Hypothesis T19 Vrai
+T20	Sign_Symptom 1374 1405	non j'ai pas perdu connaissance
+A11	Negation T20 Négation
+T21	Sign_Symptom 1422 1439	tête elle a cogné
+A12	Hypothesis T21 Vrai
+T22	Sign_Symptom 1454 1478	elle a pas du tout cogné
+A13	Negation T22 Négation
+T23	Sign_Symptom 1483 1504	je me sens super bien
+T24	Sign_Symptom 1505 1524	je me sens en forme
+T25	Disease 1587 1605	problèmes de santé
+A14	Hypothesis T25 Vrai
+T26	Drug_chemicals 1662 1680	deux trois cachets
+T27	Person 1728 1744	médecin traitant
+A15	Experience T27 Healthcare_professional
+T28	Conduite 1804 1843	il faut que vous alliez voir un médecin
+T29	Person 1833 1843	un médecin
+A16	Experience T29 Healthcare_professional
+T30	Temporal_Marker 1848 1860	sans urgence
+T31	Conduite 1888 1916	l faut aller voir un médecin
+T32	Temporal_Marker 1917 1941	dans les prochains jours
+T33	Sign_Symptom 2007 2022	je me sens bien
+T34	Conduite 2294 2321	il faut prendre rendez vous
+T35	Temporal_Marker 2326 2352	dans les jours qui suivent
+T36	Sign_Symptom 2407 2414	malaise
+T37	Conduite 2578 2647	l faut justement aller quand même voir un médecin pour faire le point
+T38	Conduite 2803 2826	il faut voir un médecin
+T39	Conduite 2903 2945	vous allez voir un médecin dans la semaine
+T40	Temporal_Marker 2930 2945	dans la semaine

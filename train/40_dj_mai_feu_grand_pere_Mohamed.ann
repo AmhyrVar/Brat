@@ -1,0 +1,30 @@
+T1	Person 42 50	DETOURET
+T2	Person 86 96	grand père
+T3	Geographic_Marker 228 238	l'immeuble
+T4	Geographic_Marker 333 342	sur place
+T5	Person 397 405	pompiers
+T6	Person 413 421	personne
+T7	Geographic_Marker 497 502	étage
+T8	Person 471 481	grand père
+T9	Geographic_Marker 534 548	deuxième étage
+T10	Sign_Symptom 770 788	problèmes de santé
+T11	Sign_Symptom 686 704	problèmes de santé
+T12	Sign_Symptom 860 863	âgé
+T13	Sign_Symptom 872 891	mal à à se déplacer
+T14	Person 1299 1309	grand père
+T15	Geographic_Marker 1493 1501	chez lui
+T16	Person 1597 1604	voisins
+T17	Person 1677 1684	voisins
+T18	Geographic_Marker 1688 1694	à côté
+T19	Person 1771 1779	personne
+T20	Person 2054 2062	pompiers
+T21	Temporal_Marker 2197 2209	cinq minutes
+T22	Person 2365 2373	pompiers
+T23	Person 2641 2649	pompiers
+T24	Geographic_Marker 2717 2727	l'immeuble
+T25	Person 2765 2772	voisins
+T26	Geographic_Marker 2852 2862	l'immeuble
+T27	Geographic_Marker 2893 2903	l'immeuble
+T28	Sign_Symptom 3067 3071	cris
+T29	Geographic_Marker 3138 3161	extérieur de l'immeuble
+T30	Person 3297 3305	pompiers

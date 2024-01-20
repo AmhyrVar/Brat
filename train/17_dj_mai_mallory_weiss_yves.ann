@@ -1,0 +1,30 @@
+T1	Person 17 32	docteur DETOURY
+A1	Experience T1 Healthcare_professional
+T2	Person 154 159	mamie
+A2	Experience T2 Patient
+T3	Person 108 124	votre grand mère
+A3	Experience T3 Patient
+T4	Sign_Symptom 194 213	elle a vomi du sang
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T5	Temporal_Marker 500 556	depuis aujourd'hui ou c'était déjà les jours précédents?
+A6	Hypothesis T5
+T6	Person 1096 1104	ma mamie
+A7	Experience T6 Patient
+T7	Disease 1461 1472	hypertendue
+A8	Experience T7 Patient
+T8	Disease 1483 1490	diabète
+A9	Experience T8 Patient
+T9	Disease 1516 1525	cataracte
+A10	Experience T9 Patient
+T10	Disease 1543 1570	ne fracture du col du fémur
+A11	Experience T10 Patient
+T11	Disease 1607 1610	AIT
+A12	Experience T11 Patient
+T12	Geographic_Marker 1642 1651	ROTSCHILD
+T13	Sign_Symptom 1680 1709	elle est tombée de la piscine
+A13	Experience T13 Patient
+T14	Conduite 2142 2189	je peux vous faire passer un médecin à domicile
+T15	Conduite 2551 2619	je vais voir si j'ai des médecins disponibles pour passer à domicile
+T16	Person 3490 3496	madame
+A14	Experience T16 Family

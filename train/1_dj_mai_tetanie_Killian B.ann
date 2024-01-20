@@ -1,0 +1,59 @@
+T1	Person 17 23	madame
+A1	Experience T1 Family
+T2	Person 69 81	docteur ABAS
+A2	Experience T2 Healthcare_professional
+T3	Person 85 89	SAMU
+A3	Experience T3 Patient
+T4	Person 126 130	sœur
+A4	Experience T4 Patient
+T5	Sign_Symptom 168 175	malaise
+A5	Temporality T5 Overlap(default)
+T6	Sign_Symptom 224 231	malaise
+A6	Temporality T6 Overlap(default)
+T7	Sign_Symptom 275 294	veut pas me répondr
+A7	Temporality T7 Overlap(default)
+T9	Sign_Symptom 403 425	elle est inconsciente?
+A10	Temporality T9 Overlap(default)
+A11	Hypothesis T9
+T8	Sign_Symptom 315 337	elle est inconsciente?
+A8	Temporality T8 Overlap(default)
+A9	Hypothesis T8
+T10	Sign_Symptom 471 484	elle respire?
+A12	Temporality T10 Overlap(default)
+A13	Hypothesis T10
+T11	Sign_Symptom 451 461	répond pas
+A14	Temporality T11 Overlap(default)
+T12	Sign_Symptom 494 528	elle me parle pas oui elle respire
+T13	Person 538 562	elle a les yeux ouverts?
+A15	Temporality T13 Overlap(default)
+A16	Hypothesis T13
+A17	Temporality T12 Overlap(default)
+T14	Conduite 585 611	passez la moi au téléphone
+A18	Temporality T14 Overlap(default)
+T15	Conduite 662 753	passez la moi quand même au téléphone approchez le téléphone de son oreille et de sa bouche
+A19	Temporality T15 Overlap(default)
+T16	Sign_Symptom 973 983	répond pas
+T17	Sign_Symptom 1024 1045	douleur quelque part?
+A20	Temporality T17 Overlap(default)
+T18	Sign_Symptom 1064 1090	parle pas elle est crispée
+A21	Temporality T18 Overlap(default)
+T19	Temporal_Marker 1169 1181	cinq minutes
+A22	Temporality T19 Before
+T20	Sign_Symptom 1261 1279	allongée par terre
+A23	Temporality T20 Before
+T21	Sign_Symptom 1296 1309	toute crispée
+A24	Temporality T21 Overlap(default)
+T22	Sign_Symptom 1313 1328	elle répond pas
+R1	Temp_mark Arg1:T19 Arg2:T20	
+T23	Temporal_Marker 1441 1471	première fois qu'elle fait ça?
+A25	Temporality T23 Before
+A26	Hypothesis T23
+R2	Temp_mark Arg1:T23 Arg2:T20	
+T24	Temporal_Marker 1495 1506	déjà arrivé
+A27	Temporality T24 Before
+T25	Conduite 1632 1740	ok ce qu'on va faire madame c'est qu'on va envoyer les pompiers heu sur place ils arrivent heu tout de suite
+A28	Temporality T25 After
+T26	Person 1687 1695	pompiers
+A29	Experience T26 Other
+T27	Person 1653 1659	madame
+A30	Experience T27 Family

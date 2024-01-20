@@ -1,0 +1,119 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Conduite 35 66	vous appelez pour votre voisine
+A2	Temporality T2 Overlap(default)
+A3	Experience T2 Other
+T3	Person 59 66	voisine
+A4	Experience T3 Patient
+T4	Conduite 161 173	racontez moi
+A5	Temporality T4 Overlap(default)
+A6	Experience T4 Other
+T5	Conduite 77 95	réfugiée chez vous
+A7	Temporality T5 Before_overlap
+A8	Experience T5 Patient
+T6	Conduite 190 213	elle est venue chez moi
+A9	Temporality T6 Before_overlap
+A10	Experience T6 Patient
+T7	Sign_Symptom 228 242	elle se plaint
+A11	Temporality T7 Overlap(default)
+A12	Experience T7 Patient
+T8	Sign_Symptom 265 276	y a du sang
+A13	Temporality T8 Overlap(default)
+A14	Experience T8 Patient
+T9	Conduite 301 325	vous pouvez me la passer
+A15	Temporality T9 After
+A16	Experience T9 Other
+T10	Conduite 336 365	passez la moi s'il vous plait
+A17	Temporality T10 After
+A18	Experience T10 Other
+T11	Sign_Symptom 375 398	elle parle pas français
+A19	Temporality T11 Before_overlap
+A20	Experience T11 Patient
+T12	Conduite 431 491	vous pouvez me décrire ce que vous vous voyez comme blessure
+A21	Temporality T12 After
+A22	Experience T12 Other
+T13	Sign_Symptom 483 491	blessure
+A23	Temporality T13 Before_overlap
+A24	Experience T13 Patient
+T14	Sign_Symptom 505 516	y a du sang
+A25	Temporality T14 Before_overlap
+A26	Experience T14 Patient
+T15	Sign_Symptom 526 566	y a du sang sur quel endroit de son corp
+A27	Temporality T15 Before_overlap
+A28	Experience T15 Patient
+T16	Geographic_Marker 538 567	sur quel endroit de son corps
+T17	Geographic_Marker 582 593	sur la tête
+A29	Experience T17 Patient
+T18	Sign_Symptom 610 642	elle est réveillée votre voisine
+A30	Temporality T18 Overlap(default)
+A31	Experience T18 Other
+T19	Sign_Symptom 644 659	elle vous parle
+A32	Temporality T19 Overlap(default)
+A33	Experience T19 Patient
+T20	Sign_Symptom 710 733	elle parle pas français
+A34	Temporality T20 Before_overlap
+A35	Experience T20 Patient
+T21	Sign_Symptom 832 853	son mari qui l'a tapé
+A36	Temporality T21 Before
+A37	Experience T21 Patient
+T22	Temporal_Marker 869 885	comme d'hab quoi
+A38	Temporality T22 Before_overlap
+A39	Experience T22 Patient
+T23	Conduite 991 1014	elle est venue chez moi
+A40	Temporality T23 Before_overlap
+A41	Experience T23 Patient
+T24	Temporal_Marker 1133 1159	c'est pas la première fois
+A42	Temporality T24 Before_overlap
+A43	Negation T24 Négation
+A44	Experience T24 Patient
+T25	Temporal_Marker 1183 1209	c'est pas la première fois
+A45	Temporality T25 Before_overlap
+A46	Negation T25 Négation
+A47	Experience T25 Patient
+T26	Sign_Symptom 1245 1271	elle a du sang sur la tête
+A48	Temporality T26 Before_overlap
+A49	Experience T26 Patient
+T27	Sign_Symptom 1298 1342	vous me dites qu'elle a du sang sur la tête?
+A50	Temporality T27 Before_overlap
+A51	Hypothesis T27
+A52	Experience T27 Patient
+T28	Conduite 1367 1388	elle est venue à pied
+A53	Temporality T28 Before
+A54	Experience T28 Patient
+T29	Conduite 1486 1526	il faut que vous l'emmeniez aux urgences
+A55	Temporality T29 After
+A56	Experience T29 Other
+T30	Conduite 1536 1562	pour qu'elle soit examinée
+A57	Temporality T30 After
+A58	Experience T30 Healthcare_professional
+T31	Sign_Symptom 1575 1594	vous êtes véhiculée
+A59	Experience T31 Patient
+T32	Conduite 1676 1698	amenez la aux urgences
+A60	Temporality T32 After
+A61	Experience T32 Other
+T33	Temporal_Marker 1741 1768	il est six heures du mat là
+T34	Conduite 1782 1866	c'est important qu'elle soit vue par un médecin aujourd'hui, emmenez la aux urgences
+A62	Temporality T34 After
+A63	Experience T34 Patient
+T35	Person 1819 1829	un médecin
+A64	Experience T35 Healthcare_professional
+T36	Temporal_Marker 1830 1841	aujourd'hui
+T37	Geographic_Marker 1854 1866	aux urgences
+T38	Conduite 1880 1913	elle peut pas y aller toute seule
+A65	Temporality T38 After
+A66	Negation T38 Négation
+A67	Experience T38 Patient
+T39	Conduite 1963 1986	emmenez la aux urgences
+A68	Temporality T39 After
+A69	Experience T39 Other
+T40	Geographic_Marker 1974 1986	aux urgences
+A70	Temporality T40 After
+A71	Experience T40 Healthcare_professional
+T41	Conduite 2056 2089	vous la mettez dans votre voiture
+A72	Temporality T41 After
+A73	Experience T41 Patient
+T42	Geographic_Marker 2071 2089	dans votre voiture
+T43	Conduite 2091 2117	vous l'amenez aux urgences
+A74	Temporality T43 After
+A75	Experience T43 Other
+T44	Geographic_Marker 2105 2118	aux urgences.

@@ -1,0 +1,74 @@
+T1	Person 17 23	madame
+T2	Person 73 85	docteur ABAZ
+A1	Experience T2 Healthcare_professional
+T3	Person 142 171	collègue de quarante sept ans
+A2	Experience T3 Patient
+T4	Sign_Symptom 186 209	problèmes pour respirer
+A3	Experience T4 Patient
+A4	Hypothesis T4 Vrai
+T5	Sign_Symptom 282 300	gêné pour respirer
+A5	Experience T5 Patient
+T7	Disease 346 351	COVID
+A7	Experience T7 Other
+T6	Temporal_Marker 393 412	deux ans maintenant
+A6	Experience T6 Other
+R1	Temp_mark Arg1:T6 Arg2:T7	
+T9	Sign_Symptom 505 522	gêne respiratoire
+A9	Experience T9 Patient
+T10	Sign_Symptom 564 581	gêne respiratoire
+A8	Experience T10 Other
+T11	Person 608 622	votre collègue
+A10	Experience T11 Patient
+T12	Person 626 640	votre collègue
+A11	Experience T12 Patient
+T13	Temporal_Marker 694 705	aujourd'hui
+T14	Sign_Symptom 789 795	tousse
+A12	Experience T14 Patient
+T15	Sign_Symptom 949 968	gênée pour respirer
+A13	Experience T15 Patient
+T16	Temporal_Marker 1003 1046	trois quatre heures heu trois quatre heures
+R2	Temp_mark Arg1:T16 Arg2:T15	
+T17	Temporal_Marker 1150 1161	une semaine
+T18	Sign_Symptom 1181 1200	gênée pour respirer
+A14	Experience T18 Patient
+R3	Temp_mark Arg1:T17 Arg2:T18	
+T19	Temporal_Marker 1241 1252	une semaine
+T20	Conduite 1295 1314	pouvez me la passer
+T21	Conduite 1329 1355	passez la moi au téléphone
+T22	Conduite 1408 1434	passez la moi au téléphone
+T23	Person 1565 1577	docteur ABAZ
+A15	Experience T23 Healthcare_professional
+T24	Sign_Symptom 1620 1643	problèmes pour respirer
+A16	Experience T24 Patient
+T25	Sign_Symptom 1723 1740	gêne respiratoire
+A17	Experience T25 Patient
+T26	Temporal_Marker 1763 1774	une semaine
+T27	Sign_Symptom 1787 1806	gênée pour respirer
+A18	Experience T27 Patient
+R4	Temp_mark Arg1:T26 Arg2:T27	
+T28	Disease 2294 2307	hypothyroïdie
+A19	Experience T28 Patient
+T29	Disease 2344 2356	constipation
+A20	Experience T29 Patient
+T30	Sign_Symptom 2415 2432	gêne respiratoire
+A21	Experience T30 Patient
+T31	Conduite 2555 2576	aller voir un médecin
+T32	Conduite 2581 2610	il faut aller voir un médecin
+T33	Conduite 2630 2733	prendre contact avec votre médecin traitant pour le pour le voir heu dans la journée ou dans la semaine
+T34	Conduite 2885 2939	consulter heu soit une maison médicale ou aux urgences
+T35	Person 3020 3028	collègue
+A22	Experience T35 Other
+T36	Person 3211 3218	docteur
+A23	Experience T36 Healthcare_professional
+R5	Temp_mark Arg1:T13 Arg2:T9	
+R6	Temp_mark Arg1:T19 Arg2:T18	
+A24	Temporality T19 Before_overlap
+A25	Temporality T17 Before_overlap
+A26	Temporality T26 Before_overlap
+A27	Temporality T16 Before
+A28	Temporality T13 Before
+A29	Temporality T6 Before
+T8	Person 2569 2576	médecin
+A30	Experience T8 Healthcare_professional
+T37	Person 2603 2610	médecin
+A31	Experience T37 Healthcare_professional

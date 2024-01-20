@@ -1,0 +1,32 @@
+T1	Person 17 23	madame
+T2	Person 51 64	docteur SHITZ
+A1	Experience T2 Healthcare_professional
+T3	Person 97 102	soeur
+A2	Experience T3 Patient
+A3	Experience T1 Family
+T4	Sign_Symptom 107 127	en train d'accoucher
+A5	Experience T4 Patient
+A4	Temporality T4 Overlap(default)
+T5	Temporal_Marker 344 373	elle est a combien de semaine
+T6	Sign_Symptom 722 732	elle a mal
+A6	Temporality T6 Overlap(default)
+A7	Negation T6 Autre
+A8	Experience T6 Patient
+T7	Sign_Symptom 754 771	la perte des eaux
+A9	Negation T7 Autre
+A10	Experience T7 Patient
+T9	Conduite 1106 1125	mettez là au assise
+T10	Sign_Symptom 1681 1693	elle saigne?
+A11	Negation T10 Négation
+A12	Experience T10 Patient
+T11	Sign_Symptom 420 459	elle devait pas accoucher avant un mois
+T12	Conduite 593 613	envoyer les pompiers
+T8	Conduite 960 979	envoie les pompiers
+T13	Conduite 1435 1455	les pompiers arriven
+T14	Conduite 1507 1530	les pompiers arriveront
+T15	Person 1936 1942	madame
+A13	Experience T15 Family
+T16	Sign_Symptom 1719 1733	c'est de l'eau
+T17	Sign_Symptom 1769 1783	c'est de l'eau
+T18	Sign_Symptom 1793 1812	liquide transparent
+T19	Conduite 1828 1845	restez avec elle,

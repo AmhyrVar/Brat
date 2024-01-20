@@ -1,0 +1,68 @@
+T1	Person 17 23	madame
+T2	Person 337 343	madame
+T3	Person 556 562	madame
+T4	Person 937 943	madame
+T5	Person 944 950	madame
+T6	Person 1083 1089	madame
+T7	Person 1427 1433	madame
+T8	Person 1936 1942	madame
+T9	Person 863 866	moi
+T10	Person 1101 1104	moi
+T11	Person 1237 1240	moi
+T12	Person 1368 1371	moi
+T14	Person 91 102	votre soeur
+T15	Person 377 388	votre soeur
+T16	Person 601 613	les pompiers
+T17	Person 637 649	les pompiers
+T18	Person 665 677	les pompiers
+T19	Person 967 979	les pompiers
+T20	Person 1169 1181	les pompiers
+T21	Person 1435 1447	les pompiers
+T22	Person 1507 1519	les pompiers
+T23	Person 722 726	elle
+T24	Person 733 737	elle
+T25	Person 344 348	elle
+T26	Person 178 182	elle
+T27	Person 420 424	elle
+T28	Person 702 706	elle
+T30	Person 1344 1351	qu'elle
+T31	Geographic_Marker 1358 1367	chez elle
+T32	Person 1397 1401	elle
+T33	Geographic_Marker 1408 1416	chez moi
+T13	Conduite 1590 1596	restez
+T34	Geographic_Marker 1597 1606	avec elle
+T35	Person 1608 1610	il
+T36	Conduite 1611 1619	arrivent
+T37	Temporal_Marker 187 195	en train
+T38	Temporal_Marker 107 115	en train
+T39	Conduite 116 127	d'accoucher
+T40	Conduite 1828 1834	restez
+T41	Geographic_Marker 1835 1844	avec elle
+T42	Conduite 1846 1852	restez
+T43	Geographic_Marker 1853 1862	avec elle
+T44	Person 1864 1867	ils
+T45	Conduite 1868 1876	arrivent
+T46	Person 1886 1889	ils
+T47	Conduite 1890 1898	arrivent
+T48	Geographic_Marker 836 843	partout
+T49	Geographic_Marker 844 858	dans mon salon
+T50	Sign_Symptom 727 732	a mal
+T51	Sign_Symptom 754 771	la perte des eaux
+T52	Conduite 1106 1125	mettez là au assise
+T53	Conduite 280 302	faut venir la chercher
+T54	Conduite 582 600	on va vous envoyer
+T55	Conduite 981 987	restez
+T56	Geographic_Marker 988 997	avec elle
+T29	Conduite 1141 1165	préparez du linge propre
+T57	Conduite 1007 1031	préparez du linge propre
+T58	Conduite 1299 1320	a laissé ses affaires
+T59	Geographic_Marker 1321 1330	chez elle
+T60	Temporal_Marker 1645 1657	en attendant
+T61	Sign_Symptom 1686 1692	saigne
+T63	Person 1681 1685	elle
+T62	Temporal_Marker 446 459	avant un mois
+T64	Geographic_Marker 482 489	partout
+T65	Conduite 512 535	faut venir la récupérer
+T66	Person 51 64	docteur SHITZ
+T67	Geographic_Marker 239 246	partout
+T68	Temporal_Marker 366 373	semaine

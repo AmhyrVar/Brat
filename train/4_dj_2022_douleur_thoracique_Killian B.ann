@@ -1,0 +1,165 @@
+T1	Person 21 27	madame
+A1	Experience T1 Family
+T2	Person 54 68	docteur DAMANI
+A2	Experience T2 Healthcare_professional
+T3	Person 72 90	médecin régulateur
+A3	Experience T3 Healthcare_professional
+T4	Person 121 125	mère
+A4	Experience T4 Patient
+T5	Disease 136 160	douleur dans la poitrine
+A5	Temporality T5 Overlap(default)
+T7	Temporal_Marker 220 252	première fois que ça lui arrive?
+A7	Temporality T7 Before_overlap
+A8	Hypothesis T7
+T8	Temporal_Marker 308 321	première fois
+A9	Temporality T8 Overlap(default)
+T6	Sign_Symptom 346 363	mal depuis quand?
+A6	Temporality T6 Before_overlap
+A10	Hypothesis T6
+T10	Temporal_Marker 440 470	quinzaine vingtaine de minutes
+A12	Temporality T10 Before_overlap
+T12	Sign_Symptom 747 761	est en sueurs?
+A14	Temporality T12 Overlap(default)
+T13	Sign_Symptom 855 872	type de douleurs?
+A15	Temporality T13 Overlap(default)
+T14	Sign_Symptom 985 994	un poids?
+A16	Temporality T14 Overlap(default)
+A17	Hypothesis T14
+T15	Person 1096 1104	douleurs
+A18	Temporality T15 Before
+T16	Disease 1158 1167	infarctus
+T17	Disease 1265 1272	douleur
+A20	Temporality T17 Overlap(default)
+T18	Disease 1528 1538	infarctus?
+A21	Temporality T18 Before
+A22	Hypothesis T18
+T19	Temporal_Marker 1515 1525	antécédent
+A23	Temporality T19 Before
+R1	Temp_mark Arg1:T19 Arg2:T18	
+T20	Temporal_Marker 1145 1154	déjà fait
+A24	Temporality T20 Before
+R2	Temp_mark Arg1:T20 Arg2:T16	
+A19	Temporality T16 Before
+T21	Conduite 1588 1622	est ce que je pourrais lui parler?
+A25	Temporality T21 Overlap(default)
+A26	Hypothesis T21
+T22	Sign_Symptom 1661 1669	très mal
+A27	Temporality T22 Overlap(default)
+T23	Conduite 1714 1727	passez la moi
+A28	Temporality T23 Overlap(default)
+T24	Sign_Symptom 1893 1896	mal
+A29	Temporality T24 Overlap(default)
+T25	Conduite 1860 1916	besoin de savoir comment elle ​a mal. donc passez là moi
+A30	Temporality T25 Overlap(default)
+T26	Person 2027 2041	docteur DAMANI
+A31	Experience T26 Healthcare_professional
+T27	Person 2045 2063	médecin régulateur
+A32	Experience T27 Healthcare_professional
+T28	Person 2008 2014	madame
+A33	Experience T28 Patient
+T29	Person 2088 2093	fille
+A34	Experience T29 Family
+T30	Disease 2133 2166	douleur au niveau de la poitrine?
+A35	Temporality T30 Overlap(default)
+T31	Temporal_Marker 2221 2241	quinze vingt minutes
+R3	Temp_mark Arg1:T31 Arg2:T30	
+T32	Disease 2272 2291	problèmes de santé?
+A36	Temporality T32 Overlap(default)
+A37	Hypothesis T32
+T33	Disease 2326 2337	cholestérol
+A38	Temporality T33 Overlap(default)
+T34	Disease 2348 2360	hypertension
+A39	Temporality T34 Overlap(default)
+T35	Disease 2445 2455	infarctus?
+A40	Temporality T35 Before
+A41	Hypothesis T35
+T36	Temporal_Marker 2432 2441	déjà fait
+A42	Temporality T36 Before
+R4	Temp_mark Arg1:T36 Arg2:T35	
+T37	Disease 2483 2492	infarctus
+A43	Temporality T37 Overlap(default)
+T38	Sign_Symptom 2522 2557	artères bouchées au niveau du coeur
+A44	Temporality T38 Overlap(default)
+T39	Person 2601 2605	fils
+A45	Experience T39 Family
+T40	Person 2643 2647	fils
+A46	Experience T40 Family
+T41	Sign_Symptom 2698 2701	mal
+A47	Temporality T41 Overlap(default)
+T42	Temporal_Marker 2716 2730	quinze minutes
+A48	Temporality T42 Overlap(default)
+T43	Sign_Symptom 2759 2766	douleur
+A49	Temporality T43 Overlap(default)
+R5	Temp_mark Arg1:T42 Arg2:T43	
+T44	Sign_Symptom 2817 2848	serre au niveau de la poitrine?
+A50	Temporality T44 Overlap(default)
+A51	Hypothesis T44
+T45	Sign_Symptom 2882 2891	serre pas
+A52	Temporality T45 Overlap(default)
+A53	Negation T45 Négation
+T46	Sign_Symptom 2901 2920	ça brûle, ça pique?
+A54	Temporality T46 Overlap(default)
+A55	Hypothesis T46
+T48	Sign_Symptom 3007 3050	mal où exactement au niveau de la poitrine?
+A57	Temporality T48 Overlap(default)
+A58	Hypothesis T48
+T49	Sign_Symptom 3081 3095	latéral gauche
+A59	Temporality T49 Overlap(default)
+T50	Sign_Symptom 3115 3128	vous toussez?
+A60	Temporality T50 Overlap(default)
+T51	Sign_Symptom 3144 3154	tousse pas
+A61	Temporality T51 Overlap(default)
+A62	Negation T51 Négation
+T52	Sign_Symptom 3184 3191	fièvre?
+A63	Temporality T52 Overlap(default)
+A64	Hypothesis T52
+T47	Temporal_Marker 3247 3272	apparu ce matin seulement
+A56	Temporality T47 Before
+A65	Hypothesis T47
+T53	Temporal_Marker 3314 3330	un peu hier soir
+A66	Temporality T53 Before
+T54	Temporal_Marker 3416 3437	depuis quinze minutes
+A67	Temporality T54 Overlap(default)
+T55	Sign_Symptom 3457 3465	très mal
+A68	Temporality T55 Overlap(default)
+R6	Temp_mark Arg1:T54 Arg2:T55	
+T56	Temporal_Marker 3482 3496	quinze minutes
+A69	Temporality T56 Overlap(default)
+T57	Sign_Symptom 3505 3513	très mal
+A70	Temporality T57 Overlap(default)
+R7	Temp_mark Arg1:T56 Arg2:T57	
+T58	Conduite 3550 3591	écoutez madame, il faut aller à l'hôpital
+A71	Temporality T58 After
+T59	Person 3558 3564	madame
+A72	Experience T59 Patient
+T60	Person 3629 3634	fille
+A73	Experience T60 Family
+T61	Conduite 3723 3760	vous pouvez. repassez moi votre fille
+T62	Person 3755 3760	fille
+A74	Experience T62 Family
+T63	Person 3825 3831	madame
+A75	Experience T63 Family
+T64	Person 3854 3859	maman
+A76	Experience T64 Patient
+T65	Conduite 3821 3882	oui madame. alors votre f- votre maman doit aller à l'hôpital
+A77	Temporality T65 After
+T66	Disease 3922 3932	infarctus?
+A78	Hypothesis T66
+A79	Temporality T66 Overlap(default)
+A80	Temporality T61 After
+T67	Conduite 3995 4050	êtes vous véhiculée pour heu pour l'amener à l'hôpital?
+A81	Temporality T67 After
+T68	Conduite 4104 4125	amenez là à l'hôpital
+A82	Temporality T68 After
+T69	Conduite 4222 4271	prenez votre voiture et vous l'amenez à l'hôpital
+A83	Temporality T69 After
+T70	Person 4264 4271	hôpital
+A84	Experience T70 Healthcare_professional
+T71	Person 3875 3882	hôpital
+A85	Experience T71 Healthcare_professional
+R10	Temp_mark Arg1:T7 Arg2:T5	
+R8	Temp_mark Arg1:T8 Arg2:T5	
+R9	Temp_mark Arg1:T10 Arg2:T6	
+T9	Temporal_Marker 531 551	quinze vingt minutes
+A11	Temporality T9 Before_overlap
+R11	Temp_mark Arg1:T9 Arg2:T6	

@@ -1,0 +1,66 @@
+T1	Person 110 123	docteur CHITZ
+T2	Person 136 147	votre soeur
+A1	Experience T2 Patient
+T3	Sign_Symptom 203 210	malaise
+A2	Hypothesis T3 Vrai
+T4	Temporal_Marker 616 638	moins d'une demi heure
+T5	Sign_Symptom 667 683	elle vous répond
+A3	Hypothesis T5 Vrai
+T6	Sign_Symptom 795 830	pas sûr qu'elle réponde en vrai non
+A4	Negation T6 Négation
+T7	Sign_Symptom 858 879	en capacité de parler
+A5	Hypothesis T7 Vrai
+T8	Sign_Symptom 894 913	nan elle bouge plus
+A6	Negation T8 Négation
+T9	Sign_Symptom 937 951	elle bouge pas
+A7	Negation T9 Négation
+T10	Sign_Symptom 961 979	elle me parle plus
+A8	Negation T10 Négation
+T11	Sign_Symptom 1017 1034	elle est pas bien
+A9	Negation T11 Négation
+T12	Conduite 1084 1097	passez la moi
+T13	Conduite 1138 1151	passez la moi
+T14	Conduite 1153 1166	passez la moi
+T15	Sign_Symptom 1325 1337	elle respire
+A10	Hypothesis T15 Vrai
+T16	Sign_Symptom 1362 1374	elle respire
+T17	Sign_Symptom 1476 1484	douleurs
+A11	Hypothesis T17 Vrai
+T18	Sign_Symptom 1397 1409	elle respire
+T19	Sign_Symptom 1410 1422	elle respire
+T20	Sign_Symptom 1438 1450	elle respire
+T21	Sign_Symptom 1522 1533	elle pleure
+T22	Sign_Symptom 1535 1552	elle est pas bien
+T23	Sign_Symptom 1602 1617	elle répond pas
+A12	Negation T23 Négation
+T24	Sign_Symptom 1633 1661	elle est en train de pleurer
+A13	Temporality T24 Overlap(default)
+A14	Hypothesis T24 Vrai
+T25	Disease 1827 1843	été hospitalisée
+A15	Hypothesis T25 Vrai
+T26	Disease 1976 2003	elle a déjà été à l'hôpital
+A16	Temporality T26 Before
+T27	Temporal_Marker 2136 2161	elle a déjà fait ça avant
+T28	Drug_chemicals 2380 2390	elle fume?
+A17	Hypothesis T28 Vrai
+T29	Drug_chemicals 2471 2491	elle fume de la weed
+T31	Drug_chemicals 2609 2620	elle a fumé
+A19	Hypothesis T31 Vrai
+T32	Drug_chemicals 2692 2712	deux trois cachetons
+T33	Drug_chemicals 2735 2744	on a méfu
+A20	Temporality T32 Before
+A21	Temporality T33 Before
+T30	Drug_chemicals 2857 2866	elle a bu
+A18	Hypothesis T30 Vrai
+T34	Drug_chemicals 2894 2903	elle a bu
+T35	Sign_Symptom 3099 3115	elle vous répond
+A22	Hypothesis T35 Vrai
+T36	Sign_Symptom 3369 3383	elle vomit pas
+A23	Hypothesis T36 Vrai
+T37	Sign_Symptom 3398 3413	elle a pas vomi
+A24	Negation T37 Négation
+A25	Negation T36 Négation
+T38	Conduite 3721 3749	on va vous envoyer quelqu'un
+T39	Conduite 3435 3485	j'aimerais bien qu'elle voit quand même un médecin
+T40	Conduite 4059 4075	juste un médecin
+T41	Conduite 4210 4226	restez avec elle

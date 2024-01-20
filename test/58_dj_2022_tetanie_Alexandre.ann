@@ -1,0 +1,110 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 76 83	docteur
+A2	Experience T2 Healthcare_professional
+T3	Person 101 109	ma fille
+A3	Experience T3 Patient
+T4	Sign_Symptom 113 127	elle bouge pas
+T5	Sign_Symptom 140 155	elle bouge pas?
+A4	Hypothesis T5
+T6	Geographic_Marker 294 301	l'école
+T7	Sign_Symptom 305 319	elle bouge pas
+T8	Geographic_Marker 528 535	l'école
+T9	Person 2465 2472	médecin
+A5	Experience T9 Healthcare_professional
+T11	Person 1913 1924	votre fille
+A6	Experience T11 Patient
+T12	Person 1988 1999	votre fille
+A7	Experience T12 Patient
+T13	Sign_Symptom 907 921	elle bouge pas
+A8	Negation T13 Négation
+T14	Sign_Symptom 972 995	est ce qu'elle respire?
+A9	Hypothesis T14
+T15	Sign_Symptom 1122 1138	elle est crispée
+T16	Sign_Symptom 1105 1120	elle est tendue
+T17	Sign_Symptom 1084 1094	elle bouge
+T18	Sign_Symptom 1066 1076	elle bouge
+T19	Sign_Symptom 1274 1288	là elle bouge?
+A10	Hypothesis T19
+T20	Sign_Symptom 1334 1362	est ce qu'elle bouge encore?
+A11	Hypothesis T20
+T21	Sign_Symptom 1450 1462	elle tremble
+T22	Sign_Symptom 1464 1474	elle bouge
+T23	Sign_Symptom 1498 1508	elle bouge
+T24	Sign_Symptom 1484 1496	elle tremble
+T26	Sign_Symptom 3042 3052	elle bouge
+A12	Temporality T7 Before_overlap
+A13	Temporality T4 Overlap(default)
+A14	Temporality T5 Overlap(default)
+T27	Sign_Symptom 165 174	bouge pas
+A15	Temporality T27 Overlap(default)
+T28	Conduite 217 229	racontez moi
+A16	Temporality T28 Overlap(default)
+T29	Temporal_Marker 259 278	elle rentrait juste
+R1	Temp_mark Arg1:T29 Arg2:T7	
+T30	Sign_Symptom 321 336	elle est tendue
+A17	Temporality T30 Overlap(default)
+T31	Sign_Symptom 338 352	elle bouge pas
+A18	Temporality T31 Overlap(default)
+T32	Sign_Symptom 397 439	est ce qu'elle s'est plaint d'une douleur?
+A19	Temporality T32 Overlap(default)
+A20	Hypothesis T32
+T33	Sign_Symptom 576 590	elle bouge pas
+A21	Temporality T33 Overlap(default)
+T34	Sign_Symptom 600 650	est ce que quand vous lui parlez elle vous répond?
+A22	Temporality T34 Overlap(default)
+A23	Hypothesis T34
+T35	Sign_Symptom 690 704	elle parle pas
+A24	Temporality T35 Overlap(default)
+T36	Conduite 724 813	quand vous la stimulez, quand vous la touchez, quand vous l'appelez, quand vous la pincez
+A25	Temporality T36 Overlap(default)
+A26	Hypothesis T36
+T37	Sign_Symptom 815 842	est ce qu'elle vous répond?
+A27	Temporality T37 Overlap(default)
+A28	Hypothesis T37
+T38	Sign_Symptom 874 897	est ce qu'elle respire?
+A29	Temporality T38 Overlap(default)
+A30	Hypothesis T38
+T39	Sign_Symptom 1014 1024	elle bouge
+A31	Temporality T39 Overlap(default)
+T40	Sign_Symptom 1034 1056	elle bouge vous dites?
+A32	Temporality T40 Overlap(default)
+T41	Sign_Symptom 1152 1162	elle bouge
+A33	Temporality T41 Overlap(default)
+T42	Sign_Symptom 1186 1221	est ce que elle a les yeux ouverts?
+A34	Temporality T42 Overlap(default)
+A35	Hypothesis T42
+A36	Temporality T24 Overlap(default)
+A37	Temporality T21 Overlap(default)
+A38	Temporality T22 Overlap(default)
+A39	Temporality T23 Overlap(default)
+A40	Temporality T17 Overlap(default)
+A41	Temporality T18 Overlap(default)
+A42	Temporality T16 Overlap(default)
+A43	Temporality T15 Overlap(default)
+A44	Temporality T14 Overlap(default)
+T46	Sign_Symptom 1856 1870	elle bouge pas
+A49	Temporality T46 Overlap(default)
+A50	Negation T46 Négation
+T47	Temporal_Marker 1734 1766	elle vient de rentrer de l'école
+A51	Temporality T47 Overlap(default)
+R2	Temp_mark Arg1:T47 Arg2:T46	
+T48	Conduite 2415 2456	on va vous envoyer heu une équipe du SAMU
+A52	Temporality T48 After
+T10	Conduite 2474 2558	vous restez à la maison, s- vous rappelez uniquement si il y a des éléments nouveaux
+A53	Temporality T10 After
+T49	Conduite 2657 2678	vous restez avec elle
+A54	Temporality T49 Overlap(default)
+T50	Conduite 2680 2745	vous nous rappelez seulement si y a des des choses nouvelles dans
+A55	Temporality T50 After
+T51	Conduite 2809 2982	vous nous appelez si il y a des douleurs nouvelles, si elle heu perd connaissance et heu si heu si il y a des symptômes qui étaient pas présents heu au moment où vous parlez
+A56	Temporality T51 After
+A57	Hypothesis T51
+T52	Conduite 3092 3121	vous attendez les se- secours
+A58	Temporality T52 Overlap(default)
+T53	Conduite 3123 3141	vous la surveillez
+A59	Temporality T53 Overlap(default)
+A60	Temporality T26 Overlap(default)
+T54	Temporal_Marker 3006 3008	là
+A61	Temporality T54 Overlap(default)
+R3	Temp_mark Arg1:T54 Arg2:T26	

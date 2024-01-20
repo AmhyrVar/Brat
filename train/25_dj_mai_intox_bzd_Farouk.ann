@@ -1,0 +1,100 @@
+T1	Person 20 26	madame
+T2	Person 38 53	docteur DETOURY
+T3	Conduite 71 78	appelez
+T4	Person 140 148	ma femme
+T5	Person 167 172	femme
+T6	Person 241 246	femme
+T7	Drug_chemicals 281 292	médicaments
+T8	Drug_chemicals 312 323	médicaments
+T9	Sign_Symptom 341 357	pas bien du tout
+T11	Person 328 330	je
+T10	Person 331 333	la
+T12	Person 389 396	médecin
+T13	Drug_chemicals 466 476	médicament
+T14	Person 489 495	madame
+T15	Temporal_Marker 482 488	a pris
+T16	Drug_chemicals 522 533	médicaments
+T17	Sign_Symptom 558 566	déprimée
+T18	Person 542 546	elle
+T19	Person 506 510	elle
+T20	Drug_chemicals 640 649	LORAZEPAM
+T21	Person 675 682	qu'elle
+T22	Drug_chemicals 705 716	médicaments
+T23	Conduite 688 695	prendre
+T24	Temporal_Marker 683 687	a pu
+T25	Drug_chemicals 764 775	médicaments
+T26	Person 744 748	elle
+T27	Geographic_Marker 803 814	à la maison
+T28	Temporal_Marker 829 831	là
+T29	Person 832 836	elle
+T30	Sign_Symptom 841 857	pas bien du tout
+T31	Sign_Symptom 867 875	pas bien
+T32	Person 858 862	elle
+T33	Conduite 881 894	il faut venir
+T34	Person 921 928	qu'elle
+T35	Person 994 1001	qu'elle
+T36	Sign_Symptom 1006 1015	réveillée
+T37	Person 1026 1030	elle
+T39	Person 1057 1061	elle
+T40	Conduite 1062 1066	dort
+T41	Conduite 1035 1048	pas réveillée
+T38	Conduite 1119 1127	stimulez
+T42	Person 1111 1115	vous
+T43	Person 1116 1118	la
+T44	Person 1088 1092	vous
+T45	Person 1093 1095	la
+T46	Conduite 1096 1104	stimulez
+T47	Person 1135 1142	qu'elle
+T48	Person 1143 1147	vous
+T49	Conduite 1148 1154	répond
+T50	Person 1165 1169	elle
+T51	Person 1171 1172	l
+T52	Person 1175 1179	elle
+T53	Sign_Symptom 1180 1186	grogne
+T54	Sign_Symptom 1201 1207	grogne
+T55	Person 1196 1200	elle
+T56	Temporal_Marker 1273 1283	maintenant
+T57	Conduite 1259 1272	il faut venir
+T58	Person 1293 1299	madame
+T59	Temporal_Marker 1303 1305	va
+T60	Geographic_Marker 1444 1450	maison
+T62	Conduite 1470 1478	allongée
+T63	Person 1461 1465	elle
+T64	Person 1479 1483	elle
+T65	Person 1466 1469	est
+T61	Conduite 1484 1495	dort un peu
+T66	Person 1501 1502	l
+T67	Conduite 1504 1510	grogne
+T68	Conduite 1525 1531	grogne
+T69	Person 1520 1524	elle
+T70	Person 1554 1558	elle
+T71	Conduite 1559 1569	est suivie
+T72	Disease 1674 1684	dépression
+T73	Person 1739 1749	psychiatre
+T74	Person 1713 1717	elle
+T75	Person 1626 1630	elle
+T76	Person 1776 1778	je
+T77	Person 1795 1803	pompiers
+T78	Conduite 1784 1790	envoie
+T79	Conduite 1847 1864	prendre en charge
+T80	Person 1844 1846	la
+T81	Temporal_Marker 1877 1879	là
+T82	Person 1895 1898	moi
+T83	Temporal_Marker 1930 1932	là
+T84	Person 1938 1942	elle
+T85	Person 1943 1947	elle
+T86	Person 1933 1937	elle
+T87	Conduite 1948 1952	dort
+T88	Temporal_Marker 1981 1983	là
+T90	Person 2048 2052	vous
+T91	Geographic_Marker 2018 2029	sur le côté
+T92	Conduite 2011 2017	mettre
+T89	Person 2008 2010	la
+T93	Person 1996 2000	vous
+T94	Conduite 2039 2047	allongée
+T95	Conduite 2060 2070	l'allonger
+T96	Geographic_Marker 2071 2082	sur le côté
+T97	Person 2090 2098	pompiers
+T98	Temporal_Marker 2108 2121	tout de suite
+T99	Conduite 2135 2154	a prendre en charge
+T100	Person 2234 2240	madame

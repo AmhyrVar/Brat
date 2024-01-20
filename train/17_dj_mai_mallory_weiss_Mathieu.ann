@@ -1,0 +1,216 @@
+T1	Person 17 32	docteur DETOURY
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 36 40	SAMU
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 108 124	votre grand mère
+A5	Temporality T3 Overlap(default)
+A6	Hypothesis T3
+A7	Experience T3 Patient
+T4	Person 154 159	mamie
+A8	Temporality T4 Overlap(default)
+A9	Experience T4 Patient
+T5	Sign_Symptom 165 184	va pas bien du tout
+A10	Temporality T5 Overlap(default)
+A11	Experience T5 Patient
+T6	Sign_Symptom 201 213	vomi du sang
+A12	Temporality T6 Before_overlap
+A13	Hypothesis T6
+A14	Experience T6 Patient
+T7	Sign_Symptom 258 262	vomi
+A15	Temporality T7 Before_overlap
+A16	Experience T7 Patient
+T8	Sign_Symptom 271 276	vomit
+A17	Temporality T8 Before_overlap
+A18	Experience T8 Patient
+T9	Sign_Symptom 400 429	un peu de sang mélangé au vom
+A19	Temporality T9 Before_overlap
+A20	Experience T9 Patient
+A21	Hypothesis T9
+T10	Temporal_Marker 500 518	depuis aujourd'hui
+A22	Temporality T10 Before_overlap
+A23	Hypothesis T10
+A24	Experience T10 Patient
+R1	Temp_mark Arg1:T10 Arg2:T9	
+T11	Temporal_Marker 530 555	déjà les jours précédents
+A25	Temporality T11 Before_overlap
+A26	Hypothesis T11
+A27	Experience T11 Patient
+R2	Temp_mark Arg1:T11 Arg2:T9	
+T12	Sign_Symptom 611 623	vomissements
+A28	Temporality T12 Before_overlap
+A29	Experience T12 Patient
+T13	Temporal_Marker 578 589	aujourd'hui
+A30	Temporality T13 Before_overlap
+A31	Experience T13 Patient
+R3	Temp_mark Arg1:T13 Arg2:T12	
+T14	Sign_Symptom 700 705	vomit
+A32	Temporality T14 Before_overlap
+A33	Experience T14 Patient
+T15	Temporal_Marker 714 736	depuis plusieurs jours
+A34	Temporality T15 Before_overlap
+A35	Experience T15 Patient
+R4	Temp_mark Arg1:T15 Arg2:T14	
+T16	Temporal_Marker 751 773	depuis plusieurs jours
+A36	Temporality T16 Before_overlap
+A37	Experience T16 Patient
+T17	Sign_Symptom 779 784	vomit
+A38	Temporality T17 Before_overlap
+A39	Experience T17 Patient
+R5	Temp_mark Arg1:T16 Arg2:T17	
+T18	Sign_Symptom 794 813	va pas bien du tout
+A40	Temporality T18 Overlap(default)
+A41	Experience T18 Patient
+T19	Sign_Symptom 819 830	va pas bien
+A42	Temporality T19 Overlap(default)
+A43	Experience T19 Patient
+T20	Temporal_Marker 840 862	depuis plusieurs jours
+A44	Temporality T20 Before_overlap
+A45	Hypothesis T20
+A46	Experience T20 Patient
+T21	Sign_Symptom 868 873	vomit
+A47	Temporality T21 Before_overlap
+A48	Hypothesis T21
+A49	Experience T21 Patient
+R6	Temp_mark Arg1:T20 Arg2:T21	
+T22	Temporal_Marker 880 891	aujourd'hui
+A50	Temporality T22 Before_overlap
+A51	Hypothesis T22
+A52	Experience T22 Patient
+T23	Sign_Symptom 909 941	traces de sang mélangées au vomi
+A53	Temporality T23 Before_overlap
+A54	Hypothesis T23
+A55	Experience T23 Patient
+R7	Temp_mark Arg1:T22 Arg2:T23	
+T24	Sign_Symptom 1069 1081	vomissements
+A56	Temporality T24 Before_overlap
+A57	Experience T24 Patient
+T25	Person 1052 1059	médecin
+A58	Temporality T25 Before_overlap
+A59	Hypothesis T25
+A60	Experience T25 Healthcare_professional
+T26	Person 1099 1104	mamie
+A61	Temporality T26 Overlap(default)
+A62	Experience T26 Patient
+T27	Person 1202 1212	chouchoute
+A63	Temporality T27 Overlap(default)
+A64	Experience T27 Patient
+T28	Person 1236 1252	médecin traitant
+A65	Temporality T28 Before
+A66	Experience T28 Healthcare_professional
+T29	Person 1323 1330	médecin
+A67	Temporality T29 Before
+A68	Experience T29 Healthcare_professional
+T30	Person 1385 1401	votre grand mère
+A69	Temporality T30 Overlap(default)
+A70	Experience T30 Patient
+T31	Disease 1461 1472	hypertendue
+A71	Temporality T31 Before
+A72	Experience T31 Patient
+T32	Disease 1483 1490	diabète
+A73	Temporality T32 Before
+A74	Experience T32 Patient
+T33	Disease 1516 1525	cataracte
+A75	Temporality T33 Before
+A76	Experience T33 Patient
+T34	Disease 1546 1570	fracture du col du fémur
+A77	Temporality T34 Before
+A78	Experience T34 Patient
+T35	Temporal_Marker 1574 1578	1999
+A79	Temporality T35 Before
+A80	Experience T35 Patient
+R8	Temp_mark Arg1:T35 Arg2:T34	
+T36	Disease 1607 1610	AIT
+A81	Temporality T36 Before
+A82	Experience T36 Patient
+T37	Temporal_Marker 1614 1616	86
+A83	Temporality T37 Before
+A84	Experience T37 Patient
+R9	Temp_mark Arg1:T37 Arg2:T36	
+T38	Geographic_Marker 1642 1651	ROTSCHILD
+A85	Temporality T38 Before
+A86	Experience T38 Patient
+T39	Drug_chemicals 1799 1813	anticoagulants
+A87	Temporality T39 Before
+A88	Hypothesis T39
+A89	Experience T39 Patient
+T40	Drug_chemicals 1896 1904	KARDEGIC
+A90	Temporality T40 Before
+A91	Hypothesis T40
+A92	Experience T40 Patient
+T41	Drug_chemicals 1916 1923	XARELTO
+A93	Temporality T41 Before
+A94	Hypothesis T41
+A95	Experience T41 Patient
+T42	Drug_chemicals 1924 1932	APIXABAN
+A96	Temporality T42 Before
+A97	Hypothesis T42
+A98	Experience T42 Patient
+T43	Person 2021 2037	votre grand mère
+A99	Temporality T43 Overlap(default)
+A100	Experience T43 Patient
+T44	Conduite 2041 2073	faudrait qu'elle voit un médecin
+A101	Temporality T44 After
+A102	Experience T44 Patient
+T45	Conduite 2077 2107	faudra qu'elle voit un médecin
+A103	Temporality T45 After
+A104	Experience T45 Patient
+T46	Conduite 2155 2189	faire passer un médecin à domicile
+A105	Temporality T46 After
+A106	Hypothesis T46
+A107	Experience T46 Patient
+T47	Person 2252 2265	mes collègues
+A108	Temporality T47 Overlap(default)
+A109	Experience T47 Healthcare_professional
+T48	Person 2313 2333	médecins disponibles
+A110	Temporality T48 After
+A111	Experience T48 Patient
+T49	Person 2420 2430	chouchoute
+A112	Temporality T49 Overlap(default)
+A113	Experience T49 Patient
+T50	Conduite 2506 2521	voir un médecin
+A114	Temporality T50 After
+A115	Experience T50 Patient
+T51	Temporal_Marker 2522 2550	dans les vingt quatre heures
+A116	Temporality T51 After
+A117	Experience T51 Patient
+T52	Conduite 2576 2619	médecins disponibles pour passer à domicile
+A118	Temporality T52 After
+A119	Hypothesis T52
+A120	Experience T52 Healthcare_professional
+T53	Geographic_Marker 2656 2680	maison médicale de garde
+A121	Temporality T53 Overlap(default)
+A122	Experience T53 Healthcare_professional
+T54	Person 2745 2764	médecins à domicile
+A123	Temporality T54 Overlap(default)
+A124	Experience T54 Healthcare_professional
+T55	Geographic_Marker 2823 2866	juste à côté de la maison médicale de garde
+A125	Temporality T55 Overlap(default)
+A126	Experience T55 Patient
+T56	Conduite 2998 3052	vous présenter avec elle à la maison médicale de garde
+A127	Temporality T56 After
+A128	Experience T56 Patient
+T57	Geographic_Marker 3028 3052	maison médicale de garde
+A129	Temporality T57 After
+A130	Experience T57 Healthcare_professional
+T58	Conduite 3174 3238	vous l'emmenez voir le médecin généraliste de la maison médicale
+A131	Temporality T58 After
+A132	Experience T58 Patient
+T59	Geographic_Marker 3223 3238	maison médicale
+A133	Temporality T59 After
+A134	Experience T59 Healthcare_professional
+T60	Sign_Symptom 3321 3341	vomissements de sang
+A135	Temporality T60 Overlap(default)
+A136	Experience T60 Patient
+T61	Geographic_Marker 3300 3308	urgences
+A137	Temporality T61 After
+A138	Hypothesis T61
+A139	Experience T61 Patient
+A140	Hypothesis T60
+T62	Conduite 3372 3435	aller voir un médecin généraliste à la maison médicale de garde
+A141	Temporality T62 After
+A142	Experience T62 Patient
+T63	Geographic_Marker 3411 3435	maison médicale de garde
+A143	Temporality T63 After
+A144	Experience T63 Healthcare_professional

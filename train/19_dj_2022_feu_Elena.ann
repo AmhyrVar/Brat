@@ -1,0 +1,31 @@
+T1	Person 22 38	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 84 95	votre frère
+A2	Experience T2 Patient
+T3	Sign_Symptom 75 78	feu
+A3	Hypothesis T3
+A4	Experience T3 Patient
+T4	Geographic_Marker 224 230	en bas
+T5	Geographic_Marker 258 264	en bas
+A5	Hypothesis T5
+T6	Geographic_Marker 342 357	dans la cuisine
+T7	Geographic_Marker 367 382	dans la cuisine
+T8	Geographic_Marker 399 409	la chambre
+T9	Sign_Symptom 470 473	feu
+A6	Experience T9 Patient
+T10	Sign_Symptom 493 496	feu
+A7	Experience T10 Patient
+T11	Sign_Symptom 528 531	feu
+A8	Experience T11 Patient
+T12	Geographic_Marker 548 554	en bas
+T13	Sign_Symptom 580 583	feu
+A9	Experience T13 Patient
+T14	Conduite 636 649	restez en bas
+T15	Conduite 651 674	vous vous restez en bas
+T16	Geographic_Marker 734 747	l'appartement
+T17	Person 826 831	frère
+A10	Experience T17 Patient
+T18	Conduite 932 1016	vous restez en bas. surtout vous restez en bas. on envoie les pompiers tout de suite
+T19	Sign_Symptom 895 905	répond pas
+A11	Negation T19 Négation
+A12	Experience T19 Patient

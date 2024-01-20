@@ -1,0 +1,36 @@
+T1	Person 55 63	monsieur
+T2	Person 80 94	docteur DAMANI
+A1	Experience T2 Healthcare_professional
+T3	Person 132 138	voisin
+T4	Sign_Symptom 367 382	de l'eau chaude
+A2	Hypothesis T4
+T5	Sign_Symptom 518 551	c'est seulement au niveau du bras
+A3	Hypothesis T5
+T6	Sign_Symptom 662 682	c'est plutôt la main
+A4	Hypothesis T6
+T7	Sign_Symptom 729 770	non c'est c'est le bras c'est pas la main
+A5	Experience T7 Patient
+T8	Conduite 1332 1365	mettre son bras sous l'eau froide
+A6	Experience T8 Healthcare_professional
+T9	Sign_Symptom 1379 1391	il pleure là
+A7	Experience T9 Patient
+T10	Sign_Symptom 2049 2066	vous vous douchez
+A8	Hypothesis T10
+T11	Temporal_Marker 2551 2565	quinze minutes
+T12	Temporal_Marker 2707 2716	longtemps
+T13	Sign_Symptom 2836 2869	c'est seulement au niveau du bras
+A9	Hypothesis T13
+T14	Sign_Symptom 2975 3013	est ce que la peau est décollée ou pas
+A10	Hypothesis T14
+T15	Sign_Symptom 3056 3086	c'est est-ce c'est une rougeur
+A11	Hypothesis T15
+T16	Person 3793 3805	dermatologue
+A12	Experience T16 Healthcare_professional
+T17	Sign_Symptom 3971 4012	il a toujours ​son bras sous l'eau froide
+A13	Hypothesis T17
+T18	Geographic_Marker 5039 5043	pays
+T19	Geographic_Marker 5188 5203	maison médicale
+T20	Geographic_Marker 5219 5224	ville
+T21	Person 5247 5254	médecin
+A14	Experience T21 Healthcare_professional
+T22	Temporal_Marker 5263 5270	journée

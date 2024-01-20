@@ -1,0 +1,45 @@
+T1	Person 47 64	docteur BEAUCHAMP
+A1	Experience T1 Healthcare_professional
+T2	Geographic_Marker 221 244	en bas de de l'immeuble
+T3	Geographic_Marker 275 295	en bas de l'immeuble
+T4	Geographic_Marker 327 337	l'immeuble
+T5	Person 111 114	ami
+A2	Experience T5 Patient
+T6	Person 835 844	collègues
+A3	Experience T6 Healthcare_professional
+T7	Person 1013 1016	ami
+A4	Experience T7 Patient
+T8	Sign_Symptom 1115 1129	elle répondait
+A5	Hypothesis T8
+T9	Sign_Symptom 1220 1229	a répondu
+A6	Hypothesis T9
+A7	Experience T9 Patient
+A8	Experience T8 Patient
+T10	Sign_Symptom 1265 1278	a pas répondu
+A9	Negation T10 Négation
+A10	Experience T10 Patient
+T11	Sign_Symptom 1297 1310	a pas répondu
+A11	Experience T11 Patient
+T12	Geographic_Marker 1353 1361	domicile
+T13	Temporal_Marker 1362 1373	à ce moment
+R1	Temp_mark Arg1:T13 Arg2:T11	
+T14	Geographic_Marker 1473 1482	la maison
+T15	Person 1497 1508	des enfants
+A12	Experience T15 Family
+T16	Person 1597 1604	enfants
+A13	Experience T16 Family
+T17	Person 1685 1690	maman
+A14	Experience T17 Family
+T18	Temporal_Marker 2009 2020	dix minutes
+T19	Conduite 2531 2571	faut pas que vous vous mettiez en danger
+A15	Experience T19 Other
+T20	Person 2572 2580	monsieur
+A16	Experience T20 Other
+T21	Conduite 2923 2946	restez loin des flammes
+A17	Experience T21 Other
+T22	Conduite 3102 3124	restez plutôt en avant
+A18	Experience T22 Other
+T23	Geographic_Marker 3290 3296	la rue
+T24	Geographic_Marker 3271 3279	immeuble
+T25	Conduite 4146 4197	les pompiers arrivent hein monsieur a- attendez les
+A19	Experience T25 Other

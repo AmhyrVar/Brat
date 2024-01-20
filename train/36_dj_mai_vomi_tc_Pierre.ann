@@ -1,0 +1,36 @@
+T1	Person 17 29	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 83 101	enfant de huit ans
+A2	Experience T2 Patient
+T3	Sign_Symptom 152 157	vomit
+T4	Sign_Symptom 197 202	vomit
+T5	Temporal_Marker 217 241	depuis là tout à l'heure
+A3	Temporality T5 Before_overlap
+T6	Sign_Symptom 335 344	diarrhées
+T7	Sign_Symptom 345 364	des selles liquides
+T8	Geographic_Marker 402 409	l'école
+T9	Geographic_Marker 262 269	l'école
+T10	Sign_Symptom 424 427	mal
+A4	Hypothesis T10 Vrai
+T11	Sign_Symptom 479 485	fièvre
+A5	Hypothesis T11 Vrai
+T12	Person 609 625	médecin traitant
+A6	Experience T12 Healthcare_professional
+T13	Geographic_Marker 648 655	l'école
+T14	Person 789 810	infirmière de l'école
+A7	Experience T14 Healthcare_professional
+T15	Person 839 855	médecin traitant
+A8	Negation T15 Négation
+T16	Sign_Symptom 946 959	mal à la tête
+A9	Negation T16 Négation
+A10	Hypothesis T16 Vrai
+T17	Person 1008 1021	mal à la tête
+A11	Negation T17 Négation
+T18	Conduite 1055 1077	surveiller à la maison
+T19	Geographic_Marker 1134 1143	l'hôpital
+T20	Conduite 1211 1255	surveiller il faut le surveiller à la maison
+T21	Conduite 1315 1490	vous le surveillez là heu les heu toute la soirée et puis vous le réveillez heu heu régulièrement dans la nuit heu toutes les heu toutes les tr- toutes les trois quatre heures
+T22	Sign_Symptom 1584 1596	vomissements
+T23	Sign_Symptom 1747 1752	vomit
+T24	Sign_Symptom 1776 1788	vomissements
+T25	Conduite 1898 1922	surveillance à la maison

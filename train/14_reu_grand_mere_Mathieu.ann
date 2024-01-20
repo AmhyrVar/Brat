@@ -1,0 +1,134 @@
+T1	Person 39 46	médecin
+A1	Temporality T1 Overlap(default)
+A2	Experience T1 Healthcare_professional
+T2	Geographic_Marker 50 70	SAMU COLIN GUILLAUME
+A3	Temporality T2 Overlap(default)
+A4	Experience T2 Healthcare_professional
+T3	Person 121 132	votre mamie
+A5	Temporality T3 Overlap(default)
+A6	Hypothesis T3
+A7	Experience T3 Patient
+T4	Person 154 166	mon collègue
+A8	Temporality T4 Before_overlap
+A9	Experience T4 Healthcare_professional
+T5	Person 180 196	votre grand mère
+A10	Temporality T5 Overlap(default)
+A11	Hypothesis T5
+A12	Experience T5 Patient
+T6	Person 283 299	votre grand mère
+A13	Temporality T6 Overlap(default)
+A14	Experience T6 Patient
+T7	Sign_Symptom 369 375	malade
+A15	Temporality T7 Overlap(default)
+A16	Hypothesis T7
+A17	Experience T7 Patient
+T8	Temporal_Marker 376 399	depuis combien de temps
+A18	Temporality T8 Before_overlap
+A19	Hypothesis T8
+A20	Experience T8 Patient
+R1	Temp_mark Arg1:T8 Arg2:T7	
+T9	Sign_Symptom 335 341	malade
+A21	Temporality T9 Overlap(default)
+A22	Hypothesis T9
+A23	Experience T9 Patient
+T10	Temporal_Marker 422 447	quatre trois quatre jours
+A24	Temporality T10 Before_overlap
+A25	Hypothesis T10
+A26	Experience T10 Patient
+R2	Temp_mark Arg1:T10 Arg2:T7	
+T11	Temporal_Marker 470 488	trois quatre jours
+A27	Temporality T11 Before_overlap
+A28	Experience T11 Patient
+R3	Temp_mark Arg1:T11 Arg2:T7	
+T12	Sign_Symptom 506 525	respire normalement
+A29	Temporality T12 Overlap(default)
+A30	Hypothesis T12
+A31	Experience T12 Patient
+T13	Sign_Symptom 585 591	tousse
+A32	Temporality T13 Overlap(default)
+A33	Experience T13 Patient
+T14	Sign_Symptom 601 609	fatiguée
+A34	Temporality T14 Overlap(default)
+A35	Experience T14 Patient
+T15	Sign_Symptom 632 640	fatiguée
+A36	Temporality T15 Overlap(default)
+A37	Experience T15 Patient
+T16	Sign_Symptom 615 622	respire
+A38	Temporality T16 Overlap(default)
+A39	Experience T16 Patient
+T17	Conduite 659 686	passez moi votre grand mère
+A40	Temporality T17 Overlap(default)
+A41	Experience T17 Family
+T18	Geographic_Marker 850 864	dans la maison
+A42	Temporality T18 Overlap(default)
+A43	Experience T18 Patient
+T19	Conduite 878 917	mettez juste le téléphone à côté d'elle
+A44	Temporality T19 Overlap(default)
+A45	Experience T19 Family
+T20	Drug_chemicals 1394 1401	cachets
+A46	Temporality T20 Before
+A47	Hypothesis T20
+A48	Experience T20 Patient
+T21	Drug_chemicals 1429 1440	médicaments
+A49	Temporality T21 Before
+A50	Hypothesis T21
+A51	Experience T21 Patient
+T22	Drug_chemicals 1562 1603	médicaments pour la tension pour le coeur
+A52	Temporality T22 Before
+A53	Hypothesis T22
+A54	Experience T22 Patient
+T23	Disease 1639 1646	tension
+A55	Temporality T23 Before
+A56	Hypothesis T23
+A57	Experience T23 Patient
+T24	Person 1905 1912	docteur
+A58	Temporality T24 Before
+A59	Experience T24 Healthcare_professional
+T25	Temporal_Marker 1913 1938	depuis trois quatre jours
+A60	Temporality T25 Before
+A61	Experience T25 Patient
+T26	Sign_Symptom 1947 1952	a mal
+A62	Temporality T26 Before
+A63	Experience T26 Patient
+T27	Conduite 2157 2174	il faut l'appeler
+A64	Temporality T27 Overlap(default)
+A65	Experience T27 Family
+T28	Conduite 2368 2411	faut que vous appeliez son médecin traitant
+A66	Temporality T28 After
+A67	Experience T28 Family
+T29	Conduite 2491 2509	vous nous rappelez
+A68	Temporality T29 After
+A69	Experience T29 Family
+T30	Conduite 2690 2708	appelle appelez le
+A70	Temporality T30 Overlap(default)
+A71	Experience T30 Family
+T31	Conduite 2779 2796	il faut l'appeler
+A72	Temporality T31 Overlap(default)
+A73	Experience T31 Family
+T32	Person 3048 3059	votre mamie
+A74	Temporality T32 Overlap(default)
+A75	Experience T32 Patient
+T33	Person 3187 3194	médecin
+A76	Temporality T33 Overlap(default)
+A77	Experience T33 Healthcare_professional
+T34	Person 3226 3233	médecin
+A78	Temporality T34 Overlap(default)
+A79	Experience T34 Healthcare_professional
+T35	Conduite 3255 3419	je vous heu je vous transfère chez heu chez chez les collègues de je vous donne le numéro de SOS médecin de pour heu puissiez les appeler pour qu'ils puissent venir
+A80	Temporality T35 Overlap(default)
+A81	Experience T35 Healthcare_professional
+T36	Conduite 3697 3740	il va passer pour examiner votre grand mère
+A82	Temporality T36 After
+A83	Experience T36 Patient
+T37	Temporal_Marker 3774 3789	dans la journée
+A84	Temporality T37 After
+A85	Experience T37 Healthcare_professional
+T38	Temporal_Marker 3802 3813	aujourd'hui
+A86	Temporality T38 After
+A87	Experience T38 Healthcare_professional
+T39	Person 4007 4023	votre grand mère
+A88	Temporality T39 Overlap(default)
+A89	Experience T39 Patient
+T40	Conduite 4237 4287	vous me rappelez si il y a un problème entre temps
+A90	Temporality T40 Overlap(default)
+A91	Experience T40 Family

@@ -1,0 +1,60 @@
+T1	Person 21 33	docteur SAEB
+A1	Experience T1 Healthcare_professional
+T2	Person 93 96	SDF
+A2	Experience T2 Patient
+T3	Sign_Symptom 105 109	coma
+A3	Hypothesis T3 Vrai
+A4	Experience T3 Patient
+T4	Sign_Symptom 175 184	conscient
+A5	Hypothesis T4 Vrai
+A6	Experience T4 Patient
+T5	Sign_Symptom 233 240	respire
+A7	Hypothesis T5 Vrai
+A8	Experience T5 Patient
+T6	Sign_Symptom 288 294	ronfle
+A9	Experience T6 Patient
+T7	Conduite 323 388	vous pouvez le le stimuler un peu pour qu'il qu'il ouvre les yeux
+A10	Temporality T7 Overlap(default)
+A11	Hypothesis T7 Vrai
+T8	Sign_Symptom 374 388	ouvre les yeux
+A12	Hypothesis T8 Vrai
+A13	Experience T8 Patient
+T9	Person 465 476	ce monsieur
+A14	Experience T9 Patient
+T10	Person 483 506	un monsieur du quartier
+A15	Experience T10 Patient
+T11	Sign_Symptom 449 464	pas très propre
+A16	Negation T11 Négation
+A17	Experience T11 Patient
+T12	Person 516 522	madame
+A18	Experience T12 Other
+T13	Person 536 542	madame
+A19	Experience T13 Other
+T14	Conduite 516 535	madame vous appelez
+A20	Temporality T14 Overlap(default)
+A21	Experience T14 Healthcare_professional
+T15	Conduite 536 555	madame vous appelez
+A22	Temporality T15 Overlap(default)
+T16	Conduite 559 653	il faut que vous vous rapprochiez de lui et que vous le stimuliez un peu approchez vous de lui
+A23	Experience T16 Healthcare_professional
+T17	Sign_Symptom 726 732	grogne
+A24	Temporality T17 Overlap(default)
+A25	Experience T17 Patient
+T18	Sign_Symptom 733 747	il me repousse
+A26	Temporality T18 Overlap(default)
+A27	Experience T18 Patient
+T19	Sign_Symptom 772 779	l parle
+A28	Temporality T19 Overlap(default)
+A29	Hypothesis T19 Vrai
+A30	Experience T19 Patient
+T20	Sign_Symptom 803 812	il grogne
+A31	Temporality T20 Overlap(default)
+A32	Experience T20 Patient
+T21	Conduite 870 899	vous allez rester près de lui
+A33	Temporality T21 Overlap(default)
+T22	Conduite 904 930	on va envoyer les pompiers
+A34	Temporality T22 After
+T23	Conduite 931 985	vous restez près de lui jusqu'à l'arrivée des pompiers
+A35	Temporality T23 Overlap(default)
+T24	Conduite 989 1011	on envoie les pompiers
+A36	Temporality T24 After

@@ -1,0 +1,24 @@
+T1	Person 18 34	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 80 85	frère
+T3	Sign_Symptom 231 270	il avait du du du sang sur son pantalon
+A2	Temporality T3 Before
+A3	Experience T3 Patient
+T4	Sign_Symptom 303 342	il s'est encore fait un coup de couteau
+A4	Experience T4 Patient
+T5	Sign_Symptom 387 420	est ce que la plaie saigne encore
+A5	Hypothesis T5
+T6	Sign_Symptom 481 500	il est hyper énervé
+A6	Experience T6 Patient
+T7	Conduite 544 578	allez le voir et regardez la plaie
+A7	Experience T7 Healthcare_professional
+T8	Person 1081 1087	cousin
+T9	Sign_Symptom 1304 1335	est ce qu'il est rentré à pieds
+A8	Hypothesis T9
+T10	Sign_Symptom 1424 1451	est ce que là il est debout
+A9	Hypothesis T10
+T11	Sign_Symptom 1467 1485	il est al- allongé
+A10	Hypothesis T11
+T12	Person 1808 1820	les pompiers
+A11	Experience T12 Healthcare_professional
+T13	Geographic_Marker 1912 1918	maison

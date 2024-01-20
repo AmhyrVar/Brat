@@ -1,0 +1,140 @@
+T1	Person 64 77	docteur SHITZ
+A1	Experience T1 Healthcare_professional
+T2	Person 20 26	madame
+A2	Experience T2 Family
+T3	Person 102 107	frère
+A3	Experience T3 Patient
+T4	Temporal_Marker 217 229	depuis quand
+A4	Experience T4 Patient
+T5	Sign_Symptom 619 625	grogne
+A5	Experience T5 Patient
+T6	Sign_Symptom 716 720	râle
+A6	Experience T6 Patient
+T7	Sign_Symptom 696 702	grogne
+A7	Experience T7 Patient
+T8	Sign_Symptom 725 731	grogne
+A8	Experience T8 Patient
+T9	Sign_Symptom 772 790	problèmes de santé
+T10	Sign_Symptom 807 824	réveille pas bien
+T11	Drug_chemicals 956 967	médicaments
+T12	Drug_chemicals 1006 1016	médicament
+T13	Person 1021 1028	médecin
+A9	Experience T13 Healthcare_professional
+T14	Drug_chemicals 1123 1133	médicament
+A10	Experience T11 Patient
+A11	Experience T12 Patient
+A12	Experience T14 Patient
+T15	Drug_chemicals 1372 1382	médicament
+A13	Experience T15 Patient
+T16	Sign_Symptom 1413 1420	stressé
+A14	Experience T16 Patient
+T17	Sign_Symptom 142 153	répond plus
+A15	Negation T17 Négation
+A16	Experience T17 Patient
+T18	Sign_Symptom 3660 3665	bouge
+A17	Experience T18 Patient
+T19	Sign_Symptom 462 468	grogne
+A18	Experience T19 Patient
+T20	Sign_Symptom 492 499	respire
+A19	Temporality T20 Overlap(default)
+A20	Hypothesis T20 Faux
+A21	Negation T20 Négation
+A22	Experience T20 Patient
+T21	Drug_chemicals 2189 2200	médicaments
+A23	Temporality T21 Before_overlap
+A24	Experience T21 Patient
+T22	Temporal_Marker 2220 2229	y a un an
+A25	Experience T22 Patient
+T23	Geographic_Marker 2267 2284	resté à l'hôpital
+A26	Temporality T23 Before
+A27	Experience T23 Patient
+T24	Conduite 4514 4538	'on l'emmène à l'hôpital
+A29	Experience T24 Patient
+T25	Conduite 4567 4587	envoyer les pompiers
+T26	Sign_Symptom 1705 1722	pas trop en forme
+A30	Experience T26 Patient
+A31	Temporality T26 Before
+T27	Drug_chemicals 1799 1802	vin
+A32	Experience T27 Patient
+T28	Drug_chemicals 1817 1823	bières
+A33	Experience T28 Patient
+T29	Drug_chemicals 1944 1968	consommation de toxiques
+T30	Drug_chemicals 2059 2070	médicaments
+A34	Temporality T30 Before_overlap
+A35	Experience T30 Patient
+T31	Temporal_Marker 2239 2248	y a un an
+T32	Geographic_Marker 2328 2339	réanimation
+A36	Experience T32 Patient
+T33	Sign_Symptom 2588 2596	il bouge
+A37	Experience T33 Patient
+T34	Sign_Symptom 2612 2617	bouge
+T35	Sign_Symptom 2552 2563	se retourne
+T36	Sign_Symptom 2536 2547	se retourne
+T37	Conduite 3177 3195	vous le surveillez
+T38	Sign_Symptom 3478 3496	il se réveille pas
+T39	Sign_Symptom 3553 3559	grogne
+T40	Sign_Symptom 3623 3639	c'est pas normal
+T41	Sign_Symptom 3763 3777	bouger le bras
+T42	Sign_Symptom 3717 3725	il bouge
+T43	Sign_Symptom 3843 3861	il se réveille pas
+T44	Sign_Symptom 3958 3979	il ouvre pas les yeux
+T45	Person 4653 4661	pompiers
+A38	Experience T45 Other
+T47	Person 4866 4872	madame
+A40	Experience T47 Family
+T49	Person 4242 4248	madame
+A42	Experience T49 Family
+T50	Person 4381 4387	madame
+A43	Experience T50 Family
+T48	Conduite 4221 4241	envoyer les pompiers
+T51	Conduite 4454 4476	pas envoyer un médecin
+A41	Hypothesis T51 Vrai
+A44	Negation T51 Négation
+T52	Sign_Symptom 4825 4838	il répond pas
+T53	Conduite 4891 4911	envoyer les pompiers
+T54	Conduite 4934 4952	restez près de lui
+T55	Sign_Symptom 4055 4074	il bouge les jambes
+A28	Hypothesis T55 Vrai
+T56	Sign_Symptom 3868 3876	pas vomi
+A45	Hypothesis T56 Vrai
+A46	Negation T56 Négation
+T57	Sign_Symptom 3926 3943	il ouvre les yeux
+A47	Hypothesis T57 Faux
+T58	Drug_chemicals 3308 3319	médicaments
+T59	Sign_Symptom 2946 2970	pas des idées de suicide
+A48	Negation T59 Négation
+T60	Drug_chemicals 2732 2755	beaucoup de médicaments
+T61	Sign_Symptom 514 524	il respire
+T62	Sign_Symptom 668 682	il vous répond
+T63	Drug_chemicals 1275 1286	médicaments
+T64	Geographic_Marker 2136 2147	à l'hôpital
+A49	Temporality T64 Before
+T65	Sign_Symptom 4136 4152	comme une malade
+T66	Conduite 4323 4340	venir à la maison
+A50	Temporality T66 After
+T67	Geographic_Marker 1605 1616	à la maison
+A51	Temporality T67 Before
+T68	Sign_Symptom 587 605	il vous répond pas
+T69	Sign_Symptom 423 436	il répond pas
+T70	Drug_chemicals 1239 1249	ordonnance
+A52	Experience T70 Patient
+T71	Sign_Symptom 3144 3157	rien de grave
+A53	Experience T71 Patient
+T72	Person 3161 3167	madame
+A54	Experience T72 Family
+T73	Person 2980 2985	frère
+A55	Experience T73 Patient
+T74	Sign_Symptom 1676 1695	trois quatre heures
+A56	Temporality T74 Before_overlap
+T75	Temporal_Marker 1044 1060	l'année dernière
+A57	Temporality T75 Before
+T76	Sign_Symptom 861 879	problèmes de santé
+A58	Experience T76 Patient
+T46	Conduite 4686 4706	envoyer les pompiers
+T77	Temporal_Marker 4722 4733	entre temps
+T78	Conduite 4395 4415	envoyer les pompiers
+T79	Sign_Symptom 329 347	en train de dormir
+T80	Drug_chemicals 2404 2427	intoxication volontaire
+T81	Temporal_Marker 2285 2294	longtemps
+T82	Drug_chemicals 2015 2021	drogue
+T83	Temporal_Marker 2082 2098	la première fois

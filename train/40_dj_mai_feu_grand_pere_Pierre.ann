@@ -1,0 +1,43 @@
+T1	Person 34 50	docteur DETOURET
+A1	Experience T1 Healthcare_professional
+T2	Person 86 96	grand père
+A2	Experience T2 Patient
+T3	Geographic_Marker 228 238	l'immeuble
+T4	Person 397 405	pompiers
+A3	Experience T4 Healthcare_professional
+T5	Person 471 481	grand père
+A4	Experience T5 Patient
+T6	Geographic_Marker 534 548	deuxième étage
+T7	Geographic_Marker 497 502	étage
+A5	Hypothesis T7 Vrai
+T8	Geographic_Marker 1031 1039	domicile
+T9	Person 1299 1309	grand père
+A6	Experience T9 Patient
+T10	Person 1597 1604	voisins
+A7	Experience T10 Other
+T11	Person 1677 1684	voisins
+A8	Experience T11 Other
+T12	Person 2022 2032	grand père
+A9	Experience T12 Patient
+T13	Person 2054 2062	pompiers
+A10	Experience T13 Healthcare_professional
+T14	Person 2067 2075	pompiers
+A11	Experience T14 Healthcare_professional
+T15	Temporal_Marker 2197 2209	cinq minutes
+A12	Temporality T15 After
+T16	Person 2365 2373	pompiers
+A13	Experience T16 Healthcare_professional
+T17	Person 2431 2441	grand père
+A14	Experience T17 Patient
+T18	Person 2564 2574	secouriste
+A15	Experience T18 Healthcare_professional
+T19	Person 2641 2649	pompiers
+A16	Experience T19 Healthcare_professional
+T20	Person 2765 2772	voisins
+A17	Experience T20 Other
+T21	Geographic_Marker 2717 2727	l'immeuble
+T22	Geographic_Marker 2852 2862	l'immeuble
+T23	Geographic_Marker 2893 2903	l'immeuble
+T24	Geographic_Marker 3151 3161	l'immeuble
+T25	Person 3297 3305	pompiers
+A18	Experience T25 Healthcare_professional

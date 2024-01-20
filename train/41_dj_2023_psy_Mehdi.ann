@@ -1,0 +1,48 @@
+T1	Person 27 35	monsieur
+A1	Experience T1 Family
+T2	Person 47 62	docteur DAHMANI
+A2	Experience T2 Healthcare_professional
+T3	Person 104 116	votre voisin
+A3	Experience T3 Patient
+T4	Sign_Symptom 208 227	trouble psychotique
+A4	Experience T4 Patient
+T5	Sign_Symptom 379 411	il peut plus rester chez chez lu
+A5	Experience T5 Patient
+T6	Person 684 692	monsieur
+A6	Experience T6 Patient
+T7	Sign_Symptom 705 742	malade il a un problème psychiatrique
+A7	Experience T7 Patient
+T8	Temporal_Marker 796 807	une semaine
+T9	Sign_Symptom 925 956	il a un comportement inhabituel
+A8	Hypothesis T9
+A9	Experience T9 Patient
+T10	Sign_Symptom 1071 1091	un problème de santé
+A10	Experience T10 Patient
+T11	Sign_Symptom 1121 1142	il est un peu spécial
+A11	Experience T11 Patient
+T12	Sign_Symptom 1198 1213	il crie la nuit
+A12	Experience T12 Patient
+T13	Sign_Symptom 1218 1259	il jette des des des trucs par la fenêtre
+A13	Experience T13 Patient
+T14	Sign_Symptom 1260 1283	il a jeté des assiettes
+A14	Temporality T14 Before
+A15	Experience T14 Patient
+T15	Person 1338 1345	voisins
+A16	Experience T15 Other
+T16	Temporal_Marker 1383 1394	une semaine
+T17	Sign_Symptom 1520 1553	il a pas été agressif envers vous
+A17	Hypothesis T17
+A18	Negation T17 Négation
+T18	Sign_Symptom 1634 1664	c'est pas quelqu'un de méchant
+A19	Negation T18 Négation
+A20	Experience T18 Patient
+T19	Conduite 1741 1754	passez le moi
+A21	Experience T19 Healthcare_professional
+T20	Sign_Symptom 2255 2264	il chante
+A22	Experience T20 Patient
+T21	Person 2521 2528	médecin
+A23	Experience T21 Healthcare_professional
+T22	Sign_Symptom 2899 2924	il a déjà été hospitalisé
+A24	Experience T22 Patient
+T23	Sign_Symptom 2937 2955	il est plus stable
+A25	Experience T23 Patient

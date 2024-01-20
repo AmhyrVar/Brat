@@ -1,0 +1,180 @@
+T1	Person 17 40	docteur SCHILTZ SAMU 93
+A1	Experience T1 Healthcare_professional
+T2	Person 61 71	votre mère
+A2	Experience T2 Patient
+T3	Sign_Symptom 78 91	mal au ventre
+A3	Temporality T3 Before_overlap
+A4	Hypothesis T3
+A5	Experience T3 Patient
+T4	Sign_Symptom 308 311	mal
+A6	Experience T4 Patient
+T5	Temporal_Marker 323 344	depuis tout à l'heure
+A7	Temporality T5 Before_overlap
+R1	Temp_mark Arg1:T5 Arg2:T4	
+T6	Sign_Symptom 371 380	inquiétée
+A8	Temporality T6 Before_overlap
+A9	Experience T6 Family
+T7	Sign_Symptom 256 272	mal depuis quand
+A10	Hypothesis T7
+A11	Experience T7 Patient
+T8	Person 273 279	madame
+A12	Experience T8 Family
+T9	Temporal_Marker 465 482	deux trois heures
+A13	Temporality T9 Before_overlap
+A14	Hypothesis T9
+T10	Temporal_Marker 453 464	deux heures
+A15	Temporality T10 Before_overlap
+A16	Hypothesis T10
+T11	Temporal_Marker 532 548	pas si longtemps
+A17	Temporality T11 Before_overlap
+T12	Disease 575 593	problèmes de santé
+A18	Temporality T12 Before_overlap
+A19	Hypothesis T12
+A20	Experience T12 Patient
+T13	Disease 611 618	diabète
+A21	Temporality T13 Before_overlap
+A22	Experience T13 Patient
+T14	Sign_Symptom 678 701	ypertension cholestérol
+A23	Temporality T14 Before_overlap
+A24	Hypothesis T14
+A25	Experience T14 Patient
+T15	Disease 736 741	coeur
+A26	Temporality T15 Before_overlap
+A27	Hypothesis T15
+A28	Experience T15 Patient
+T16	Drug_chemicals 837 847	l'insuline
+A29	Temporality T16 Before_overlap
+A30	Hypothesis T16
+A31	Experience T16 Patient
+T17	Drug_chemicals 1029 1038	DOLIPRANE
+A32	Temporality T17 Before_overlap
+A33	Hypothesis T17
+A34	Experience T17 Patient
+T18	Drug_chemicals 1152 1160	ASPIRINE
+A35	Temporality T18 Before_overlap
+A36	Hypothesis T18
+A37	Experience T18 Patient
+T19	Sign_Symptom 1222 1229	douleur
+A38	Hypothesis T19
+A39	Experience T19 Patient
+T20	Sign_Symptom 1243 1248	vomit
+A40	Temporality T20 Overlap(default)
+A41	Hypothesis T20
+A42	Experience T20 Patient
+T21	Sign_Symptom 1298 1304	fièvre
+A43	Temporality T21 Overlap(default)
+A44	Hypothesis T21
+A45	Experience T21 Patient
+T22	Conduite 1328 1357	passez la moi s'il vous plait
+T23	Sign_Symptom 1386 1400	peut pas parle
+A46	Temporality T23 Overlap(default)
+A47	Experience T23 Patient
+T24	Sign_Symptom 1410 1422	est pas bien
+A48	Temporality T24 Before_overlap
+A49	Experience T24 Patient
+T25	Sign_Symptom 1437 1455	peut pas me parler
+A50	Temporality T25 Overlap(default)
+A51	Hypothesis T25
+A52	Experience T25 Patient
+T26	Sign_Symptom 1474 1486	est pas bien
+A53	Temporality T26 Overlap(default)
+A54	Experience T26 Patient
+T27	Sign_Symptom 1522 1525	mal
+A55	Experience T27 Patient
+T28	Temporal_Marker 1502 1510	ce matin
+A56	Temporality T28 Before
+R2	Temp_mark Arg1:T28 Arg2:T27	
+T29	Sign_Symptom 1550 1563	mal au ventre
+A57	Temporality T29 Overlap(default)
+A58	Experience T29 Patient
+A59	Negation T25 Négation
+A60	Negation T26 Négation
+A61	Negation T23 Négation
+A62	Negation T24 Négation
+T30	Sign_Symptom 1579 1623	douleur elle est en haut ou en bas du ventre
+A63	Hypothesis T30
+A64	Experience T30 Patient
+T31	Sign_Symptom 1645 1652	en haut
+A65	Experience T31 Patient
+T32	Sign_Symptom 1814 1827	mal au ventre
+A66	Temporality T32 Before_overlap
+A67	Experience T32 Patient
+T33	Sign_Symptom 1871 1884	m'a fait peur
+A68	Experience T33 Family
+T34	Sign_Symptom 1891 1917	ça s'est rajouté le ventre
+A69	Temporality T34 Before_overlap
+A70	Experience T34 Family
+T35	Sign_Symptom 1941 1948	nausées
+A71	Temporality T35 Before_overlap
+A72	Hypothesis T35
+A73	Experience T35 Patient
+T36	Sign_Symptom 1994 1999	vomit
+A74	Temporality T36 Before_overlap
+A75	Hypothesis T36
+A76	Experience T36 Patient
+T37	Sign_Symptom 2019 2028	vomit pas
+A77	Temporality T37 Before_overlap
+A78	Negation T37 Négation
+A79	Experience T37 Patient
+T38	Sign_Symptom 2061 2080	troubles du transit
+A80	Temporality T38 Before_overlap
+A81	Hypothesis T38
+A82	Experience T38 Patient
+T39	Sign_Symptom 2115 2124	constipée
+A83	Temporality T39 Before_overlap
+A84	Experience T39 Patient
+T40	Sign_Symptom 2148 2157	constipée
+A85	Experience T40 Patient
+T41	Temporal_Marker 2261 2269	toujours
+A86	Temporality T41 Before_overlap
+T42	Sign_Symptom 2326 2334	pas bien
+A87	Temporality T42 Before
+A88	Negation T42 Négation
+A89	Experience T42 Patient
+T43	Sign_Symptom 2354 2361	douleur
+A90	Temporality T43 Before_overlap
+A91	Experience T43 Patient
+T44	Drug_chemicals 2403 2413	médicament
+A92	Temporality T44 Before_overlap
+A93	Hypothesis T44
+A94	Experience T44 Patient
+T45	Drug_chemicals 2463 2472	DOLIPRANE
+A95	Temporality T45 Before
+A96	Experience T45 Patient
+T46	Person 2544 2560	médecin traitant
+A97	Experience T46 Healthcare_professional
+T47	Temporal_Marker 2561 2572	entre temps
+A98	Temporality T47 Before_overlap
+T48	Temporal_Marker 2638 2646	ce matin
+A99	Temporality T48 Before
+T49	Temporal_Marker 2662 2670	ce matin
+A100	Temporality T49 Before
+T50	Sign_Symptom 2703 2768	déjà mal mais c'était pas au ventre et maintenant c'est au ventre
+A102	Experience T50 Patient
+R3	Temp_mark Arg1:T49 Arg2:T50	
+T51	Sign_Symptom 2805 2812	douleur
+A101	Hypothesis T51
+A103	Experience T51 Patient
+T52	Temporal_Marker 2782 2790	ce matin
+A104	Temporality T52 Before
+R4	Temp_mark Arg1:T52 Arg2:T51	
+T53	Sign_Symptom 2838 2856	mal au bras gauche
+A106	Experience T53 Patient
+T54	Temporal_Marker 2857 2865	ce matin
+A107	Temporality T54 Before
+R5	Temp_mark Arg1:T54 Arg2:T53	
+T55	Sign_Symptom 2875 2880	gorge
+A105	Experience T55 Patient
+R6	Temp_mark Arg1:T54 Arg2:T55	
+T56	Sign_Symptom 2994 3037	douleur elle elle elle serre elle fait quoi
+A108	Hypothesis T56
+A109	Experience T56 Patient
+T57	Sign_Symptom 3101 3162	ça me prend et du coup j'ai eu j'ai eu d- j'ai envie de vomir
+A110	Temporality T57 Before_overlap
+A111	Experience T57 Patient
+T58	Person 3308 3314	madame
+A112	Experience T58 Family
+T59	Person 3355 3361	madame
+A113	Experience T59 Family
+T60	Conduite 3362 3378	restez sur place
+T61	Conduite 3390 3415	les pompiers qui arrivent

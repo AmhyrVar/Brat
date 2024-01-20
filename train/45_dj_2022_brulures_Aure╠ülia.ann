@@ -1,0 +1,42 @@
+T1	Person 80 94	docteur DAMANI
+T2	Person 122 138	votre heu voisin
+A1	Experience T2 Patient
+T3	Sign_Symptom 152 163	s'est brûlé
+T4	Sign_Symptom 301 325	il vient de se brûler là
+T5	Person 267 291	n des gars de la chambre
+T6	Sign_Symptom 344 382	de se brûler. heu avec de l'eau chaude
+A2	Hypothesis T6 Vrai
+T7	Sign_Symptom 494 508	il s'est brûlé
+T8	Sign_Symptom 595 612	il montre le bras
+T9	Sign_Symptom 981 997	il comprend rien
+T10	Sign_Symptom 1243 1258	il comprend pas
+T11	Conduite 1317 1365	emmenez le heu mettre son bras sous l'eau froide
+T12	Conduite 1699 1740	emmenez le heu mettre son bras sous l'eau
+T13	Conduite 1848 1885	emmenez le mettre son bras sous l'eau
+T14	Conduite 2139 2170	qu'il mette son bras sous l'eau
+T15	Conduite 2490 2533	il faut qu'il mette heu son bras sous l'eau
+T16	Sign_Symptom 2987 3006	a peau est décollée
+A3	Hypothesis T16 Vrai
+T17	Sign_Symptom 3028 3045	elle est décollée
+A4	Hypothesis T17 Vrai
+T18	Sign_Symptom 3069 3086	c'est une rougeur
+A5	Hypothesis T18 Vrai
+T19	Sign_Symptom 3144 3161	c'est une rougeur
+A6	Hypothesis T19 Vrai
+T20	Conduite 4107 4166	il faut qu'il reste comme ça pendant pendant quinze minutes
+T21	Disease 3431 3445	pso- psoriasis
+A7	Experience T21 Other
+T22	Conduite 4572 4645	il faut qu'il mette heu son bras sous l'eau froide pendant quinze minutes
+T23	Conduite 4762 4797	il faut qu'il aille voir un médecin
+T24	Sign_Symptom 4828 4838	sa brûlure
+T25	Conduite 5174 5203	voyez avec la maison médicale
+T26	Conduite 5225 5270	il faut qu'il voie un médecin dans la journée
+T27	Conduite 5303 5349	il faut qu'il mette son bras sous l'eau froide
+T28	Conduite 5449 5478	il faut qu'il voie un médecin
+T29	Conduite 5598 5643	il faut qu'il voie un médecin pour la journée
+A8	Experience T29 Patient
+T30	Conduite 5648 5700	ous il faut que vous recontactiez votre dermatologue
+A9	Experience T30 Other
+T31	Disease 5706 5721	votre psoriasis
+A10	Experience T31 Other
+T32	Conduite 5867 5912	il faut qu'il voie un médecin dans la journée

@@ -1,0 +1,14 @@
+T1	Person 59 72	docteur SAIEB
+T2	Person 110 115	femme
+A1	Experience T2 Family
+T3	Sign_Symptom 139 146	blessée
+T4	Sign_Symptom 248 269	tombée sur un couteau
+T5	Sign_Symptom 297 302	plaie
+T6	Sign_Symptom 390 395	plaie
+T7	Geographic_Marker 675 680	pièce
+T8	Sign_Symptom 939 962	plaie au niveau du bras
+T9	Geographic_Marker 993 999	maison
+T10	Sign_Symptom 1231 1237	saigne
+T11	Sign_Symptom 1302 1308	saigne
+T12	Sign_Symptom 1346 1351	plaie
+T13	Conduite 1692 1789	on va envoyer les pompiers et puis je vous laisse heu hum prendre heu enfin faire une compression

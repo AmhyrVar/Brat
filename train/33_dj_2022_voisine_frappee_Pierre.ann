@@ -1,0 +1,10 @@
+T1	Person 17 33	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Person 59 66	voisine
+A2	Experience T2 Patient
+T3	Sign_Symptom 1255 1271	sang sur la tête
+T4	Sign_Symptom 483 491	blessure
+T5	Person 836 840	mari
+A3	Experience T5 Family
+T6	Sign_Symptom 1325 1341	sang sur la tête
+T7	Conduite 1504 1526	'emmeniez aux urgences

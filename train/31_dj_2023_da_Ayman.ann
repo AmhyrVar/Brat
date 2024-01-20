@@ -1,0 +1,70 @@
+T1	Person 55 71	docteur RICHARDO
+A1	Experience T1 Healthcare_professional
+T2	Sign_Symptom 105 118	mal au ventre
+A2	Temporality T2 Overlap(default)
+A3	Negation T2 Autre
+A4	Experience T2 Patient
+T3	Temporal_Marker 172 195	depuis combien de temps
+A5	Experience T3 Patient
+T4	Sign_Symptom 210 225	depuis ce matin
+A6	Experience T4 Patient
+T5	Sign_Symptom 276 288	vomissements
+A7	Temporality T5 Overlap(default)
+A8	Negation T5 Négation
+T6	Sign_Symptom 357 366	diarrhées
+A9	Negation T6 Négation
+A10	Experience T6 Patient
+T7	Sign_Symptom 432 450	problèmes de santé
+T8	Disease 480 487	diabète
+A11	Negation T8 Autre
+T9	Drug_chemicals 521 531	l'insuline
+A12	Negation T9 Autre
+T10	Drug_chemicals 653 670	'autre médicament
+T11	Sign_Symptom 899 921	au niveau de l'estomac
+A13	Negation T11 Autre
+T12	Sign_Symptom 822 856	en bas du ventre en haut du ventre
+T13	Sign_Symptom 954 962	ça brûle
+T14	Drug_chemicals 1684 1693	DOLIPRANE
+T15	Sign_Symptom 1870 1877	douleur
+T16	Temporal_Marker 1918 1943	ça vous est jamais arrivé
+T18	Temporal_Marker 2369 2397	dans les quatre à six heures
+T19	Sign_Symptom 2419 2428	symptômes
+T20	Sign_Symptom 1002 1009	douleur
+T21	Sign_Symptom 1169 1200	mal ailleurs que dans le ventre
+T22	Sign_Symptom 312 331	pas de vomissements
+A14	Hypothesis T22 Vrai
+A15	Negation T22 Négation
+T23	Temporal_Marker 744 759	depuis ce matin
+T24	Sign_Symptom 1026 1047	a tendance à remonter
+T25	Sign_Symptom 1493 1508	mal à la gorge.
+T26	Sign_Symptom 1519 1533	mal à la gorge
+T27	Temporal_Marker 1534 1557	depuis combien de temps
+T28	Drug_chemicals 1616 1627	médicaments
+T29	Sign_Symptom 1787 1801	envie de vomir
+T30	Sign_Symptom 1995 2016	mal en haut du ventre
+T31	Sign_Symptom 2020 2039	niveau de l'estomac
+T32	Sign_Symptom 2043 2053	vous brûle
+T33	Sign_Symptom 2070 2087	mal dans la gorge
+T34	Sign_Symptom 2129 2143	envie de vomir
+T35	Disease 2197 2204	malades
+A16	Hypothesis T35 Faux
+T36	Conduite 2494 2516	un médecin à la maison
+T37	Person 2562 2568	madame
+A17	Experience T37 Family
+T38	Person 2584 2591	docteur
+A18	Experience T38 Healthcare_professional
+T39	Sign_Symptom 1386 1411	avez mal dans la mâchoire
+A19	Hypothesis T39 Faux
+T40	Sign_Symptom 1350 1369	mal au bras gauche.
+T41	Sign_Symptom 1239 1253	au bras un peu
+T42	Sign_Symptom 1222 1238	un peu en au dos
+T43	Sign_Symptom 1272 1283	bras gauche
+A20	Hypothesis T43 Vrai
+T44	Sign_Symptom 1287 1300	au bras droit
+A21	Hypothesis T44 Faux
+T45	Sign_Symptom 1319 1330	bras gauche
+T46	Drug_chemicals 1707 1716	DOLIPRANE
+T47	Sign_Symptom 1739 1756	pas trop soulagée
+T17	Conduite 2309 2347	faire passer un médecin heu à domicile
+T48	Person 2348 2354	madame
+A22	Experience T48 Patient

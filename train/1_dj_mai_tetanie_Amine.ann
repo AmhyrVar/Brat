@@ -1,0 +1,31 @@
+T1	Person 17 23	madame
+A1	Experience T1 Family
+T2	Person 69 89	docteur ABAS du SAMU
+A2	Experience T2 Healthcare_professional
+T3	Person 120 130	votre sœur
+A3	Experience T3 Patient
+T4	Sign_Symptom 160 175	fait un malaise
+A4	Experience T4 Patient
+T5	Sign_Symptom 216 231	fait un malaise
+T6	Geographic_Marker 252 261	par terre
+T7	Sign_Symptom 443 461	elle me répond pas
+T8	Sign_Symptom 516 528	elle respire
+T9	Person 779 785	madame
+A5	Experience T9 Patient
+T10	Sign_Symptom 1074 1090	elle est crispée
+A6	Experience T10 Patient
+A7	Experience T7 Patient
+A8	Experience T8 Patient
+A9	Experience T5 Patient
+T11	Temporal_Marker 1169 1181	cinq minutes
+T12	Geographic_Marker 1270 1279	par terre
+T13	Sign_Symptom 1287 1309	elle est toute crispée
+A10	Experience T13 Patient
+T14	Sign_Symptom 1313 1328	elle répond pas
+A11	Experience T14 Patient
+T15	Temporal_Marker 1513 1526	tout le temps
+T16	Conduite 1669 1695	on va envoyer les pompiers
+T17	Geographic_Marker 1700 1709	sur place
+T18	Temporal_Marker 1727 1740	tout de suite
+T19	Person 644 652	monsieur
+A12	Experience T19 Healthcare_professional

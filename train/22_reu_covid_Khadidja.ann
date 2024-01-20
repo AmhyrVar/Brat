@@ -1,0 +1,68 @@
+T1	Person 36 50	docteur BOCHIN
+A1	Experience T1 Healthcare_professional
+T2	Person 84 90	voisin
+A2	Experience T2 Patient
+T3	Sign_Symptom 108 113	COVID
+A3	Experience T3 Family
+A4	Hypothesis T3
+A5	Hypothesis T2
+T5	Sign_Symptom 212 217	COVID
+A7	Experience T5 Patient
+T6	Sign_Symptom 334 339	COVID
+A8	Hypothesis T6
+T7	Sign_Symptom 357 363	tousse
+A9	Experience T7 Patient
+T8	Sign_Symptom 375 381	fièvre
+A10	Experience T8 Patient
+T9	Sign_Symptom 387 398	mal partout
+A11	Experience T9 Patient
+T10	Sign_Symptom 415 433	gêné pour respirer
+A12	Experience T10 Patient
+T11	Sign_Symptom 438 466	ça fait mal quand il respire
+A13	Experience T11 Patient
+T12	Sign_Symptom 482 488	fièvre
+A14	Experience T12 Patient
+T13	Sign_Symptom 502 507	COVID
+T14	Sign_Symptom 965 979	mal à respirer
+T15	Temporal_Marker 1016 1035	début de la semaine
+R1	Temp_mark Arg1:T15 Arg2:T14	
+T16	Temporal_Marker 1058 1068	cinq jours
+T17	Sign_Symptom 1087 1093	fièvre
+T18	Sign_Symptom 1112 1126	mal à respirer
+R2	Temp_mark Arg1:T16 Arg2:T17	
+R3	Temp_mark Arg1:T16 Arg2:T18	
+T19	Sign_Symptom 1177 1183	tousse
+T20	Sign_Symptom 1210 1215	COVID
+T21	Sign_Symptom 1439 1451	respire vite
+A15	Hypothesis T21
+T22	Sign_Symptom 1522 1527	COVID
+T23	Sign_Symptom 1552 1557	COVID
+T25	Person 1617 1623	voisin
+T27	Person 1695 1703	monsieur
+T29	Sign_Symptom 1821 1837	mal à à respirer
+A17	Hypothesis T29
+T30	Sign_Symptom 2023 2029	fièvre
+T31	Sign_Symptom 2068 2082	mal à respirer
+T32	Sign_Symptom 2124 2129	COVID
+T33	Person 2130 2141	le monsieur
+A18	Experience T33 Patient
+A19	Experience T27 Patient
+T34	Conduite 2442 2471	un médecin qui va se déplacer
+T36	Conduite 2823 2863	le médecin qui va qui va venir l'évaluer
+T37	Geographic_Marker 2798 2812	dans sa maison
+T38	Conduite 3005 3045	le médecin qui va qui va venir l'évaluer
+T40	Sign_Symptom 1374 1386	respire vite
+T41	Sign_Symptom 1421 1435	mal à respirer
+A21	Hypothesis T41
+A22	Hypothesis T40
+T24	Sign_Symptom 1927 1949	arrivait bien à parler
+T26	Sign_Symptom 1963 1975	parlait bien
+A16	Hypothesis T24
+T28	Sign_Symptom 2048 2052	toux
+T39	Sign_Symptom 3114 3119	COVID
+A20	Temporality T16 Before_overlap
+A23	Temporality T15 Before_overlap
+T35	Person 170 180	mon voisin
+A24	Experience T35 Patient
+T4	Conduite 2162 2216	vous pouvez me passer son numéro pour que je l'appelle
+T42	Person 3400 3408	monsieur

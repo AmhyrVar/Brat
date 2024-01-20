@@ -1,0 +1,61 @@
+T1	Person 39 51	DIANE JOUCLA
+A1	Experience T1 Healthcare_professional
+T2	Person 63 78	médecin du SAMU
+A2	Experience T2 Healthcare_professional
+T4	Sign_Symptom 119 127	vertiges
+A4	Hypothesis T4
+A5	Experience T4 Patient
+T3	Person 275 279	mari
+A3	Experience T3 Patient
+T5	Temporal_Marker 495 503	ce matin
+T6	Sign_Symptom 596 616	beaucoup de vertiges
+A6	Experience T6 Patient
+R1	Temp_mark Arg1:T5 Arg2:T6	
+T7	Disease 861 892	infection de de de de l'oreille
+A7	Temporality T7 Before
+A8	Experience T7 Patient
+T8	Disease 955 977	coupé heu sur l'orteil
+A9	Temporality T8 Before
+A10	Experience T8 Family
+A11	Temporality T6 Before_overlap
+T9	Sign_Symptom 1324 1329	vomit
+A12	Experience T9 Patient
+T10	Temporal_Marker 1433 1450	trois quatre fois
+R2	Temp_mark Arg1:T10 Arg2:T9	
+T12	Temporal_Marker 1745 1753	ce matin
+T13	Sign_Symptom 1762 1777	tête qui tourne
+A14	Experience T13 Patient
+T14	Sign_Symptom 1787 1790	vom
+A15	Experience T14 Patient
+R3	Temp_mark Arg1:T12 Arg2:T13	
+T11	Conduite 2038 2084	vous pouvez l'emmener chez le médecin traitant
+T15	Conduite 2427 2459	l'emmeniez chez chez son médecin
+T16	Conduite 2973 3004	vous prenez un sac pour le vomi
+T17	Conduite 3008 3047	vous l'emmenez chez le médecin traitant
+T18	Conduite 3429 3494	vous arrivez pas à joindre le médecin traitant vous nous rappelez
+T19	Person 103 108	femme
+A13	Experience T19 Family
+T20	Sign_Symptom 445 453	vertiges
+A16	Hypothesis T20
+A17	Experience T20 Patient
+T21	Disease 644 662	problèmes de santé
+A18	Hypothesis T21
+T22	Geographic_Marker 730 737	hôpital
+T23	Person 1062 1065	ORL
+A19	Experience T23 Healthcare_professional
+T24	Sign_Symptom 1077 1097	problème à l'oreille
+A20	Hypothesis T24
+A21	Experience T24 Patient
+T25	Temporal_Marker 1147 1161	très longtemps
+R4	Temp_mark Arg1:T25 Arg2:T24	
+T26	Sign_Symptom 1500 1508	vertiges
+A22	Experience T26 Patient
+T27	Sign_Symptom 1817 1830	mal à la tête
+A23	Negation T27 Négation
+T28	Sign_Symptom 1884 1892	vertiges
+A24	Experience T28 Patient
+T29	Sign_Symptom 1855 1868	mal à la tête
+A25	Negation T29 Négation
+A26	Experience T29 Patient
+T30	Sign_Symptom 2220 2225	vomit
+A27	Experience T30 Patient
